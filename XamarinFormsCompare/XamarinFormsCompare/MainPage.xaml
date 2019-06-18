@@ -1,7 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinFormsCompare" x:Class="XamarinFormsCompare.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-</ContentPage>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+       xmlns:local="clr-namespace:XamarinFormsCompare" 
+       xmlns:views="clr-namespace:XamarinFormsCompare.Views"
+       FlyoutBehavior="Flyout"
+       x:Class="XamarinFormsCompare.MainPage">
+    
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="icon.png"
+                   Opacity="0.6" />
+            </Grid> 
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <FlyoutItem Title="Home">
+        <Tab>
+            <ShellContent Title="Start"
+                          ContentTemplate="{DataTemplate views:HomePage}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Native">
+        <Tab>
+            <ShellContent Title="Native"
+                          ContentTemplate="{DataTemplate views:NativeView}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+</Shell>
