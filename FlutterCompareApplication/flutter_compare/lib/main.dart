@@ -1,5 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import './nativefunc.dart';
+import 'LF/lfmain.dart';
+import 'Perf/perform.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,13 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        secondaryHeaderColor: Colors.blue,
+
+        primaryColor: Colors.lightBlue[800],
       ),
       home: MyHomePage(),
-      routes: <String, WidgetBuilder>{
-        "/native": (BuildContext context) => NativeFuncPage(),
-        "/start": (BuildContext context) => MyHomePage()
-      },
     );
   }
 }
@@ -27,44 +28,86 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Start'),
-      ),
-      body: Center(
-        child: Column(
-          //mainAxisAlignment: MainAxisAlignment.center,
+  int _selectedItemIndex = 0;
+
+  List<Widget> pages = [
+    Column(
           children: <Widget>[
             Text(
               'Das ist die Implementierung der Beispielappliaktion in Flutter.',
             ),
           ],
         ),
-      ),
+    NativeFuncPage(),
+    LookFeelPage(),
+    PerformancePage()
+  ];
+
+  void _onSelectItem(int index) {
+    setState(() {
+      _selectedItemIndex = index;
+    });
+    Navigator.pop(context);
+  }
+
+  getAppBar() {
+    if( _selectedItemIndex == 0 ) {
+      return AppBar(
+        title: Text('Start'),
+      );
+    } else if(_selectedItemIndex == 1) {
+      return AppBar(
+        title: Text('Native'),
+      );
+    } else if( _selectedItemIndex == 2) {
+      return AppBar(
+        title: Text('Look and Feel'),
+        backgroundColor: Theme.of(context).secondaryHeaderColor,
+      );
+    } else if (_selectedItemIndex == 3) {
+      return AppBar(
+        title: Text('Performance'),
+      );
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: getAppBar(),
+      body: pages.elementAt(_selectedItemIndex),
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
             DrawerHeader(
-              child: Image.network(
-                'https://assets.t3n.sc/news/wp-content/uploads/2018/02/flutter-ui-framework-google.jpg?auto=format&h=348&ixlib=php-2.3.0&w=620'
-              )
+              child: FlutterLogo()
             ),
             ListTile(
               leading: Icon(Icons.home),
               title: Text('Start'),
-              onTap: () {
-                //Navigator.of(context).maybePop();
-                Navigator.of(context).pushNamed("/start");
+              onTap: (){
+                _onSelectItem(0);
               },
             ),
             ListTile(
               leading: Icon(Icons.add_a_photo),
               title: Text('Native Funktionalitäten'),
               onTap: (){
-                //Navigator.of(context).maybePop();
-                Navigator.of(context).pushNamed("/native");
+                _onSelectItem(1);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.devices),
+              title: Text('Look and Feel'),
+              onTap: (){
+                _onSelectItem(2);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.local_gas_station),
+              title: Text('Performance'),
+              onTap: (){
+                _onSelectItem(3);
               },
             )
           ],
