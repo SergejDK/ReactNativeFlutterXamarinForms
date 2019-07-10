@@ -4,6 +4,7 @@
        xmlns:local="clr-namespace:XamarinFormsCompare" 
        xmlns:views="clr-namespace:XamarinFormsCompare.Views"
        xmlns:lf="clr-namespace:XamarinFormsCompare.Views.LookFeel"
+       xmlns:perf="clr-namespace:XamarinFormsCompare.Views.Performance"
        FlyoutBehavior="Flyout"
        x:Class="XamarinFormsCompare.MainPage">
     
@@ -41,6 +42,20 @@
             </ShellContent>
             <ShellContent Title="Material Design"
                           ContentTemplate="{DataTemplate lf:LFMD }">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Performanz">
+        <Tab>
+            <ShellContent Title="Image"
+                          ContentTemplate="{DataTemplate perf:ImagePerf }">
+            </ShellContent>
+            <ShellContent Title="Nativ"
+                          ContentTemplate="{DataTemplate perf:NativCall }">
+            </ShellContent>
+            <ShellContent Title="List"
+                          ContentTemplate="{DataTemplate perf:InfiniteList }">
             </ShellContent>
         </Tab>
     </FlyoutItem>

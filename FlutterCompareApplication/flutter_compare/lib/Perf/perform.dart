@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 
 class PerformancePage extends StatefulWidget {
 
@@ -10,29 +11,72 @@ class PerformancePage extends StatefulWidget {
 class _PerformanceState extends State<PerformancePage> {
 
   int _selectedIndex = 0;
+  Text geoText = Text('Currently no position');
+  final List<String> _listing = <String>[];
+  
+  getNetworkImage() {
+    return Image.network('https://www.w3schools.com/w3css/img_lights.jpg');
+  }
+
+  getBWImage() {
+    return Image.network('https://www.w3schools.com/w3css/img_lights.jpg', color: Colors.grey, colorBlendMode: BlendMode.hue,);
+  }
+
+  getTextPosition() async {
+    Position position = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    setState(() {
+      geoText = Text(position.toString());
+    });
+  }
+
+  generate() {
+    List<String> l = List<String>();
+    for(int i = 0; i < 20; i++) {
+      l.add(i.toString());
+    }
+    return l;
+  }
+
+  buildList() {
+    return ListView.builder(
+      itemBuilder: (BuildContext _context, int i) {
+        if(i.isOdd) {
+          return Divider();
+        }
+
+        final int index = i ~/ 2;
+        if(index >= _listing.length) {
+          _listing.addAll(generate());
+        }
+        return ListTile(
+          title: Text(_listing[index]),
+        );
+      },
+    );
+  }
 
   List<Widget> _widgetOptions() {
     return <Widget>[
     Column(
       children: <Widget>[
-        RaisedButton(onPressed: () {}, child: Text('This is a raised Button'),),
+        getNetworkImage(),
+        getBWImage(),
       ],
     ),
     Column(
       children: <Widget>[
-        CupertinoButton(child: Text('Cupertinobutton'), onPressed: () {},)
+        geoText
       ],
     ),
-    Column(
-      children: <Widget>[
-        Text('Some of the Widgets are not covered in Cupertino / Material Design'),
-      ],
-    ),
+    buildList(),
   ];
   } 
 
 
-  void _onItemTapped(int index) {
+  void _onItemTapped(int index) async {
+    if(index == 1) {
+      await getTextPosition();
+    }
     setState(() {
       _selectedIndex = index;
     });
