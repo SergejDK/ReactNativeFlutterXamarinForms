@@ -1,6 +1,9 @@
 import React from 'react';
 import { StyleSheet, View, Button, Text, Image, TouchableOpacity, FlatList } from 'react-native';
-import { createStackNavigator, createAppContainer, createBottomTabNavigator } from "react-navigation";
+import { createBottomTabNavigator } from "react-navigation";
+import { Grayscale } from 'react-native-color-matrix-image-filters';
+import {PermissionsAndroid} from 'react-native';
+import Geolocation from '@react-native-community/geolocation';
 
 const styles = StyleSheet.create({
   bigBlue: {
@@ -26,18 +29,48 @@ class BlackWhite extends React.Component {
 				<Image source={{ uri: 'https://www.w3schools.com/w3css/img_lights.jpg' }} 
 					style = {{ width: 150, height: 150, }}
 				/>
-				<Image source={{ uri: 'https://www.w3schools.com/w3css/img_lights.jpg' }} 
-					style = {{ width: 150, height: 150, }} />
+				<Grayscale>
+					<Image source={{ uri: 'https://www.w3schools.com/w3css/img_lights.jpg' }} 
+						style = {{ width: 150, height: 150, }} />
+				</Grayscale>
 			</View>
 		)
 	}
 }
 
 class GPSView extends React.Component {
+
+	state = {
+		longitude: null,
+		latitude: null,
+	}
+
+	componentDidMount() {
+		//PermissionsAndroid.request(
+		//	PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+		//	{
+		//	  title: "Location Accessing Permission",
+		//	  message: "App needs access to your location"
+		//	}
+		//);
+		Geolocation.getCurrentPosition(
+			(success) => {
+				this.setState(
+					{longitude: success.coords.longitude,
+					latitude: success.coords.latitude}
+				)
+			},
+			(err) => {console.log(err);}
+		);
+	}
+
 	// https://facebook.github.io/react-native/docs/geolocation#getcurrentposition
 	render(){
 		return (
-			<View></View>
+			<View>
+				<Text>Latitude: {this.state.latitude}</Text>
+				<Text>Longitude: {this.state.longitude}</Text>
+			</View>
 		)
 	}
 }
