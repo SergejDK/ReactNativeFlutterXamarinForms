@@ -21,7 +21,7 @@ class _LookFeelState extends State<LookFeelPage> {
       // Material Design
       children: <Widget>[
         RaisedButton(onPressed: () {}, child: Text('This is a raised Button'),),
-        TextField(),
+        TextField(key: Key('tfKey'),),
         Checkbox(
           onChanged: (bool value) {
               setState(() {

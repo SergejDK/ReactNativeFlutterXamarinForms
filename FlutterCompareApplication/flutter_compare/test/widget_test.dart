@@ -6,25 +6,20 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter/material.dart';
+import 'package:flutter_compare/LF/lfmain.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_compare/main.dart';
-
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+  testWidgets('NativeWidget', (WidgetTester tester) async {
+    await tester.pumpWidget(MaterialApp(home: LookFeelPage(),));
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    expect(find.text('This is a raised Button'), findsOneWidget);
+    expect(find.byKey(Key('tfKey')), findsOneWidget);
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    await tester.enterText(find.byType(TextField), 'Text set');
+
+    expect(find.text('Text set'), findsOneWidget);
+
   });
 }
