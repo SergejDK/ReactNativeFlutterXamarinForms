@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+       xmlns:local="clr-namespace:XFCompare" 
+       xmlns:views="clr-namespace:XFCompare.Views"
+       xmlns:lf="clr-namespace:XFCompare.Views.LookFeel"
+       xmlns:perf="clr-namespace:XFCompare.Views.Performance"
+       FlyoutBehavior="Flyout"
+       x:Class="XFCompare.MainPage">
+    
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="icon.png"
+                   Opacity="0.6" />
+            </Grid> 
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <FlyoutItem Title="Home">
+        <Tab>
+            <ShellContent Title="Start"
+                          ContentTemplate="{DataTemplate local:HomePage}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Native">
+        <Tab>
+            <ShellContent Title="Native"
+                          ContentTemplate="{DataTemplate local:NativeView}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Look and Feel">
+        <Tab>
+            <ShellContent Title="Standard"
+                          ContentTemplate="{DataTemplate lf:LFStandard }">
+            </ShellContent>
+            <ShellContent Title="Material Design"
+                          ContentTemplate="{DataTemplate lf:LFMD }">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Performanz" AutomationId="PerfDrawer">
+        <Tab AutomationId="PerfDrawer2">
+            <ShellContent Title="Image"
+                          ContentTemplate="{DataTemplate perf:ImagePerf }" AutomationId="PerfDrawer3">
+            </ShellContent>
+            <ShellContent Title="Nativ"
+                          ContentTemplate="{DataTemplate perf:NativCall }">
+            </ShellContent>
+            <ShellContent Title="List"
+                          ContentTemplate="{DataTemplate perf:InfiniteList }">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    
+</Shell>

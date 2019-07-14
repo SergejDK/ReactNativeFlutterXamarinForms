@@ -46,12 +46,15 @@ class NativeScreen extends React.Component {
 
     render() {
         return ( 
-            <View>
+            <View accessible={true}>
                 <Button onPress = {this.openCam.bind(this)}
-				title = "Bild machen" />
+				title = "Take Picture" accessible={true} accessibilityLabel="Take Picture"/>
                 <Image 
                     source={{uri:'data:image/jpeg;base64,' + this.state.filePath.data}}
                     style={ {width: 250, height: 250} }
+                    accessible={true}
+                    accessibilityLabel="Image taken" 
+                    accessibilityHint="The image you took a sec before"
                 />
             </View>
         );

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XFCompare.Views.LookFeel.LFStandard">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column">
+            <Label Text="Das ist ein normales Label"></Label>
+            <Button Text="Das ist ein normaler Button"></Button>
+            <Switch>Das ist ein normaler Switch</Switch>
+            <Slider Minimum="0"
+                    Maximum="100"
+                    VerticalOptions="CenterAndExpand">Das ist ein normaler Slider</Slider>
+            <Entry Placeholder="Das ist ein normaler Entry"></Entry>
+            <Stepper></Stepper>
+            <Editor Placeholder="Das ist ein normaler Editor"></Editor>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

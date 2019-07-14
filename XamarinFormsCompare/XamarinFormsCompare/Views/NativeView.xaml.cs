@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using Plugin.Media;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace XamarinFormsCompare.Views
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NativeView : ContentPage
     {
         public NativeView()

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -22,8 +22,5 @@
     <Folder Include="Views\" />
     <Folder Include="Views\LookFeel\" />
     <Folder Include="Views\Performance\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Views\Performance\GrayScaleImage.cs" />
   </ItemGroup>
 </Project>

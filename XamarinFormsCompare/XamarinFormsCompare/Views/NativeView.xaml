@@ -5,8 +5,14 @@
     
     <ContentPage.Content>
         <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
-            <Button Text="Take Picture" FlexLayout.Grow="0.25" Clicked="takePic"/>
-            <Image x:Name="takenPic" FlexLayout.Grow="0.75"/>
+            <Button Text="Take Picture" FlexLayout.Grow="0.25" Clicked="takePic" AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.Name="Take Picture"
+                    AutomationProperties.HelpText="With this your Camera will be opened"
+                    />‚
+            <Image x:Name="takenPic" FlexLayout.Grow="0.75" AutomationProperties.IsInAccessibleTree="true"
+                   AutomationProperties.Name="Taken Picture"
+                   AutomationProperties.HelpText="The image which you took a sec before" 
+                   />
         </FlexLayout>
     </ContentPage.Content>
     
