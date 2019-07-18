@@ -30,6 +30,9 @@ target 'ReactNativeCompare' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+
+
+
   pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
 
   pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
