@@ -28,6 +28,12 @@ class _NativeFuncState extends State<NativeFuncPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Center(
+              child: RaisedButton(
+                child: Text('Click me'),
+                onPressed: getImage,
+              ),
+            ),
+            Center(
              child: _image == null
               ? Semantics(
                 child: Text('No image selected.'),
@@ -43,18 +49,6 @@ class _NativeFuncState extends State<NativeFuncPage> {
           ],
         ),
       ),
-      floatingActionButton: Semantics(
-        child: FloatingActionButton(
-            onPressed: getImage,
-            tooltip: 'Pick Image',
-            child: Semantics(
-              child: Icon(Icons.add_a_photo),
-              button: true,
-              hint: 'Click for taking picture',
-              label: 'Pick image',
-            ), 
-        ), 
-      )
     );
   }
 }
