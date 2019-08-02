@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     } else if(_selectedItemIndex == 1) {
       return AppBar(
-        title: Text('Native'),
+        title: Text('Native Funktionalität'),
       );
     } else if( _selectedItemIndex == 2) {
       return AppBar(
@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               leading: Icon(Icons.add_a_photo),
-              title: Text('Native Funktionalitäten'),
+              title: Text('Native Funktionalität'),
               onTap: (){
                 _onSelectItem(1);
               },
