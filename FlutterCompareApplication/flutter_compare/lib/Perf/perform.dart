@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:flutter/foundation.dart';
 
 class PerformancePage extends StatefulWidget {
 
@@ -8,32 +9,64 @@ class PerformancePage extends StatefulWidget {
   _PerformanceState createState() => _PerformanceState();
 }
 
+class GenerateClass {
+  
+  String wl = '';
+
+  generate() {
+    Stopwatch stopwatch = new Stopwatch()..start();
+    List<String> l = List<String>();
+    for(int i = 0; i < 20; i++) {
+      l.add(i.toString());
+    }
+    stopwatch.toString();
+    wl = stopwatch.elapsed.toString();    
+    return l;
+  }
+
+}
+
 class _PerformanceState extends State<PerformancePage> {
 
   int _selectedIndex = 0;
   Text geoText = Text('Currently no position');
+  String watcherNormalImage = '';
+  String watcherGrayScaleImage = '';
+  String watcherGeoLocation = '';
+  String watcherList = '';
   final List<String> _listing = <String>[];
   
   getNetworkImage() {
-    return Image.network('https://www.w3schools.com/w3css/img_lights.jpg');
+    Stopwatch stopwatch = new Stopwatch()..start();
+    Image img = Image.network('https://www.w3schools.com/w3css/img_lights.jpg');
+    stopwatch.stop();
+    watcherNormalImage = stopwatch.elapsed.toString();
+    return img;
   }
 
   getBWImage() {
-    return Image.network('https://www.w3schools.com/w3css/img_lights.jpg', color: Colors.grey, colorBlendMode: BlendMode.hue,);
+    Stopwatch stopwatch = new Stopwatch()..start();
+    Image img = Image.network('https://www.w3schools.com/w3css/img_lights.jpg', color: Colors.grey, colorBlendMode: BlendMode.hue,);
+    stopwatch.stop();
+    watcherGrayScaleImage = stopwatch.elapsed.toString();
+    return img;
   }
 
   getTextPosition() async {
+    Stopwatch stopwatch = new Stopwatch()..start();
     Position position = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    stopwatch.stop();
+    watcherGeoLocation = stopwatch.elapsed.toString();
     setState(() {
       geoText = Text(position.toString());
     });
   }
 
   generate() {
-    List<String> l = List<String>();
-    for(int i = 0; i < 20; i++) {
-      l.add(i.toString());
-    }
+    var t = GenerateClass();
+    var l = t.generate();
+    watcherList += ' || ' + t.wl;
+    debugPrint('WATCH: $watcherList');
     return l;
   }
 
@@ -59,24 +92,32 @@ class _PerformanceState extends State<PerformancePage> {
     return <Widget>[
     Column(
       children: <Widget>[
+        Text(watcherNormalImage),
         getNetworkImage(),
+        Text(watcherGrayScaleImage),
         getBWImage(),
       ],
     ),
     Column(
       children: <Widget>[
-        geoText
+        geoText,
+        Text(watcherGeoLocation),
+        RaisedButton(onPressed: () async => {await getTextPosition()}, child: Text('Get Location'),)
       ],
     ),
-    buildList(),
+    Column(
+      children: <Widget>[
+        Text(watcherList),
+        Expanded(
+          child: buildList(),
+        ) 
+      ],
+    ),
   ];
   } 
 
 
   void _onItemTapped(int index) async {
-    if(index == 1) {
-      await getTextPosition();
-    }
     setState(() {
       _selectedIndex = index;
     });
