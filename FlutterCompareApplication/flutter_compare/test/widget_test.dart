@@ -11,15 +11,15 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
 
-  testWidgets('NativeWidget', (WidgetTester tester) async {
+  testWidgets('LookAndFeelWidget', (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: LookFeelPage(),));
 
     expect(find.text('This is a raised Button'), findsOneWidget);
     expect(find.byKey(Key('tfKey')), findsOneWidget);
 
-    await tester.enterText(find.byType(TextField), 'Text set');
+    await tester.enterText(find.byType(TextField), 'UI Tests works!');
 
-    expect(find.text('Text set'), findsOneWidget);
+    expect(find.text('UI Tests works!'), findsOneWidget);
 
   });
 }
