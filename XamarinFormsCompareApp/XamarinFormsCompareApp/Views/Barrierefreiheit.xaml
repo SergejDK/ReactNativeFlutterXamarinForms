@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinFormsCompareApp.Views.Barrierefreiheit"
+    BackgroundColor="LightBlue"
+    Shell.BackgroundColor="Orange">
+    
+    <FlexLayout Direction="Column">
+        <Button Text="Button BF Text" AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.Name="Barrierefreiheit Button"
+                    AutomationProperties.HelpText="Ein Hilfetext für die Barrierefreiheit des Buttons"></Button>
+        <Label Text="Label BF Text"
+               AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.Name="Barrierefreiheit Label"
+                    AutomationProperties.HelpText="Ein Hilfetext für die Barrierefreiheit des Textes"></Label>
+        <Button Text="Größer" Clicked="scaleLabel"></Button>
+        <Button Text="Kleiner" Clicked="scaleLabel"></Button>
+        <Label x:Name="ZielLabel" Text="Skalier mich"></Label>
+    </FlexLayout>
+
+</ContentPage>

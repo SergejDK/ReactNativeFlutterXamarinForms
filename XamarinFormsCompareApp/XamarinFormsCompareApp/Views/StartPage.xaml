@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinFormsCompareApp.Views.StartPage">
+
+    <FlexLayout Direction="Column" JustifyContent="SpaceEvenly">
+        <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/FH_Dortmund-logo.svg/1200px-FH_Dortmund-logo.svg.png"/>
+
+
+        <Label Text="Vergleich von Mobile App Frameworks zur Cross-Platform Entwicklung"
+               FontSize="Title"></Label>
+    </FlexLayout>
+
+</ContentPage>

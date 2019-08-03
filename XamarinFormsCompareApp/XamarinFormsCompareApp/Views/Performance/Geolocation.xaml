@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinFormsCompareApp.Views.Performance.Geolocation">
+
+    <FlexLayout Direction="Column">
+        <Label x:Name="Lat"></Label>
+        <Label x:Name="Long"></Label>
+        <Label x:Name="Watcher"></Label>
+        <Button Text="Get Location" Clicked="getLocation" ></Button>
+    </FlexLayout>
+
+
+</ContentPage>

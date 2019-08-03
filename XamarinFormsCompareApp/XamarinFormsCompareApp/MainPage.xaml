@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             FlyoutBehavior="Flyout"
+             xmlns:views="clr-namespace:XamarinFormsCompareApp.Views"
+             xmlns:viewsLF="clr-namespace:XamarinFormsCompareApp.Views.LookAndFeel"
+             xmlns:perf="clr-namespace:XamarinFormsCompareApp.Views.Performance"
+             x:Class="XamarinFormsCompareApp.MainPage">
+    
+    
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="icon.png"
+                   Opacity="0.6" />
+            </Grid> 
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Home">
+        <Tab>
+            <ShellContent Title="Start"
+                          ContentTemplate="{DataTemplate views:StartPage}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Native Funktionalitäten">
+        <Tab>
+            <ShellContent Title="Native Funktionalitäten"
+                          ContentTemplate="{DataTemplate views:Native}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Look and Feel">
+        <Tab>
+            <ShellContent Title="Standard"
+                          ContentTemplate="{DataTemplate viewsLF:StandardPage }">
+            </ShellContent>
+            <ShellContent Title="Material Design"
+                          ContentTemplate="{DataTemplate viewsLF:MaterialPage}">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Performanz">
+        <Tab Title="Image">
+            <ShellContent Title="Image"
+                          ContentTemplate="{DataTemplate perf:ImageWork }">
+            </ShellContent>
+        </Tab>
+        <Tab Title="Nativ">
+            <ShellContent Title="Nativ"
+                          ContentTemplate="{DataTemplate perf:Geolocation }">
+            </ShellContent>
+        </Tab>
+        <Tab Title="List">
+            <ShellContent Title="List"
+                          ContentTemplate="{DataTemplate perf:InfiniteScrollList }">
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Barrierefreiheit">
+        <Tab>
+            <ShellContent Title="Barrierefreiheit"
+                          ContentTemplate="{DataTemplate views:Barrierefreiheit}"
+                          >
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+</Shell>

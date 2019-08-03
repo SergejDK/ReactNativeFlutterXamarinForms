@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinFormsCompareApp.Views.LookAndFeel.StandardPage"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true">
+
+
+    <FlexLayout Direction="Column">
+        <Label Text="Das ist ein Standard Label"></Label>
+        <Button Text="Das ist ein Standard Button"></Button>
+        <Switch></Switch>
+        <Slider Minimum="0"
+                Maximum="100"
+                VerticalOptions="CenterAndExpand"></Slider>
+        <Entry Placeholder="Das ist ein Standard Entry" AutomationId="standardEntry"></Entry>
+        <Stepper></Stepper>
+        <Editor Placeholder="Das ist ein Standard Editor"></Editor>
+    </FlexLayout>
+
+
+</ContentPage>
