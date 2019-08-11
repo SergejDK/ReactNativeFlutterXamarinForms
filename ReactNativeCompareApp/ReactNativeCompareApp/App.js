@@ -21,7 +21,7 @@ import {
 } from 'react-navigation';
 import NativeScreen from './NativePage';
 import LookAndFeel from './LookAndFeel';
-import PerformanceScreen from './Performance';
+import { PerformanceScreen } from './Performance';
 import Barrierefreiheit from './Barrierefreiheit';
 
 class LogoTitle extends React.Component {

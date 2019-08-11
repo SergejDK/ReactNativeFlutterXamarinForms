@@ -47,15 +47,16 @@
         "binaryPath": "android/app/build/outputs/apk/release/app-release.apk",
         "build": "cd android && ./gradlew assembleRelease assembleAndroidTest -DtestBuildType=release && cd ..",
         "type": "android.emulator",
-        "name": "Nexus_5X_API_26"
+        "name": "pixelxl"
       },
       "ios.sim.debug": {
-        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/ReactNativecompareApp.app",
-        "build": "xcodebuild -workspace ios/ReactNativecompareApp.xcworkspace -scheme ReactNativecompareApp -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/ReactNativeCompareApp.app",
+        "build": "xcodebuild -workspace ios/ReactNativeCompareApp.xcworkspace -scheme ReactNativeCompareApp -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
-        "name": "iPhone Xʀ"
+        "name": "iPhone X"
       }
     },
-    "test-runner": "jest"
+    "test-runner": "jest",
+    "runner-config": "e2e/config.json"
   }
 }

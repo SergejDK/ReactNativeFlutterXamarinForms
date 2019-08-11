@@ -1,4 +1,4 @@
-package com.example;
+package com.ReactNativeCompareApp;
 
 import com.wix.detox.Detox;
 
