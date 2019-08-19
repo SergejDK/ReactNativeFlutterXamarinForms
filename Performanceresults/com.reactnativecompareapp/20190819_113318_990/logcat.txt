@@ -1,0 +1,234 @@
+Timestamp	App	Log Level	Message
+00:00:01.090	17643	ERROR		GameBenchD - Starting cpu thread - 5018 
+00:00:01.121	17643	ERROR		GameBenchD - --------- beginning of system
+00:00:01.121	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.121	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.150	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.150	17643	WARN		FileIOThread - type=1400 audit(0.0:37551): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.150	14302	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.150	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.150	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.150	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.150	14302	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.150	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.150	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.178	14302	INFO		MetricsTowrite - 6
+00:00:01.178	14302	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.178	14302	DEBUG		TEST - Writing janks
+00:00:01.178	14302	INFO		.profilerhelpe - Waiting for a blocking GC ProfileSaver
+00:00:01.203	14302	INFO		.profilerhelpe - WaitForGcToComplete blocked ProfileSaver on HeapTrim for 24.822ms
+00:00:01.232	14302	WARN		System - A resource failed to call close. 
+00:00:01.232	2151	WARN		ProcessCpuTracker - Skipping unknown process pid 5026
+00:00:01.372	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 3952
+00:00:01.372	14302	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -3952
+00:00:01.372	14302	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.479	14302	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.668	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 3952
+00:00:01.668	14302	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.668	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.668	14302	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.669	14302	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.669	14302	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.696	14302	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.722	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.723	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.723	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.723	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.723	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.832	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 3952
+00:00:01.832	14302	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -3952
+00:00:02.025	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.779	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.779	14302	DEBUG		TEST - Writing janks
+00:00:03.437	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.383	14302	DEBUG		TEST - Writing janks
+00:00:04.853	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:04.854	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:04.854	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:04.906	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:07.020	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:07.020	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:07.072	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:08.497	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.189	14302	DEBUG		TEST - Writing janks
+00:00:10.455	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:10.813	14302	DEBUG		TEST - Writing janks
+00:00:11.937	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.415	14302	DEBUG		TEST - Writing janks
+00:00:12.997	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:13.079	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.998	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.998	14302	DEBUG		TEST - Writing janks
+00:00:14.216	2151	DEBUG		WificondControl - Scan result ready event
+00:00:14.216	2151	DEBUG		WificondScannerImpl - Filtering out 1 scan results.
+00:00:14.246	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:14.246	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:14.247	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:14.247	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:14.800	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.598	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.598	14302	DEBUG		TEST - Writing janks
+00:00:16.036	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.114	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:16.114	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:16.172	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:16.556	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.212	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.212	14302	DEBUG		TEST - Writing janks
+00:00:17.321	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.815	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.815	14302	DEBUG		TEST - Writing janks
+00:00:20.274	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:20.303	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:20.331	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:20.410	14302	DEBUG		TEST - Writing janks
+00:00:20.985	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.016	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:22.016	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.016	14302	DEBUG		TEST - Writing janks
+00:00:22.148	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:22.148	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:22.174	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:22.202	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:22.535	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.633	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:23.633	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.633	14302	DEBUG		TEST - Writing janks
+00:00:23.856	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:25.231	14302	DEBUG		TEST - Writing janks
+00:00:25.809	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.388	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.388	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:26.388	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:26.416	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:26.578	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.826	14302	DEBUG		TEST - Writing janks
+00:00:27.129	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.430	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:28.430	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.430	14302	DEBUG		TEST - Writing janks
+00:00:28.508	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.026	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:30.026	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.027	14302	DEBUG		TEST - Writing janks
+00:00:31.449	2151	INFO		chatty - uid=1000 system_server identical 4 lines
+00:00:31.450	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:31.450	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3928700, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150001, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=57, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=380, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-95214, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=290, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1368609, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:31.450	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:31.450	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:31.450	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:31.450	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:31.649	14302	DEBUG		TEST - Writing janks
+00:00:31.813	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.250	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:33.250	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:33.250	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.250	14302	DEBUG		TEST - Writing janks
+00:00:33.683	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.849	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:34.850	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.850	14302	DEBUG		TEST - Writing janks
+00:00:35.124	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.092	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.092	2151	INFO		system_server - Background concurrent copying GC freed 575281(19MB) AllocSpace objects, 87(2MB) LOS objects, 42% free, 28MB/49MB, paused 1.675ms total 261.841ms
+00:00:36.467	14302	DEBUG		TEST - Writing janks
+00:00:36.467	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:36.690	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.059	14302	DEBUG		TEST - Writing janks
+00:00:39.250	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.666	14302	DEBUG		TEST - Writing janks
+00:00:40.234	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.784	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.784	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:40.784	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -67
+00:00:40.784	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:40.784	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:40.784	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:40.784	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:40.891	2619	INFO		ndroid.systemu - Background concurrent copying GC freed 147041(6MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 7MB/14MB, paused 162us total 119.292ms
+00:00:41.273	14302	DEBUG		TEST - Writing janks
+00:00:42.408	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.876	14302	DEBUG		TEST - Writing janks
+00:00:43.074	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.793	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.794	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:43.794	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -66
+00:00:43.794	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:43.794	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:43.794	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:43.794	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:44.258	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.472	14302	DEBUG		TEST - Writing janks
+00:00:44.614	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.084	14302	DEBUG		TEST - Writing janks
+00:00:47.242	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.684	14302	DEBUG		TEST - Writing janks
+00:00:49.010	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.092	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:49.285	14302	DEBUG		TEST - Writing janks
+00:00:49.368	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.475	1158	DEBUG		vendor.qti.bluetooth@1.0-ibs_handler - SerialClockVote: vote for UART CLK ON
+00:00:49.475	1158	DEBUG		vendor.qti.bluetooth@1.0-wake_lock - Acquire wakelock is acquired 
+00:00:49.476	1158	INFO		vendor.qti.bluetooth@1.0-ibs_handler - DeviceWakeUp: Writing IBS_WAKE_IND
+00:00:49.476	1158	INFO		vendor.qti.bluetooth@1.0-ibs_handler - ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+00:00:49.476	1158	INFO		vendor.qti.bluetooth@1.0-ibs_handler - ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+00:00:49.476	1158	INFO		vendor.qti.bluetooth@1.0-ibs_handler - ProcessIbsCmd: Writing IBS_WAKE_ACK
+00:00:49.501	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:49.527	1158	INFO		vendor.qti.bluetooth@1.0-ibs_handler - ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+00:00:49.578	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.825	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.826	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:49.826	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -74
+00:00:49.826	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:49.826	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:49.826	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:49.826	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:49.910	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.490	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:50.490	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.490	1158	INFO		vendor.qti.bluetooth@1.0-ibs_handler - DeviceSleep: TX Awake, Sending SLEEP_IND
+00:00:50.491	1158	DEBUG		vendor.qti.bluetooth@1.0-ibs_handler - SerialClockVote: vote for UART CLK OFF
+00:00:50.631	1158	DEBUG		vendor.qti.bluetooth@1.0-wake_lock - Release wakelock is released 
+00:00:50.685	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.901	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.901	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:50.901	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:50.901	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:50.901	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:50.901	14302	DEBUG		TEST - Writing janks
+00:00:50.977	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:51.028	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.581	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:51.581	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.581	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:51.607	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.506	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:52.506	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.506	14302	DEBUG		TEST - Writing janks
+00:00:52.506	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.118	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 4 lines
+00:00:54.119	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.119	14302	DEBUG		TEST - Writing janks
+00:00:54.222	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.708	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 6 lines
+00:00:55.708	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.708	14302	DEBUG		TEST - Writing janks
+00:00:55.869	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.648	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:56.649	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.649	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:56.816	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.086	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:57.328	14302	DEBUG		TEST - Writing janks
+00:00:58.226	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth

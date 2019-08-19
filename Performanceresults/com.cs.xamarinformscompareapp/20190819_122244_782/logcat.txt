@@ -1,0 +1,1118 @@
+Timestamp	App	Log Level	Message
+00:00:01.122	15492	WARN		System - A resource failed to call close. 
+00:00:01.122	15492	WARN		System - --------- beginning of system
+00:00:01.122	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.147	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.201	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.201	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.201	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.201	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.201	17643	WARN		FileIOThread - type=1400 audit(0.0:37671): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.201	15492	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.201	15492	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.201	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.201	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.230	15492	INFO		MetricsTowrite - 6
+00:00:01.230	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.259	15492	DEBUG		TEST - Writing janks
+00:00:01.259	2151	WARN		ProcessCpuTracker - Skipping unknown process pid 20839
+00:00:01.375	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 20118
+00:00:01.375	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -20118
+00:00:01.375	15492	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.521	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.659	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 20118
+00:00:01.659	15492	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.659	15492	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.659	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.687	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.687	15492	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.713	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.714	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.714	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.714	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.714	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.827	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 20118
+00:00:01.827	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -20118
+00:00:01.880	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.472	20118	INFO		formscompareap - Explicit concurrent copying GC freed 23225(1108KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 72us total 23.974ms
+00:00:02.846	15492	DEBUG		TEST - Writing janks
+00:00:02.961	20118	INFO		formscompareap - Explicit concurrent copying GC freed 2139(104KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 75us total 21.946ms
+00:00:03.263	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1118(55KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 68us total 21.622ms
+00:00:03.609	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1242(62KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 64us total 22.049ms
+00:00:04.142	20118	INFO		formscompareap - Explicit concurrent copying GC freed 2051(86KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 73us total 23.102ms
+00:00:04.171	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1027(59KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 66us total 21.790ms
+00:00:04.476	15492	DEBUG		TEST - Writing janks
+00:00:05.264	20118	INFO		formscompareap - Explicit concurrent copying GC freed 3023(125KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 74us total 22.663ms
+00:00:05.292	20118	INFO		formscompareap - Explicit concurrent copying GC freed 34(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 82us total 21.564ms
+00:00:05.747	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:05.915	20118	INFO		formscompareap - Explicit concurrent copying GC freed 2159(102KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 70us total 22.078ms
+00:00:05.968	20118	INFO		formscompareap - Explicit concurrent copying GC freed 39(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 69us total 22.062ms
+00:00:06.074	15492	DEBUG		TEST - Writing janks
+00:00:06.484	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1696(77KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 66us total 22.860ms
+00:00:06.542	20118	INFO		formscompareap - Explicit concurrent copying GC freed 152(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 123us total 23.540ms
+00:00:06.988	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1488(80KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 68us total 22.514ms
+00:00:07.042	20118	INFO		formscompareap - Explicit concurrent copying GC freed 60(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 68us total 21.806ms
+00:00:07.514	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1412(77KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 70us total 23.862ms
+00:00:07.542	20118	INFO		formscompareap - Explicit concurrent copying GC freed 49(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 77us total 23.758ms
+00:00:07.679	15492	DEBUG		TEST - Writing janks
+00:00:07.993	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1294(79KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 79us total 23.263ms
+00:00:08.047	20118	INFO		formscompareap - Explicit concurrent copying GC freed 64(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 81us total 22.584ms
+00:00:08.399	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1177(79KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 69us total 23.359ms
+00:00:08.514	20118	INFO		formscompareap - Explicit concurrent copying GC freed 152(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 69us total 23.032ms
+00:00:08.823	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1001(69KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 66us total 23.539ms
+00:00:08.910	20118	INFO		formscompareap - Explicit concurrent copying GC freed 129(34KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 69us total 22.739ms
+00:00:09.247	20118	INFO		formscompareap - Explicit concurrent copying GC freed 982(60KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 69us total 23.296ms
+00:00:09.274	15492	DEBUG		TEST - Writing janks
+00:00:09.328	20118	INFO		formscompareap - Explicit concurrent copying GC freed 172(34KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 72us total 22.730ms
+00:00:09.664	20118	INFO		formscompareap - Explicit concurrent copying GC freed 1002(53KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 74us total 23.668ms
+00:00:09.722	20118	INFO		formscompareap - Explicit concurrent copying GC freed 64(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 82us total 22.982ms
+00:00:10.048	20118	INFO		formscompareap - Explicit concurrent copying GC freed 918(54KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 67us total 23.926ms
+00:00:10.131	20118	INFO		formscompareap - Explicit concurrent copying GC freed 123(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 82us total 24.347ms
+00:00:10.210	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:10.435	20118	INFO		formscompareap - Explicit concurrent copying GC freed 888(78KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 69us total 23.751ms
+00:00:10.520	20118	INFO		formscompareap - Explicit concurrent copying GC freed 101(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 75us total 23.778ms
+00:00:10.822	20118	INFO		formscompareap - Explicit concurrent copying GC freed 867(46KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 66us total 23.878ms
+00:00:10.874	15492	DEBUG		TEST - Writing janks
+00:00:10.903	20118	INFO		formscompareap - Explicit concurrent copying GC freed 118(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 74us total 24.288ms
+00:00:11.209	20118	INFO		formscompareap - Explicit concurrent copying GC freed 817(54KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 69us total 24.179ms
+00:00:11.267	20118	INFO		formscompareap - Explicit concurrent copying GC freed 106(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 73us total 23.407ms
+00:00:11.430	2151	DEBUG		WificondControl - Scan result ready event
+00:00:11.461	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:11.461	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:11.461	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:11.461	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:11.488	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:11.597	20118	INFO		formscompareap - Explicit concurrent copying GC freed 753(47KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 71us total 24.264ms
+00:00:11.678	20118	INFO		formscompareap - Explicit concurrent copying GC freed 171(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 78us total 23.983ms
+00:00:11.927	20118	INFO		formscompareap - Explicit concurrent copying GC freed 670(54KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 63us total 24.373ms
+00:00:11.981	20118	INFO		formscompareap - Explicit concurrent copying GC freed 92(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 81us total 23.966ms
+00:00:12.294	20118	INFO		formscompareap - Explicit concurrent copying GC freed 782(62KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 66us total 24.147ms
+00:00:12.377	20118	INFO		formscompareap - Explicit concurrent copying GC freed 211(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 77us total 23.780ms
+00:00:12.486	15492	DEBUG		TEST - Writing janks
+00:00:12.625	20118	INFO		formscompareap - Explicit concurrent copying GC freed 637(54KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 63us total 24.501ms
+00:00:12.709	20118	INFO		formscompareap - Explicit concurrent copying GC freed 126(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 66us total 24.273ms
+00:00:12.959	20118	INFO		formscompareap - Explicit concurrent copying GC freed 646(38KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 65us total 24.727ms
+00:00:13.043	20118	INFO		formscompareap - Explicit concurrent copying GC freed 133(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 82us total 24.666ms
+00:00:13.275	20118	INFO		formscompareap - Explicit concurrent copying GC freed 676(54KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 66us total 24.678ms
+00:00:13.384	20118	INFO		formscompareap - Explicit concurrent copying GC freed 110(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 169us total 25.212ms
+00:00:13.635	20118	INFO		formscompareap - Explicit concurrent copying GC freed 682(46KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 61us total 24.855ms
+00:00:13.722	20118	INFO		formscompareap - Explicit concurrent copying GC freed 102(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 97us total 24.382ms
+00:00:13.942	20118	INFO		formscompareap - Explicit concurrent copying GC freed 618(37KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 68us total 25.056ms
+00:00:14.059	20118	INFO		formscompareap - Explicit concurrent copying GC freed 226(26KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 76us total 24.904ms
+00:00:14.088	15492	DEBUG		TEST - Writing janks
+00:00:14.309	20118	INFO		formscompareap - Explicit concurrent copying GC freed 557(62KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 61us total 24.946ms
+00:00:14.422	20118	INFO		formscompareap - Explicit concurrent copying GC freed 191(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 93us total 25.092ms
+00:00:14.665	20118	INFO		formscompareap - Explicit concurrent copying GC freed 568(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 25.261ms
+00:00:14.772	20118	INFO		formscompareap - Explicit concurrent copying GC freed 175(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 69us total 24.594ms
+00:00:14.962	20118	INFO		formscompareap - Explicit concurrent copying GC freed 504(38KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 65us total 25.527ms
+00:00:15.067	20118	INFO		formscompareap - Explicit concurrent copying GC freed 138(34KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 74us total 24.704ms
+00:00:15.319	20118	INFO		formscompareap - Explicit concurrent copying GC freed 613(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 26.312ms
+00:00:15.406	20118	INFO		formscompareap - Explicit concurrent copying GC freed 138(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 78us total 25.078ms
+00:00:15.625	20118	INFO		formscompareap - Explicit concurrent copying GC freed 508(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 63us total 26.133ms
+00:00:15.681	15492	DEBUG		TEST - Writing janks
+00:00:15.709	20118	INFO		formscompareap - Explicit concurrent copying GC freed 131(48KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 68us total 25.135ms
+00:00:15.737	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:15.934	20118	INFO		formscompareap - Explicit concurrent copying GC freed 536(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 64us total 26.115ms
+00:00:16.043	20118	INFO		formscompareap - Explicit concurrent copying GC freed 210(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 71us total 25.243ms
+00:00:16.242	20118	INFO		formscompareap - Explicit concurrent copying GC freed 455(62KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 64us total 26.209ms
+00:00:16.352	20118	INFO		formscompareap - Explicit concurrent copying GC freed 203(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 77us total 26.935ms
+00:00:16.575	20118	INFO		formscompareap - Explicit concurrent copying GC freed 487(47KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 75us total 26.169ms
+00:00:16.689	20118	INFO		formscompareap - Explicit concurrent copying GC freed 172(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 84us total 25.262ms
+00:00:16.882	20118	INFO		formscompareap - Explicit concurrent copying GC freed 418(38KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 72us total 26.009ms
+00:00:16.994	20118	INFO		formscompareap - Explicit concurrent copying GC freed 163(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 79us total 25.352ms
+00:00:17.188	20118	INFO		formscompareap - Explicit concurrent copying GC freed 431(37KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 62us total 27.188ms
+00:00:17.269	20118	INFO		formscompareap - Explicit concurrent copying GC freed 207(25KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 73us total 25.503ms
+00:00:17.298	15492	DEBUG		TEST - Writing janks
+00:00:17.492	20118	INFO		formscompareap - Explicit concurrent copying GC freed 454(54KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 26.640ms
+00:00:17.599	20118	INFO		formscompareap - Explicit concurrent copying GC freed 161(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 70us total 26.156ms
+00:00:17.827	20118	INFO		formscompareap - Explicit concurrent copying GC freed 505(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 64us total 26.272ms
+00:00:17.939	20118	INFO		formscompareap - Explicit concurrent copying GC freed 188(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 74us total 26.403ms
+00:00:18.129	20118	INFO		formscompareap - Explicit concurrent copying GC freed 432(54KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 26.715ms
+00:00:18.245	20118	INFO		formscompareap - Explicit concurrent copying GC freed 202(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 85us total 27.279ms
+00:00:18.434	20118	INFO		formscompareap - Explicit concurrent copying GC freed 444(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 80us total 27.397ms
+00:00:18.492	2151	INFO		ActivityManager - Start proc 21047:com.microsoft.skydrive/u0a157 for service com.microsoft.skydrive/.jobs.LocalNotificationDailyJob
+00:00:18.518	21047	ERROR		rosoft.skydriv - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.518	2151	INFO		ActivityManager - Start proc 21054:com.google.android.contacts/u0a189 for service com.google.android.contacts/com.google.android.apps.contacts.shortcut.ShortcutJobService
+00:00:18.543	21054	ERROR		ndroid.contact - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.573	2151	INFO		ActivityManager - Start proc 21070:de.hafas.android.db/u0a187 for service de.hafas.android.db/androidx.work.impl.background.systemjob.SystemJobService
+00:00:18.573	20118	INFO		formscompareap - Explicit concurrent copying GC freed 194(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 83us total 29.024ms
+00:00:18.573	21047	INFO		rosoft.skydriv - The ClassLoaderContext is a special shared library.
+00:00:18.599	2151	INFO		ActivityManager - Start proc 21080:com.google.android.partnersetup/u0a43 for service com.google.android.partnersetup/.InstalledAppJobService
+00:00:18.599	21070	ERROR		afas.android.d - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.599	21080	ERROR		id.partnersetu - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.599	21054	INFO		ndroid.contact - The ClassLoaderContext is a special shared library.
+00:00:18.626	2151	INFO		ActivityManager - Start proc 21102:de.mobilesoftwareag.clevertanken/u0a215 for service de.mobilesoftwareag.clevertanken/de.mobilesoftwareag.mqlib.MQSvrJob
+00:00:18.626	21102	ERROR		ag.clevertanke - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.656	21080	INFO		id.partnersetu - The ClassLoaderContext is a special shared library.
+00:00:18.656	21070	INFO		afas.android.d - The ClassLoaderContext is a special shared library.
+00:00:18.686	21070	INFO		afas.android.d - The ClassLoaderContext is a special shared library.
+00:00:18.686	21102	INFO		ag.clevertanke - The ClassLoaderContext is a special shared library.
+00:00:18.686	21070	INFO		afas.android.d - The ClassLoaderContext is a special shared library.
+00:00:18.794	21047	INFO		MAMInfo - MAMInfo initialized. Debug=false, UseTestAgent=false, ManagedDialogDisabled=false, DeprecationDialogDisabled=false, PolicyRequired=false, MultiIdentityEnabled=true, FullBackupContent=true, UseDefaultEnrollment=false, ExceptionOnInit=false, Debuggable=false
+00:00:18.823	2151	INFO		ActivityManager - Start proc 21130:com.google.process.gservices/u0a39 for content provider com.google.android.gsf/.gservices.GservicesProvider
+00:00:18.823	21102	INFO		MultiDex - VM with version 2.1.0 has multidex support
+00:00:18.823	21102	INFO		MultiDex - Installing application
+00:00:18.823	21102	INFO		MultiDex - VM has multidex support, MultiDex support library is disabled.
+00:00:18.852	21130	ERROR		ocess.gservice - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.853	2151	INFO		ActivityManager - Start proc 21143:android.process.acore/u0a14 for content provider com.android.providers.contacts/.ContactsProvider2
+00:00:18.882	20118	INFO		formscompareap - Explicit concurrent copying GC freed 380(37KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 84us total 34.537ms
+00:00:18.882	21143	ERROR		d.process.acor - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.882	15492	DEBUG		TEST - Writing janks
+00:00:18.909	21047	INFO		MultiDex - VM with version 2.1.0 has multidex support
+00:00:18.909	21047	INFO		MultiDex - install
+00:00:18.909	21047	INFO		MultiDex - VM has multidex support, MultiDex support library is disabled.
+00:00:18.909	21130	INFO		ocess.gservice - The ClassLoaderContext is a special shared library.
+00:00:18.909	21070	INFO		MultiDex - VM with version 2.1.0 has multidex support
+00:00:18.909	21054	WARN		PrimesInit - Primes instant initialization
+00:00:18.909	21070	INFO		MultiDex - Installing application
+00:00:18.909	21070	INFO		MultiDex - VM has multidex support, MultiDex support library is disabled.
+00:00:18.909	21054	WARN		Primes - background initialization
+00:00:18.935	21143	INFO		d.process.acor - The ClassLoaderContext is a special shared library.
+00:00:18.960	21102	DEBUG		FirebaseApp - com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+00:00:18.989	21102	DEBUG		FirebaseApp - com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+00:00:18.989	21102	INFO		FirebaseInitProvider - FirebaseApp initialization successful
+00:00:18.989	21130	INFO		GservicesProvider - Gservices pushing to system: true; secure/global: true
+00:00:19.045	21047	DEBUG		NetworkSecurityConfig - Using Network Security Config from resource network_security_config debugBuild: false
+00:00:19.045	20118	INFO		formscompareap - Explicit concurrent copying GC freed 220(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 81us total 31.730ms
+00:00:19.045	21143	INFO		ContactsPerf - VoicemailContentProvider.onCreate start
+00:00:19.071	21143	INFO		ContactsPerf - VoicemailContentProvider.onCreate finish
+00:00:19.071	21047	WARN		SQLiteCompatibilityWalFlags - Cannot read global setting sqlite_compatibility_wal_flags - Application state not available
+00:00:19.099	21143	DEBUG		ContactsDatabaseHelper - WAL enabled for contacts2.db: true
+00:00:19.099	21102	INFO		CrashlyticsCore - Initializing Crashlytics 2.6.8.32
+00:00:19.099	21070	DEBUG		FirebaseApp - com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+00:00:19.099	21070	DEBUG		FirebaseApp - com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+00:00:19.099	21070	INFO		FirebaseInitProvider - FirebaseApp initialization successful
+00:00:19.127	21143	INFO		d.process.acor - The ClassLoaderContext is a special shared library.
+00:00:19.157	21070	INFO		CrashlyticsInitProvider - CrashlyticsInitProvider skipping initialization
+00:00:19.157	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.185	21102	INFO		CrashlyticsInitProvider - CrashlyticsInitProvider initialization successful
+00:00:19.185	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.215	21143	INFO		d.process.acor - The ClassLoaderContext is a special shared library.
+00:00:19.215	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.215	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.215	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.215	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.215	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	INFO		chatty - uid=1000(system) Binder:2151_C identical 2 lines
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	INFO		chatty - uid=1000(system) Binder:2151_7 identical 1 line
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	INFO		chatty - uid=1000(system) Binder:2151_C identical 6 lines
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.243	2151	WARN		Binder - Outgoing transactions from this process must be FLAG_ONEWAY
+00:00:19.243	2151	WARN		Binder - java.lang.Throwable
+00:00:19.243	2151	WARN		Binder - 	at android.os.BinderProxy.transact(Binder.java:1123)
+00:00:19.243	2151	WARN		Binder - 	at android.content.ContentProviderProxy.getType(ContentProviderNative.java:451)
+00:00:19.243	2151	WARN		Binder - 	at com.android.server.am.ActivityManagerService.getProviderMimeType(ActivityManagerService.java:13473)
+00:00:19.243	2151	WARN		Binder - 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:1340)
+00:00:19.244	2151	WARN		Binder - 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3541)
+00:00:19.244	2151	WARN		Binder - 	at android.os.Binder.execTransact(Binder.java:735)
+00:00:19.269	19121	DEBUG		EventNotificationJob - Running EventNotificationJob, isDetail=true
+00:00:19.269	21054	INFO		PrimesTesting - GserviceFlagsSupplier.get()
+00:00:19.299	21143	INFO		ContactLocale - AddressBook Labels [[de_DE]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, …, א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, …, ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, …, あ, か, さ, た, な, は, ま, や, ら, わ, #, …]
+00:00:19.327	19121	DEBUG		EventNotificationJob -   finished processing events.
+00:00:19.327	21070	INFO		FA - Collection disabled with firebase_analytics_collection_deactivated=1
+00:00:19.356	21070	INFO		FA - App measurement is starting up, version: 16250
+00:00:19.356	21070	INFO		FA - To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+00:00:19.356	21070	INFO		FA - To enable faster debug mode event logging run:
+00:00:19.356	21070	INFO		FA -   adb shell setprop debug.firebase.analytics.app de.hafas.android.db
+00:00:19.386	20118	INFO		formscompareap - Explicit concurrent copying GC freed 414(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 107us total 30.201ms
+00:00:19.386	21047	VERBOSE		com.microsoft.b.a.c - Flushing session
+00:00:19.386	21102	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:19.386	21047	VERBOSE		com.microsoft.b.a.c - Sending data to server
+00:00:19.386	21143	DEBUG		ContactsDatabaseHelper - WAL enabled for profile.db: false
+00:00:19.416	21047	WARN		System - ClassLoader referenced unknown path: 
+00:00:19.416	21102	DEBUG		com.mirrorlink.lib.MlServerApiServiceConnection - connectService Called
+00:00:19.493	9244	INFO		Wear_Controller - Wear requires a companion app to be installed.
+00:00:19.494	9244	INFO		WearableService - onCreate: Wearable Services not starting. Wear is not available on this device.
+00:00:19.522	20118	INFO		formscompareap - Explicit concurrent copying GC freed 127(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 99us total 32.489ms
+00:00:19.522	21102	WARN		ag.clevertanke - Unsupported class loader
+00:00:19.522	21102	WARN		ag.clevertanke - Skipping duplicate class check due to unsupported classloader
+00:00:19.548	21102	INFO		ag.clevertanke - The ClassLoaderContext is a special shared library.
+00:00:19.577	21102	INFO		chatty - uid=10215(de.mobilesoftwareag.clevertanken) identical 1 line
+00:00:19.577	21102	INFO		ag.clevertanke - The ClassLoaderContext is a special shared library.
+00:00:19.577	21047	INFO		QtCore - Start
+00:00:19.577	9244	INFO		.gms.persisten - Background concurrent copying GC freed 286214(14MB) AllocSpace objects, 60(2MB) LOS objects, 49% free, 13MB/26MB, paused 286us total 284.795ms
+00:00:19.577	21047	WARN		linker - Warning: "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm/libQt5AndroidExtras.so" has unsupported flags DT_FLAGS_1=0x80 (ignoring unsupported flags)
+00:00:19.577	21047	WARN		linker - Warning: "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm/libQt5Sql.so" has unsupported flags DT_FLAGS_1=0x80 (ignoring unsupported flags)
+00:00:19.577	21047	WARN		linker - Warning: "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm/libQt5Network.so" has unsupported flags DT_FLAGS_1=0x80 (ignoring unsupported flags)
+00:00:19.606	21054	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:19.606	21047	WARN		linker - Warning: "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm/libQt5Xml.so" has unsupported flags DT_FLAGS_1=0x80 (ignoring unsupported flags)
+00:00:19.606	21047	WARN		linker - Warning: "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm/libQt5Concurrent.so" has unsupported flags DT_FLAGS_1=0x80 (ignoring unsupported flags)
+00:00:19.632	21102	INFO		ag.clevertanke - Waiting for a blocking GC AddRemoveAppImageSpace
+00:00:19.632	21102	INFO		ag.clevertanke - WaitForGcToComplete blocked AddRemoveAppImageSpace on AddRemoveAppImageSpace for 10.137ms
+00:00:19.690	21070	INFO		CrashlyticsCore - Initializing Crashlytics Core 2.7.0.33
+00:00:19.690	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{53d1ecb 21143:android.process.acore/u0a14}
+00:00:19.690	2151	INFO		ActivityManager - Killing 18043:com.microsoft.office.excel/u0a155 (adj 906): empty #17
+00:00:19.716	2151	WARN		libprocessgroup - kill(-18043, 9) failed: No such process
+00:00:19.716	21102	INFO		ag.clevertanke - IncrementDisableThreadFlip blocked for 8.095ms
+00:00:19.716	21102	INFO		ag.clevertanke - IncrementDisableThreadFlip blocked for 5.086ms
+00:00:19.716	2151	WARN		libprocessgroup - kill(-18043, 9) failed: No such process
+00:00:19.716	21102	INFO		FA - App measurement is starting up, version: 14700
+00:00:19.716	21102	INFO		FA - To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+00:00:19.716	21102	INFO		FA - To enable faster debug mode event logging run:
+00:00:19.716	21102	INFO		FA -   adb shell setprop debug.firebase.analytics.app de.mobilesoftwareag.clevertanken
+00:00:19.717	1069	INFO		Zygote - Process 18043 exited due to signal (9)
+00:00:19.717	2151	WARN		libprocessgroup - kill(-18043, 9) failed: No such process
+00:00:19.717	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10155 pid 18043 in 23ms
+00:00:19.742	21102	INFO		DynamiteModule - Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:20405
+00:00:19.742	21102	INFO		DynamiteModule - Selected remote version of com.google.android.gms.ads.dynamite, version >= 20405
+00:00:19.770	21102	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:19.770	21102	WARN		ag.clevertanke - Unsupported class loader
+00:00:19.799	21047	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:19.799	21047	INFO		Adreno - Build Date                       : 11/02/18
+00:00:19.799	21047	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:19.799	21047	INFO		Adreno - Local Branch                     : 
+00:00:19.799	21047	INFO		Adreno - Remote Branch                    : 
+00:00:19.799	21047	INFO		Adreno - Remote Branch                    : 
+00:00:19.799	21047	INFO		Adreno - Reconstruct Branch               : 
+00:00:19.799	21047	INFO		Adreno - Build Config                     : S L 6.0.7 AArch32
+00:00:19.799	21102	WARN		ag.clevertanke - Skipping duplicate class check due to unsupported classloader
+00:00:19.799	21047	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:19.799	21047	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:19.799	21047	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:19.799	21102	DEBUG		DynamitePackage - Instantiated singleton DynamitePackage.
+00:00:19.799	21102	DEBUG		DynamitePackage - Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+00:00:19.876	21070	WARN		DynamiteModule - Local module descriptor class for providerinstaller not found.
+00:00:19.876	9244	WARN		ProviderHelper - Unknown dynamite feature providerinstaller
+00:00:19.876	21070	INFO		DynamiteModule - Considering local module providerinstaller:0 and remote module providerinstaller:0
+00:00:19.876	21070	WARN		ProviderInstaller - Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+00:00:19.876	20118	INFO		formscompareap - Explicit concurrent copying GC freed 434(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 91us total 32.034ms
+00:00:19.905	21102	INFO		Ads - Updating ad debug logging enablement.
+00:00:19.905	21070	INFO		afas.android.d - The ClassLoaderContext is a special shared library.
+00:00:19.932	21070	INFO		chatty - uid=10187(de.hafas.android.db) identical 1 line
+00:00:19.933	21070	INFO		afas.android.d - The ClassLoaderContext is a special shared library.
+00:00:19.933	21047	WARN		DynamiteModule - Local module descriptor class for com.google.firebase.auth not found.
+00:00:19.933	21070	DEBUG		NetworkSecurityConfig - Using Network Security Config from resource network_security_config debugBuild: false
+00:00:19.959	21047	WARN		DynamiteModule - Local module descriptor class for com.google.firebase.auth not found.
+00:00:19.959	21102	INFO		WebViewFactory - Loading com.android.chrome version 76.0.3809.111 (code 380911137)
+00:00:19.959	21047	DEBUG		FirebaseApp - com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+00:00:19.986	21047	INFO		FirebaseAuth - [FirebaseAuth:] Loading module via FirebaseOptions.
+00:00:19.986	21047	INFO		FirebaseAuth - [FirebaseAuth:] Preparing to create service connection to gms implementation
+00:00:19.986	21047	INFO		FirebaseInitProvider - FirebaseApp initialization successful
+00:00:20.015	21070	VERBOSE		NativeCrypto - Registering com/google/android/gms/org/conscrypt/NativeCrypto's 284 native methods...
+00:00:20.044	20118	INFO		formscompareap - Explicit concurrent copying GC freed 165(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 132us total 28.951ms
+00:00:20.044	21070	INFO		ProviderInstaller - Installed default security provider GmsCore_OpenSSL
+00:00:20.044	21102	INFO		cr_LibraryLoader - Time to load native libraries: 4 ms (timestamps 4120-4124)
+00:00:20.073	21047	INFO		FA - App measurement is starting up, version: 14711
+00:00:20.073	21047	INFO		FA - To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+00:00:20.073	21047	INFO		FA - To enable faster debug mode event logging run:
+00:00:20.073	21047	INFO		FA -   adb shell setprop debug.firebase.analytics.app com.microsoft.skydrive
+00:00:20.073	21070	WARN		System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+00:00:20.073	21070	WARN		System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+00:00:20.073	21070	WARN		System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+00:00:20.099	21102	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:20.099	21102	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:20.125	2151	INFO		ActivityManager - Start proc 21325:com.android.chrome:webview_service/u0a96 for service com.android.chrome/org.chromium.android_webview.services.VariationsSeedServer
+00:00:20.152	21070	WARN		afas.android.d - Unable to resolve Lcom/optimizely/ab/config/FeatureVariable; annotation class 10272
+00:00:20.152	21070	WARN		afas.android.d - Unable to resolve Lcom/optimizely/ab/config/FeatureVariable; annotation class 10272
+00:00:20.152	21325	ERROR		webview_servic - Not starting debugger since process cannot load the jdwp agent.
+00:00:20.152	21102	WARN		cr_ChildProcLH - Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+00:00:20.182	21102	INFO		cr_BrowserStartup - Initializing chromium process, singleProcess=false
+00:00:20.183	2151	INFO		ActivityManager - Start proc 21342:com.android.chrome:sandboxed_process0/u0i692 for webview_service de.mobilesoftwareag.clevertanken/org.chromium.content.app.SandboxedProcessService0
+00:00:20.209	21342	ERROR		dboxed_process - Not starting debugger since process cannot load the jdwp agent.
+00:00:20.209	21070	WARN		JobInfo - Requested interval +10m0s0ms for job 2113 is too small; raising to +15m0s0ms
+00:00:20.235	21325	WARN		webview_servic - JIT profile information will not be recorded: profile file does not exits.
+00:00:20.318	21342	INFO		cr_ChildProcessService - Creating new ChildProcessService pid=21342
+00:00:20.346	21047	DEBUG		TokenSharingManager_v1.4.8 - Library works in release mode
+00:00:20.371	21047	ASSERT		Adjust - PRODUCTION: Adjust is running in Production mode. Use this setting only for the build that you want to publish. Set the environment to `sandbox` if you want to test your app!
+00:00:20.399	20118	INFO		formscompareap - Explicit concurrent copying GC freed 364(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 75us total 31.263ms
+00:00:20.477	21047	INFO		rosoft.skydriv - Rejecting re-init on previously-failed class java.lang.Class<com.evernote.android.job.a.b>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/android/gms/gcm/GcmTaskService;
+00:00:20.477	21047	INFO		rosoft.skydriv -   at boolean com.evernote.android.job.d.isSupported(android.content.Context) (SourceFile:125)
+00:00:20.477	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.k$a.a(android.content.Context, int) (SourceFile:293)
+00:00:20.477	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.i.a(com.evernote.android.job.m) (SourceFile:184)
+00:00:20.477	21047	INFO		rosoft.skydriv -   at int com.evernote.android.job.m.D() (SourceFile:436)
+00:00:20.477	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.m$2.run() (SourceFile:465)
+00:00:20.477	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor.runWorker(java.util.concurrent.ThreadPoolExecutor$Worker) (ThreadPoolExecutor.java:1167)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor$Worker.run() (ThreadPoolExecutor.java:641)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.lang.Thread.run() (Thread.java:764)
+00:00:20.478	21047	INFO		rosoft.skydriv - Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.gcm.GcmTaskService" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/base.apk"],nativeLibraryDirectories=[/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm, /data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]
+00:00:20.478	21047	INFO		rosoft.skydriv -   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at boolean com.evernote.android.job.d.isSupported(android.content.Context) (SourceFile:125)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.k$a.a(android.content.Context, int) (SourceFile:293)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.i.a(com.evernote.android.job.m) (SourceFile:184)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at int com.evernote.android.job.m.D() (SourceFile:436)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.m$2.run() (SourceFile:465)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor.runWorker(java.util.concurrent.ThreadPoolExecutor$Worker) (ThreadPoolExecutor.java:1167)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor$Worker.run() (ThreadPoolExecutor.java:641)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.lang.Thread.run() (Thread.java:764)
+00:00:20.478	21047	INFO		rosoft.skydriv - Rejecting re-init on previously-failed class java.lang.Class<com.evernote.android.job.a.b>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/android/gms/gcm/GcmTaskService;
+00:00:20.478	21047	INFO		rosoft.skydriv -   at boolean com.evernote.android.job.d.isSupported(android.content.Context) (SourceFile:125)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.k$a.a(android.content.Context, int) (SourceFile:293)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.i.a(com.evernote.android.job.m) (SourceFile:184)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at int com.evernote.android.job.m.D() (SourceFile:436)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.m$2.run() (SourceFile:465)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor.runWorker(java.util.concurrent.ThreadPoolExecutor$Worker) (ThreadPoolExecutor.java:1167)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor$Worker.run() (ThreadPoolExecutor.java:641)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void java.lang.Thread.run() (Thread.java:764)
+00:00:20.478	21047	INFO		rosoft.skydriv - Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.gcm.GcmTaskService" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/base.apk"],nativeLibraryDirectories=[/data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/lib/arm, /data/app/com.microsoft.skydrive-sym7mLD1I-IIRKCX0FF4Xg==/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]
+00:00:20.478	21047	INFO		rosoft.skydriv -   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at boolean com.evernote.android.job.d.isSupported(android.content.Context) (SourceFile:125)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.k$a.a(android.content.Context, int) (SourceFile:293)
+00:00:20.478	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.i.a(com.evernote.android.job.m) (SourceFile:184)
+00:00:20.479	21047	INFO		rosoft.skydriv -   at int com.evernote.android.job.m.D() (SourceFile:436)
+00:00:20.479	21047	INFO		rosoft.skydriv -   at void com.evernote.android.job.m$2.run() (SourceFile:465)
+00:00:20.479	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor.runWorker(java.util.concurrent.ThreadPoolExecutor$Worker) (ThreadPoolExecutor.java:1167)
+00:00:20.479	21047	INFO		rosoft.skydriv -   at void java.util.concurrent.ThreadPoolExecutor$Worker.run() (ThreadPoolExecutor.java:641)
+00:00:20.479	21047	INFO		rosoft.skydriv -   at void java.lang.Thread.run() (Thread.java:764)
+00:00:20.509	15492	DEBUG		TEST - Writing janks
+00:00:20.509	20118	INFO		formscompareap - Explicit concurrent copying GC freed 86(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 85us total 30.237ms
+00:00:20.623	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10215/21102 NetworkRequest [ TRACK_DEFAULT id=2971, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ]
+00:00:20.623	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2971, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:20.623	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2971, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:20.623	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2971, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:20.624	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2971, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:20.649	21047	WARN		ActivityThread - serviceCreate starts in 2080 ms, CreateServiceData = CreateServiceData{token=android.os.BinderProxy@396a799 className=com.microsoft.skydrive.jobs.LocalNotificationDailyJob packageName=com.microsoft.skydrive intent=null}
+00:00:20.649	21047	WARN		ActivityThread - serviceCreate starts in 2084 ms, CreateServiceData = CreateServiceData{token=android.os.BinderProxy@78c2a5e className=com.microsoft.skydrive.jobs.UpdateMetadataForOfflineFilesJob packageName=com.microsoft.skydrive intent=null}
+00:00:20.702	2151	WARN		ActivityManager - Background start not allowed: service Intent { cmp=com.microsoft.skydrive/com.microsoft.odsp.task.TaskService } to com.microsoft.skydrive/com.microsoft.odsp.task.TaskService from pid=21047 uid=10157 pkg=com.microsoft.skydrive startFg?=false
+00:00:20.733	21102	WARN		cr_media - Requires BLUETOOTH permission
+00:00:20.733	21342	INFO		cr_LibraryLoader - Time to load native libraries: 1 ms (timestamps 4798-4799)
+00:00:20.733	21342	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:20.733	21342	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:20.762	21102	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:20.762	21102	INFO		Adreno - Build Date                       : 11/02/18
+00:00:20.762	21102	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:20.762	21102	INFO		Adreno - Local Branch                     : 
+00:00:20.762	21102	INFO		Adreno - Remote Branch                    : 
+00:00:20.762	21102	INFO		Adreno - Remote Branch                    : 
+00:00:20.763	21102	INFO		Adreno - Reconstruct Branch               : 
+00:00:20.763	21102	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:20.763	21102	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:20.763	21102	INFO		GAv4 - Google Analytics 12.4.51 is starting up. To enable debug logging on a device run:
+00:00:20.763	21102	INFO		GAv4 -   adb shell setprop log.tag.GAv4 DEBUG
+00:00:20.763	21102	INFO		GAv4 -   adb logcat -s GAv4
+00:00:20.763	21047	ERROR		ActivityThread - Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+00:00:20.792	21102	WARN		GAv4 - String xml configuration name not recognized: ga_trackingId
+00:00:20.819	21102	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:20.819	21102	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:20.819	21102	WARN		GAv4 - Int xml configuration name not recognized: ga_sessionTimeout
+00:00:20.819	21102	WARN		GAv4 - String xml configuration name not recognized: ga_sampleFrequency
+00:00:20.820	21102	WARN		GAv4 - Bool xml configuration name not recognized: ga_autoActivityTracking
+00:00:20.820	21102	WARN		GAv4 - Bool xml configuration name not recognized: ga_reportUncaughtExceptions
+00:00:20.849	21102	WARN		GAv4 - CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+00:00:20.875	20118	INFO		formscompareap - Explicit concurrent copying GC freed 495(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 98us total 28.812ms
+00:00:20.875	21047	INFO		PLSyncIncident - Beginning incident sync
+00:00:20.903	21070	WARN		ActivityThread - serviceCreate starts in 2283 ms, CreateServiceData = CreateServiceData{token=android.os.BinderProxy@14b8d3a className=androidx.work.impl.background.systemjob.SystemJobService packageName=de.hafas.android.db intent=null}
+00:00:20.959	21047	DEBUG		com.microsoft.tokenshare.m_v1.4.8 - Can't get configuration from networkjava.io.FileNotFoundException: https://oneclient.sfx.ms/mobile/ts_configuration.jwt
+00:00:20.959	21070	INFO		WebViewFactory - Loading com.android.chrome version 76.0.3809.111 (code 380911137)
+00:00:20.959	21102	DEBUG		AgreementInfo - readInfoFile()
+00:00:20.959	21102	DEBUG		AgreementInfo - readInfoFile(): AgreementAccepted: true
+00:00:20.959	21102	ASSERT		Adjust - PRODUCTION: Adjust is running in Production mode. Use this setting only for the build that you want to publish. Set the environment to `sandbox` if you want to test your app!
+00:00:20.959	21047	INFO		PLSyncFeedback - Beginning feedback sync
+00:00:20.985	21102	INFO		ab - Making Creator dynamically
+00:00:20.985	21047	INFO		PLSyncFeedback - No queued feedbacks
+00:00:20.985	21047	INFO		PLSyncFile - Beginning log uploads
+00:00:20.985	21102	INFO		DynamiteModule - Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:221
+00:00:20.985	21102	INFO		DynamiteModule - Selected remote version of com.google.android.gms.maps_dynamite, version >= 221
+00:00:20.985	21102	VERBOSE		DynamiteModule - Dynamite loader version >= 2, using loadModule2NoCrashUtils
+00:00:20.985	21102	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:20.985	21047	INFO		PLSyncFile - No queued uploads
+00:00:20.985	21102	WARN		ag.clevertanke - Unsupported class loader
+00:00:21.011	21047	VERBOSE		SyncEngine - Sync iteration finished; result=SUCCESS
+00:00:21.040	21102	WARN		VideoCapabilities - Unrecognized profile 4 for video/hevc
+00:00:21.040	21102	WARN		VideoCapabilities - Unrecognized profile/level 0/3 for video/mpeg2
+00:00:21.040	21102	WARN		ag.clevertanke - Skipping duplicate class check due to unsupported classloader
+00:00:21.040	21070	INFO		cr_LibraryLoader - Time to load native libraries: 4 ms (timestamps 5115-5119)
+00:00:21.040	21047	INFO		rosoft.skydriv - Background concurrent copying GC freed 19355(1099KB) AllocSpace objects, 4(80KB) LOS objects, 49% free, 2MB/5MB, paused 395us total 118.588ms
+00:00:21.040	20118	INFO		formscompareap - Explicit concurrent copying GC freed 181(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 84us total 31.781ms
+00:00:21.066	21102	INFO		VideoCapabilities - Unsupported profile 4 for video/mp4v-es
+00:00:21.066	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:21.066	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:21.066	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:21.092	21070	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:21.092	21070	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:21.092	21070	WARN		cr_ChildProcLH - Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+00:00:21.118	21070	INFO		cr_BrowserStartup - Initializing chromium process, singleProcess=false
+00:00:21.118	21102	INFO		Google Maps Android API - Google Play services client version: 12451000
+00:00:21.118	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:21.147	2151	INFO		ActivityManager - Start proc 21459:com.android.chrome:sandboxed_process0/u0i693 for webview_service de.hafas.android.db/org.chromium.content.app.SandboxedProcessService0
+00:00:21.173	21102	INFO		FXAappHelper - App path: /data/user/0/de.mobilesoftwareag.clevertanken
+00:00:21.173	21102	INFO		Clever_Tanken-Clever_Tanken - (Clever_Tanken - 3.1.223) started successfully.
+00:00:21.201	21459	ERROR		dboxed_process - Not starting debugger since process cannot load the jdwp agent.
+00:00:21.201	21102	DEBUG		skia - --- Failed to create image decoder with message 'unimplemented'
+00:00:21.202	21102	DEBUG		getContext - Service not connected, register callback
+00:00:21.228	2619	WARN		NotificationEntryMgr - removeNotification for unknown key: 0|com.microsoft.skydrive|888|null|10157
+00:00:21.228	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|888|null|10157
+00:00:21.287	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10187/21070 NetworkRequest [ TRACK_DEFAULT id=2973, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ]
+00:00:21.287	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2973, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.287	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2973, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.287	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2973, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.287	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2973, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.287	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|888|null|10157
+00:00:21.345	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|888|null|10157
+00:00:21.345	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10215/21102 NetworkRequest [ TRACK_DEFAULT id=2975, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ]
+00:00:21.345	21459	INFO		cr_ChildProcessService - Creating new ChildProcessService pid=21459
+00:00:21.345	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2975, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:21.345	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2975, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:21.345	2151	INFO		ActivityManager - Start proc 21496:de.mobilesoftwareag.clevertanken:locarta_sdk/u0a215 for service de.mobilesoftwareag.clevertanken/co.locarta.sdk.internal.MainService
+00:00:21.345	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2975, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:21.345	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2975, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:21.345	21070	DEBUG		Tealium-5.0.4 - WebView android.webkit.WebView{ac7f44a VFEDHVC.. ......I. 0,0-0,0} created and cookies enabled
+00:00:21.345	2151	DEBUG		ConnectivityService - Returning UNBLOCKED NetworkInfo to uid=10187
+00:00:21.370	21102	WARN		ActivityThread - serviceCreate starts in 2719 ms, CreateServiceData = CreateServiceData{token=android.os.BinderProxy@c46c000 className=de.mobilesoftwareag.mqlib.MQSvrJob packageName=de.mobilesoftwareag.clevertanken intent=null}
+00:00:21.371	21459	INFO		cr_LibraryLoader - Time to load native libraries: 0 ms (timestamps 5451-5451)
+00:00:21.371	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|2444|null|10157
+00:00:21.399	21459	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:21.399	21459	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:21.399	21496	ERROR		ken:locarta_sd - Not starting debugger since process cannot load the jdwp agent.
+00:00:21.426	20118	INFO		formscompareap - Explicit concurrent copying GC freed 404(48KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 80us total 33.066ms
+00:00:21.426	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|2444|null|10157
+00:00:21.426	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10187/21070 NetworkRequest [ TRACK_DEFAULT id=2977, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ]
+00:00:21.426	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2977, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.426	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2977, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.426	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2977, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.426	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2977, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10187] ] with score 55
+00:00:21.454	21102	WARN		Ads - Update ad debug logging enablement as false
+00:00:21.455	2151	INFO		ActivityManager - Killing 17795:com.zhiliaoapp.musically/u0a324 (adj 906): empty #17
+00:00:21.455	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.455	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|999|null|10157
+00:00:21.455	21070	WARN		cr_media - Requires BLUETOOTH permission
+00:00:21.484	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.484	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.484	21496	INFO		ken:locarta_sd - The ClassLoaderContext is a special shared library.
+00:00:21.510	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.511	21070	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:21.511	21070	INFO		Adreno - Build Date                       : 11/02/18
+00:00:21.511	21070	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:21.511	21070	INFO		Adreno - Local Branch                     : 
+00:00:21.511	21070	INFO		Adreno - Remote Branch                    : 
+00:00:21.511	21070	INFO		Adreno - Remote Branch                    : 
+00:00:21.511	21070	INFO		Adreno - Reconstruct Branch               : 
+00:00:21.511	21070	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:21.511	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.536	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.536	21070	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:21.536	21496	INFO		MultiDex - VM with version 2.1.0 has multidex support
+00:00:21.536	21496	INFO		MultiDex - Installing application
+00:00:21.536	21496	INFO		MultiDex - VM has multidex support, MultiDex support library is disabled.
+00:00:21.536	21496	DEBUG		com.mirrorlink.lib.MlServerApiServiceConnection - connectService Called
+00:00:21.536	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.565	20118	INFO		formscompareap - Explicit concurrent copying GC freed 111(46KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 78us total 29.380ms
+00:00:21.565	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.565	21496	DEBUG		FirebaseApp - com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+00:00:21.565	21496	DEBUG		FirebaseApp - com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+00:00:21.565	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.592	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.592	21070	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:21.593	21070	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:21.593	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.622	21496	WARN		ken:locarta_sd - Unsupported class loader
+00:00:21.622	21496	WARN		ken:locarta_sd - Skipping duplicate class check due to unsupported classloader
+00:00:21.622	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.650	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.650	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.650	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.650	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.650	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.650	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.650	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.675	21496	INFO		ken:locarta_sd - The ClassLoaderContext is a special shared library.
+00:00:21.675	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.675	21496	INFO		ken:locarta_sd - The ClassLoaderContext is a special shared library.
+00:00:21.675	21496	INFO		ken:locarta_sd - The ClassLoaderContext is a special shared library.
+00:00:21.675	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.704	9244	WARN		WearableService - onGetService: Wear is not available on this device.
+00:00:21.704	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.759	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:21.759	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.759	21102	INFO		Clever_Tanken-NCmqSrvJob - onStartJob()
+00:00:21.759	21102	INFO		Clever_Tanken-NCmqSrvJob - start service
+00:00:21.759	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.759	21102	DEBUG		InAppManager - Setup finished.
+00:00:21.759	21102	DEBUG		InAppManager - Setup successful. Querying inventory.
+00:00:21.786	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.microsoft.skydrive|999|null|10157
+00:00:21.786	21102	ERROR		ActivityThread - Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+00:00:21.786	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.786	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.786	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.786	21102	DEBUG		InAppManager - Query purchases finished.
+00:00:21.786	21102	DEBUG		InAppManager - Query inventory was successful.
+00:00:21.786	21102	DEBUG		InAppManager - User is NOT ADFREE
+00:00:21.786	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.786	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.786	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:21.815	21102	INFO		ag.clevertanke - Background concurrent copying GC freed 11936(791KB) AllocSpace objects, 5(164KB) LOS objects, 50% free, 3MB/6MB, paused 26.654ms total 295.454ms
+00:00:21.815	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.815	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.815	21496	INFO		DynamiteModule - Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:20405
+00:00:21.815	21496	INFO		DynamiteModule - Selected remote version of com.google.android.gms.ads.dynamite, version >= 20405
+00:00:21.815	21102	WARN		JobInfo - Requested backoff +1ms for job 0 is too small; raising to +10s0ms
+00:00:21.844	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.844	21102	INFO		Clever_Tanken-MCsrvCtrl - starting loop...
+00:00:21.844	21102	INFO		Clever_Tanken-NCmqSrvJob - onStopJob()
+00:00:21.844	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.873	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.873	21102	INFO		Clever_Tanken-NCsysState - Flightmode: false
+00:00:21.873	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.873	1154	WARN		qti_sensors_hal - processReportInd: lux: 4, ch0: 0, ch1: 1030, pData: 7, pOffset: 2
+00:00:21.902	21496	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:21.902	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.902	21496	WARN		ken:locarta_sd - Unsupported class loader
+00:00:21.902	21496	WARN		ken:locarta_sd - Skipping duplicate class check due to unsupported classloader
+00:00:21.932	20118	INFO		formscompareap - Explicit concurrent copying GC freed 379(54KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 205us total 31.475ms
+00:00:21.932	21070	WARN		VideoCapabilities - Unrecognized profile 4 for video/hevc
+00:00:21.932	21070	WARN		VideoCapabilities - Unrecognized profile/level 0/3 for video/mpeg2
+00:00:21.932	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.932	21496	DEBUG		DynamitePackage - Instantiated singleton DynamitePackage.
+00:00:21.932	21496	DEBUG		DynamitePackage - Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+00:00:21.932	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.932	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.932	21102	INFO		Clever_Tanken-MCsrvCtrl - starting
+00:00:21.959	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.959	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|de.mobilesoftwareag.clevertanken|1693010970|null|10215
+00:00:21.959	21102	ERROR		ag.clevertanke - The String#value field is not present on Android versions >= 6.0
+00:00:21.959	21102	INFO		Clever_Tanken-NCmqSrvMgr - destroy
+00:00:21.959	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.959	2151	INFO		ActivityManager - Killing 19121:com.microsoft.office.outlook/u0a9 (adj 906): empty #17
+00:00:21.988	2151	INFO		ActivityManager - Killing 18348:com.zhiliaoapp.musically:bm/u0a324 (adj 906): empty #18
+00:00:21.988	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:21.988	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:21.988	21496	INFO		FA - App measurement is starting up, version: 14700
+00:00:21.988	21496	INFO		FA - To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+00:00:21.988	21496	INFO		FA - To enable faster debug mode event logging run:
+00:00:21.988	21496	INFO		FA -   adb shell setprop debug.firebase.analytics.app de.mobilesoftwareag.clevertanken
+00:00:21.988	21070	INFO		VideoCapabilities - Unsupported profile 4 for video/mp4v-es
+00:00:22.018	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:22.018	21496	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:22.018	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:22.018	21496	INFO		Ads - Updating ad debug logging enablement.
+00:00:22.018	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:22.044	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2970, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Unwanted:  Uid: 10324] ], android.os.BinderProxy@a65b311)
+00:00:22.044	1065	INFO		Zygote - Process 18348 exited due to signal (9)
+00:00:22.044	2151	WARN		libprocessgroup - kill(-17795, 9) failed: No such process
+00:00:22.044	2151	ERROR		libprocessgroup - Failed to kill process cgroup uid 10324 pid 17795 in 595ms, 1 processes remain
+00:00:22.044	2151	WARN		libprocessgroup - kill(-19121, 9) failed: No such process
+00:00:22.073	2151	WARN		libprocessgroup - kill(-19121, 9) failed: No such process
+00:00:22.073	21496	INFO		WebViewFactory - Loading com.android.chrome version 76.0.3809.111 (code 380911137)
+00:00:22.073	2151	WARN		libprocessgroup - kill(-19121, 9) failed: No such process
+00:00:22.073	20118	INFO		formscompareap - Explicit concurrent copying GC freed 117(49KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 92us total 30.141ms
+00:00:22.073	1065	INFO		Zygote - Process 19121 exited due to signal (9)
+00:00:22.073	2151	WARN		libprocessgroup - kill(-19121, 9) failed: No such process
+00:00:22.073	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10009 pid 19121 in 35ms
+00:00:22.073	2151	WARN		libprocessgroup - kill(-18348, 9) failed: No such process
+00:00:22.073	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10324 pid 18348 in 0ms
+00:00:22.099	21496	INFO		ken:locarta_sd - Waiting for a blocking GC AddRemoveAppImageSpace
+00:00:22.099	21496	INFO		ken:locarta_sd - WaitForGcToComplete blocked AddRemoveAppImageSpace on AddRemoveAppImageSpace for 8.629ms
+00:00:22.099	15492	DEBUG		TEST - Writing janks
+00:00:22.125	21070	INFO		WM-WorkerWrapper - Worker result SUCCESS for Work [ id=00bf0380-a7bd-4288-b65b-d93a68e755d0, tags={ de.bahn.dbtickets.workers.ordersync.OrderSyncWorker, OrderSyncWorker } ]
+00:00:22.125	2151	INFO		ActivityManager - Killing 17937:com.android.keychain/1000 (adj 904): empty #17
+00:00:22.125	2151	INFO		ActivityManager - Killing 19574:com.motorola.moto/u0a62 (adj 906): empty #18
+00:00:22.125	2151	WARN		libprocessgroup - kill(-17937, 9) failed: No such process
+00:00:22.151	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:22.151	2151	WARN		libprocessgroup - kill(-17937, 9) failed: No such process
+00:00:22.151	1065	INFO		Zygote - Process 19574 exited due to signal (9)
+00:00:22.177	21496	INFO		cr_LibraryLoader - Time to load native libraries: 12 ms (timestamps 6231-6243)
+00:00:22.177	2151	WARN		libprocessgroup - kill(-17937, 9) failed: No such process
+00:00:22.177	1065	INFO		Zygote - Process 17937 exited due to signal (9)
+00:00:22.206	2151	WARN		libprocessgroup - kill(-17937, 9) failed: No such process
+00:00:22.206	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 1000 pid 17937 in 55ms
+00:00:22.206	2151	WARN		libprocessgroup - kill(-19574, 9) failed: No such process
+00:00:22.207	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10062 pid 19574 in 0ms
+00:00:22.232	21496	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:22.232	21496	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:22.232	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2969, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Unwanted:  Uid: 10324] ], android.os.BinderProxy@fe2b349)
+00:00:22.232	1065	INFO		Zygote - Process 17795 exited due to signal (9)
+00:00:22.232	21496	WARN		cr_AwBrowserProcess - Using WebView from more than one process at once with the same data directory is not supported. https://crbug.com/558377
+00:00:22.262	21496	WARN		cr_ChildProcLH - Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+00:00:22.262	21496	INFO		cr_BrowserStartup - Initializing chromium process, singleProcess=false
+00:00:22.290	21342	ERROR		cr_ChildProcessService - Service is already bound by pid 21102, cannot bind for pid 21496
+00:00:22.290	21496	ERROR		cr_SpareChildConn - Failed to warm up the spare sandbox service
+00:00:22.320	21102	DEBUG		InAppManager - Query inventory finished.
+00:00:22.320	21102	DEBUG		InAppManager - Query inventory was successful.
+00:00:22.349	2151	INFO		ActivityManager - Start proc 21623:com.android.chrome/u0a96 for service com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService
+00:00:22.378	21623	ERROR		.android.chrom - Not starting debugger since process cannot load the jdwp agent.
+00:00:22.378	2151	INFO		ActivityManager - Killing 19712:com.android.defcontainer/u0a27 (adj 904): empty #17
+00:00:22.378	2151	WARN		libprocessgroup - kill(-19712, 9) failed: No such process
+00:00:22.432	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:22.432	2151	WARN		libprocessgroup - kill(-19712, 9) failed: No such process
+00:00:22.432	2867	DEBUG		TelephonyProvider - subIdString = 2 subId = 2
+00:00:22.432	2151	WARN		libprocessgroup - kill(-19712, 9) failed: No such process
+00:00:22.433	1065	INFO		Zygote - Process 19712 exited due to signal (9)
+00:00:22.459	2151	WARN		libprocessgroup - kill(-19712, 9) failed: No such process
+00:00:22.459	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10027 pid 19712 in 68ms
+00:00:22.459	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10215/21496 NetworkRequest [ TRACK_DEFAULT id=2979, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ]
+00:00:22.459	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2979, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:22.459	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2979, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:22.459	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2979, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:22.459	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2979, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 55
+00:00:22.459	20118	INFO		formscompareap - Explicit concurrent copying GC freed 468(46KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 76us total 29.118ms
+00:00:22.485	9200	DEBUG		SharedPreferencesImpl - Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms_preferences.xml: [<1: 0, <2: 0, <4: 1, <8: 62, <16: 171, <32: 59, <64: 20, <128: 7, <256: 3, <512: 4, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+00:00:22.511	21623	WARN		.android.chrom - JIT profile information will not be recorded: profile file does not exits.
+00:00:22.565	2151	INFO		ActivityManager - Start proc 21660:com.android.chrome:sandboxed_process1/u0i694 for webview_service de.mobilesoftwareag.clevertanken/org.chromium.content.app.SandboxedProcessService1
+00:00:22.592	21496	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:22.592	21496	INFO		Adreno - Build Date                       : 11/02/18
+00:00:22.592	21496	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:22.593	21496	INFO		Adreno - Local Branch                     : 
+00:00:22.593	21496	INFO		Adreno - Remote Branch                    : 
+00:00:22.593	21496	INFO		Adreno - Remote Branch                    : 
+00:00:22.593	21496	INFO		Adreno - Reconstruct Branch               : 
+00:00:22.593	21496	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:22.619	21496	WARN		cr_media - Requires BLUETOOTH permission
+00:00:22.619	21496	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:22.619	21660	ERROR		dboxed_process - Not starting debugger since process cannot load the jdwp agent.
+00:00:22.619	21496	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:22.619	20118	INFO		formscompareap - Explicit concurrent copying GC freed 134(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 102us total 31.817ms
+00:00:22.619	21496	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:22.703	21496	INFO		GAv4 - Google Analytics 12.4.51 is starting up. To enable debug logging on a device run:
+00:00:22.703	21496	INFO		GAv4 -   adb shell setprop log.tag.GAv4 DEBUG
+00:00:22.703	21496	INFO		GAv4 -   adb logcat -s GAv4
+00:00:22.733	21660	INFO		cr_ChildProcessService - Creating new ChildProcessService pid=21660
+00:00:22.733	21496	WARN		GAv4 - String xml configuration name not recognized: ga_trackingId
+00:00:22.733	21496	WARN		GAv4 - Int xml configuration name not recognized: ga_sessionTimeout
+00:00:22.733	21496	WARN		GAv4 - String xml configuration name not recognized: ga_sampleFrequency
+00:00:22.733	21496	WARN		GAv4 - Bool xml configuration name not recognized: ga_autoActivityTracking
+00:00:22.733	21496	WARN		GAv4 - Bool xml configuration name not recognized: ga_reportUncaughtExceptions
+00:00:22.761	21660	INFO		cr_LibraryLoader - Time to load native libraries: 1 ms (timestamps 6829-6830)
+00:00:22.761	21660	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:22.761	21660	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:22.787	21070	DEBUG		Tealium-5.0.4 - Webview android.webkit.WebView{ac7f44a VFEDHVC.. ......I. 0,0-0,0} loaded successfully
+00:00:22.787	21496	WARN		GAv4 - CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+00:00:22.812	21496	WARN		System - A resource failed to call close. 
+00:00:22.812	21496	WARN		VideoCapabilities - Unrecognized profile 4 for video/hevc
+00:00:22.812	21496	WARN		VideoCapabilities - Unrecognized profile/level 0/3 for video/mpeg2
+00:00:22.897	21496	INFO		VideoCapabilities - Unsupported profile 4 for video/mp4v-es
+00:00:22.898	21496	DEBUG		AgreementInfo - readInfoFile()
+00:00:22.898	21496	DEBUG		AgreementInfo - readInfoFile(): AgreementAccepted: true
+00:00:22.898	21496	ASSERT		Adjust - PRODUCTION: Adjust is running in Production mode. Use this setting only for the build that you want to publish. Set the environment to `sandbox` if you want to test your app!
+00:00:22.898	21496	INFO		ab - Making Creator dynamically
+00:00:22.924	20118	INFO		formscompareap - Explicit concurrent copying GC freed 412(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 76us total 29.929ms
+00:00:22.924	21496	INFO		DynamiteModule - Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:221
+00:00:22.924	21496	INFO		DynamiteModule - Selected remote version of com.google.android.gms.maps_dynamite, version >= 221
+00:00:22.924	21496	VERBOSE		DynamiteModule - Dynamite loader version >= 2, using loadModule2NoCrashUtils
+00:00:22.949	21496	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:22.949	21496	WARN		ken:locarta_sd - Unsupported class loader
+00:00:22.978	21496	WARN		ken:locarta_sd - Skipping duplicate class check due to unsupported classloader
+00:00:23.032	21496	INFO		Google Maps Android API - Google Play services client version: 12451000
+00:00:23.061	21496	INFO		FXAappHelper - App path: /data/user/0/de.mobilesoftwareag.clevertanken
+00:00:23.062	20118	INFO		formscompareap - Explicit concurrent copying GC freed 204(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 104us total 28.579ms
+00:00:23.062	21496	INFO		Clever_Tanken-Clever_Tanken - (Clever_Tanken - 3.1.223) started successfully.
+00:00:23.062	21496	DEBUG		skia - --- Failed to create image decoder with message 'unimplemented'
+00:00:23.090	21496	DEBUG		getContext - Service not connected, register callback
+00:00:23.116	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10215/21496 NetworkRequest [ TRACK_DEFAULT id=2981, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ]
+00:00:23.116	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2981, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 58
+00:00:23.116	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2981, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 58
+00:00:23.116	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2981, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 58
+00:00:23.116	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2981, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10215] ] with score 58
+00:00:23.226	21496	ERROR		ken:locarta_sd - The String#value field is not present on Android versions >= 6.0
+00:00:23.226	21496	WARN		Ads - Update ad debug logging enablement as false
+00:00:23.283	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.284	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.284	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.284	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.284	21496	INFO		ken:locarta_sd - IncrementDisableThreadFlip blocked for 6.554ms
+00:00:23.284	21496	ERROR		ActivityThread - Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+00:00:23.313	20118	INFO		formscompareap - Explicit concurrent copying GC freed 316(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 73us total 29.023ms
+00:00:23.368	21102	WARN		JobInfo - Requested backoff +1ms for job 0 is too small; raising to +10s0ms
+00:00:23.368	21496	DEBUG		AgreementInfo - readInfoFile()
+00:00:23.368	21496	INFO		ken:locarta_sd - Background concurrent copying GC freed 10252(921KB) AllocSpace objects, 14(344KB) LOS objects, 49% free, 2MB/5MB, paused 6.088ms total 100.006ms
+00:00:23.368	21496	DEBUG		AgreementInfo - readInfoFile(): AgreementAccepted: true
+00:00:23.394	21496	DEBUG		InAppManager - Setup finished.
+00:00:23.394	21496	DEBUG		InAppManager - Setup successful. Querying inventory.
+00:00:23.394	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.394	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.394	21496	DEBUG		InAppManager - Query purchases finished.
+00:00:23.394	21496	DEBUG		InAppManager - Query inventory was successful.
+00:00:23.395	21496	DEBUG		InAppManager - User is NOT ADFREE
+00:00:23.395	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account determined from installer data - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.395	18551	INFO		Finsky - [2271] fny.d(1): de.mobilesoftwareag.clevertanken: Account from preferred account - [Dldm9876KQ2TNza5YnpvdbH1kXk]
+00:00:23.424	21496	DEBUG		InAppManager - Query inventory finished.
+00:00:23.424	21496	DEBUG		InAppManager - Query inventory was successful.
+00:00:23.476	21623	WARN		DynamiteModule - Local module descriptor class for com.google.android.gms.googlecertificates not found.
+00:00:23.476	20118	INFO		formscompareap - Explicit concurrent copying GC freed 241(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 83us total 31.128ms
+00:00:23.504	21623	WARN		.android.chrom - Unsupported class loader
+00:00:23.532	21623	INFO		DynamiteModule - Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+00:00:23.532	21623	INFO		DynamiteModule - Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+00:00:23.589	2867	DEBUG		TelephonyProvider - subIdString = 2 subId = 2
+00:00:23.616	9200	INFO		gle.android.gm - Background concurrent copying GC freed 259855(7MB) AllocSpace objects, 3(236KB) LOS objects, 50% free, 16MB/33MB, paused 210us total 240.332ms
+00:00:23.671	21623	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:23.672	21623	WARN		.android.chrom - Unsupported class loader
+00:00:23.701	20118	INFO		formscompareap - Explicit concurrent copying GC freed 255(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 197us total 33.059ms
+00:00:23.701	15492	DEBUG		TEST - Writing janks
+00:00:23.839	20118	INFO		formscompareap - Explicit concurrent copying GC freed 144(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 94us total 28.949ms
+00:00:24.283	20118	INFO		formscompareap - Explicit concurrent copying GC freed 437(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 69us total 29.178ms
+00:00:24.392	21102	INFO		Clever_Tanken-NCmqSrvMgr - destroy
+00:00:24.392	2151	INFO		ActivityManager - Killing 7133:com.motorola.timeweatherwidget/u0a132 (adj 904): empty #17
+00:00:24.393	2151	INFO		ActivityManager - Killing 19632:Mono.Android.DebugRuntime/u0a468 (adj 904): empty #18
+00:00:24.420	2151	WARN		libprocessgroup - kill(-7133, 9) failed: No such process
+00:00:24.420	2151	INFO		ActivityManager - Killing 19755:com.motorola.invisiblenet/u0a52 (adj 906): empty #19
+00:00:24.420	2151	WARN		libprocessgroup - kill(-7133, 9) failed: No such process
+00:00:24.420	20118	INFO		formscompareap - Explicit concurrent copying GC freed 163(49KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 99us total 31.456ms
+00:00:24.420	2151	WARN		libprocessgroup - kill(-7133, 9) failed: No such process
+00:00:24.450	1065	INFO		Zygote - Process 7133 exited due to signal (9)
+00:00:24.450	1065	INFO		Zygote - Process 19755 exited due to signal (9)
+00:00:24.450	2151	WARN		libprocessgroup - kill(-7133, 9) failed: No such process
+00:00:24.450	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10132 pid 7133 in 38ms
+00:00:24.450	2151	WARN		libprocessgroup - kill(-19632, 9) failed: No such process
+00:00:24.450	1065	INFO		Zygote - Process 19632 exited due to signal (9)
+00:00:24.450	2151	WARN		libprocessgroup - kill(-19632, 9) failed: No such process
+00:00:24.450	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10468 pid 19632 in 15ms
+00:00:24.450	2151	WARN		libprocessgroup - kill(-19755, 9) failed: No such process
+00:00:24.450	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10052 pid 19755 in 0ms
+00:00:24.450	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:24.450	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:24.450	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:24.537	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:24.683	20118	INFO		formscompareap - Explicit concurrent copying GC freed 409(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 70us total 28.634ms
+00:00:24.740	2151	INFO		system_server - Background concurrent copying GC freed 454234(17MB) AllocSpace objects, 140(6MB) LOS objects, 42% free, 32MB/56MB, paused 1.247ms total 285.828ms
+00:00:24.824	20118	INFO		formscompareap - Explicit concurrent copying GC freed 664(42KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 86us total 27.972ms
+00:00:24.960	20118	INFO		formscompareap - Explicit concurrent copying GC freed 490(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 67us total 27.918ms
+00:00:25.071	20118	INFO		formscompareap - Explicit concurrent copying GC freed 133(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 69us total 27.282ms
+00:00:25.323	15492	DEBUG		TEST - Writing janks
+00:00:25.599	20118	INFO		formscompareap - Explicit concurrent copying GC freed 410(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 69us total 28.198ms
+00:00:25.796	20118	INFO		formscompareap - Explicit concurrent copying GC freed 174(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 82us total 31.195ms
+00:00:25.995	20118	INFO		formscompareap - Explicit concurrent copying GC freed 288(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 74us total 29.303ms
+00:00:26.128	20118	INFO		formscompareap - Explicit concurrent copying GC freed 110(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 76us total 28.105ms
+00:00:26.348	20118	INFO		formscompareap - Explicit concurrent copying GC freed 431(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 62us total 28.147ms
+00:00:26.459	20118	INFO		formscompareap - Explicit concurrent copying GC freed 193(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 67us total 28.027ms
+00:00:26.546	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:26.659	20118	INFO		formscompareap - Explicit concurrent copying GC freed 313(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 72us total 28.720ms
+00:00:26.818	20118	INFO		formscompareap - Explicit concurrent copying GC freed 194(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 86us total 27.972ms
+00:00:26.928	15492	DEBUG		TEST - Writing janks
+00:00:26.983	20118	INFO		formscompareap - Explicit concurrent copying GC freed 261(38KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 63us total 29.058ms
+00:00:27.126	20118	INFO		formscompareap - Explicit concurrent copying GC freed 196(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 75us total 28.560ms
+00:00:27.291	20118	INFO		formscompareap - Explicit concurrent copying GC freed 259(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 84us total 28.865ms
+00:00:27.433	20118	INFO		formscompareap - Explicit concurrent copying GC freed 222(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 86us total 28.366ms
+00:00:27.579	20118	INFO		formscompareap - Explicit concurrent copying GC freed 225(36KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 98us total 28.926ms
+00:00:27.695	20118	INFO		formscompareap - Explicit concurrent copying GC freed 235(34KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 76us total 28.615ms
+00:00:27.893	20118	INFO		formscompareap - Explicit concurrent copying GC freed 341(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 69us total 29.063ms
+00:00:28.026	20118	INFO		formscompareap - Explicit concurrent copying GC freed 230(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 28.793ms
+00:00:28.167	20118	INFO		formscompareap - Explicit concurrent copying GC freed 206(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 66us total 29.171ms
+00:00:28.299	20118	INFO		formscompareap - Explicit concurrent copying GC freed 154(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 69us total 28.740ms
+00:00:28.409	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:28.409	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:28.496	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:28.524	15492	DEBUG		TEST - Writing janks
+00:00:28.603	20118	INFO		formscompareap - Explicit concurrent copying GC freed 258(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 72us total 31.459ms
+00:00:28.798	20118	INFO		formscompareap - Explicit concurrent copying GC freed 138(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 144us total 30.949ms
+00:00:29.077	20118	INFO		formscompareap - Explicit concurrent copying GC freed 411(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 65us total 30.399ms
+00:00:29.243	20118	INFO		formscompareap - Explicit concurrent copying GC freed 189(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 73us total 28.485ms
+00:00:29.384	20118	INFO		formscompareap - Explicit concurrent copying GC freed 183(29KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 29.124ms
+00:00:29.500	20118	INFO		formscompareap - Explicit concurrent copying GC freed 247(26KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 86us total 28.257ms
+00:00:29.674	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:29.674	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:29.675	20118	INFO		formscompareap - Explicit concurrent copying GC freed 252(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 66us total 29.799ms
+00:00:29.704	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:29.848	20118	INFO		formscompareap - Explicit concurrent copying GC freed 286(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 72us total 28.574ms
+00:00:29.984	20118	INFO		formscompareap - Explicit concurrent copying GC freed 226(38KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 68us total 30.757ms
+00:00:30.124	15492	DEBUG		TEST - Writing janks
+00:00:30.124	20118	INFO		formscompareap - Explicit concurrent copying GC freed 203(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 61us total 29.989ms
+00:00:30.284	20118	INFO		formscompareap - Explicit concurrent copying GC freed 267(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 71us total 30.515ms
+00:00:30.418	20118	INFO		formscompareap - Explicit concurrent copying GC freed 184(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 90us total 29.797ms
+00:00:30.578	20118	INFO		formscompareap - Explicit concurrent copying GC freed 304(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 69us total 30.142ms
+00:00:30.719	20118	INFO		formscompareap - Explicit concurrent copying GC freed 225(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 71us total 29.559ms
+00:00:30.859	20118	INFO		formscompareap - Explicit concurrent copying GC freed 186(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 71us total 29.997ms
+00:00:30.997	20118	INFO		formscompareap - Explicit concurrent copying GC freed 215(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 67us total 30.074ms
+00:00:31.134	20118	INFO		formscompareap - Explicit concurrent copying GC freed 222(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 71us total 30.388ms
+00:00:31.301	20118	INFO		formscompareap - Explicit concurrent copying GC freed 197(47KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 80us total 29.751ms
+00:00:31.359	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:31.417	20118	INFO		formscompareap - Explicit concurrent copying GC freed 201(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 72us total 29.598ms
+00:00:31.584	20118	INFO		formscompareap - Explicit concurrent copying GC freed 221(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 78us total 30.462ms
+00:00:31.747	15492	DEBUG		TEST - Writing janks
+00:00:31.747	20118	INFO		formscompareap - Explicit concurrent copying GC freed 259(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 72us total 31.078ms
+00:00:31.858	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:31.858	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:31.886	20118	INFO		formscompareap - Explicit concurrent copying GC freed 206(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 66us total 29.772ms
+00:00:31.887	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:32.024	20118	INFO		formscompareap - Explicit concurrent copying GC freed 245(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 152us total 30ms
+00:00:32.159	20118	INFO		formscompareap - Explicit concurrent copying GC freed 217(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 68us total 29.556ms
+00:00:32.271	20118	INFO		formscompareap - Explicit concurrent copying GC freed 140(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 75us total 29.887ms
+00:00:32.438	20118	INFO		formscompareap - Explicit concurrent copying GC freed 262(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 66us total 29.315ms
+00:00:32.549	20118	INFO		formscompareap - Explicit concurrent copying GC freed 167(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 64us total 30.314ms
+00:00:32.717	20118	INFO		formscompareap - Explicit concurrent copying GC freed 331(40KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 68us total 30.046ms
+00:00:32.834	20118	INFO		formscompareap - Explicit concurrent copying GC freed 135(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 67us total 30.725ms
+00:00:32.972	20118	INFO		formscompareap - Explicit concurrent copying GC freed 252(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 80us total 29.310ms
+00:00:33.102	20118	INFO		formscompareap - Explicit concurrent copying GC freed 217(22KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 66us total 29.873ms
+00:00:33.267	20118	INFO		formscompareap - Explicit concurrent copying GC freed 206(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 68us total 29.640ms
+00:00:33.346	15492	DEBUG		TEST - Writing janks
+00:00:33.372	20118	INFO		formscompareap - Explicit concurrent copying GC freed 133(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 71us total 30.809ms
+00:00:33.505	20118	INFO		formscompareap - Explicit concurrent copying GC freed 249(34KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 90us total 30.267ms
+00:00:33.646	20118	INFO		formscompareap - Explicit concurrent copying GC freed 171(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 64us total 30.853ms
+00:00:33.787	20118	INFO		formscompareap - Explicit concurrent copying GC freed 233(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 205us total 30.250ms
+00:00:33.930	20118	INFO		formscompareap - Explicit concurrent copying GC freed 179(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 61us total 30.558ms
+00:00:34.075	20118	INFO		formscompareap - Explicit concurrent copying GC freed 190(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 87us total 30.748ms
+00:00:34.211	20118	INFO		formscompareap - Explicit concurrent copying GC freed 137(29KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 66us total 29.688ms
+00:00:34.429	20118	INFO		formscompareap - Explicit concurrent copying GC freed 198(26KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 75us total 29.972ms
+00:00:34.568	20118	INFO		formscompareap - Explicit concurrent copying GC freed 262(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 70us total 30.046ms
+00:00:34.817	20118	INFO		formscompareap - Explicit concurrent copying GC freed 275(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 79us total 33.026ms
+00:00:34.928	15492	DEBUG		TEST - Writing janks
+00:00:34.955	20118	INFO		formscompareap - Explicit concurrent copying GC freed 198(23KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 71us total 31.118ms
+00:00:35.118	20118	INFO		formscompareap - Explicit concurrent copying GC freed 199(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 76us total 29.553ms
+00:00:35.259	20118	INFO		formscompareap - Explicit concurrent copying GC freed 127(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 69us total 30.352ms
+00:00:35.418	20118	INFO		formscompareap - Explicit concurrent copying GC freed 258(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 67us total 29.988ms
+00:00:35.525	20118	INFO		formscompareap - Explicit concurrent copying GC freed 159(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 65us total 30.375ms
+00:00:35.613	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:35.613	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:35.671	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:35.701	20118	INFO		formscompareap - Explicit concurrent copying GC freed 323(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 65us total 30.393ms
+00:00:35.808	20118	INFO		formscompareap - Explicit concurrent copying GC freed 125(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 70us total 30.641ms
+00:00:35.950	20118	INFO		formscompareap - Explicit concurrent copying GC freed 247(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 70us total 29.844ms
+00:00:36.059	20118	INFO		formscompareap - Explicit concurrent copying GC freed 174(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 70us total 30.311ms
+00:00:36.201	20118	INFO		formscompareap - Explicit concurrent copying GC freed 266(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 80us total 29.830ms
+00:00:36.316	20118	INFO		formscompareap - Explicit concurrent copying GC freed 161(23KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/5MB, paused 64us total 31.442ms
+00:00:36.478	20118	INFO		formscompareap - Explicit concurrent copying GC freed 229(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 69us total 31.728ms
+00:00:36.559	15492	DEBUG		TEST - Writing janks
+00:00:36.588	20118	INFO		formscompareap - Explicit concurrent copying GC freed 103(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 77us total 32.088ms
+00:00:36.734	20118	INFO		formscompareap - Explicit concurrent copying GC freed 301(56KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 98us total 31.145ms
+00:00:36.849	20118	INFO		formscompareap - Explicit concurrent copying GC freed 133(47KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 161us total 31.366ms
+00:00:37.018	20118	INFO		formscompareap - Explicit concurrent copying GC freed 236(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 91us total 30.984ms
+00:00:37.128	20118	INFO		formscompareap - Explicit concurrent copying GC freed 162(47KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 64us total 31.270ms
+00:00:37.294	20118	INFO		formscompareap - Explicit concurrent copying GC freed 242(39KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 87us total 31.446ms
+00:00:37.406	20118	INFO		formscompareap - Explicit concurrent copying GC freed 168(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 70us total 31.009ms
+00:00:37.571	20118	INFO		formscompareap - Explicit concurrent copying GC freed 229(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 69us total 30.678ms
+00:00:37.685	20118	INFO		formscompareap - Explicit concurrent copying GC freed 121(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 87us total 31.845ms
+00:00:37.851	20118	INFO		formscompareap - Explicit concurrent copying GC freed 256(40KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 97us total 31.181ms
+00:00:37.956	20118	INFO		formscompareap - Explicit concurrent copying GC freed 130(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 73us total 31.020ms
+00:00:38.144	15492	DEBUG		TEST - Writing janks
+00:00:38.144	20118	INFO		formscompareap - Explicit concurrent copying GC freed 172(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 110us total 33.796ms
+00:00:38.278	20118	INFO		formscompareap - Explicit concurrent copying GC freed 172(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 64us total 31.161ms
+00:00:38.446	20118	INFO		formscompareap - Explicit concurrent copying GC freed 183(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 98us total 30.300ms
+00:00:38.609	20118	INFO		formscompareap - Explicit concurrent copying GC freed 201(22KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 69us total 32.607ms
+00:00:38.800	20118	INFO		formscompareap - Explicit concurrent copying GC freed 250(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 83us total 30.593ms
+00:00:38.859	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:38.859	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:38.859	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:38.859	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:38.859	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:38.859	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:38.912	20118	INFO		formscompareap - Explicit concurrent copying GC freed 151(23KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 74us total 34.500ms
+00:00:39.082	20118	INFO		formscompareap - Explicit concurrent copying GC freed 206(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 95us total 30.714ms
+00:00:39.161	20118	INFO		formscompareap - Explicit concurrent copying GC freed 69(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 65us total 31.491ms
+00:00:39.305	20118	INFO		formscompareap - Explicit concurrent copying GC freed 293(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 30.723ms
+00:00:39.418	20118	INFO		formscompareap - Explicit concurrent copying GC freed 65(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 31.134ms
+00:00:39.584	20118	INFO		formscompareap - Explicit concurrent copying GC freed 285(40KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 88us total 30.746ms
+00:00:39.692	20118	INFO		formscompareap - Explicit concurrent copying GC freed 66(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 60us total 31.731ms
+00:00:39.746	15492	DEBUG		TEST - Writing janks
+00:00:39.858	20118	INFO		formscompareap - Explicit concurrent copying GC freed 282(25KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 70us total 30.819ms
+00:00:39.886	1154	WARN		qti_sensors_hal - processReportInd: lux: 9, ch0: 0, ch1: 1473, pData: 135, pOffset: 3
+00:00:39.886	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:39.886	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:39.886	2151	INFO		chatty - uid=1000 system_server identical 4 lines
+00:00:39.886	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:39.886	2151	INFO		ActivityManager - Killing 18178:com.google.android.apps.turbo/u0a176 (adj 904): empty #17
+00:00:39.886	2151	WARN		libprocessgroup - kill(-18178, 9) failed: No such process
+00:00:39.913	2151	WARN		libprocessgroup - kill(-18178, 9) failed: No such process
+00:00:39.913	1065	INFO		Zygote - Process 18178 exited due to signal (9)
+00:00:39.913	2151	WARN		libprocessgroup - kill(-18178, 9) failed: No such process
+00:00:39.913	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10176 pid 18178 in 24ms
+00:00:39.942	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:39.994	20118	INFO		formscompareap - Explicit concurrent copying GC freed 166(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 75us total 31.359ms
+00:00:40.188	20118	INFO		formscompareap - Explicit concurrent copying GC freed 210(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 69us total 30.944ms
+00:00:40.303	20118	INFO		formscompareap - Explicit concurrent copying GC freed 162(23KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 87us total 32.955ms
+00:00:40.547	20118	INFO		formscompareap - Explicit concurrent copying GC freed 179(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 86us total 35.733ms
+00:00:40.692	20118	INFO		formscompareap - Explicit concurrent copying GC freed 184(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 31.690ms
+00:00:40.884	20118	INFO		formscompareap - Explicit concurrent copying GC freed 196(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 31.008ms
+00:00:41.081	20118	INFO		formscompareap - Explicit concurrent copying GC freed 191(22KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 91us total 38.547ms
+00:00:41.221	20118	INFO		formscompareap - Waiting for a blocking GC Explicit
+00:00:41.276	20118	INFO		formscompareap - Explicit concurrent copying GC freed 192(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 98us total 31.572ms
+00:00:41.353	15492	DEBUG		TEST - Writing janks
+00:00:41.378	20118	INFO		formscompareap - Explicit concurrent copying GC freed 84(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 69us total 33.240ms
+00:00:41.546	20118	INFO		formscompareap - Explicit concurrent copying GC freed 214(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 77us total 32.049ms
+00:00:41.630	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:41.630	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:41.631	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:41.710	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:41.787	20118	INFO		formscompareap - Explicit concurrent copying GC freed 176(47KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 79us total 32.209ms
+00:00:41.976	20118	INFO		formscompareap - Explicit concurrent copying GC freed 204(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 70us total 31.179ms
+00:00:42.057	20118	INFO		formscompareap - Explicit concurrent copying GC freed 153(22KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 80us total 31.958ms
+00:00:42.254	20118	INFO		formscompareap - Explicit concurrent copying GC freed 282(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 31.747ms
+00:00:42.370	20118	INFO		formscompareap - Explicit concurrent copying GC freed 155(23KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 69us total 34.395ms
+00:00:42.542	20118	INFO		formscompareap - Explicit concurrent copying GC freed 220(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 93us total 33.095ms
+00:00:42.652	20118	INFO		formscompareap - Explicit concurrent copying GC freed 87(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 32.717ms
+00:00:42.844	20118	INFO		formscompareap - Explicit concurrent copying GC freed 317(40KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 90us total 31.829ms
+00:00:42.945	20118	INFO		formscompareap - Explicit concurrent copying GC freed 149(23KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 33.779ms
+00:00:42.974	15492	DEBUG		TEST - Writing janks
+00:00:43.113	20118	INFO		formscompareap - Explicit concurrent copying GC freed 216(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 86us total 31.837ms
+00:00:43.202	20118	INFO		formscompareap - Explicit concurrent copying GC freed 55(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 70us total 32.490ms
+00:00:43.371	20118	INFO		formscompareap - Explicit concurrent copying GC freed 252(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 79us total 32.329ms
+00:00:43.450	20118	INFO		formscompareap - Explicit concurrent copying GC freed 55(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 65us total 32.507ms
+00:00:43.677	20118	INFO		formscompareap - Explicit concurrent copying GC freed 338(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 80us total 32.044ms
+00:00:43.735	20118	INFO		formscompareap - Explicit concurrent copying GC freed 37(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 69us total 32.823ms
+00:00:43.909	20118	INFO		formscompareap - Explicit concurrent copying GC freed 244(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 78us total 33.296ms
+00:00:43.993	2151	INFO		ActivityManager - Killing 16157:com.dolby.dax2appUI/u0a142 (adj 904): empty #17
+00:00:43.993	2151	INFO		ActivityManager - Killing 20049:com.android.providers.calendar/u0a16 (adj 904): empty #18
+00:00:43.993	2151	WARN		libprocessgroup - kill(-16157, 9) failed: No such process
+00:00:43.993	2151	WARN		libprocessgroup - kill(-16157, 9) failed: No such process
+00:00:43.993	1065	INFO		Zygote - Process 20049 exited due to signal (9)
+00:00:43.993	1065	INFO		Zygote - Process 16157 exited due to signal (9)
+00:00:43.993	2151	WARN		libprocessgroup - kill(-16157, 9) failed: No such process
+00:00:43.993	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10142 pid 16157 in 21ms
+00:00:43.993	2151	WARN		libprocessgroup - kill(-20049, 9) failed: No such process
+00:00:43.993	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10016 pid 20049 in 0ms
+00:00:44.045	20118	INFO		formscompareap - Explicit concurrent copying GC freed 113(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 63us total 32.877ms
+00:00:44.239	20118	INFO		formscompareap - Explicit concurrent copying GC freed 283(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 32.224ms
+00:00:44.295	20118	INFO		formscompareap - Explicit concurrent copying GC freed 37(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 32.539ms
+00:00:44.483	20118	INFO		formscompareap - Explicit concurrent copying GC freed 180(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 81us total 32.131ms
+00:00:44.564	15492	DEBUG		TEST - Writing janks
+00:00:44.592	20118	INFO		formscompareap - Explicit concurrent copying GC freed 107(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 66us total 32.843ms
+00:00:44.769	20118	INFO		formscompareap - Explicit concurrent copying GC freed 237(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 32.542ms
+00:00:44.905	20118	INFO		formscompareap - Explicit concurrent copying GC freed 122(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 76us total 33.191ms
+00:00:45.099	20118	INFO		formscompareap - Explicit concurrent copying GC freed 235(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 33.486ms
+00:00:45.209	20118	INFO		formscompareap - Explicit concurrent copying GC freed 101(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 71us total 32.733ms
+00:00:45.482	20118	INFO		formscompareap - Explicit concurrent copying GC freed 228(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 92us total 34.998ms
+00:00:45.569	20118	INFO		formscompareap - Explicit concurrent copying GC freed 62(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 71us total 34.263ms
+00:00:45.795	20118	INFO		formscompareap - Explicit concurrent copying GC freed 342(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 32.752ms
+00:00:45.852	20118	INFO		formscompareap - Explicit concurrent copying GC freed 43(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 33.691ms
+00:00:46.044	20118	INFO		formscompareap - Explicit concurrent copying GC freed 252(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 82us total 32.970ms
+00:00:46.152	20118	INFO		formscompareap - Explicit concurrent copying GC freed 103(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 66us total 32.959ms
+00:00:46.181	15492	DEBUG		TEST - Writing janks
+00:00:46.318	20118	INFO		formscompareap - Explicit concurrent copying GC freed 228(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 68us total 33.228ms
+00:00:46.430	20118	INFO		formscompareap - Explicit concurrent copying GC freed 61(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 65us total 33.990ms
+00:00:46.601	20118	INFO		formscompareap - Explicit concurrent copying GC freed 217(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 76us total 32.261ms
+00:00:46.679	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:46.680	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -78
+00:00:46.680	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:46.709	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:46.709	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:46.709	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:46.736	20118	INFO		formscompareap - Explicit concurrent copying GC freed 127(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 67us total 33.885ms
+00:00:46.926	20118	INFO		formscompareap - Explicit concurrent copying GC freed 181(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 71us total 32.520ms
+00:00:47.037	20118	INFO		formscompareap - Explicit concurrent copying GC freed 80(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 76us total 33.943ms
+00:00:47.228	20118	INFO		formscompareap - Explicit concurrent copying GC freed 267(49KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 32.587ms
+00:00:47.339	20118	INFO		formscompareap - Explicit concurrent copying GC freed 55(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 71us total 33.560ms
+00:00:47.513	20118	INFO		formscompareap - Explicit concurrent copying GC freed 217(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 33.644ms
+00:00:47.622	20118	INFO		formscompareap - Explicit concurrent copying GC freed 100(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 93us total 35.157ms
+00:00:47.761	15492	DEBUG		TEST - Writing janks
+00:00:47.815	20118	INFO		formscompareap - Explicit concurrent copying GC freed 228(48KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 104us total 32.542ms
+00:00:47.869	20118	INFO		formscompareap - Explicit concurrent copying GC freed 35(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 66us total 33.071ms
+00:00:48.066	20118	INFO		formscompareap - Explicit concurrent copying GC freed 312(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 91us total 32.740ms
+00:00:48.144	20118	INFO		formscompareap - Explicit concurrent copying GC freed 45(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 65us total 33.112ms
+00:00:48.344	20118	INFO		formscompareap - Explicit concurrent copying GC freed 294(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 32.861ms
+00:00:48.403	20118	INFO		formscompareap - Explicit concurrent copying GC freed 27(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 74us total 33.337ms
+00:00:48.596	20118	INFO		formscompareap - Explicit concurrent copying GC freed 223(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 32.510ms
+00:00:48.651	20118	INFO		formscompareap - Explicit concurrent copying GC freed 25(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 75us total 33.297ms
+00:00:48.842	20118	INFO		formscompareap - Explicit concurrent copying GC freed 158(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 75us total 33.739ms
+00:00:48.983	20118	INFO		formscompareap - Explicit concurrent copying GC freed 130(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 65us total 33.227ms
+00:00:49.178	20118	INFO		formscompareap - Explicit concurrent copying GC freed 229(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 81us total 32.774ms
+00:00:49.178	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3952138, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150505, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=59, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=385, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-158203, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=300, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1486320, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:49.203	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:49.203	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:49.203	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:49.203	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:49.313	20118	INFO		formscompareap - Explicit concurrent copying GC freed 142(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 82us total 33.782ms
+00:00:49.372	15492	DEBUG		TEST - Writing janks
+00:00:49.514	20118	INFO		formscompareap - Explicit concurrent copying GC freed 222(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 73us total 32.468ms
+00:00:49.595	20118	INFO		formscompareap - Explicit concurrent copying GC freed 65(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 65us total 33.357ms
+00:00:49.928	20118	INFO		formscompareap - Explicit concurrent copying GC freed 362(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 33.388ms
+00:00:50.010	20118	INFO		formscompareap - Explicit concurrent copying GC freed 37(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 70us total 34.211ms
+00:00:50.201	20118	INFO		formscompareap - Explicit concurrent copying GC freed 244(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 85us total 33.837ms
+00:00:50.259	20118	INFO		formscompareap - Explicit concurrent copying GC freed 39(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 65us total 34.300ms
+00:00:50.460	20118	INFO		formscompareap - Explicit concurrent copying GC freed 265(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 33.307ms
+00:00:50.538	20118	INFO		formscompareap - Explicit concurrent copying GC freed 43(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 33.932ms
+00:00:50.846	20118	INFO		formscompareap - Explicit concurrent copying GC freed 217(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 109us total 36.787ms
+00:00:50.959	20118	INFO		formscompareap - Explicit concurrent copying GC freed 82(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 67us total 33.838ms
+00:00:50.985	15492	DEBUG		TEST - Writing janks
+00:00:51.182	20118	INFO		formscompareap - Explicit concurrent copying GC freed 311(41KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 86us total 33.888ms
+00:00:51.270	20118	INFO		formscompareap - Explicit concurrent copying GC freed 87(22KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 33.936ms
+00:00:51.588	20118	INFO		formscompareap - Explicit concurrent copying GC freed 345(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 36.860ms
+00:00:51.670	20118	INFO		formscompareap - Explicit concurrent copying GC freed 21(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 34.311ms
+00:00:51.889	20118	INFO		formscompareap - Explicit concurrent copying GC freed 161(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 77us total 34.817ms
+00:00:51.977	20118	INFO		formscompareap - Explicit concurrent copying GC freed 56(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 83us total 35.280ms
+00:00:52.333	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 600000Displacement : 0.000000; Accuracy : 1
+00:00:52.334	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:52.334	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:52.334	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:52.420	20118	INFO		formscompareap - Explicit concurrent copying GC freed 161(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 35.665ms
+00:00:52.587	15492	DEBUG		TEST - Writing janks
+00:00:52.694	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:52.695	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -77
+00:00:52.720	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:52.720	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:52.720	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:52.720	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:53.687	20118	INFO		formscompareap - Explicit concurrent copying GC freed 213(22KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 69us total 35.017ms
+00:00:53.881	20118	INFO		formscompareap - Explicit concurrent copying GC freed 253(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 83us total 33.735ms
+00:00:53.969	20118	INFO		formscompareap - Explicit concurrent copying GC freed 27(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 34.064ms
+00:00:54.194	15492	DEBUG		TEST - Writing janks
+00:00:54.194	20118	INFO		formscompareap - Explicit concurrent copying GC freed 258(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 35.101ms
+00:00:54.253	20118	INFO		formscompareap - Explicit concurrent copying GC freed 37(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 82us total 34.274ms
+00:00:54.479	20118	INFO		formscompareap - Explicit concurrent copying GC freed 200(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 70us total 33.658ms
+00:00:54.538	20118	INFO		formscompareap - Explicit concurrent copying GC freed 39(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 66us total 34.698ms
+00:00:54.770	20118	INFO		formscompareap - Explicit concurrent copying GC freed 298(40KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 34.138ms
+00:00:54.823	20118	INFO		formscompareap - Explicit concurrent copying GC freed 41(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 35.087ms
+00:00:55.044	20118	INFO		formscompareap - Explicit concurrent copying GC freed 205(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 77us total 34.569ms
+00:00:55.044	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:55.127	20118	INFO		formscompareap - Explicit concurrent copying GC freed 39(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 35.791ms
+00:00:55.454	20118	INFO		formscompareap - Explicit concurrent copying GC freed 257(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 84us total 37.362ms
+00:00:55.536	20118	INFO		formscompareap - Explicit concurrent copying GC freed 41(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 34.305ms
+00:00:55.782	15492	DEBUG		TEST - Writing janks
+00:00:55.782	20118	INFO		formscompareap - Explicit concurrent copying GC freed 179(23KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 195us total 37.780ms
+00:00:55.892	20118	INFO		formscompareap - Explicit concurrent copying GC freed 81(30KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 63us total 35.208ms
+00:00:56.137	20118	INFO		formscompareap - Explicit concurrent copying GC freed 147(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 159us total 33.986ms
+00:00:56.192	2151	DEBUG		WificondControl - Scan result ready event
+00:00:56.326	20118	INFO		formscompareap - Explicit concurrent copying GC freed 194(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 66us total 35.243ms
+00:00:56.546	20118	INFO		formscompareap - Explicit concurrent copying GC freed 237(24KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 69us total 34.898ms
+00:00:56.632	20118	INFO		formscompareap - Explicit concurrent copying GC freed 47(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 65us total 35.074ms
+00:00:56.835	20118	INFO		formscompareap - Explicit concurrent copying GC freed 195(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 86us total 33.855ms
+00:00:56.941	20118	INFO		formscompareap - Explicit concurrent copying GC freed 107(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 74us total 34.700ms
+00:00:57.226	20118	INFO		formscompareap - Explicit concurrent copying GC freed 199(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 74us total 35.108ms
+00:00:57.339	20118	INFO		formscompareap - Explicit concurrent copying GC freed 72(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 71us total 35.351ms
+00:00:57.395	15492	DEBUG		TEST - Writing janks
+00:00:57.562	20118	INFO		formscompareap - Explicit concurrent copying GC freed 285(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 77us total 34.736ms
+00:00:57.649	20118	INFO		formscompareap - Explicit concurrent copying GC freed 39(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 35.897ms
+00:00:57.876	20118	INFO		formscompareap - Explicit concurrent copying GC freed 185(23KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 74us total 34.987ms
+00:00:57.986	20118	INFO		formscompareap - Explicit concurrent copying GC freed 71(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 62us total 35.943ms
+00:00:58.183	20118	INFO		formscompareap - Explicit concurrent copying GC freed 220(30KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 71us total 34.821ms
+00:00:58.241	20118	INFO		formscompareap - Explicit concurrent copying GC freed 15(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 36.036ms
+00:00:58.462	20118	INFO		formscompareap - Explicit concurrent copying GC freed 317(34KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 73us total 34.110ms
+00:00:58.520	20118	INFO		formscompareap - Explicit concurrent copying GC freed 15(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 68us total 35.834ms
+00:00:58.737	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:58.737	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -80
+00:00:58.737	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:58.737	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:58.737	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:58.737	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:58.792	20118	INFO		formscompareap - Explicit concurrent copying GC freed 105(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 73us total 34.553ms
+00:00:58.954	20118	INFO		formscompareap - Explicit concurrent copying GC freed 195(22KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 35.615ms
+00:00:58.984	15492	DEBUG		TEST - Writing janks
+00:00:59.181	20118	INFO		formscompareap - Explicit concurrent copying GC freed 284(33KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 119us total 34.799ms
+00:00:59.266	20118	INFO		formscompareap - Explicit concurrent copying GC freed 43(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 64us total 35.750ms
+00:00:59.514	20118	INFO		formscompareap - Explicit concurrent copying GC freed 180(23KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 69us total 34.949ms
+00:00:59.623	20118	INFO		formscompareap - Explicit concurrent copying GC freed 74(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 66us total 35.511ms
+00:00:59.936	20118	INFO		formscompareap - Explicit concurrent copying GC freed 149(24KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 35.141ms
+00:01:00.392	20118	INFO		formscompareap - Explicit concurrent copying GC freed 222(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 80us total 39.974ms
+00:01:00.609	15492	DEBUG		TEST - Writing janks
+00:01:00.637	20118	INFO		formscompareap - Explicit concurrent copying GC freed 283(40KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 73us total 35.247ms
+00:01:00.692	20118	INFO		formscompareap - Explicit concurrent copying GC freed 19(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 79us total 35.534ms
+00:01:00.888	20118	INFO		formscompareap - Explicit concurrent copying GC freed 181(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 72us total 34.956ms
+00:01:01.027	20118	INFO		formscompareap - Explicit concurrent copying GC freed 113(31KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 67us total 35.565ms
+00:01:01.254	20118	INFO		formscompareap - Explicit concurrent copying GC freed 220(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 81us total 34.609ms
+00:01:01.311	20118	INFO		formscompareap - Explicit concurrent copying GC freed 9(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 59us total 35.248ms
+00:01:01.542	20118	INFO		formscompareap - Explicit concurrent copying GC freed 322(33KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 85us total 35.508ms
+00:01:01.595	20118	INFO		formscompareap - Explicit concurrent copying GC freed 17(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 79us total 34.974ms
+00:01:01.817	20118	INFO		formscompareap - Explicit concurrent copying GC freed 248(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 89us total 35.155ms
+00:01:01.875	20118	INFO		formscompareap - Explicit concurrent copying GC freed 13(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 67us total 35.632ms
+00:01:02.072	20118	INFO		formscompareap - Explicit concurrent copying GC freed 217(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 71us total 34.619ms
+00:01:02.124	20118	INFO		formscompareap - Explicit concurrent copying GC freed 9(32KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 3MB/6MB, paused 62us total 35.204ms
+00:01:02.212	15492	DEBUG		TEST - Writing janks
+00:01:02.320	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:01:02.320	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:01:02.320	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:01:02.347	20118	INFO		formscompareap - Explicit concurrent copying GC freed 281(39KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 86us total 36.591ms
+00:01:02.374	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:01:02.404	20118	INFO		formscompareap - Explicit concurrent copying GC freed 19(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 74us total 36.159ms
+00:01:02.626	20118	INFO		formscompareap - Explicit concurrent copying GC freed 240(38KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 72us total 35.450ms
+00:01:02.678	20118	INFO		formscompareap - Explicit concurrent copying GC freed 11(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 62us total 35.508ms
+00:01:02.898	20118	INFO		formscompareap - Explicit concurrent copying GC freed 269(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 76us total 36.265ms
+00:01:02.954	20118	INFO		formscompareap - Explicit concurrent copying GC freed 9(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 68us total 36.056ms
+00:01:03.150	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:01:03.175	20118	INFO		formscompareap - Explicit concurrent copying GC freed 236(32KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 93us total 35.491ms
+00:01:03.259	20118	INFO		formscompareap - Explicit concurrent copying GC freed 15(31KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 78us total 36.302ms

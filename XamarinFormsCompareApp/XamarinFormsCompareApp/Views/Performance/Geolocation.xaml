@@ -7,7 +7,6 @@
     <FlexLayout Direction="Column">
         <Label x:Name="Lat"></Label>
         <Label x:Name="Long"></Label>
-        <Label x:Name="Watcher"></Label>
         <Button Text="Get Location" Clicked="getLocation" ></Button>
     </FlexLayout>
 

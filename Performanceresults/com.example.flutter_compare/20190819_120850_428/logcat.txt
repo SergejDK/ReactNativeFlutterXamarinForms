@@ -1,0 +1,1341 @@
+Timestamp	App	Log Level	Message
+00:00:01.123	17643	ERROR		GameBenchD - Starting cpu thread - 15583 
+00:00:01.149	17643	ERROR		GameBenchD - --------- beginning of system
+00:00:01.149	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.174	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.174	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.200	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.200	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.200	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.200	17643	WARN		FileIOThread - type=1400 audit(0.0:37636): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.200	15492	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.200	15492	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.200	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.200	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.200	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.228	15492	INFO		MetricsTowrite - 6
+00:00:01.254	15492	DEBUG		TEST - Writing janks
+00:00:01.254	2151	WARN		ProcessCpuTracker - Skipping unknown process pid 15591
+00:00:01.392	15492	INFO		GameBench3 - Pid for com.example.flutter_compare - 15296
+00:00:01.392	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.example.flutter_compare is -15296
+00:00:01.392	15492	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.526	15492	INFO		GameBench3 - Pid for com.example.flutter_compare - 15296
+00:00:01.526	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.553	15492	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.553	15492	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.553	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.553	15492	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.553	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.554	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.554	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.554	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.554	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.640	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.815	15492	INFO		GameBench3 - Pid for com.example.flutter_compare - 15296
+00:00:01.815	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.example.flutter_compare is -15296
+00:00:01.872	15492	WARN		System - A resource failed to call close. 
+00:00:02.066	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:02.505	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.586	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:02.586	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:02.615	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:02.615	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:02.615	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:02.644	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:02.672	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:02.760	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:02.760	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:02.760	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:02.786	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:02.815	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.841	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:02.868	15492	DEBUG		TEST - Writing janks
+00:00:02.981	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:03.011	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.143	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:03.169	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.341	9244	INFO		.gms.persisten - Background concurrent copying GC freed 222474(10MB) AllocSpace objects, 56(2MB) LOS objects, 49% free, 12MB/24MB, paused 290us total 208.218ms
+00:00:03.369	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:03.369	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:03.369	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:03.457	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.561	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:03.729	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.758	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:03.865	2151	DEBUG		WificondControl - Scan result ready event
+00:00:03.921	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:03.921	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.031	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:04.032	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:04.032	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:04.032	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:04.032	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:04.060	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:04.086	15296	INFO		flutter_compar - Waiting for a blocking GC ProfileSaver
+00:00:04.111	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:04.111	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.111	15296	INFO		flutter_compar - WaitForGcToComplete blocked ProfileSaver on ProfileSaver for 27.437ms
+00:00:04.111	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:04.165	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.192	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:04.192	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:04.192	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:04.298	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.328	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.328	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:04.328	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.355	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.356	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:04.356	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:04.356	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:04.385	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:04.443	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.472	15492	DEBUG		TEST - Writing janks
+00:00:04.473	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.502	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:04.556	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:04.638	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.667	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.832	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:04.857	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.885	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:05.024	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.024	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.076	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:05.076	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -67
+00:00:05.076	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:05.076	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:05.076	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:05.105	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:05.215	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.215	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.349	2151	DEBUG		WificondControl - Scan result ready event
+00:00:05.400	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:05.400	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.426	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:05.426	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:05.426	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:05.426	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:05.454	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.570	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.598	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:05.599	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.628	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.628	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:05.628	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:05.628	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:05.715	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.740	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.767	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:05.846	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:05.925	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:05.953	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.065	15492	DEBUG		TEST - Writing janks
+00:00:06.122	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:06.123	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.260	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:06.315	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:06.315	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.510	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.510	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:06.621	2151	DEBUG		WificondControl - Scan result ready event
+00:00:06.650	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:06.650	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:06.650	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:06.650	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:06.675	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.676	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:06.676	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:06.812	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:06.840	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:06.840	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.869	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:06.869	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:06.869	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:06.869	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:07.009	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:07.010	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:07.010	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.065	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:07.199	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:07.199	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.369	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:07.399	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.559	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:07.584	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.670	15492	DEBUG		TEST - Writing janks
+00:00:07.752	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:07.753	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.890	2151	DEBUG		WificondControl - Scan result ready event
+00:00:07.941	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:07.941	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:07.941	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:07.941	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:07.968	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:07.999	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.024	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:08.075	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:08.075	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -63
+00:00:08.102	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:08.102	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:08.102	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:08.102	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:08.132	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:08.158	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.183	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.183	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:08.183	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:08.183	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:08.311	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:08.311	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.311	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:08.392	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:08.499	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.499	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:08.658	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.710	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:08.876	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:08.906	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.093	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.093	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:09.173	2151	DEBUG		WificondControl - Scan result ready event
+00:00:09.173	2151	DEBUG		WificondScannerImpl - Filtering out 2 scan results.
+00:00:09.225	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:09.225	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:09.225	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:09.225	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:09.251	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:09.251	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.251	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:09.276	15492	DEBUG		TEST - Writing janks
+00:00:09.302	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:09.410	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:09.411	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:09.440	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.465	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:09.466	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:09.466	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:09.466	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:09.600	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:09.600	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:09.630	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.658	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:09.792	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:09.820	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.008	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.008	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.167	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.197	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.383	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.384	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.439	2151	DEBUG		WificondControl - Scan result ready event
+00:00:10.440	2151	DEBUG		WificondScannerImpl - Filtering out 2 scan results.
+00:00:10.465	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:10.465	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:10.465	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:10.465	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:10.595	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.595	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:10.624	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:10.624	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:10.649	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.650	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:10.650	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:10.650	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:10.650	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.782	9244	INFO		chatty - uid=10039 com.google.android.gms.persistent identical 1 line
+00:00:10.782	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.782	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.782	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:10.859	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:10.884	15492	DEBUG		TEST - Writing janks
+00:00:10.940	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:10.966	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:11.095	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:11.096	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -68
+00:00:11.121	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:11.121	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:11.121	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:11.121	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:11.147	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:11.148	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:11.334	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:11.334	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:11.523	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:11.600	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:11.683	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:11.758	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:11.893	2151	DEBUG		WificondControl - Scan result ready event
+00:00:11.893	2151	DEBUG		WificondScannerImpl - Filtering out 2 scan results.
+00:00:11.893	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:11.918	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:11.918	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:11.918	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:11.918	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:11.918	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:12.000	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:12.056	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:12.056	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:12.085	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.085	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:12.111	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.137	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.137	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:12.137	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:12.137	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.137	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:12.242	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.270	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:12.270	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.325	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:12.458	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.458	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.487	15492	DEBUG		TEST - Writing janks
+00:00:12.592	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:12.649	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.649	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.836	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.836	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:12.967	2151	INFO		system_server - Background concurrent copying GC freed 374761(15MB) AllocSpace objects, 35(732KB) LOS objects, 42% free, 29MB/51MB, paused 299us total 261.151ms
+00:00:13.017	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.017	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:13.179	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.208	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:13.208	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:13.266	2151	DEBUG		WificondControl - Scan result ready event
+00:00:13.266	2151	DEBUG		WificondScannerImpl - Filtering out 3 scan results.
+00:00:13.370	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:13.370	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:13.370	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:13.370	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:13.371	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:13.371	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.400	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:13.400	9244	INFO		.gms.persisten - Background concurrent copying GC freed 245639(11MB) AllocSpace objects, 12(368KB) LOS objects, 49% free, 12MB/25MB, paused 321us total 255.437ms
+00:00:13.501	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:13.527	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:13.553	14831	DEBUG		EventNotificationJob - Running EventNotificationJob, isDetail=true
+00:00:13.553	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.582	14831	DEBUG		EventNotificationJob -   finished processing events.
+00:00:13.582	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:13.582	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:13.582	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:13.582	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:13.713	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:13.740	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:13.740	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.791	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:13.816	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:13.919	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.949	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.078	15492	DEBUG		TEST - Writing janks
+00:00:14.103	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.103	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:14.103	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -65
+00:00:14.132	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:14.132	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:14.132	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:14.132	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:14.132	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:14.315	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.500	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.501	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:14.605	2151	DEBUG		WificondControl - Scan result ready event
+00:00:14.605	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:14.659	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:14.659	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:14.659	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:14.659	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:14.688	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:14.714	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:14.766	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.869	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.869	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:14.894	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:14.894	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:14.923	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:14.923	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:14.923	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:15.050	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:15.076	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.076	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:15.129	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:15.259	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:15.259	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.451	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:15.476	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.659	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:15.659	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.684	15492	DEBUG		TEST - Writing janks
+00:00:15.843	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.870	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:15.925	2151	DEBUG		WificondControl - Scan result ready event
+00:00:15.950	2151	DEBUG		WificondScannerImpl - Filtering out 4 scan results.
+00:00:15.976	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:15.976	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:15.976	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:15.976	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:15.976	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:16.052	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.052	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:16.078	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:16.211	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:16.211	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.425	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:16.425	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.590	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:16.591	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:16.619	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.816	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.816	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.202	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.203	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.228	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.253	2151	DEBUG		WificondControl - Scan result ready event
+00:00:17.282	2151	DEBUG		WificondScannerImpl - Filtering out 6 scan results.
+00:00:17.282	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:17.282	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:17.282	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:17.282	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:17.309	15492	DEBUG		TEST - Writing janks
+00:00:17.415	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.442	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.442	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:17.442	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.442	9244	ERROR		inertial-anchor - ConfigureMetadata() called before Start()
+00:00:17.593	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.619	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.774	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:17.883	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.961	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.167	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.167	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.353	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.378	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.566	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.566	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.654	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:18.682	2151	DEBUG		WificondControl - Scan result ready event
+00:00:18.683	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:18.733	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:18.733	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.758	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:18.758	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:18.758	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:18.758	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:18.786	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.874	9244	ERROR		inertial-anchor - Called Stop() before session has started.
+00:00:18.900	15492	DEBUG		TEST - Writing janks
+00:00:18.900	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.926	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.926	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:18.982	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:18.982	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:18.982	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:18.982	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:19.088	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:19.088	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:19.116	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:19.192	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:19.302	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:19.408	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:19.493	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:19.687	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:19.687	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:19.850	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:19.880	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:19.985	2151	DEBUG		WificondControl - Scan result ready event
+00:00:19.986	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:20.012	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:20.038	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:20.038	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:20.038	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:20.038	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:20.066	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.092	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:20.092	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:20.117	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:20.117	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -68
+00:00:20.117	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:20.143	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:20.143	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:20.143	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:20.143	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:20.143	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:20.250	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.276	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:20.303	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:20.328	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:20.328	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:20.328	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:20.328	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:20.409	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:20.435	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.465	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:20.516	15492	DEBUG		TEST - Writing janks
+00:00:20.546	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:20.627	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:20.628	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.709	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:20.871	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.014	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.039	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.208	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.208	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.312	2151	DEBUG		WificondControl - Scan result ready event
+00:00:21.313	2151	DEBUG		WificondScannerImpl - Filtering out 6 scan results.
+00:00:21.341	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:21.367	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:21.367	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:21.367	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:21.394	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.420	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:21.474	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.584	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:21.584	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.610	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.610	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:21.610	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:21.610	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:21.667	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.750	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:21.777	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.802	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:21.967	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:21.993	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.049	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:22.107	15492	DEBUG		TEST - Writing janks
+00:00:22.167	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.195	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:22.442	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:22.442	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.553	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:22.636	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.666	2151	DEBUG		WificondControl - Scan result ready event
+00:00:22.667	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:22.692	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:22.692	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:22.692	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:22.692	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:22.800	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:22.801	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:22.826	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:22.826	9244	ERROR		inertial-anchor - ConfigureMetadata() called before Start()
+00:00:22.908	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:22.938	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.112	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:23.139	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.309	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:23.339	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.530	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.530	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:23.704	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:23.704	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.704	15492	DEBUG		TEST - Writing janks
+00:00:23.901	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.930	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:23.983	9244	ERROR		inertial-anchor - Called Stop() before session has started.
+00:00:24.008	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:24.034	2151	DEBUG		WificondControl - Scan result ready event
+00:00:24.034	2151	DEBUG		WificondScannerImpl - Filtering out 2 scan results.
+00:00:24.064	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:24.064	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:24.064	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.091	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:24.091	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:24.091	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:24.091	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:24.091	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:24.091	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:24.117	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:24.117	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:24.226	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:24.251	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.277	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:24.302	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:24.442	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.443	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:24.632	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:24.633	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.684	2151	INFO		system_server - Background concurrent copying GC freed 334572(13MB) AllocSpace objects, 18(360KB) LOS objects, 42% free, 29MB/51MB, paused 356us total 269.214ms
+00:00:24.767	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:24.819	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.819	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:25.005	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:25.034	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:25.202	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:25.227	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:25.283	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:25.310	2151	DEBUG		WificondControl - Scan result ready event
+00:00:25.310	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:25.310	15492	DEBUG		TEST - Writing janks
+00:00:25.339	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:25.367	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:25.367	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:25.367	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:25.367	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:25.367	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:25.393	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:25.422	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:25.423	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:25.423	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:25.423	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:25.533	9244	INFO		.gms.persisten - Background concurrent copying GC freed 266936(12MB) AllocSpace objects, 2(40KB) LOS objects, 50% free, 12MB/25MB, paused 460us total 239.381ms
+00:00:25.533	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:25.559	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:25.640	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:25.666	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:25.775	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.042	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.043	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.126	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.126	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:26.126	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -66
+00:00:26.154	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:26.155	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:26.155	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:26.155	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:26.316	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.344	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.504	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.534	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.639	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.639	2151	DEBUG		WificondControl - Scan result ready event
+00:00:26.639	2151	DEBUG		WificondScannerImpl - Filtering out 4 scan results.
+00:00:26.667	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:26.697	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:26.697	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:26.697	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:26.723	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:26.723	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:26.723	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:26.723	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:26.751	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:26.751	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.810	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.839	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:26.926	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:26.926	15492	DEBUG		TEST - Writing janks
+00:00:26.926	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:27.100	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:27.210	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:27.293	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:27.485	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:27.485	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:27.786	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:27.786	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:27.920	2151	DEBUG		WificondControl - Scan result ready event
+00:00:27.921	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:27.921	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:27.946	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:27.946	9244	ERROR		inertial-anchor - ConfigureMetadata() called before Start()
+00:00:27.946	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:27.946	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:27.946	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:27.946	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:28.000	9244	ERROR		inertial-anchor - Called Stop() before session has started.
+00:00:28.026	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:28.052	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:28.052	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:28.081	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.081	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:28.081	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:28.081	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:28.081	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:28.218	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:28.244	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:28.244	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.296	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:28.430	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.455	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:28.539	15492	DEBUG		TEST - Writing janks
+00:00:28.620	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.650	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:28.900	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:28.900	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.978	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.145	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:29.145	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -68
+00:00:29.145	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:29.145	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:29.145	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:29.174	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:29.283	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:29.312	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.339	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.339	2151	DEBUG		WificondControl - Scan result ready event
+00:00:29.339	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:29.367	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:29.393	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:29.393	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:29.393	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:29.393	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:29.393	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:29.393	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:29.393	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.393	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:29.393	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:29.474	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.555	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:29.584	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.584	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:29.585	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:29.585	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:29.585	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:29.642	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:29.730	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:29.788	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:29.788	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.876	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:29.956	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:30.142	15492	DEBUG		TEST - Writing janks
+00:00:30.171	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.171	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:30.483	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:30.483	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.561	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:30.647	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:30.647	2151	DEBUG		WificondControl - Scan result ready event
+00:00:30.647	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:30.705	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:30.735	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:30.735	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:30.735	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:30.763	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.821	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:30.851	9244	ERROR		inertial-anchor - ConfigureMetadata() called before Start()
+00:00:30.852	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:30.962	9244	INFO		chatty - uid=10039 com.google.android.gms.persistent identical 1 line
+00:00:30.963	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:30.963	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.151	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:31.233	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.318	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:31.535	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.535	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:31.752	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:31.752	15492	DEBUG		TEST - Writing janks
+00:00:31.835	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.970	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.026	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.052	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:32.077	2151	DEBUG		WificondControl - Scan result ready event
+00:00:32.078	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:32.105	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:32.135	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:32.135	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:32.135	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:32.135	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:32.160	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.160	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:32.160	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -64
+00:00:32.188	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:32.188	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:32.188	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:32.188	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:32.330	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.635	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.635	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.718	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.802	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.888	9244	ERROR		inertial-anchor - Called Stop() before session has started.
+00:00:32.942	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:32.969	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.969	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:32.994	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:32.995	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:32.995	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:32.995	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.104	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:33.131	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:33.185	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:33.185	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:33.185	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:33.185	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:33.185	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:33.213	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.320	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:33.345	2151	DEBUG		WificondControl - Scan result ready event
+00:00:33.345	15492	DEBUG		TEST - Writing janks
+00:00:33.375	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:33.375	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:33.375	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:33.404	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:33.404	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.485	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:33.485	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:33.689	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:33.689	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.863	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:34.112	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.141	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:34.309	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:34.309	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.451	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:34.478	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.669	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:34.726	2151	DEBUG		WificondControl - Scan result ready event
+00:00:34.726	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:34.752	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:34.752	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:34.752	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:34.777	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:34.885	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.912	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:34.913	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:34.938	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:34.938	15492	DEBUG		TEST - Writing janks
+00:00:34.964	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:34.964	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:34.992	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.047	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.047	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:35.076	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:35.076	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.105	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3921620, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150469, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=57, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=380, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-65429, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=290, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1433545, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:35.105	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:35.105	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:35.105	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:35.105	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:35.105	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:35.105	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:35.105	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:35.135	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:35.219	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:35.270	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.270	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:35.296	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:35.465	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.546	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:35.655	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.941	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:35.942	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.022	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.078	2151	INFO		system_server - Background concurrent copying GC freed 322292(12MB) AllocSpace objects, 18(360KB) LOS objects, 42% free, 29MB/52MB, paused 420us total 261.823ms
+00:00:36.158	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:36.158	2151	DEBUG		WificondControl - Scan result ready event
+00:00:36.158	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:36.159	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:36.185	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:36.186	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:36.186	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:36.186	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:36.211	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:36.212	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.238	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.521	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.522	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.547	15492	DEBUG		TEST - Writing janks
+00:00:36.632	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.824	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.824	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.911	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.968	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:36.998	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:36.998	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:36.998	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:36.998	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:37.141	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:37.194	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:37.222	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:37.222	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:37.418	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:37.418	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:37.444	9244	INFO		.gms.persisten - Background concurrent copying GC freed 269269(12MB) AllocSpace objects, 2(40KB) LOS objects, 49% free, 12MB/25MB, paused 288us total 235.105ms
+00:00:37.444	2151	DEBUG		WificondControl - Scan result ready event
+00:00:37.444	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:37.471	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:37.471	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:37.471	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:37.471	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:37.605	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:37.635	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:37.880	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:37.880	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:37.906	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.018	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.151	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.152	15492	DEBUG		TEST - Writing janks
+00:00:38.182	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:38.236	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:38.236	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:38.236	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.236	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:38.236	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.368	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:38.419	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.419	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:38.449	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.585	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.637	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.797	2151	DEBUG		WificondControl - Scan result ready event
+00:00:38.823	2151	DEBUG		WificondScannerImpl - Filtering out 10 scan results.
+00:00:38.823	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.852	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:38.852	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:38.852	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:38.852	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:38.853	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:38.936	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.962	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:38.990	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:39.018	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:39.018	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:39.018	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:39.045	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:39.157	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:39.242	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:39.242	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:39.322	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.429	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:39.628	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.628	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:39.769	15492	DEBUG		TEST - Writing janks
+00:00:39.796	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:39.935	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.039	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.098	2151	DEBUG		WificondControl - Scan result ready event
+00:00:40.098	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:40.127	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:40.127	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:40.127	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:40.153	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:40.206	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.235	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:40.235	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:40.261	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.286	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.287	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:40.287	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:40.287	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:40.369	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.369	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.422	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:40.481	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:40.562	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.669	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.783	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.970	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:40.970	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.189	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:41.189	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:41.189	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -69
+00:00:41.189	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:41.218	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:41.218	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:41.218	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:41.272	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.351	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:41.377	15492	DEBUG		TEST - Writing janks
+00:00:41.402	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:41.460	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.485	2151	DEBUG		WificondControl - Scan result ready event
+00:00:41.514	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:41.514	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:41.540	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:41.540	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:41.540	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:41.540	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:41.569	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:41.569	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:41.596	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:41.596	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:41.596	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:41.596	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:41.729	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:41.757	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:41.816	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:41.844	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.962	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.048	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:42.130	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.212	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.320	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.620	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.620	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.779	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.805	2151	DEBUG		WificondControl - Scan result ready event
+00:00:42.806	2151	DEBUG		WificondScannerImpl - Filtering out 10 scan results.
+00:00:42.831	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:42.856	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:42.856	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:42.856	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:42.856	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.914	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:42.915	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:42.943	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:42.944	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:42.944	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:42.944	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:42.970	15492	DEBUG		TEST - Writing janks
+00:00:43.023	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.081	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:43.139	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:43.139	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:43.250	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.330	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:43.441	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.497	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:43.827	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:43.827	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.936	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:44.160	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:44.160	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.160	2151	DEBUG		WificondControl - Scan result ready event
+00:00:44.160	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:44.186	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:44.212	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:44.212	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:44.212	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:44.212	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -66
+00:00:44.212	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:44.212	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:44.212	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:44.212	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:44.212	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:44.212	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:44.212	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:44.212	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:44.212	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:44.240	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:44.352	9244	INFO		chatty - uid=10039 com.google.android.gms.persistent identical 1 line
+00:00:44.352	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:44.352	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:44.405	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:44.455	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.536	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:44.562	15492	DEBUG		TEST - Writing janks
+00:00:44.701	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:44.730	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.919	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:45.032	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:45.143	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:45.221	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:45.389	9244	ERROR		inertial-anchor - ConfigureMetadata() called before Start()
+00:00:45.389	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:45.415	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:45.415	2151	DEBUG		WificondControl - Scan result ready event
+00:00:45.444	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:45.444	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:45.444	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:45.444	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:45.473	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:45.473	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:45.503	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:45.503	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:45.750	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:45.803	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:45.913	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.178	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.178	15492	DEBUG		TEST - Writing janks
+00:00:46.285	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.286	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.503	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:46.529	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.586	9244	ERROR		inertial-anchor - Called Stop() before session has started.
+00:00:46.612	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.664	2151	DEBUG		WificondControl - Scan result ready event
+00:00:46.664	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:46.664	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:46.720	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:46.720	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:46.720	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:46.720	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:46.720	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.720	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:46.720	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:46.720	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:46.720	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:46.805	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.857	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:46.915	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:46.941	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:47.083	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:47.111	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.220	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:47.220	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -72
+00:00:47.220	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:47.220	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:47.220	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:47.220	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:47.324	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:47.410	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.516	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:47.690	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.746	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:47.797	15492	DEBUG		TEST - Writing janks
+00:00:47.903	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:47.934	2151	INFO		system_server - Background concurrent copying GC freed 351291(13MB) AllocSpace objects, 20(400KB) LOS objects, 42% free, 29MB/51MB, paused 277us total 265.793ms
+00:00:47.934	2151	DEBUG		WificondControl - Scan result ready event
+00:00:47.961	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:47.961	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:47.986	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:47.987	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:47.987	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:47.987	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:47.987	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:47.987	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:47.987	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:47.987	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:48.016	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:48.097	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:48.097	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.148	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:48.204	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:48.254	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:48.283	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.472	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:48.472	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.664	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:48.747	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.857	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.159	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.159	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.159	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.213	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:49.213	2151	DEBUG		WificondControl - Scan result ready event
+00:00:49.213	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:49.241	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:49.242	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:49.242	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:49.269	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:49.270	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:49.270	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:49.270	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:49.270	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.270	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:49.347	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:49.403	15492	DEBUG		TEST - Writing janks
+00:00:49.403	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:49.432	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.458	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.458	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:49.487	9244	INFO		.gms.persisten - Background concurrent copying GC freed 269714(12MB) AllocSpace objects, 2(40KB) LOS objects, 49% free, 12MB/25MB, paused 280us total 223.750ms
+00:00:49.622	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.647	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.809	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:49.838	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.946	15492	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:49.997	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:50.024	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.228	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:50.256	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.444	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.444	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:50.445	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:50.497	2151	DEBUG		WificondControl - Scan result ready event
+00:00:50.497	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:50.497	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:50.497	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:50.497	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:50.497	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:50.523	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:50.523	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:50.523	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:50.523	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:50.581	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:50.609	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:50.609	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.609	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:50.691	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:50.721	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:50.825	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:50.825	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:50.883	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.996	15492	DEBUG		TEST - Writing janks
+00:00:50.996	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.278	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.278	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.417	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.556	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:51.557	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:51.582	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.690	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.746	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.747	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:51.772	2619	INFO		ndroid.systemu - Background concurrent copying GC freed 120479(4MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 6MB/13MB, paused 158us total 127.244ms
+00:00:51.772	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.800	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.801	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:51.801	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:51.801	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:51.828	2151	DEBUG		WificondControl - Scan result ready event
+00:00:51.854	2151	DEBUG		WificondScannerImpl - Filtering out 9 scan results.
+00:00:51.883	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:51.884	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:51.884	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:51.884	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:51.940	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:51.940	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:51.968	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:51.968	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.968	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:51.998	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:52.054	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:52.109	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:52.190	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:52.416	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:52.445	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.613	15492	DEBUG		TEST - Writing janks
+00:00:52.859	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.887	2151	WARN		NotificationService - No notification with key: 0|org.telegram.messenger|761192858|null|10149
+00:00:52.968	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:53.084	2151	WARN		NotificationService - No notification with key: 0|org.telegram.messenger|761192858|null|10149
+00:00:53.222	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:53.251	2151	WARN		NotificationService - No notification with key: 0|org.telegram.messenger|761192858|null|10149
+00:00:53.333	2151	DEBUG		WificondControl - Scan result ready event
+00:00:53.333	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:53.359	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:53.359	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:53.359	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:53.359	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:53.467	2151	WARN		NotificationService - No notification with key: 0|org.telegram.messenger|761192858|null|10149
+00:00:53.662	2151	WARN		NotificationService - No notification with key: 0|org.telegram.messenger|761192858|null|10149
+00:00:53.858	2151	WARN		NotificationService - No notification with key: 0|org.telegram.messenger|761192858|null|10149
+00:00:54.023	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.220	15492	DEBUG		TEST - Writing janks
+00:00:54.308	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:54.366	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:54.366	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:54.366	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:54.366	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:54.366	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:54.424	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.509	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:54.509	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:54.509	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:54.566	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:54.699	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.838	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.032	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.032	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.193	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.247	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.520	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.520	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.520	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.578	9244	WARN		Looper - Looper already prepared for this thread with a different value for the LOOPER_PREPARE_ALLOW_NON_CALLBACKS option.
+00:00:55.608	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.608	9244	WARN		inertial-anchor - Signficant calibration change for SENSOR_TYPE_MAGNETOMETER_UT from CAL_SOURCE_UNCAL_SENSOR, delta=75.7538, threshold=5
+00:00:55.608	9244	WARN		inertial-anchor - Reinitializing due to significant calibration change
+00:00:55.608	9244	WARN		inertial-anchor - Triggering reinit due to mag declination change
+00:00:55.695	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.749	1154	WARN		qti_sensors_hal - filled uncal mag filter: hdl 12 len 8 in HAL
+00:00:55.808	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:55.808	15492	DEBUG		TEST - Writing janks
+00:00:55.808	9244	WARN		inertial-anchor - Max norm deviation percent value of 0 is non-positive. Aborting anomalous mag measurement detection.
+00:00:55.863	2151	DEBUG		WificondControl - Scan result ready event
+00:00:55.888	2151	DEBUG		WificondScannerImpl - Filtering out 7 scan results.
+00:00:55.945	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:55.971	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.972	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:55.972	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:55.972	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:55.972	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:56.002	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:56.247	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:56.247	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:56.247	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -65
+00:00:56.275	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:56.275	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:56.275	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:56.275	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:56.275	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.359	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:56.468	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.576	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:56.688	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:56.764	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.848	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:56.848	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:56.848	9244	ERROR		inertial-anchor - ConfigureMetadata() called before Start()
+00:00:56.959	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:57.064	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.170	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:57.197	2151	DEBUG		WificondControl - Scan result ready event
+00:00:57.197	2151	DEBUG		WificondScannerImpl - Filtering out 6 scan results.
+00:00:57.222	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:57.223	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:57.223	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:57.248	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:57.274	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.359	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:57.359	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:57.413	15492	DEBUG		TEST - Writing janks
+00:00:57.470	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.577	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:57.659	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.768	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:58.042	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:58.042	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:58.122	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:58.430	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:58.430	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:58.515	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:58.544	2151	DEBUG		WificondControl - Scan result ready event
+00:00:58.544	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:00:58.571	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:58.571	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:58.571	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:58.571	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:58.597	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:58.655	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:58.680	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:58.794	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:58.931	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:59.015	15492	DEBUG		TEST - Writing janks
+00:00:59.098	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:59.098	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.272	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:59.272	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -70
+00:00:59.272	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:59.273	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:59.273	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:59.273	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:59.273	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:59.382	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.498	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:59.580	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.665	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:59.863	2151	DEBUG		WificondControl - Scan result ready event
+00:00:59.863	2151	DEBUG		WificondScannerImpl - Filtering out 6 scan results.
+00:00:59.920	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:59.921	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:59.921	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:59.921	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:00:59.951	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:59.976	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:01:00.143	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:01:00.143	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:01:00.252	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:01:00.334	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:01:00.422	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:01:00.637	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:01:00.637	15492	DEBUG		TEST - Writing janks
+00:01:00.923	9244	ERROR		inertial-anchor - Called Stop() before session has started.
+00:01:00.950	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:01:01.030	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:01:01.170	2151	DEBUG		WificondControl - Scan result ready event
+00:01:01.170	2151	DEBUG		WificondScannerImpl - Filtering out 8 scan results.
+00:01:01.196	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:01:01.196	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:01:01.196	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:01:01.196	1185	ERROR		IzatSvc_ComboNetworkProvider - Exiting with error proc line 210 "1"
+00:01:01.196	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:01:01.455	2151	INFO		system_server - Background concurrent copying GC freed 346356(13MB) AllocSpace objects, 20(400KB) LOS objects, 42% free, 29MB/51MB, paused 470us total 269.038ms
+00:01:01.817	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:01:01.817	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:01:02.040	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:01:02.226	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:01:02.227	15492	DEBUG		TEST - Writing janks

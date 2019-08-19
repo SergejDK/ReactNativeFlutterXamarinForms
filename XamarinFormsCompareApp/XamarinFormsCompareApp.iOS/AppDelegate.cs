@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using FFImageLoading.Forms.Platform;
-using Foundation;
+﻿using Foundation;
 using UIKit;
 using Xamarin.Forms;
 
@@ -27,11 +22,7 @@ namespace XamarinFormsCompareApp.iOS
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
             FormsMaterial.Init();
-            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
-            var watch = System.Diagnostics.Stopwatch.StartNew();
             LoadApplication(new App());
-            watch.Stop();
-            Debug.WriteLine(watch.Elapsed);
             return base.FinishedLaunching(app, options);
         }
     }

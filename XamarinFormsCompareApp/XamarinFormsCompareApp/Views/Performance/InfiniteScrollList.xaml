@@ -7,7 +7,7 @@
 
     <StackLayout>
             
-                <Label x:Name="Times" Text="{Binding TimerText}"></Label>
+                
                 
         <ListView x:Name="perfList" ItemAppearing="Handle_ItemAppearing"
                   

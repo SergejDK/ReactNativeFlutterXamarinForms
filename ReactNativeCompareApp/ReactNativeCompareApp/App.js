@@ -39,7 +39,7 @@ class LogoTitle extends React.Component {
           <Image
             source={{
               uri:
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png'
+                'https://cdn4.iconfinder.com/data/icons/general-office-solid-style/91/General_-_Office_30-512.png'
             }}
             style={{ width: 30, height: 30 }}
           />
@@ -55,8 +55,7 @@ class MyHomeScreen extends React.Component {
       <View>
         <Image
           source={{
-            uri:
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/FH_Dortmund-logo.svg/1200px-FH_Dortmund-logo.svg.png'
+            uri: 'https://facebook.github.io/react/logo-og.png'
           }}
           style={{ width: '100%', height: 250, resizeMode: 'contain' }}
         />

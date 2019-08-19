@@ -1,7 +1,8 @@
 import 'dart:io';
-
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:image_saver/image_saver.dart';
 
 class NativeFuncPage extends StatefulWidget {
 
@@ -12,9 +13,10 @@ class NativeFuncPage extends StatefulWidget {
 class _NativeFuncState extends State<NativeFuncPage> {
 
   File _image;
-
   Future getImage() async {
     var image = await ImagePicker.pickImage(source: ImageSource.camera);
+    await ImageSaver.toFile(
+          fileData: Uint8List.fromList(image.readAsBytesSync()));
     setState(() {
       _image = image;
     });

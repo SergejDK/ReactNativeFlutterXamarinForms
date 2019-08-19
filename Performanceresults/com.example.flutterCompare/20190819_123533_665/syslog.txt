@@ -1,0 +1,165 @@
+Timestamp	App	Log Level	Message
+00:00:00.004	59	INFO		Current state of Workout Predictor: 0
+00:00:00.006	62	INFO		Created BKApplicationStateServerClient for [249:<private>] -> <private>
+00:00:00.006	62	INFO		Removed BKApplicationStateServerClient for [249:<private>] -> <private>
+00:00:00.021	65	INFO		handle_get_value: <private>
+00:00:00.024	62	INFO		Created BKApplicationStateServerClient for [249:<private>] -> <private>
+00:00:00.099	102	INFO		cert[0]: AnchorTrusted =(leaf)[force]> 0
+00:00:00.100	102	INFO		cert[0]: NonEmptySubject =(path)[]> 0
+00:00:00.109	65	INFO		handle_start_service: <private>
+00:00:00.138	65	INFO		spawn_xpc_service: <private>
+00:00:00.138	102	INFO		cert[0]: AnchorTrusted =(leaf)[force]> 0
+00:00:00.138	102	INFO		cert[0]: NonEmptySubject =(path)[]> 0
+00:00:00.147	65	INFO		handle_get_value: <private>
+00:00:00.150	65	INFO		spawn_xpc_service_block_invoke: <private>
+00:00:00.150	65	INFO		spawn_xpc_service_block_invoke: <private>
+00:00:00.152	74	INFO		Sending 'session attached' event for session "DTPower-38163"
+00:00:00.156	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.157	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.164	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.165	62	INFO		Removed BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.172	74	ERROR		Invalid handle identifier mapping found for handle 0xd26e0001 with pid "735", pidVersion "2181"
+00:00:00.173	62	INFO		Removed BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.174	735	INFO		Could not add local device callbacks. (error: 7)
+00:00:00.174	735	INFO		Bluetooth power ERROR: BTLocalDeviceGetModulePower: failed! 7
+00:00:00.199	56	INFO		setUpdateInterval:0
+00:00:00.459	735	INFO		Task info failed for task com.example.flutterCompare
+00:00:00.777	49	INFO		calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+00:00:00.907	59	INFO		#Warning Location connection invalid!
+00:00:00.909	59	INFO		{"msg":"CLConnection::handleDisconnection", "event":"activity"}
+00:00:00.909	59	INFO		Client com.apple.springboard disconnected
+00:00:00.911	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:00.913	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"lifecycle", "old":"0x1057aea50", "new":"0x0"}
+00:00:00.967	52	INFO		Icon touch began: <private>
+00:00:00.968	52	INFO		Found a reasonable launch image for <private>, not pre-warming SplashBoard. Load image into the snapshot instance.
+00:00:00.977	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"lifecycle", "old":"0x0", "new":"0x1057aea50"}
+00:00:00.978	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+00:00:00.987	59	INFO		#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+00:00:00.987	59	INFO		Client com.apple.springboard connected
+00:00:00.987	59	INFO		{"msg":"kCLConnectionMessageGyroBiasEstimation", "event":"activity", "this":"0x1057aea50", "registrationRequired":0, "registrationReceived":0}
+00:00:00.988	59	INFO		Client com.apple.springboard (0x1057aea50) is subscribing to notification kCLConnectionMessageGyroBiasEstimation
+00:00:00.988	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,1
+00:00:01.085	102	INFO		cert[0]: SubjectCommonName =(leaf)[]> 0
+00:00:01.085	102	INFO		cert[0]: LeafMarkerOid =(leaf)[]> 0
+00:00:01.085	102	INFO		cert[0]: IssuerCommonName =(path)[]> 0
+00:00:01.085	102	INFO		cert[0]: SubjectCommonName =(leaf)[]> 0
+00:00:01.086	102	INFO		cert[0]: LeafMarkerOid =(leaf)[]> 0
+00:00:01.086	102	INFO		cert[0]: IssuerCommonName =(path)[]> 0
+00:00:01.086	52	INFO		Icon tapped: <private>
+00:00:01.086	52	INFO		Activating <private> from icon
+00:00:01.087	52	INFO		Executing request: <SBMainWorkspaceTransitionRequest: 0x281c5f300; eventLabel: SBUIApplicationIconLaunchEventLabel; display: Main; source: HomeScreen>
+00:00:01.098	52	INFO		Running <SBAppToAppWorkspaceTransaction: 0x1095467f0> for transition request:
+00:00:01.099	56	INFO		Setting minimum brightness level:0 with fade duration 0.4
+00:00:01.100	56	INFO		setting CoreBrightness property:DisplayBrightnessFadePeriod to value:0.4
+00:00:01.100	56	INFO		setting CoreBrightness property:BrightnessMinPhysicalWithFade to value:0
+00:00:01.100	56	INFO		soft cancel on display:<main>
+00:00:01.101	52	INFO		Deactivating wallpaper orientation source ActiveOrientation
+00:00:01.101	52	INFO		ENABLING ASYNCHRONOUS RENDERING ON: <private> (displayMode: LiveContent)
+00:00:01.135	52	INFO		Disabling home screen icon rotation for reason: SBAppToAppWorkspaceTransaction
+00:00:01.263	62	INFO		Created BKApplicationStateServerClient for [76:<private>] -> <private>
+00:00:01.264	62	INFO		Submitting new job for "com.example.flutterCompare" on behalf of <BKProcess: 0x121d1bcd0; SpringBoard; com.apple.springboard; pid: 52; agency: SystemShell; visibility: foreground; task: running>
+00:00:01.264	62	INFO		Submitted job with label: UIKitApplication:com.example.flutterCompare[0x3f20][62]
+00:00:01.264	62	INFO		_FGJetsamPriorityBand is 10 for <private>
+00:00:01.265	62	INFO		[Runner:783] Adding client: <BKProcessInfoServerClient: 0x121e20740; pid: 52>
+00:00:01.265	62	INFO		[Runner:783] Setting jetsam priority to 10 [0x10000]
+00:00:01.265	52	INFO		adding status bar settings assertion: <SBAppStatusBarSettingsAssertion: 0x283f495f0> {
+00:00:01.267	52	INFO		Icon touch canceled (tap gesture may still succeed): <private>
+00:00:01.268	62	INFO		[Runner:783] setpriority(PRIO_DARWIN_ROLE, 783, 1): ok
+00:00:01.269	62	INFO		Now tracking process <BKProcess: 0x121e75100; Runner; com.example.flutterCompare; pid: 783; agency: Application; visibility: none; task: running; hostpid: 52> with host <BKProcess: 0x121d1bcd0; SpringBoard; com.apple.springboard; pid: 52; agency: SystemShell; visibility: foreground; task: running>
+00:00:01.269	62	INFO		[SpringBoard:52] Attempting to acquire assertion for Runner:783: <BKProcessAssertion: 0x121d4ae90; "UIApplicationLaunch" (activation:inf); id:\M-b\M^@\M-&CC4D6C17D6A8>
+00:00:01.270	62	INFO		[Runner:783] Add assertion: <BKProcessAssertion: 0x121d4ae90; id: 52-2F5E7547-2CE1-45F1-8AEA-CC4D6C17D6A8; name: UIApplicationLaunch; state: active; reason: activation; duration: infs> {
+00:00:01.271	62	INFO		[Runner:783] Activate assertion: <BKProcessAssertion: 0x121d4ae90; "UIApplicationLaunch" (activation:inf); id:\M-b\M^@\M-&CC4D6C17D6A8>
+00:00:01.271	62	INFO		[Runner:783] New process assertion state; preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, wantsForegroundResourcePriority, preventSuspendOnSleep (assertion 0x121d4ae90 added: preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, wantsForegroundResourcePriority, preventSuspendOnSleep; removed: (none))
+00:00:01.273	52	INFO		SBIdleTimerGlobalCoordinator - _setIdleTimerWithDescriptor:<SBIdleTimerDescriptor: 0x283cb0720; timerMode: Automatic; quickUnwarnInterval: 42.0s; warnInterval: 40.0s; totalInterval: 60.0s> reason:"SBAppDidEnterForeground"]
+00:00:01.273	52	INFO		0x2810ab7f0 reconfigured attention timeouts:{
+00:00:01.275	52	INFO		setting configuration:<AWAttentionAwarenessConfiguration: 0x281364be0> (identifier: com.apple.springboard.GlobalBacklightIdleTimer samplingInterval:       0.00000 samplingDelay:       0.00000 attentionLostTimeouts:      42.00000,      40.00000,      60.00000 mask Button|Keyboard|Digitizer|GameController|MesaTouch|GenericGesture tagIndex 1297 (tag 1297))
+00:00:01.275	52	INFO		Application process state changed for com.example.flutterCompare: <SBApplicationProcessState: 0x28324d8e0; pid: 783; taskState: Running; visibility: Unknown>
+00:00:01.276	62	INFO		[Runner:783] Setting jetsam priority to 10 [0x10100]
+00:00:01.276	62	INFO		[Runner:783] setpriority success for resource GPU to PRIO_DARWIN_GPU_ALLOW
+00:00:01.277	62	INFO		[Runner:783] setpriority success for resource CPU to default (0)
+00:00:01.277	62	INFO		[Runner:783] workspaceConnectedWithTaskPortRight: received task port
+00:00:01.278	62	INFO		[SpringBoard:52] Attempting to acquire assertion for Runner:783: <BKProcessAssertion: 0x121d79580; "Resume" (activation:inf); id:\M-b\M^@\M-&DFF67EE39E43>
+00:00:01.278	62	INFO		[Runner:783] Add assertion: <BKProcessAssertion: 0x121d79580; id: 52-3E6ABBB3-6A00-443C-9F87-DFF67EE39E43; name: Resume; state: active; reason: activation; duration: infs> {
+00:00:01.279	62	INFO		[Runner:783] Activate assertion: <BKProcessAssertion: 0x121d79580; "Resume" (activation:inf); id:\M-b\M^@\M-&DFF67EE39E43>
+00:00:01.279	62	INFO		Removed BKApplicationStateServerClient for [76:<private>] -> <private>
+00:00:01.280	62	INFO		[SpringBoard:52] Attempting to acquire assertion for Runner:783: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&55E31C85E3DB>
+00:00:01.280	62	INFO		[Runner:783] Add assertion: <BKProcessAssertion: 0x121e7e320; id: 52-6EF96BBF-4688-4551-A0F3-55E31C85E3DB; name: "Deliver Message"; state: active; reason: suspend; duration: 10.0s> {
+00:00:01.281	62	INFO		[Runner:783] Activate assertion: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&55E31C85E3DB>
+00:00:01.281	62	INFO		[Runner:783] Setting jetsam priority to 10 [0x10300]
+00:00:01.282	62	INFO		[SpringBoard:52] Attempting to acquire assertion for SpringBoard:52: <BKProcessAssertion: 0x121e79510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&CEB511E0E4BD>
+00:00:01.282	62	INFO		[SpringBoard:52] Add assertion: <BKProcessAssertion: 0x121e79510; id: 52-1C5BACAE-51C5-46A6-A1E3-CEB511E0E4BD; name: com.apple.UIKit.KeyboardManagement.message; state: active; reason: finishTask; duration: 180.0s> {
+00:00:01.283	62	INFO		[SpringBoard:52] Activate assertion: <BKProcessAssertion: 0x121e79510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&CEB511E0E4BD>
+00:00:01.284	62	INFO		Updating PowerAssertion on SpringBoard:52
+00:00:01.284	62	INFO		Client relinquished <BKProcessAssertion: 0x121e79510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&CEB511E0E4BD>
+00:00:01.285	62	INFO		[SpringBoard:52] Deactivate assertion: <BKProcessAssertion: 0x121e79510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&CEB511E0E4BD>
+00:00:01.285	62	INFO		[SpringBoard:52] dump assertions count:2 HWM:5 (deactivateAssertion): {
+00:00:01.286	62	INFO		Updating PowerAssertion on SpringBoard:52
+00:00:01.287	62	INFO		[SpringBoard:52] Remove assertion: <BKProcessAssertion: 0x121e79510; "com.apple.UIKit.KeyboardManagement.message" (finishTask:180s); id:\M-b\M^@\M-&CEB511E0E4BD>
+00:00:01.287	62	INFO		Updating PowerAssertion on SpringBoard:52
+00:00:01.287	62	INFO		-[BKAssertion dealloc] - <0x121e79510>
+00:00:01.289	52	INFO		Application process state changed for com.example.flutterCompare: <SBApplicationProcessState: 0x28324d480; pid: 783; taskState: Running; visibility: Foreground>
+00:00:01.289	52	INFO		Application process state changed for com.example.flutterCompare: <SBApplicationProcessState: 0x28324d8e0; pid: 783; taskState: Running; visibility: Foreground>
+00:00:01.290	76	INFO		#I FBSDisplayLayoutUpdateHandler: update start
+00:00:01.290	76	INFO		#I FBSDisplayLayoutUpdateHandler: app <private> (UIApplicationElement 1 hasKeyboardFocus 0)
+00:00:01.294	76	INFO		#I FBSDisplayLayoutUpdateHandler: 4. app got notification state: pid=0 for <private>
+00:00:01.295	76	INFO		#I ActivationObserver: notifyAboutFrontAppChange : app: <private>; pid: 0; net: 0
+00:00:01.295	76	INFO		#I FBSDisplayLayoutUpdateHandler: 5. app got notification state: new counter=600
+00:00:01.304	76	INFO		#I BundleID: <private> is a foreground app
+00:00:01.304	56	INFO		[BKEventFocusManager] Setting foreground application to: com.example.flutterCompare (783)
+00:00:01.305	56	INFO		[BKEventFocusManager] Setting foreground application to: com.example.flutterCompare (783)
+00:00:01.319	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:01.343	57	INFO		SystemUI changed: 0x1010 -> 0x1000
+00:00:01.347	62	INFO		Client relinquished <BKProcessAssertion: 0x121d4ae90; "UIApplicationLaunch" (activation:inf); id:\M-b\M^@\M-&CC4D6C17D6A8>
+00:00:01.348	62	INFO		[Runner:783] Deactivate assertion: <BKProcessAssertion: 0x121d4ae90; "UIApplicationLaunch" (activation:inf); id:\M-b\M^@\M-&CC4D6C17D6A8>
+00:00:01.348	62	INFO		[Runner:783] Scheduling allow-idle-sleep timer with interval: 180.0
+00:00:01.349	62	INFO		[Runner:783] New process assertion state; preventSuspend, preventThrottleDownUI, preventThrottleDownCPU, preventSuspendOnSleep (assertion 0x121d4ae90 added: (none); removed: wantsForegroundResourcePriority)
+00:00:01.350	62	INFO		[Runner:783] Remove assertion: <BKProcessAssertion: 0x121d4ae90; "UIApplicationLaunch" (activation:inf); id:\M-b\M^@\M-&CC4D6C17D6A8>
+00:00:01.350	62	INFO		-[BKAssertion dealloc] - <0x121d4ae90>
+00:00:01.435	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1054deb70", "property":"lifecycle", "old":"0x0", "new":"0x1054deb70"}
+00:00:01.436	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1054deb70", "property":"clientName", "old":"", "new":"com.example.flutterCompare"}
+00:00:01.436	59	INFO		{"msg":"Client visibility changed", "client":"com.example.flutterCompare", "is visible":1}
+00:00:01.437	59	INFO		{"msg":"#CLIUA Marking change", "clientKey":"com.example.flutterCompare", "reason":"In-use halo-effect", "assertionLevel":3, "coming":1}
+00:00:01.437	59	INFO		{"msg":"#CLIUA Marking change", "clientKey":"com.example.flutterCompare", "reason":"In-use halo-effect", "assertionLevel":4, "coming":1}
+00:00:01.438	59	INFO		{"msg":"#CLIUA Marking change", "clientKey":"com.example.flutterCompare", "reason":"In-use halo-effect", "assertionLevel":3, "coming":0}
+00:00:01.442	59	INFO		Client com.example.flutterCompare connected
+00:00:01.443	59	INFO		{"msg":"LocationManager/kCLConnectionMessageRegistration", "event":"activity", "this":"0x1054deb70", "registrationRequired":0, "registrationReceived":0}
+00:00:01.443	59	INFO		#Warning could not get resource URL for <private>
+00:00:01.444	59	INFO		#Warning issue retrieving localized strings for bundle '<private>'
+00:00:01.444	59	INFO		#Warning could not get resource URL for <private>
+00:00:01.445	59	INFO		#Warning issue retrieving localized strings for bundle '<private>'
+00:00:01.445	59	INFO		{"msg":"update client authorization mask", "name":"com.example.flutterCompare", "old":2, "new":2, "localAuthorizationChange":1}
+00:00:01.452	59	INFO		{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessagePausesLocationUpdatesAutomatically", "this":"0x1054deb70", "registrationReceived":1}
+00:00:01.452	59	INFO		Background indicator enabled for <private> is now <private> (was <private>)
+00:00:01.466	80	INFO		register name: com.apple.GSFont.Changed object: kCFNotificationAnyObject token: f42db pid: 783
+00:00:01.529	62	INFO		Client relinquished <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&55E31C85E3DB>
+00:00:01.530	62	INFO		[Runner:783] Deactivate assertion: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&55E31C85E3DB>
+00:00:01.530	62	INFO		[Runner:783] Setting jetsam priority to 10 [0x10100]
+00:00:01.531	62	INFO		[Runner:783] Remove assertion: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&55E31C85E3DB>
+00:00:01.531	62	INFO		-[BKAssertion dealloc] - <0x121e7e320>
+00:00:01.620	52	INFO		DISABLING ASYNCHRONOUS RENDERING ON: <private> (displayMode: LiveContent)
+00:00:01.633	62	INFO		[SpringBoard:52] Attempting to acquire assertion for Runner:783: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&70F3AB286F96>
+00:00:01.634	62	INFO		[Runner:783] Add assertion: <BKProcessAssertion: 0x121e7e320; id: 52-4847FDEE-0C73-4254-9D31-70F3AB286F96; name: "Deliver Message"; state: active; reason: suspend; duration: 10.0s> {
+00:00:01.635	62	INFO		[Runner:783] Activate assertion: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&70F3AB286F96>
+00:00:01.635	62	INFO		[Runner:783] Setting jetsam priority to 10 [0x10300]
+00:00:01.710	52	INFO		SB orientation locked: NO; user lock: NO, was stale: NO, orientation: unknown (0) overrides: NO,
+00:00:01.714	62	INFO		Client relinquished <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&70F3AB286F96>
+00:00:01.714	62	INFO		[Runner:783] Deactivate assertion: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&70F3AB286F96>
+00:00:01.715	62	INFO		[Runner:783] Setting jetsam priority to 10 [0x10100]
+00:00:01.715	62	INFO		[Runner:783] Remove assertion: <BKProcessAssertion: 0x121e7e320; "Deliver Message" (suspend:10s); id:\M-b\M^@\M-&70F3AB286F96>
+00:00:01.716	62	INFO		-[BKAssertion dealloc] - <0x121e7e320>
+00:00:01.716	49	INFO		calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+00:00:01.717	52	INFO		Front display did change: <SBApplication: 0x280c604b0; com.example.flutterCompare>
+00:00:01.717	52	INFO		lock/volume priority is:volume
+00:00:01.718	52	INFO		Deactivating wallpaper orientation source SBUIController
+00:00:01.718	52	INFO		Enabling home screen icon rotation for reason: SBAppToAppWorkspaceTransaction
+00:00:01.718	52	INFO		Root transaction complete: <SBAppToAppWorkspaceTransaction: 0x1095467f0>
+00:00:01.764	59	INFO		#Warning Location connection invalid!
+00:00:01.765	59	INFO		{"msg":"CLConnection::handleDisconnection", "event":"activity"}
+00:00:01.766	59	INFO		Client com.apple.springboard disconnected
+00:00:01.767	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:01.768	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"lifecycle", "old":"0x1057aea50", "new":"0x0"}
+00:00:01.774	76	INFO		#I BundleID: <private> is a foreground app
+00:00:01.809	62	INFO		Removed BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:01.813	781	INFO		initializeCloudKit check: MagicCloudPairingAccessoryEncryptionPreferences (null)
+00:00:01.814	781	INFO		accountStatusDidChange read after sign in
+00:00:02.591	49	INFO		calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>

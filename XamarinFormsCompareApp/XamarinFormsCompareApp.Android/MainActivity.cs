@@ -8,7 +8,6 @@ using Android.Widget;
 using Android.OS;
 using Plugin.CurrentActivity;
 using Xamarin.Forms;
-using FFImageLoading.Forms.Platform;
 
 namespace XamarinFormsCompareApp.Droid
 {
@@ -26,11 +25,7 @@ namespace XamarinFormsCompareApp.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
             FormsMaterial.Init(this, savedInstanceState);
-            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
-            var watch = System.Diagnostics.Stopwatch.StartNew();
             LoadApplication(new App());
-            watch.Stop();
-            System.Diagnostics.Debug.WriteLine(watch.Elapsed);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

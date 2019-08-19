@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<Widget> pages = [
     Column(
           children: <Widget>[
-            //Image.network('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/FH_Dortmund-logo.svg/1200px-FH_Dortmund-logo.svg.png'),
+            Image.asset('assets/flutter.png', height: 250, width: 250,),
             Text(
               'Vergleich von Mobile App Frameworks zur Cross-Platform Entwicklung',
             ),

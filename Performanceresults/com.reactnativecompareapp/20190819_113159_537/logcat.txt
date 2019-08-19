@@ -1,0 +1,1000 @@
+Timestamp	App	Log Level	Message
+00:00:01.131	17643	ERROR		GameBenchD - Starting cpu thread - 4040 
+00:00:01.157	3127	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:01.188	3127	DEBUG		ClClient - --------- beginning of system
+00:00:01.188	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.188	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.189	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.189	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.189	17643	WARN		FileIOThread - type=1400 audit(0.0:37547): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.190	14302	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.190	14302	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.190	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.191	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.191	14302	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.192	14302	INFO		MetricsTowrite - 6
+00:00:01.221	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.222	2151	INFO		JobServiceContext - Client timed out while executing (no jobFinished received), sending onStop: fecd19a #u0a215/0 de.mobilesoftwareag.clevertanken/de.mobilesoftwareag.mqlib.MQSvrJob
+00:00:01.222	14302	DEBUG		TEST - Writing janks
+00:00:01.222	21774	INFO		Clever_Tanken-NCmqSrvJob - onStopJob()
+00:00:01.222	2151	INFO		ActivityManager - Killing 2702:com.android.chrome/u0a96 (adj 904): empty #17
+00:00:01.223	2151	INFO		ActivityManager - Killing 2519:com.zhiliaoapp.musically:bm/u0a324 (adj 904): empty #18
+00:00:01.223	2151	INFO		ActivityManager - Killing 1967:com.zhiliaoapp.musically/u0a324 (adj 906): empty #19
+00:00:01.223	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.223	2151	WARN		libprocessgroup - kill(-2702, 9) failed: No such process
+00:00:01.273	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:01.274	2151	WARN		libprocessgroup - kill(-2702, 9) failed: No such process
+00:00:01.274	17643	DEBUG		vndksupport - Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+00:00:01.274	17643	DEBUG		vndksupport - Loading /vendor/lib/hw/gralloc.sdm660.so from current namespace instead of sphal namespace.
+00:00:01.301	2151	WARN		libprocessgroup - kill(-2702, 9) failed: No such process
+00:00:01.301	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=2933, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ], android.os.BinderProxy@97455c9)
+00:00:01.301	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=2931, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ], android.os.BinderProxy@b21f4ce)
+00:00:01.302	1069	INFO		Zygote - Process 2702 exited due to signal (9)
+00:00:01.302	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2934, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ], android.os.BinderProxy@b602fef)
+00:00:01.302	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2932, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ], android.os.BinderProxy@8696afc)
+00:00:01.302	2151	DEBUG		ConnectivityService - releasing NetworkRequest [ TRACK_DEFAULT id=2933, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] (release request)
+00:00:01.302	2151	DEBUG		ConnectivityService - releasing NetworkRequest [ TRACK_DEFAULT id=2931, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] (release request)
+00:00:01.302	1211	ERROR		lowmemorykiller - Error writing /proc/2791/oom_score_adj; errno=22
+00:00:01.303	1211	ERROR		lowmemorykiller - Error writing /proc/2769/oom_score_adj; errno=22
+00:00:01.303	2151	WARN		ActivityManager - Scheduling restart of crashed service com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService in 1000ms
+00:00:01.303	2151	WARN		libprocessgroup - kill(-2702, 9) failed: No such process
+00:00:01.303	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10096 pid 2702 in 68ms
+00:00:01.303	2151	INFO		ActivityManager - Killing 2769:com.android.chrome:sandboxed_process0/u0a96i682 (adj 0): isolated not needed
+00:00:01.303	2151	WARN		libprocessgroup - kill(-2519, 9) failed: No such process
+00:00:01.304	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2930, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Unwanted:  Uid: 10324] ], android.os.BinderProxy@129dc0b)
+00:00:01.304	1065	INFO		Zygote - Process 2519 exited due to signal (9)
+00:00:01.304	9244	ERROR		ctxmgr - [AppIntervalImpl] closeInterval: ongoing [CONTEXT service_id=47 ]
+00:00:01.304	2151	WARN		libprocessgroup - kill(-2519, 9) failed: No such process
+00:00:01.304	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10324 pid 2519 in 16ms
+00:00:01.305	3096	INFO		Zygote - Process 2769 exited cleanly (0)
+00:00:01.305	2151	WARN		libprocessgroup - kill(-1967, 9) failed: No such process
+00:00:01.305	1069	INFO		Zygote - Process 2791 exited cleanly (0)
+00:00:01.330	2151	INFO		ActivityManager - Process com.android.chrome:privileged_process0 (pid 2791) has died: fore SVC 
+00:00:01.331	2151	WARN		libprocessgroup - kill(-1967, 9) failed: No such process
+00:00:01.331	2151	DEBUG		ConnectivityService - ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2929, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Unwanted:  Uid: 10324] ], android.os.BinderProxy@b603ae8)
+00:00:01.356	2151	WARN		libprocessgroup - kill(-1967, 9) failed: No such process
+00:00:01.357	1065	INFO		Zygote - Process 1967 exited due to signal (9)
+00:00:01.357	2151	WARN		libprocessgroup - kill(-1967, 9) failed: No such process
+00:00:01.357	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10324 pid 1967 in 44ms
+00:00:01.357	2151	WARN		libprocessgroup - Failed to open process cgroup uid 99682 pid 2769: No such file or directory
+00:00:01.357	2151	ERROR		libprocessgroup - Error encountered killing process cgroup uid 99682 pid 2769: No such file or directory
+00:00:01.357	2151	WARN		libprocessgroup - kill(-2791, 9) failed: No such process
+00:00:01.357	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10096 pid 2791 in 0ms
+00:00:01.387	9244	INFO		Places - ?: PlacesBleScanner stop()
+00:00:01.387	9244	INFO		BeaconBle - ZERO_POWER is disabled.
+00:00:01.387	9244	INFO		BeaconBle - 'L' hardware scan: scan stopped, no powered clients
+00:00:01.388	9244	INFO		BeaconBle - Places requested to stop scan
+00:00:01.388	9244	INFO		BeaconBle - Scan canceled successfully.
+00:00:01.388	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 3952
+00:00:01.388	14302	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -3952
+00:00:01.389	14302	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.415	9244	INFO		PlaceInferenceEngine - [anon] Changed inference mode: 0
+00:00:01.415	9244	INFO		PlaceInferenceEngine - [account#330167065] Changed inference mode: 0
+00:00:01.571	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 3952
+00:00:01.597	14302	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.598	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.598	14302	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.625	14302	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.625	14302	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.655	14302	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:01.656	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.656	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.656	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.657	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.657	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.657	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.657	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.657	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.658	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.658	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.658	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.658	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.659	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.659	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.659	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.659	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.713	14302	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.879	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 3952
+00:00:01.879	14302	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -3952
+00:00:02.322	2151	INFO		ActivityManager - Start proc 4092:com.android.chrome/u0a96 for service com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService
+00:00:02.353	4092	ERROR		.android.chrom - Not starting debugger since process cannot load the jdwp agent.
+00:00:02.430	4092	WARN		.android.chrom - JIT profile information will not be recorded: profile file does not exits.
+00:00:02.546	4092	WARN		DynamiteModule - Local module descriptor class for com.google.android.gms.googlecertificates not found.
+00:00:02.546	4092	INFO		cr_ui - Using UI locale de, system locale: de (Android name: de)
+00:00:02.546	4092	INFO		cr_ui - Found asset file: locales#lang_de/de.pak
+00:00:02.546	4092	INFO		cr_ui - Using app bundle locale directory: locales#lang_de
+00:00:02.547	4092	INFO		cr_ui - UI Language: de requires .pak files: [de]
+00:00:02.576	4092	WARN		.android.chrom - Unsupported class loader
+00:00:02.605	4092	INFO		DynamiteModule - Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+00:00:02.605	4092	INFO		DynamiteModule - Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+00:00:02.606	4092	INFO		cr_LibraryLoader - Time to load native libraries: 63 ms (timestamps 9777-9840)
+00:00:02.606	4092	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:02.606	4092	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:02.606	4092	INFO		cr_BrowserStartup - Initializing chromium process, singleProcess=false
+00:00:02.688	4092	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:02.689	4092	WARN		.android.chrom - Unsupported class loader
+00:00:02.829	14302	DEBUG		TEST - Writing janks
+00:00:02.939	4092	WARN		InstanceID - Instance ID SDK is deprecated, com.android.chrome should update to use Firebase Instance ID
+00:00:02.990	4092	WARN		cr_KnoxSettingsProvider - Permission to read device policy denied.
+00:00:03.017	4092	WARN		cr_ChildProcLH - Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+00:00:03.017	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10096/4092 NetworkRequest [ TRACK_DEFAULT id=2935, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+00:00:03.018	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2935, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:03.018	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2935, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:03.018	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2935, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:03.018	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2935, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:03.044	2151	INFO		ActivityManager - Start proc 4144:com.android.chrome:sandboxed_process0/u0i683 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService0
+00:00:03.045	4144	ERROR		dboxed_process - Not starting debugger since process cannot load the jdwp agent.
+00:00:03.098	4092	WARN		chromium - [WARNING:leveldb_database.cc(106)] Unable to open /data/user/0/com.android.chrome/app_chrome/Default/shared_proto_db: Invalid argument: /data/user/0/com.android.chrome/app_chrome/Default/shared_proto_db: does not exist (create_if_missing is false)
+00:00:03.154	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:03.180	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:03.180	4092	WARN		cr_LibraryPrefetcher - Cannot get PinnerService.
+00:00:03.210	2151	INFO		ActivityManager - Start proc 4169:com.android.chrome:privileged_process0/u0a96 for service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0
+00:00:03.210	4169	ERROR		ileged_process - Not starting debugger since process cannot load the jdwp agent.
+00:00:03.238	4144	INFO		cr_ChildProcessService - Creating new ChildProcessService pid=4144
+00:00:03.290	4144	INFO		cr_LibraryLoader - Time to load native libraries: 1 ms (timestamps 507-508)
+00:00:03.290	4144	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:03.290	4144	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:03.319	4092	DEBUG		NetworkSecurityConfig - Using Network Security Config from resource network_security_config debugBuild: false
+00:00:03.319	4169	WARN		ileged_process - JIT profile information will not be recorded: profile file does not exits.
+00:00:03.345	4092	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:03.424	4169	INFO		cr_ChildProcessService - Creating new ChildProcessService pid=4169
+00:00:03.535	4169	INFO		cr_LibraryLoader - Time to load native libraries: 6 ms (timestamps 752-758)
+00:00:03.536	4169	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:03.536	4169	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:03.563	4169	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:03.563	4169	INFO		Adreno - Build Date                       : 11/02/18
+00:00:03.563	4169	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:03.563	4169	INFO		Adreno - Local Branch                     : 
+00:00:03.563	4169	INFO		Adreno - Remote Branch                    : 
+00:00:03.563	4169	INFO		Adreno - Remote Branch                    : 
+00:00:03.564	4169	INFO		Adreno - Reconstruct Branch               : 
+00:00:03.564	4169	INFO		Adreno - Build Config                     : S L 6.0.7 AArch32
+00:00:03.564	4169	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:03.589	4169	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:03.590	4169	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:03.620	3127	DEBUG		EventNotificationJob - Running EventNotificationJob, isDetail=true
+00:00:03.646	3127	DEBUG		EventNotificationJob -   finished processing events.
+00:00:03.728	4169	WARN		VideoCapabilities - Unrecognized profile 4 for video/hevc
+00:00:03.728	4169	WARN		VideoCapabilities - Unrecognized profile/level 0/3 for video/mpeg2
+00:00:03.781	4169	INFO		VideoCapabilities - Unsupported profile 4 for video/mp4v-es
+00:00:05.129	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:05.130	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.271	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:05.271	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -69
+00:00:05.272	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:05.272	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:05.272	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:05.272	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:05.330	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:05.752	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:05.753	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.261	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:07.455	4092	INFO		.android.chrom - Waiting for a blocking GC ProfileSaver
+00:00:07.484	4092	INFO		.android.chrom - WaitForGcToComplete blocked ProfileSaver on AddRemoveAppImageSpace for 24.255ms
+00:00:08.312	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:08.312	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -65
+00:00:08.313	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:08.313	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:08.313	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:08.339	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:10.286	18551	INFO		PlayCommon - [2226] agab.d(22): Preparing logs for uploading
+00:00:10.287	18551	WARN		PlayCommon - [2226] agab.a(1): No account for auth token provided
+00:00:10.287	18551	INFO		PlayCommon - [2226] agab.d(124): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+00:00:10.341	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:10.341	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:10.341	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:10.342	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:10.342	18551	INFO		PlayCommon - [2226] agab.d(172): Successfully uploaded logs.
+00:00:11.165	3127	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:11.249	9244	INFO		GCoreUlr - Starting scheduled upload task
+00:00:11.277	9244	INFO		GCoreUlr - Starting service, intent=Intent { act=com.google.android.location.reporting.UPLOAD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService }, extras=null
+00:00:11.500	9244	INFO		GCoreUlr - LocationReporter sending 30 locations, 17 activities, and 25 metadata for account account#5# request #0; requests: []
+00:00:11.500	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:11.639	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:11.640	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:11.640	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:11.640	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:11.718	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:11.719	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:11.719	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:11.940	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:11.940	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:11.940	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:12.022	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:12.023	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:12.023	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:12.363	9244	INFO		GCoreUlr - Batch Location Update succeeded for account account#5#
+00:00:12.943	2151	WARN		ActivityManager - Background start not allowed: service Intent { act=org.chromium.components.sync.notifier.ACTION_REGISTER_TYPES cmp=com.android.chrome/org.chromium.chrome.browser.invalidation.ChromeInvalidationClientService (has extras) } to com.android.chrome/org.chromium.chrome.browser.invalidation.ChromeInvalidationClientService from pid=4092 uid=10096 pkg=com.android.chrome startFg?=false
+00:00:12.943	4092	ERROR		cr_invalidation - Failed to start service from exception: 
+00:00:12.943	4092	ERROR		cr_invalidation - java.lang.IllegalStateException: Not allowed to start service Intent { act=org.chromium.components.sync.notifier.ACTION_REGISTER_TYPES cmp=com.android.chrome/org.chromium.chrome.browser.invalidation.ChromeInvalidationClientService (has extras) }: app is in background uid UidRecord{905b905 u0a96 CEM  idle change:cached procs:2 seq(0,0,0)}
+00:00:12.943	4092	ERROR		cr_invalidation - 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1592)
+00:00:12.943	4092	ERROR		cr_invalidation - 	at android.app.ContextImpl.startService(ContextImpl.java:1547)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at android.content.ContextWrapper.startService(ContextWrapper.java:664)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at bzS.a(PG:45)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at bzS.a(PG:33)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at cdu.af_(PG:51)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at org.chromium.chrome.browser.sync.ProfileSyncService.syncStateChanged(PG:79)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at org.chromium.components.signin.OAuth2TokenService.nativeOAuth2TokenFetched(Native Method)
+00:00:12.944	4092	ERROR		cr_invalidation - 	at org.chromium.components.signin.OAuth2TokenService.a(PG:94)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at czg.a(PG:2)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at czh.a(PG:5)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at czm.a(PG:22)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at aMR.run(Unknown Source:7)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at android.os.Handler.handleCallback(Handler.java:873)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at android.os.Handler.dispatchMessage(Handler.java:99)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at android.os.Looper.loop(Looper.java:193)
+00:00:12.945	4092	ERROR		cr_invalidation - 	at android.app.ActivityThread.main(ActivityThread.java:6923)
+00:00:12.946	4092	ERROR		cr_invalidation - 	at java.lang.reflect.Method.invoke(Native Method)
+00:00:12.946	4092	ERROR		cr_invalidation - 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+00:00:12.946	4092	ERROR		cr_invalidation - 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:870)
+00:00:16.931	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:16.931	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.040	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.167 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:17.229	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.167 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:17.282	2151	WARN		Looper - Slow dispatch took 291ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:17.282	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:17.282	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:17.364	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:17.364	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -77
+00:00:17.364	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:17.364	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:17.365	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:17.365	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:17.365	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.167 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:17.365	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:17.365	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:17.391	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:17.391	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:17.391	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:17.391	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:17.417	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:17.417	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:17.417	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:17.468	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:17.469	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:17.469	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:17.494	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:17.494	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:17.577	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:17.578	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:17.661	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 92dbc9f DockedStackDivider#0
+00:00:17.661	2151	INFO		WindowManager - Screen frozen for +713ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:18.331	1154	WARN		qti_sensors_hal - processReportInd: lux: 17, ch0: 0, ch1: 3765, pData: 4, pOffset: 6
+00:00:18.514	2151	INFO		ActivityManager - Killing 3127:com.microsoft.office.outlook/u0a9 (adj 906): empty #17
+00:00:18.514	2151	WARN		libprocessgroup - kill(-3127, 9) failed: No such process
+00:00:18.565	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:18.566	2151	WARN		libprocessgroup - kill(-3127, 9) failed: No such process
+00:00:18.566	1065	INFO		Zygote - Process 3127 exited due to signal (9)
+00:00:18.591	2151	WARN		libprocessgroup - kill(-3127, 9) failed: No such process
+00:00:18.592	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10009 pid 3127 in 62ms
+00:00:18.617	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:18.617	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.647	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:18.673	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.168 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:18.922	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.168 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:18.923	2151	WARN		Looper - Slow dispatch took 290ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@e641392 m=0
+00:00:18.953	14302	DEBUG		TEST - Writing janks
+00:00:18.954	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:18.954	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:18.981	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:19.007	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.168 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:19.007	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:19.007	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:19.007	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:19.033	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:19.033	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:19.033	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:19.062	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:19.062	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:19.063	1154	WARN		qti_sensors_hal - processReportInd: lux: 12, ch0: 0, ch1: 2449, pData: 102, pOffset: 4
+00:00:19.063	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:19.063	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:19.063	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:19.090	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:19.091	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:19.118	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 3361526 AssistPreviewPanel#0
+00:00:19.174	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:19.231	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 45e5db2 DockedStackDivider#0
+00:00:19.231	2151	INFO		WindowManager - Screen frozen for +612ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:19.231	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:19.401	1154	WARN		qti_sensors_hal - processReportInd: lux: 7, ch0: 0, ch1: 1577, pData: 226, pOffset: 2
+00:00:19.653	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:19.874	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:19.874	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:19.904	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.283	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:20.284	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.340	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.169 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:20.370	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:20.399	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:20.399	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:20.399	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:20.534	14302	DEBUG		TEST - Writing janks
+00:00:20.641	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.169 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:20.641	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:20.641	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:20.641	2151	WARN		Looper - Slow dispatch took 269ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:20.642	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:20.642	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -64
+00:00:20.642	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.169 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:20.642	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:20.669	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:20.669	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:20.669	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:20.698	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:20.699	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:20.699	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:20.724	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:20.725	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:20.725	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:20.725	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.725	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:20.726	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:20.726	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:20.754	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:20.755	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:20.781	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 8bfed75 AssistPreviewPanel#0
+00:00:20.807	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:20.889	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 8aeebf1 DockedStackDivider#0
+00:00:20.889	2151	INFO		WindowManager - Screen frozen for +597ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:21.140	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:22.149	14302	DEBUG		TEST - Writing janks
+00:00:23.241	2151	INFO		system_server - Explicit concurrent copying GC freed 450781(18MB) AllocSpace objects, 83(2MB) LOS objects, 42% free, 27MB/48MB, paused 252us total 319.504ms
+00:00:23.590	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:23.590	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -67
+00:00:23.616	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:23.616	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:23.616	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:23.616	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:25.582	1154	WARN		qti_sensors_hal - reportSingleEvent: NearBy 1, pData 1850,  highThd 694
+00:00:25.582	1177	VERBOSE		MotSpeakerHelperProximity - updated mCurProximityState: NEAR (0.000000)
+00:00:25.582	1177	VERBOSE		MotSpeakerHelperProximity - ThreadLoop event mProximityState = NEAR, previous FAR
+00:00:26.641	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:26.642	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -64
+00:00:26.642	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:26.642	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:26.642	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:26.642	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:27.675	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:27.675	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:27.675	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:27.754	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:28.142	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10096/4092 NetworkRequest [ TRACK_DEFAULT id=2937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+00:00:28.142	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:28.142	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:28.143	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:28.143	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ] with score 60
+00:00:28.755	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:28.755	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:28.755	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:28.838	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.170 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:28.949	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.170 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:28.949	2151	WARN		Looper - Slow dispatch took 211ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@e641392 m=0
+00:00:28.976	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:28.976	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:28.977	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.170 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:28.977	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:28.977	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:28.977	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:29.003	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:29.003	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:29.032	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:29.032	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:29.032	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:29.032	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:29.084	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:29.084	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:29.084	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:29.111	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:29.111	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:29.138	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 47c21b0 AssistPreviewPanel#0
+00:00:29.191	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:29.242	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 179a8dc DockedStackDivider#0
+00:00:29.273	2151	INFO		WindowManager - Screen frozen for +520ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:29.273	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:29.658	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:29.658	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -72
+00:00:29.659	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:29.659	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:29.659	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:29.659	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:29.659	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:29.659	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:29.690	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:29.716	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:29.882	9244	INFO		GeofencerStateMachine - sendSignificantMotion
+00:00:29.908	9244	INFO		GCoreUlr - Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_ACTIVE_STATE cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{source=PowerModeReceiver}]
+00:00:29.909	9244	INFO		GeofencerStateMachine - sendNewTransitions called.
+00:00:29.939	9244	INFO		GeofencerStateMachine - sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+00:00:29.992	1154	WARN		qti_sensors_hal - processReportInd: lux: 2, ch0: 0, ch1: 756, pData: 102, pOffset: 1
+00:00:30.022	9244	INFO		GCoreUlr - DispatchingService.updateActiveState+PowerModeReceiver: Ensuring that reporting is active for [account#5#]
+00:00:30.023	9244	INFO		GCoreUlr - Successfully accounts update
+00:00:30.048	9244	INFO		GCoreUlr - GMS FLP location updates requested: {"description":"default","newRequest":true,"samplePeriodMs":120000,"sampleReason":"default","sampleSource":"internal","timestampMs":1566207146340}
+00:00:30.049	9244	INFO		GCoreUlr - Step counts collector feature is not enabled!
+00:00:30.049	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:30.049	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.075	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:30.075	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.171 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:30.154	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.171 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:30.181	2151	WARN		Looper - Slow dispatch took 130ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:30.181	14302	DEBUG		TEST - Writing janks
+00:00:30.208	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.171 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:30.209	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:30.209	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:30.235	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:30.235	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:30.235	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:30.264	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:30.264	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:30.317	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:30.317	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:30.317	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:30.348	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:30.375	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:30.375	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:30.375	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:30.401	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:30.401	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:30.481	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:30.508	2151	INFO		WindowManager - Screen frozen for +464ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:30.534	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:30.562	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 57356e0 DockedStackDivider#0
+00:00:31.359	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:31.359	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.388	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:31.417	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.172 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:31.494	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.172 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:31.495	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:31.495	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:31.495	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:31.525	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:31.526	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:31.552	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.172 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:31.552	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:31.552	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:31.552	2151	WARN		Looper - Slow dispatch took 190ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@e641392 m=0
+00:00:31.552	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:31.581	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:31.581	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:31.581	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:31.582	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:31.582	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:31.608	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:31.639	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:31.717	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:31.718	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:31.718	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:31.746	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:31.746	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:31.775	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:31.801	14302	DEBUG		TEST - Writing janks
+00:00:31.826	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 90921f8 AssistPreviewPanel#0
+00:00:31.826	2151	INFO		WindowManager - Screen frozen for +464ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:31.827	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:32.438	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:32.849	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:32.849	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.900	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.173 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:33.014	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.173 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:33.015	2151	WARN		Looper - Slow dispatch took 159ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:33.015	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:33.015	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:33.067	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.173 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:33.067	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:33.067	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:33.067	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:33.093	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:33.093	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:33.093	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:33.093	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:33.093	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:33.093	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:33.173	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:33.173	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:33.173	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:33.173	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:33.173	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:33.201	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: f32c53c AssistPreviewPanel#0
+00:00:33.229	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:33.315	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 4f928 DockedStackDivider#0
+00:00:33.315	2151	INFO		WindowManager - Screen frozen for +449ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:33.417	14302	DEBUG		TEST - Writing janks
+00:00:33.744	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:33.744	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.744	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing ScreenshotSurface to ScreenshotSurface#1
+00:00:33.774	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:33.774	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:33.775	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.174 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:33.883	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.174 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:33.883	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:33.883	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:33.962	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.174 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:33.962	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:33.963	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:33.963	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:33.963	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:33.963	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:33.992	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:33.992	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:34.045	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:34.045	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:34.045	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:34.045	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:34.045	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:34.075	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:34.076	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:34.130	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:34.215	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 1599e1f DockedStackDivider#0
+00:00:34.215	2151	INFO		WindowManager - Screen frozen for +459ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:34.789	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:35.008	14302	DEBUG		TEST - Writing janks
+00:00:35.226	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:35.226	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:35.254	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.175 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:35.365	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.175 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:35.392	2151	WARN		Looper - Slow dispatch took 170ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:35.393	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:35.393	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:35.419	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.175 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:35.446	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:35.446	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:35.446	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:35.476	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:35.476	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:35.476	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:35.476	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:35.501	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:35.502	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:35.502	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:35.502	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:35.502	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:35.532	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:35.532	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:35.583	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 51c8696 AssistPreviewPanel#0
+00:00:35.609	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:35.660	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: f927622 DockedStackDivider#0
+00:00:35.685	2151	INFO		WindowManager - Screen frozen for +461ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:36.292	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:36.293	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.323	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:36.349	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.176 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:36.457	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.176 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:36.483	2151	WARN		Looper - Slow dispatch took 183ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@e641392 m=0
+00:00:36.509	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.176 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:36.509	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:36.509	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:36.509	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:36.509	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:36.509	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:36.509	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:36.509	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:36.592	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:36.592	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:36.592	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:36.617	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:36.617	14302	DEBUG		TEST - Writing janks
+00:00:36.643	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:36.643	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:36.643	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:36.668	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:36.669	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:36.756	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:36.809	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 3a1c146 DockedStackDivider#0
+00:00:36.809	2151	INFO		WindowManager - Screen frozen for +515ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:37.388	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:37.666	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:37.667	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:37.667	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:37.831	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:38.049	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:38.050	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.076	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.177 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:38.185	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.177 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:38.185	2151	WARN		Looper - Slow dispatch took 150ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:38.185	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:38.185	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:38.213	14302	DEBUG		TEST - Writing janks
+00:00:38.243	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.177 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:38.243	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:38.243	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:38.243	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:38.243	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:38.244	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:38.270	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:38.270	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:38.297	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:38.297	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:38.297	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:38.297	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:38.297	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:38.326	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:38.326	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:38.352	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 7fddb59 AssistPreviewPanel#0
+00:00:38.409	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:38.490	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 27d415 DockedStackDivider#0
+00:00:38.490	2151	INFO		WindowManager - Screen frozen for +444ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:38.516	2619	INFO		ndroid.systemu - Background concurrent copying GC freed 134195(6MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 6MB/13MB, paused 114us total 105.787ms
+00:00:38.545	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:38.545	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:38.545	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:38.602	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:38.628	1154	WARN		qti_sensors_hal - processReportInd: lux: 7, ch0: 0, ch1: 1599, pData: 185, pOffset: 2
+00:00:38.792	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:38.792	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:38.882	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:38.909	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:38.909	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.935	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing ScreenshotSurface to ScreenshotSurface#1
+00:00:38.936	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:38.965	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:38.966	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:38.966	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.178 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:39.076	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.178 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:39.076	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:39.076	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:39.159	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.178 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:39.159	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:39.160	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:39.160	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:39.188	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:39.189	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:39.189	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:39.189	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:39.242	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:39.243	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:39.243	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:39.243	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:39.243	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:39.268	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:39.268	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:39.299	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 51f70cd AssistPreviewPanel#0
+00:00:39.353	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:39.434	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 13f4cc9 DockedStackDivider#0
+00:00:39.434	2151	INFO		WindowManager - Screen frozen for +512ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:39.460	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:39.812	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:39.812	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:39.812	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:39.841	14302	DEBUG		TEST - Writing janks
+00:00:39.868	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:39.926	1154	WARN		qti_sensors_hal - processReportInd: lux: 2, ch0: 0, ch1: 787, pData: 91, pOffset: 1
+00:00:39.983	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:40.392	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:40.392	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.446	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.179 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:40.559	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.179 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:40.560	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:40.560	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:40.560	2151	WARN		Looper - Slow dispatch took 159ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:40.585	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.179 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:40.615	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:40.616	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:40.616	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:40.616	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:40.616	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:40.669	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:40.669	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:40.669	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:40.669	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:40.720	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:40.720	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:40.720	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:40.720	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:40.720	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:40.804	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:40.886	2151	INFO		WindowManager - Screen frozen for +473ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:40.886	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:40.886	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 153e083 DockedStackDivider#0
+00:00:41.051	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:41.052	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.133	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:41.133	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:41.133	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:41.186	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:41.326	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing ScreenshotSurface to ScreenshotSurface#1
+00:00:41.326	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:41.357	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:41.357	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.180 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:41.465	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.180 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:41.549	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.180 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:41.549	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:41.576	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:41.577	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:41.577	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:41.577	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:41.577	14302	DEBUG		TEST - Writing janks
+00:00:41.577	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:41.577	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:41.577	2151	WARN		Looper - Slow dispatch took 202ms main h=com.android.providers.settings.SettingsProvider$SettingsRegistry$MyHandler c=null m=1
+00:00:41.577	2151	WARN		Looper - Slow delivery took 203ms main h=com.android.providers.settings.SettingsProvider$SettingsRegistry$MyHandler c=null m=2
+00:00:41.577	2151	WARN		Looper - Drained
+00:00:41.603	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:41.633	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:41.633	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:41.633	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:41.633	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:41.633	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:41.633	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:41.633	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:41.743	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:41.772	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:41.772	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:41.772	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:41.801	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:41.801	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:41.852	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 6ec4dd7 DockedStackDivider#0
+00:00:41.939	2151	INFO		WindowManager - Screen frozen for +611ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:42.131	9244	INFO		GCoreUlr - Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_ACTIVE_STATE cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{source=PowerModeReceiver}]
+00:00:42.243	9244	INFO		GCoreUlr - Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_ACTIVE_STATE cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{source=PowerModeReceiver}]
+00:00:42.243	9244	INFO		GCoreUlr - DispatchingService.updateActiveState+PowerModeReceiver: Ensuring that reporting is active for [account#5#]
+00:00:42.243	9244	INFO		GCoreUlr - Successfully accounts update
+00:00:42.243	9244	INFO		GCoreUlr - Step counts collector feature is not enabled!
+00:00:42.328	9244	INFO		GCoreUlr - DispatchingService.updateActiveState+PowerModeReceiver: Ensuring that reporting is active for [account#5#]
+00:00:42.328	9244	INFO		GCoreUlr - Successfully accounts update
+00:00:42.328	9244	INFO		GCoreUlr - Step counts collector feature is not enabled!
+00:00:42.354	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:42.355	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.407	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.181 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:42.461	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.181 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:42.516	2151	WARN		Looper - Slow dispatch took 142ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:42.516	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:42.516	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:42.542	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.181 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:42.542	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:42.543	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:42.543	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:42.570	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:42.571	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:42.571	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:42.571	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:42.571	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:42.597	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:42.626	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:42.627	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:42.627	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:42.653	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:42.653	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:42.683	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: ee03a5c AssistPreviewPanel#0
+00:00:42.734	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:42.786	2151	INFO		WindowManager - Screen frozen for +412ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:42.816	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:42.816	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 664a048 DockedStackDivider#0
+00:00:43.176	14302	DEBUG		TEST - Writing janks
+00:00:43.227	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:43.228	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.253	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:43.281	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.182 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:43.390	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.182 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:43.415	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:43.415	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:43.441	2151	WARN		Looper - Slow dispatch took 204ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@e641392 m=0
+00:00:43.441	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:43.466	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.182 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:43.466	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:43.466	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:43.466	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:43.467	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:43.467	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:43.467	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:43.545	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:43.545	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:43.545	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: f6eadde AssistPreviewPanel#0
+00:00:43.545	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:43.545	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:43.545	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:43.545	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:43.545	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:43.626	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:43.683	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: c33c9ea DockedStackDivider#0
+00:00:43.683	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:43.710	2151	INFO		WindowManager - Screen frozen for +467ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:43.736	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:43.736	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#2
+00:00:43.766	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#3
+00:00:43.900	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:43.901	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.200	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing ScreenshotSurface to ScreenshotSurface#1
+00:00:44.226	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:44.227	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.183 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:44.282	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.183 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:44.336	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:44.336	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:44.392	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:44.420	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.183 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:44.420	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:44.420	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:44.420	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:44.420	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:44.449	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:44.449	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:44.476	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:44.476	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:44.477	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:44.477	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:44.477	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:44.502	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:44.502	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:44.530	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 199328d AssistPreviewPanel#0
+00:00:44.559	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:44.693	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 6f36a89 DockedStackDivider#0
+00:00:44.693	2151	INFO		WindowManager - Screen frozen for +494ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:44.776	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:44.776	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -78
+00:00:44.776	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:44.776	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.801	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:44.801	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:44.801	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:44.801	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:44.802	14302	DEBUG		TEST - Writing janks
+00:00:45.152	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:45.152	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:45.177	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.184 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:45.202	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.184 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:45.228	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:45.228	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:45.337	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.184 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:45.337	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:45.337	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:45.367	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:45.367	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:45.367	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:45.418	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:45.418	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:45.418	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:45.418	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:45.471	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:45.471	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:45.471	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:45.471	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:45.471	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:45.526	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:45.582	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: e55e2a8 AssistPreviewPanel#0
+00:00:45.582	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 57a8154 DockedStackDivider#0
+00:00:45.582	2151	INFO		WindowManager - Screen frozen for +462ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:45.610	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:45.745	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:46.077	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:46.077	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.134	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.185 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:46.244	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.185 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:46.244	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:46.244	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:46.244	2151	WARN		Looper - Slow dispatch took 142ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@3d79c2a m=0
+00:00:46.274	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.185 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:46.275	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:46.275	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:46.301	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:46.302	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:46.302	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:46.353	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:46.353	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:46.353	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:46.379	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:46.405	14302	DEBUG		TEST - Writing janks
+00:00:46.432	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:46.432	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:46.432	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:46.432	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:46.460	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:46.460	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:46.486	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:46.569	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 464259f AssistPreviewPanel#0
+00:00:46.569	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 36f7cbb DockedStackDivider#0
+00:00:46.569	2151	INFO		WindowManager - Screen frozen for +483ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:47.181	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:47.801	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:47.801	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -72
+00:00:47.801	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:47.801	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:47.801	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:47.827	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:47.827	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:47.827	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.853	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:47.853	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.186 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:47.968	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.186 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:47.968	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.186 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:47.968	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:47.996	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:47.996	2151	WARN		Looper - Slow dispatch took 155ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@e641392 m=0
+00:00:47.996	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:47.997	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:47.997	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:48.022	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:48.022	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:48.077	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:48.077	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:48.077	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:48.077	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:48.133	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:48.133	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:48.133	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:48.159	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:48.159	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:48.184	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 10273a2 AssistPreviewPanel#0
+00:00:48.236	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:48.261	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  3.0
+00:00:48.286	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.344	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: b827ee DockedStackDivider#0
+00:00:48.344	2151	INFO		WindowManager - Screen frozen for +523ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:48.374	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:48.507	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:48.507	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:48.784	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing ScreenshotSurface to ScreenshotSurface#1
+00:00:48.866	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:48.866	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.187 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:48.919	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.187 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:48.920	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:48.920	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 3, mode 1, display id 0
+00:00:49.029	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w720dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(144, 0 - 2304, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.187 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:49.029	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 2
+00:00:49.029	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:49.029	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:49.029	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:49.056	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:49.057	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:49.057	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:49.085	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:49.085	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:49.085	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:49.085	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:49.085	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:49.085	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:49.085	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:49.137	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 57e54a1 AssistPreviewPanel#0
+00:00:49.194	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:49.244	1154	WARN		qti_sensors_hal - processReportInd: lux: 7, ch0: 0, ch1: 1553, pData: 182, pOffset: 2
+00:00:49.271	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 98a99dd DockedStackDivider#0
+00:00:49.271	2151	INFO		WindowManager - Screen frozen for +475ms due to Window{cd78419 u0 ScreenDecorOverlayBottom}
+00:00:49.518	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:49.518	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:49.518	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:49.595	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:49.595	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.595	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:49.595	14302	DEBUG		TEST - Writing janks
+00:00:49.729	1213	ERROR		SurfaceFlinger - size mismatch (2160, 1080) > (1080, 2160)
+00:00:49.729	2151	WARN		WindowManager - performLayoutAndPlaceSurfacesLocked called while in layout. Callers=com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:155 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:145 com.android.server.wm.WindowManagerService.reconfigureDisplayLocked:5541 
+00:00:49.729	2151	INFO		ActivityManager - Config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.188 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:49.841	2151	INFO		ActivityManager - Override config changes=20000480 {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.188 spnnull gidffffffffffffffffffffffffffffffffffffffff} for displayId=0
+00:00:49.842	2151	INFO		InputReader - Reconfiguring input devices.  changes=0x00000004
+00:00:49.842	2151	INFO		InputReader - Device reconfigured: id=4, name='goodix-ts', size 1080x2160, orientation 0, mode 1, display id 0
+00:00:49.894	7888	WARN		GoogleInputMethod - onConfigurationChanged() : NewConfig = {1.0 262mcc7mnc [de_DE] ldltr sw360dp w360dp h696dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} s.188 spnnull gidffffffffffffffffffffffffffffffffffffffff}
+00:00:49.894	7888	WARN		AndroidIME - reloadOrientationAwareData() : orientation = 1
+00:00:49.921	7888	WARN		AndroidIME - setInputView() : inputView = null
+00:00:49.921	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:49.921	7888	INFO		KeyboardViewUtil - systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+00:00:49.921	2619	INFO		NetworkController - handleConfigurationChanged -- mcc/mnc for sub: {id=2, iccId=894922701[****] simSlotIndex=0 displayName=SIM 1 carrierName= nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8f82e2c mcc 262 mnc 7 isEmbedded false accessRules null cardId=894922701[****] status 0}
+00:00:49.921	7888	INFO		DeviceStatusMonitor - onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+00:00:49.921	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:49.977	7888	INFO		chatty - uid=10116(com.google.android.inputmethod.latin) identical 2 lines
+00:00:49.977	7888	INFO		ConfigNotification - Get device mode by ui mode:1 and smallestScreenWidthDp:360
+00:00:49.978	2619	VERBOSE		ImsIconController - updateIMS: intent: Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70200010 }
+00:00:49.978	2619	VERBOSE		ImsIconController - updateIMS: registered over LTE: true, registered over WIFI: false, DDS subID: 2, DDS phoneId = 0
+00:00:49.978	2619	VERBOSE		ImsIconController - getSubIdForIms: dds phoneId = 0, dds subId = 2
+00:00:49.978	2619	VERBOSE		ImsIconController - IMS icon enabled = true, icon Mode = 1
+00:00:49.978	2619	VERBOSE		ImsIconController - refreshVoLteIcon: visibility = false
+00:00:50.034	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 8060b4c AssistPreviewPanel#0
+00:00:50.086	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:50.168	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: a2e9038 DockedStackDivider#0
+00:00:50.168	2151	INFO		WindowManager - Screen frozen for +462ms due to Window{f09e992 u0 ScreenDecorOverlay}
+00:00:50.194	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:50.525	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3939198, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=149997, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=57, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=370, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-176757, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=290, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1365602, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:50.525	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing BlackSurface to BlackSurface#1
+00:00:50.525	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:50.525	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:50.525	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:50.525	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:50.714	1154	WARN		qti_sensors_hal - reportSingleEvent: NearBy 0, pData 170,  highThd 694
+00:00:50.714	1177	VERBOSE		MotSpeakerHelperProximity - updated mCurProximityState: FAR (5.000305)
+00:00:50.714	1177	VERBOSE		MotSpeakerHelperProximity - ThreadLoop event mProximityState = FAR, previous NEAR
+00:00:50.743	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:50.743	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:50.743	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:50.794	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:51.226	14302	DEBUG		TEST - Writing janks
+00:00:51.716	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:52.344	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:52.396	2151	DEBUG		KernelUidCpuTimeReader - Removing uids 99681-99681
+00:00:52.541	2151	INFO		system_server - Explicit concurrent copying GC freed 359392(13MB) AllocSpace objects, 76(1520KB) LOS objects, 42% free, 28MB/50MB, paused 1.064ms total 330.770ms

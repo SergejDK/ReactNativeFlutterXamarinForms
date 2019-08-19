@@ -1,0 +1,2 @@
+USER           PID  PPID     VSZ    RSS WCHAN            ADDR S NAME                       
+shell        24813 17441   11756   2220 0          7ac7b2fc30 R ps

@@ -1,0 +1,256 @@
+Timestamp	App	Log Level	Message
+00:00:01.123	17643	ERROR		GameBenchD - Starting query thread - 5548 
+00:00:01.123	17643	ERROR		GameBenchD - --------- beginning of system
+00:00:01.123	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.152	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.177	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.177	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.177	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.177	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.177	14302	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.177	17643	WARN		FileIOThread - type=1400 audit(0.0:37555): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.177	14302	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.177	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.177	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.205	14302	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.205	14302	INFO		MetricsTowrite - 6
+00:00:01.205	14302	DEBUG		TEST - Writing janks
+00:00:01.230	14302	WARN		System - A resource failed to call close. 
+00:00:01.358	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 5475
+00:00:01.359	14302	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -5475
+00:00:01.359	14302	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.389	9244	INFO		Places - Converted 0 out of 4 WiFi scans
+00:00:01.439	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:01.490	14302	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.649	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 5475
+00:00:01.649	14302	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.649	14302	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.649	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.676	14302	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.706	14302	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.706	14302	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.733	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.734	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.734	14302	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.734	14302	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.843	14302	INFO		GameBench3 - Pid for com.reactnativecompareapp - 5475
+00:00:01.843	14302	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -5475
+00:00:02.813	14302	DEBUG		TEST - Writing janks
+00:00:03.166	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.251	5475	WARN		ReactNativeJS - 'VirtualizedList: missing keys for items, make sure to specify a key or id property on each item or provide a custom keyExtractor.', ''
+00:00:04.313	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.423	14302	DEBUG		TEST - Writing janks
+00:00:06.471	14302	DEBUG		TEST - Writing janks
+00:00:06.471	2151	INFO		system_server - Background concurrent copying GC freed 545729(19MB) AllocSpace objects, 83(2MB) LOS objects, 42% free, 28MB/49MB, paused 328us total 249.109ms
+00:00:07.632	14302	DEBUG		TEST - Writing janks
+00:00:08.297	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:09.232	14302	DEBUG		TEST - Writing janks
+00:00:14.867	14302	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-139 identical 2 lines
+00:00:14.867	14302	DEBUG		TEST - Writing janks
+00:00:14.867	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:14.867	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:14.867	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:14.867	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:15.198	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:15.198	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:15.198	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:15.276	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:15.658	14302	DEBUG		TEST - Writing janks
+00:00:16.513	5475	INFO		ativecompareap - Compiler allocated 6MB to compile void com.facebook.react.uimanager.ReactShadowNodeImpl.markUpdated()
+00:00:16.783	5475	INFO		ativecompareap - Compiler allocated 9MB to compile void com.facebook.react.views.text.ReactRawTextShadowNode.setText(java.lang.String)
+00:00:17.267	14302	DEBUG		TEST - Writing janks
+00:00:18.224	2539	WARN		LocationOracle - No location history returned by ContextManager
+00:00:18.277	2151	INFO		ActivityManager - Start proc 5781:com.google.android.youtube/u0a136 for service com.google.android.youtube/com.google.android.libraries.youtube.common.gcore.gcoreclient.gcm.impl.GcmTaskServiceDelegator
+00:00:18.308	5781	ERROR		android.youtub - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.364	5781	INFO		android.youtub - The ClassLoaderContext is a special shared library.
+00:00:18.447	2539	WARN		ErrorReporter - reportError [type: 1323, code: 917507, bug: 119055758]: java.lang.Throwable: Current Time: 1566207310, Next Alarm Time: 0
+00:00:18.448	9244	INFO		GeofencerStateMachine - removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.googlequicksearchbox], packageName=com.google.android.googlequicksearchbox]
+00:00:18.474	2539	ERROR		GeofenceHelper - Failed: remove geofences by PendingIntent
+00:00:18.501	5781	WARN		android.youtub - JIT profile information will not be recorded: profile file does not exits.
+00:00:18.527	2151	WARN		ActivityManager - Unable to start service Intent { act=com.google.firebase.MESSAGING_EVENT pkg=com.google.android.googlequicksearchbox } U=0: not found
+00:00:18.527	2539	ERROR		FirebaseInstanceId - binding to the service failed
+00:00:18.557	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:18.558	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.558	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.609	5781	WARN		YouTube - Fetching the Gservices key 'failsafe_clear_cache_release_13_02' before the end of the bulk initialization
+00:00:18.609	5781	WARN		YouTube - Fetching the Gservices key 'disable_binder_callback_flush' before the end of the bulk initialization
+00:00:18.635	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:18.635	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.635	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.690	2151	INFO		ActivityManager - Start proc 5826:com.google.process.gservices/u0a39 for content provider com.google.android.gsf/.gservices.GservicesProvider
+00:00:18.691	5826	ERROR		ocess.gservice - Not starting debugger since process cannot load the jdwp agent.
+00:00:18.716	5781	WARN		YouTube - Fetching the Gservices key 'disable_native_cronet' before the end of the bulk initialization
+00:00:18.741	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:18.742	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:18.742	5826	INFO		ocess.gservice - The ClassLoaderContext is a special shared library.
+00:00:18.768	5781	INFO		android.youtub - The ClassLoaderContext is a special shared library.
+00:00:18.769	5781	INFO		chatty - uid=10136(com.google.android.youtube) initCrit2-1 identical 1 line
+00:00:18.769	5781	INFO		android.youtub - The ClassLoaderContext is a special shared library.
+00:00:18.769	5826	INFO		GservicesProvider - Gservices pushing to system: true; secure/global: true
+00:00:18.854	5781	ERROR		GEL_DELAYED_EVENT_DEBUG - Failed delayed event dispatch, no dispatchers.
+00:00:18.879	14302	DEBUG		TEST - Writing janks
+00:00:18.879	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:18.879	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.879	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.907	9244	WARN		Conscrypt - Could not set socket write timeout: java.net.SocketException: Socket closed
+00:00:18.908	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.908	9244	WARN		Conscrypt - 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@18385039@18.3.85 (100408-262677519):2)
+00:00:18.933	5781	INFO		android.youtub - Waiting for a blocking GC AddRemoveAppImageSpace
+00:00:18.985	2151	DEBUG		ConnectivityService - requestNetwork for uid/pid:10136/5781 NetworkRequest [ TRACK_DEFAULT id=2943, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10136] ]
+00:00:18.985	2151	DEBUG		WIFI_UT - got request NetworkRequest [ TRACK_DEFAULT id=2943, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10136] ] with score 56
+00:00:18.985	2151	DEBUG		WIFI - got request NetworkRequest [ TRACK_DEFAULT id=2943, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10136] ] with score 56
+00:00:18.985	2151	DEBUG		Ethernet - got request NetworkRequest [ TRACK_DEFAULT id=2943, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10136] ] with score 56
+00:00:18.985	2867	DEBUG		PhoneSwitcherNetworkRequstListener - got request NetworkRequest [ TRACK_DEFAULT id=2943, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10136] ] with score 56
+00:00:19.011	5781	WARN		PrimesInit - Primes instant initialization
+00:00:19.011	5781	INFO		android.youtub - WaitForGcToComplete blocked AddRemoveAppImageSpace on AddRemoveAppImageSpace for 71.276ms
+00:00:19.011	5781	WARN		android.youtub - Suspending all threads took: 6.265ms
+00:00:19.070	5781	WARN		Primes - background initialization
+00:00:19.098	5781	INFO		PrimesTesting - GserviceFlagsSupplier.get()
+00:00:19.124	5781	INFO		FA - Collection disabled with firebase_analytics_collection_enabled=0
+00:00:19.124	5781	INFO		FA - App measurement is starting up, version: 12780
+00:00:19.124	5781	INFO		FA - To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+00:00:19.150	5781	INFO		FA - To enable faster debug mode event logging run:
+00:00:19.150	5781	INFO		FA -   adb shell setprop debug.firebase.analytics.app com.google.android.youtube
+00:00:19.150	5781	WARN		android.youtub - Unsupported class loader
+00:00:19.175	5781	INFO		CrashMetricService - Startup metric for 'PRIMES_CRASH_MONITORING_INITIALIZED' dropped.
+00:00:19.202	5781	WARN		android.youtub - Skipping duplicate class check due to unsupported classloader
+00:00:19.282	5781	INFO		DynamiteModule - Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:20405
+00:00:19.307	5781	INFO		DynamiteModule - Selected remote version of com.google.android.gms.ads.dynamite, version >= 20405
+00:00:19.471	5781	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:19.471	5781	WARN		android.youtub - Unsupported class loader
+00:00:19.471	5781	WARN		android.youtub - Skipping duplicate class check due to unsupported classloader
+00:00:19.498	5781	DEBUG		DynamitePackage - Instantiated singleton DynamitePackage.
+00:00:19.498	5781	DEBUG		DynamitePackage - Instantiating com.google.android.gms.ads.adshield.ChimeraAdShieldCreatorImpl
+00:00:19.498	5781	DEBUG		NetworkSecurityConfig - Using Network Security Config from resource network_security_config debugBuild: false
+00:00:19.581	2151	WARN		Looper - Slow dispatch took 122ms main h=com.android.server.notification.NotificationManagerService$WorkerHandler c=null m=3
+00:00:19.688	5781	INFO		android.youtub - The ClassLoaderContext is a special shared library.
+00:00:19.741	2151	WARN		Looper - Slow dispatch took 165ms main h=com.android.server.notification.NotificationManagerService$WorkerHandler c=null m=3
+00:00:20.469	14302	DEBUG		TEST - Writing janks
+00:00:28.439	14302	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-139 identical 3 lines
+00:00:28.439	14302	DEBUG		TEST - Writing janks
+00:00:28.439	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:28.492	14302	DEBUG		TEST - Writing janks
+00:00:42.568	14302	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-139 identical 7 lines
+00:00:42.568	14302	DEBUG		TEST - Writing janks
+00:00:42.568	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:42.568	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:42.568	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:42.648	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:42.927	14302	DEBUG		TEST - Writing janks
+00:00:54.417	14302	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-139 identical 6 lines
+00:00:54.417	14302	DEBUG		TEST - Writing janks
+00:00:54.417	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:54.445	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:54.445	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:54.496	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:55.745	14302	DEBUG		TEST - Writing janks
+00:00:56.162	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:56.162	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3929433, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150007, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=57, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=399, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-128906, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=300, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1371992, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:56.162	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:56.162	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:56.162	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:56.162	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:56.244	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:57.371	14302	DEBUG		TEST - Writing janks
+00:00:58.607	2151	INFO		ActivityManager - Start proc 6350:com.zhiliaoapp.musically:push/u0a324 for service com.zhiliaoapp.musically/com.ss.android.message.PushJobService
+00:00:58.636	6350	ERROR		.musically:pus - Not starting debugger since process cannot load the jdwp agent.
+00:00:58.636	2151	INFO		ActivityManager - Start proc 6357:com.motorola.moto/u0a62 for service com.motorola.moto/com.motorola.assist.engine.CarModeJobService
+00:00:58.636	6357	ERROR		m.motorola.mot - Not starting debugger since process cannot load the jdwp agent.
+00:00:58.666	6350	INFO		.musically:pus - The ClassLoaderContext is a special shared library.
+00:00:58.694	6357	INFO		m.motorola.mot - The ClassLoaderContext is a special shared library.
+00:00:58.722	6357	INFO		m.motorola.mot - The ClassLoaderContext is a special shared library.
+00:00:58.722	6350	WARN		.musically:pus - ClassLoaderContext classpath element mismatch for position 0. expected=base.apk!classes2.dex, found=/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes2.dex (PCL[/system/framework/org.apache.http.legacy.boot.jar*1146433558:base.apk*2750987770:base.apk!classes2.dex*3797168854:base.apk!classes3.dex*2264885019:base.apk!classes4.dex*448482857:base.apk!classes5.dex*3852052699:base.apk!classes6.dex*2762803106:base.apk!classes7.dex*143425104:base.apk!classes8.dex*2504413524] | PCL[/system/framework/org.apache.http.legacy.boot.jar*1146433558:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk*2750987770:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes2.dex*3797168854:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes3.dex*2264885019:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes4.dex*448482857:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes5.dex*3852052699:/data/a
+00:00:58.773	6350	WARN		.musically:pus - JIT profile information will not be recorded: profile file does not exits.
+00:00:58.773	6357	INFO		KOIN - [context] create
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.injection.provider.SystemServiceProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=android.content.SharedPreferences]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.core.proxy.UserManagerProxy]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.DeviceProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.injection.provider.PreferenceProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.VersionProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.ProfileProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.InputStreamConverter]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.provider.FeatureFamilyProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureConverter]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureSettingsProxy]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureProviderConsumer]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.about.AboutViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.valueprop.ValuePropViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.featurehubs.MotoFeatureViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.featurefamily.FeatureFamilyViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.drawer.MotoDrawerViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.herocontent.MotoHeroViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.provider.PersistenceProvider]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.feature.herocontent.MotoHeroEntryController]
+00:00:58.773	6357	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureObserverRegister]
+00:00:58.773	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.herocontent.MotoHeroAnimationController]
+00:00:58.774	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.featurehubs.MotoFeatureEntryConverter]
+00:00:58.774	6357	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.data.model.ui.FeatureFamilyConverter]
+00:00:58.774	6357	INFO		KOIN - [modules] loaded 24 definitions
+00:00:58.774	6357	INFO		KOIN - [init] Load Android features
+00:00:58.774	6357	INFO		KOIN - [init] ~ added Android application bean reference
+00:00:58.774	6357	INFO		KOIN - [module] declare Bean[class=android.app.Application, binds~(android.content.Context)]
+00:00:58.774	6357	INFO		KOIN - [Android-Properties] no assets/koin.properties file to load
+00:00:58.774	6357	INFO		KOIN - Resolve class[com.motorola.motorefresh.core.DeviceProvider] with Bean[class=com.motorola.motorefresh.core.DeviceProvider]
+00:00:58.774	6357	INFO		KOIN - (*) Created
+00:00:58.774	6357	ERROR		MotoApp - Unable to retrieve package version for package: com.google.android.projection.gearhead
+00:00:58.829	6350	INFO		LoadedApk - No resource references to update in package com.zhiliaoapp.musically.df_fusing
+00:00:58.880	6350	INFO		.musically:pus - Method exceeds compiler instruction limit: 25140 in com.ss.android.ugc.aweme.global.config.settings.pojo.IESSettings com.ss.android.ugc.aweme.global.config.settings.pojo.IESSettings$ProtoAdapter_IESSettings.decode(com.squareup.wire.ProtoReader, com.ss.android.ugc.aweme.global.config.settings.pojo.IESSettings)
+00:00:58.936	6350	INFO		WebViewFactory - Loading com.android.chrome version 76.0.3809.111 (code 380911137)
+00:00:58.961	14302	DEBUG		TEST - Writing janks
+00:00:59.046	6350	INFO		cr_LibraryLoader - Time to load native libraries: 4 ms (timestamps 1735-1739)
+00:00:59.046	6350	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:00:59.046	6350	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:00:59.097	2151	INFO		ActivityManager - Start proc 6418:com.zhiliaoapp.musically/u0a324 for content provider com.zhiliaoapp.musically/com.ss.android.common.util.MultiProcessSharedProvider
+00:00:59.097	2151	WARN		ActivityManager - Background start not allowed: service Intent { cmp=com.zhiliaoapp.musically/com.ss.android.message.NotifyService (has extras) } to com.zhiliaoapp.musically/com.ss.android.message.NotifyService from pid=6350 uid=10324 pkg=com.zhiliaoapp.musically startFg?=false
+00:00:59.127	6418	ERROR		aoapp.musicall - Not starting debugger since process cannot load the jdwp agent.
+00:00:59.128	2151	WARN		ActivityManager - Background start not allowed: service Intent { act=com.ss.android.message.action.PUSH_SERVICE pkg=com.zhiliaoapp.musically cmp=com.zhiliaoapp.musically/com.ss.android.message.NotifyService } to com.zhiliaoapp.musically/com.ss.android.message.NotifyService from pid=6350 uid=10324 pkg=com.zhiliaoapp.musically startFg?=false
+00:00:59.153	6350	WARN		Settings - Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+00:00:59.181	6418	INFO		aoapp.musicall - The ClassLoaderContext is a special shared library.
+00:00:59.211	6418	WARN		aoapp.musicall - ClassLoaderContext classpath element mismatch for position 0. expected=base.apk!classes2.dex, found=/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes2.dex (PCL[/system/framework/org.apache.http.legacy.boot.jar*1146433558:base.apk*2750987770:base.apk!classes2.dex*3797168854:base.apk!classes3.dex*2264885019:base.apk!classes4.dex*448482857:base.apk!classes5.dex*3852052699:base.apk!classes6.dex*2762803106:base.apk!classes7.dex*143425104:base.apk!classes8.dex*2504413524] | PCL[/system/framework/org.apache.http.legacy.boot.jar*1146433558:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk*2750987770:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes2.dex*3797168854:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes3.dex*2264885019:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes4.dex*448482857:/data/app/com.zhiliaoapp.musically-QOMRQ8uUJHvK8IxfU7zggA==/base.apk!classes5.dex*3852052699:/data/a
+00:00:59.262	6418	WARN		aoapp.musicall - JIT profile information will not be recorded: profile file does not exits.
+00:00:59.313	6418	INFO		LoadedApk - No resource references to update in package com.zhiliaoapp.musically.df_fusing
+00:00:59.396	6418	WARN		aoapp.musicall - Unsupported class loader
+00:00:59.529	6418	WARN		aoapp.musicall - Skipping duplicate class check due to unsupported classloader
+00:00:59.612	6418	DEBUG		NetworkSecurityConfig - Using Network Security Config from resource k88 debugBuild: false
+00:00:59.637	6418	INFO		aoapp.musicall - Method exceeds compiler instruction limit: 25140 in com.ss.android.ugc.aweme.global.config.settings.pojo.IESSettings com.ss.android.ugc.aweme.global.config.settings.pojo.IESSettings$ProtoAdapter_IESSettings.decode(com.squareup.wire.ProtoReader, com.ss.android.ugc.aweme.global.config.settings.pojo.IESSettings)
+00:00:59.775	2151	INFO		system_server - Background concurrent copying GC freed 545895(18MB) AllocSpace objects, 99(2MB) LOS objects, 42% free, 28MB/49MB, paused 313us total 268.177ms
+00:01:00.072	6418	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:01:00.100	6418	WARN		aoapp.musicall - Unsupported class loader
+00:01:00.101	6418	WARN		aoapp.musicall - Accessing hidden method Landroid/view/Choreographer;->postCallbackDelayedInternal(ILjava/lang/Object;Ljava/lang/Object;J)V (dark greylist, reflection)
+00:01:00.101	6418	WARN		aoapp.musicall - Skipping duplicate class check due to unsupported classloader
+00:01:00.101	6418	WARN		aoapp.musicall - Accessing hidden field Landroid/view/Choreographer;->mHandler:Landroid/view/Choreographer$FrameHandler; (dark greylist, reflection)
+00:01:00.129	6418	WARN		aoapp.musicall - Accessing hidden field Landroid/os/Handler;->mQueue:Landroid/os/MessageQueue; (dark greylist, reflection)
+00:01:00.243	6418	INFO		WebViewFactory - Loading com.android.chrome version 76.0.3809.111 (code 380911137)
+00:01:00.358	6418	WARN		Settings - Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+00:01:00.499	2151	WARN		ActivityManager - Background start not allowed: service Intent { cmp=com.zhiliaoapp.musically/com.ss.android.message.NotifyService (has extras) } to com.zhiliaoapp.musically/com.ss.android.message.NotifyService from pid=6418 uid=10324 pkg=com.zhiliaoapp.musically startFg?=false
+00:01:00.499	2151	WARN		AccountManagerService - insertAccountIntoDatabase: Account {name=TikTok, type=com.zhiliaoapp.musically}, skipping since the account already exists
+00:01:00.499	6418	WARN		Settings - Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+00:01:00.555	14302	DEBUG		TEST - Writing janks
+00:01:00.803	2151	WARN		ActivityManager - Background start not allowed: service Intent { cmp=com.zhiliaoapp.musically/com.ss.android.message.NotifyService } to com.zhiliaoapp.musically/com.ss.android.message.NotifyService from pid=6418 uid=10324 pkg=com.zhiliaoapp.musically startFg?=false
+00:01:00.907	6418	INFO		cr_LibraryLoader - Time to load native libraries: 36 ms (timestamps 3580-3616)
+00:01:00.933	6418	INFO		chromium - [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+00:01:00.933	6418	INFO		cr_LibraryLoader - Expected native library version number "76.0.3809.111", actual native library version number "76.0.3809.111"
+00:01:01.046	6418	WARN		ParseThread - type=1400 audit(0.0:37556): avc: denied { read } for uid=10324 name="stats" dev="proc" ino=4026532819 scontext=u:r:untrusted_app:s0:c68,c257,c512,c768 tcontext=u:object_r:proc_qtaguid_stat:s0 tclass=file permissive=0
+00:01:02.178	6418	WARN		ParseThread - type=1400 audit(0.0:37557): avc: denied { read } for uid=10324 name="stats" dev="proc" ino=4026532819 scontext=u:r:untrusted_app:s0:c68,c257,c512,c768 tcontext=u:object_r:proc_qtaguid_stat:s0 tclass=file permissive=0
+00:01:02.178	14302	DEBUG		TEST - Writing janks
+00:01:03.377	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:01:03.377	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:01:03.377	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:01:03.458	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:01:03.764	14302	DEBUG		TEST - Writing janks
+00:01:04.180	2151	DEBUG		WificondControl - Scan result ready event
+00:01:05.392	14302	DEBUG		TEST - Writing janks
+00:01:06.421	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth

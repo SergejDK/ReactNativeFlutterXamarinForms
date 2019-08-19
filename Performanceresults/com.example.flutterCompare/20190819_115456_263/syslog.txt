@@ -1,0 +1,551 @@
+Timestamp	App	Log Level	Message
+00:00:00.003	59	INFO		@ClxIndoor, state, 0, request
+00:00:00.004	59	INFO		@ClxIndoor, Fix, 0, ll, N/A, force stop immediately
+00:00:00.004	59	INFO		#sbim: Location icon should now be in state 'Inactive'
+00:00:00.004	52	INFO		disabling location
+00:00:00.005	59	INFO		#warning no watchdog event from com.apple.springboard, deleting
+00:00:00.005	59	INFO		Client com.apple.springboard disconnected
+00:00:00.006	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:00.006	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x106025860", "property":"lifecycle", "old":"0x106025860", "new":"0x0"}
+00:00:00.006	59	INFO		#warning no watchdog event from /usr/sbin/wifid, deleting
+00:00:00.007	59	INFO		Client /usr/sbin/wifid disconnected
+00:00:00.007	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:00.007	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057be340", "property":"lifecycle", "old":"0x1057be340", "new":"0x0"}
+00:00:00.008	59	INFO		#warning no watchdog event from com.apple.locationd, deleting
+00:00:00.008	59	INFO		Client com.apple.locationd disconnected
+00:00:00.008	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:00.008	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057dd520", "property":"lifecycle", "old":"0x1057dd520", "new":"0x0"}
+00:00:00.009	59	INFO		#warning no watchdog event from com.apple.springboard, deleting
+00:00:00.009	59	INFO		Client com.apple.springboard disconnected
+00:00:00.009	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:00.009	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105386870", "property":"lifecycle", "old":"0x105386870", "new":"0x0"}
+00:00:00.010	59	INFO		#warning no watchdog event from /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored, deleting
+00:00:00.010	59	INFO		Client /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored disconnected
+00:00:00.010	59	INFO		CLGyroBiasEstimator,SPUEnabled,0,BuildingGYTT,0,NumClients,0
+00:00:00.011	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"lifecycle", "old":"0x1057aea50", "new":"0x0"}
+00:00:00.012	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1060c3560", "property":"lifecycle", "old":"0x0", "new":"0x1060c3560"}
+00:00:00.013	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1060c3560", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+00:00:00.013	59	INFO		#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+00:00:00.014	59	INFO		Client com.apple.springboard connected
+00:00:00.016	59	INFO		{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x1060c3560", "registrationReceived":0}
+00:00:00.017	59	INFO		Client com.apple.springboard (0x1060c3560) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+00:00:00.017	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"lifecycle", "old":"0x0", "new":"0x1057aea50"}
+00:00:00.018	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057aea50", "property":"clientName", "old":"", "new":"com.apple.springboard"}
+00:00:00.018	59	INFO		#Warning PAUSE: BATCH: '<private>' (<private>, <private>) started in unexpected state: <private>
+00:00:00.018	59	INFO		Client com.apple.springboard connected
+00:00:00.019	59	INFO		{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x1057aea50", "registrationReceived":0}
+00:00:00.019	59	INFO		Client com.apple.springboard (0x1057aea50) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+00:00:00.019	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105386870", "property":"lifecycle", "old":"0x0", "new":"0x105386870"}
+00:00:00.020	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x105386870", "property":"clientName", "old":"", "new":"\134/usr\134/sbin\134/wifid"}
+00:00:00.020	59	INFO		Client /usr/sbin/wifid connected
+00:00:00.020	59	INFO		#Error no bundle ID or bundle path found - denying /usr/sbin/wifid
+00:00:00.020	59	INFO		#Error no bundle ID or bundle path found - denying /usr/sbin/wifid
+00:00:00.021	59	INFO		#Error no bundle ID or bundle path found - denying /usr/sbin/wifid
+00:00:00.021	59	INFO		#Error no bundle ID or bundle path found - enabling background indicator /usr/sbin/wifid
+00:00:00.022	59	INFO		{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x105386870", "registrationReceived":0}
+00:00:00.022	59	INFO		Client /usr/sbin/wifid (0x105386870) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+00:00:00.023	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x106025860", "property":"lifecycle", "old":"0x0", "new":"0x106025860"}
+00:00:00.023	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x106025860", "property":"clientName", "old":"", "new":"com.apple.locationd"}
+00:00:00.024	59	INFO		Client com.apple.locationd connected
+00:00:00.024	59	INFO		{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x106025860", "registrationReceived":0}
+00:00:00.025	59	INFO		Client com.apple.locationd (0x106025860) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+00:00:00.025	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057dd520", "property":"lifecycle", "old":"0x0", "new":"0x1057dd520"}
+00:00:00.026	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x1057dd520", "property":"clientName", "old":"", "new":"\134/System\134/Library\134/PrivateFrameworks\134/CoreDuetContext.framework\134/Resources\134/contextstored"}
+00:00:00.026	59	INFO		Client /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored connected
+00:00:00.026	59	INFO		#Error no bundle ID or bundle path found - denying /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+00:00:00.027	59	INFO		#Error no bundle ID or bundle path found - denying /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+00:00:00.027	59	INFO		#Error no bundle ID or bundle path found - denying /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+00:00:00.027	59	INFO		#Error no bundle ID or bundle path found - enabling background indicator /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+00:00:00.028	59	INFO		{"msg":"Incoming message", "event":"activity", "name":"kCLConnectionMessageMotionActivityUpdate", "this":"0x1057dd520", "registrationReceived":0}
+00:00:00.028	59	INFO		Client /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored (0x1057dd520) is subscribing to notification kCLConnectionMessageMotionActivityUpdate
+00:00:00.029	62	INFO		Created BKApplicationStateServerClient for [249:<private>] -> <private>
+00:00:00.029	62	INFO		Removed BKApplicationStateServerClient for [249:<private>] -> <private>
+00:00:00.032	65	INFO		handle_get_value: <private>
+00:00:00.036	62	INFO		Created BKApplicationStateServerClient for [249:<private>] -> <private>
+00:00:00.103	102	INFO		cert[0]: AnchorTrusted =(leaf)[force]> 0
+00:00:00.103	102	INFO		cert[0]: NonEmptySubject =(path)[]> 0
+00:00:00.112	65	INFO		handle_start_service: <private>
+00:00:00.118	65	INFO		spawn_xpc_service: <private>
+00:00:00.119	102	INFO		cert[0]: AnchorTrusted =(leaf)[force]> 0
+00:00:00.120	102	INFO		cert[0]: NonEmptySubject =(path)[]> 0
+00:00:00.149	65	INFO		handle_get_value: <private>
+00:00:00.153	65	INFO		spawn_xpc_service_block_invoke: <private>
+00:00:00.153	65	INFO		spawn_xpc_service_block_invoke: <private>
+00:00:00.154	74	INFO		Sending 'session attached' event for session "DTPower-44823"
+00:00:00.157	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.158	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.167	62	INFO		Created BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.168	62	INFO		Removed BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.176	74	ERROR		Invalid handle identifier mapping found for handle 0xd26e0001 with pid "735", pidVersion "2181"
+00:00:00.176	735	INFO		Could not add local device callbacks. (error: 7)
+00:00:00.176	735	INFO		Bluetooth power ERROR: BTLocalDeviceGetModulePower: failed! 7
+00:00:00.177	62	INFO		Removed BKApplicationStateServerClient for [735:<private>] -> <private>
+00:00:00.322	55	INFO		Stop scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:00.323	55	INFO		Removing scan request scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:00.323	55	INFO		heySiriScanActive: NO
+00:00:00.323	55	INFO		Passively scanning for devices of types: 15 12 7 5 (Window: 30/Interval: 300)
+00:00:00.324	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:00.325	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:00.325	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:00.326	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:00.326	55	INFO		Scan options changed: YES
+00:00:00.327	55	INFO		Start scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:00.327	55	INFO		Adding scan request called
+00:00:00.328	55	INFO		Adding scan request scan request of type 16, blob: <00000000 00000000 00000000 00000000 00000000 0000>, mask <00000000 00000000 00000000 00000000 00000000 0000>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:00.329	55	INFO		heySiriScanActive: NO
+00:00:00.329	55	INFO		Passively scanning for devices of types: 15 16 12 7 5 (Window: 30/Interval: 300)
+00:00:00.330	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:00.330	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.330	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.331	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:00.331	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:00.331	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:00.332	74	INFO		needToRestart=1
+00:00:00.332	55	INFO		About to scan for type: 16 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:00.333	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:00.333	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:00.334	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:00.334	55	INFO		Scan options changed: YES
+00:00:00.334	74	INFO		Stopping scan for session "<private>" - 2 advertisements delivered
+00:00:00.335	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.335	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.335	74	INFO		Waiting for scan state to settle before updating scan
+00:00:00.335	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.336	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.336	74	INFO		Waiting for scan state to settle before updating scan
+00:00:00.336	74	INFO		Stopping scan for session "<private>" - 0 advertisements delivered
+00:00:00.336	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.337	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:00.337	74	INFO		Waiting for scan state to settle before updating scan
+00:00:00.337	74	INFO		Scanning stopped successfully.  2 Advertising Events
+00:00:00.337	74	INFO		Trying to remove scan filters with force=NO
+00:00:00.339	74	INFO		handleScanStoppedEvent state=Idle observerState=Active
+00:00:00.339	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:00.339	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:00.340	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:00.340	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:00.340	74	INFO		needToRestart=1
+00:00:00.341	74	INFO		Starting passive scan (300.00ms/30.00ms) with duplicate filter enabled
+00:00:00.347	74	INFO		Scanning started successfully
+00:00:00.348	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:00.348	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:00.348	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:00.349	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:00.349	74	INFO		needToRestart=0
+00:00:05.070	42	INFO		WiFi:[587901298.292769]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:09.118	59	INFO		{"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb", "level":97}
+00:00:10.052	42	INFO		WiFi:[587901303.273449]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:10.155	65	INFO		handle_get_value: <private>
+00:00:15.034	42	INFO		WiFi:[587901308.256533]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:15.320	55	INFO		Stop scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:15.321	55	INFO		Removing scan request scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:15.321	55	INFO		heySiriScanActive: NO
+00:00:15.321	55	INFO		Passively scanning for devices of types: 15 12 7 5 (Window: 30/Interval: 300)
+00:00:15.322	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:15.322	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:15.323	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:15.324	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:15.324	55	INFO		Scan options changed: YES
+00:00:15.325	55	INFO		Start scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:15.326	55	INFO		Adding scan request called
+00:00:15.327	55	INFO		Adding scan request scan request of type 16, blob: <00000000 00000000 00000000 00000000 00000000 0000>, mask <00000000 00000000 00000000 00000000 00000000 0000>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:15.327	55	INFO		heySiriScanActive: NO
+00:00:15.328	55	INFO		Passively scanning for devices of types: 15 16 12 7 5 (Window: 30/Interval: 300)
+00:00:15.328	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:15.328	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.329	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.329	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:15.329	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:15.330	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:15.330	74	INFO		needToRestart=1
+00:00:15.330	55	INFO		About to scan for type: 16 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:15.331	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:15.331	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:15.332	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:15.332	55	INFO		Scan options changed: YES
+00:00:15.332	74	INFO		Stopping scan for session "<private>" - 1 advertisements delivered
+00:00:15.333	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.333	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.333	74	INFO		Waiting for scan state to settle before updating scan
+00:00:15.334	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.334	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.334	74	INFO		Waiting for scan state to settle before updating scan
+00:00:15.334	74	INFO		Stopping scan for session "<private>" - 0 advertisements delivered
+00:00:15.335	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.335	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:15.335	74	INFO		Waiting for scan state to settle before updating scan
+00:00:15.338	74	INFO		Scanning stopped successfully.  1 Advertising Events
+00:00:15.338	74	INFO		Trying to remove scan filters with force=NO
+00:00:15.340	74	INFO		handleScanStoppedEvent state=Idle observerState=Active
+00:00:15.340	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:15.341	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:15.341	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:15.341	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:15.342	74	INFO		needToRestart=1
+00:00:15.342	74	INFO		Starting passive scan (300.00ms/30.00ms) with duplicate filter enabled
+00:00:15.351	74	INFO		Scanning started successfully
+00:00:15.351	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:15.351	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:15.352	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:15.352	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:15.352	74	INFO		needToRestart=0
+00:00:20.035	42	INFO		WiFi:[587901313.257427]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:20.162	65	INFO		handle_get_value: <private>
+00:00:24.392	100	INFO		<private>: Stream error occurred for <private> onInterface NonCellular: Error Domain=NSPOSIXErrorDomain Code=54 UserInfo={_kCFStreamErrorCodeKey=54, _kCFStreamErrorDomainKey=1}
+00:00:24.393	100	INFO		<private>: Calling into AWD for ConnectionDisconnected (withError)
+00:00:24.394	100	INFO		submitted metric <private>
+00:00:24.394	100	INFO		<private>: AWD for ConnectionDisconnected (withError) finished
+00:00:24.394	100	INFO		<private> _disconnectStream for interface: NonCellular
+00:00:24.394	100	INFO		<private> asked to change isSuspended=NO to NO
+00:00:24.395	100	INFO		Closing <private> with environment <private>[production]
+00:00:24.395	100	INFO		Closing <private> with environment <private>[production]
+00:00:24.396	100	INFO		<private>: Moving 0 unsent messages to the end of queue
+00:00:24.403	100	INFO		<private>: un-disabling fast dormancy.
+00:00:24.404	100	INFO		<private>: Moving 0 unsent items to the end of queue
+00:00:24.404	100	INFO		Connection closed production NonCellular
+00:00:24.404	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.404	100	INFO		<private> setting isConnectedToService NO
+00:00:24.404	100	INFO		<private> received courierConnectionStatusDidChange from <private>.
+00:00:24.405	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.405	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.405	100	INFO		<private> updating network guidance isConnected? NO
+00:00:24.405	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.405	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.406	100	INFO		<private> providing network guidance <private>
+00:00:24.406	100	INFO		<private>: Disconnected in response to connection failure on interface NonCellular. (Consecutive failures: 1) isConnected NO onInterface None  shouldUseDualChannel YES. Connected on 0 interfaces.
+00:00:24.418	100	INFO		APSCourier <private> adjusting connection. Connected on 0 interfaces. Current link quality: <private>
+00:00:24.419	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.420	100	INFO		<private> calling _connectStream with interface preference NonCellular
+00:00:24.420	100	INFO		<private> attempting to _connectStream. currently onInterface None consecutiveFailures 1 preference NonCellular shouldUseDualChannel YES. Connected on 0 interfaces.
+00:00:24.420	100	INFO		_getClientIdentity: already had identity: <private>
+00:00:24.424	100	INFO		<private> _connectStream - Stopping the connectionManager on our attemptInterface NonCellular
+00:00:24.425	100	INFO		<private>: isWWANUsable NO  isWiFiUsable YES onInterface NonCellular
+00:00:24.425	100	INFO		<private> Opening stream on interface NonCellular
+00:00:24.427	100	INFO		Opening <private> with environment <private>[production]
+00:00:24.427	100	INFO		loadConfigurationForEnvironment: <private> production
+00:00:24.427	100	INFO		Config <private> for env production is expired, flushing
+00:00:24.427	100	INFO		Opening stream onInterface: NonCellular, production
+00:00:24.428	100	INFO		<private>: Connecting courier stream using configuration bag at <private> and port TCP 5223
+00:00:24.429	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.429	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.429	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.429	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.429	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.430	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.431	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.431	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.431	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.431	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.432	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.432	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.432	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.432	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.432	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.433	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.434	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.434	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.434	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.434	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.434	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.435	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.435	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.435	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.435	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.436	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.436	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.436	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.436	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.436	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.437	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.437	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.437	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.437	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.437	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.438	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.438	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.439	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.439	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.439	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.445	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonStatus", "id":"0x10222de80", "property":"pushServiceConnected", "old":1, "new":0}
+00:00:24.448	100	INFO		Created metric container: 0x130002 succeeded? YES
+00:00:24.448	100	INFO		Submitted metric: 0x130002 succeeded? YES
+00:00:24.503	149	INFO		APNS status changed: 0
+00:00:24.592	100	INFO		<private>: validating config signature for host <private>
+00:00:24.614	76	INFO		#I On WiFi: true On Cellular: false
+00:00:24.615	76	INFO		#I Firing event 'dataInterfaceAvailable': with params= <private>
+00:00:24.620	100	INFO		Calling configuration completion blocks <private> expiration date Mon Aug 19 12:30:31 2019 error: (null)
+00:00:24.620	100	INFO		APSTCPStream <private> got config <private>  -- opened? YES
+00:00:24.620	100	INFO		<private> setDisableCostDrivenDualChannelAttempts: changing from NO to NO (got number 0)
+00:00:24.621	100	INFO		<private> setPiggybackDualChannelAttempts: changing from 50 to 50 (got number 50)
+00:00:24.621	100	INFO		<private> setCostDrivenDualChannelAttempts: changing from 100 to 100 (got number 100)
+00:00:24.622	100	INFO		<private> setDisableDualModePiggybackTimer: changing from NO to NO (got number (null))
+00:00:24.622	100	INFO		<private> setNumberOfCriticalMessageFlushesBeforeDisconnecting: changing from 3 to 3 (got number 3)
+00:00:24.622	100	INFO		<private> setCriticalMessageKeepAliveTimerDuration: changing from 10.000000 to 10.000000 (got number 10)
+00:00:24.623	100	INFO		<private> setCriticalMessageTimeout: changing from 10.000000 to 10.000000 (got number 10)
+00:00:24.623	100	INFO		<private> setForcedShortTimeoutInterval: changing from 2.000000 to 2.000000 (got number 2)
+00:00:24.623	100	INFO		<private>: slowReceiveThresholdNum = 60
+00:00:24.624	100	INFO		<private>: keepAliveV2TimeDriftMaximum = 30
+00:00:24.624	100	INFO		<private>: lastIPCachingPercentage = 0
+00:00:24.625	100	INFO		<private>:  lastIPCachingTTLMinutes = 1440
+00:00:24.625	100	INFO		<private>: minimumIntervalFallbackEnabled = YES
+00:00:24.626	100	INFO		<private>: nagleEnabled is not available from config bag, default NO
+00:00:24.626	100	INFO		<private> env isLoadBalanced, using server count 50 and hostname <private>
+00:00:24.627	100	INFO		<private> _connectToServerWithPeerName: <private> and port: 5223 forceWWANInterface? NO via proxy((null))
+00:00:24.628	100	INFO		<private> Set _kCFStreamSocketSetNoDelay = YES on writeStream {Succeeded: YES}
+00:00:24.630	100	INFO		<private>: Connecting to courier <private> with connection: <private> onInterface: NonCellular
+00:00:24.840	100	INFO		<private>: Connected to courier <private> (<private>) connection: <private> usingPackedFormat YES secureHandshakeEnabled YES onInterface: NonCellular
+00:00:24.841	100	INFO		copyTokenForDomain push.apple.com (null)
+00:00:24.854	100	INFO		<private> Sending presence message for deviceToken with token YES on interface: NonCellular
+00:00:24.854	100	INFO		_getClientIdentity: already had identity: <private>
+00:00:24.854	100	INFO		Generating nonce with timestamp 1566208518000
+00:00:24.855	100	INFO		Signature input is 17 bytes (<private>)
+00:00:24.855	100	INFO		Nonce: <private>    Signed: <private>   Result: 1
+00:00:24.855	100	INFO		<private> generate nonce and sig success? YES
+00:00:24.871	100	INFO		<private>: Outstanding data received: <private> (length 36) onInterface: NonCellular. Connected on 0 interfaces.
+00:00:24.871	100	INFO		<private>: Stream processing: complete yes, invalid no, length parsed 36, parameters <private>
+00:00:24.871	100	INFO		Received connect message [production]
+00:00:24.872	100	INFO		<private>: Connected response ok for default user? YES on interface: NonCellular - connected on 0 interfaces
+00:00:24.872	100	INFO		<private>: Setting dualChannelSupport: YES
+00:00:24.872	100	INFO		Server supports dual mode YES  old value YES
+00:00:24.873	100	INFO		<private>: Setting reportLastReversePushRTT: YES on NonCellular
+00:00:24.873	100	INFO		<private>: Calling into AWD for PushConnectionConnected
+00:00:24.873	100	INFO		submitted metric <private>
+00:00:24.873	100	INFO		<private>: AWD PushConnectionConnected finished
+00:00:24.874	100	INFO		<private>: Received message size 5120
+00:00:24.874	100	INFO		<private>: Received large message size 51200
+00:00:24.874	100	INFO		<private> cache ip address <private> on interface NonCellular
+00:00:24.878	100	INFO		<private> asked to change isConnected=NO to YES
+00:00:24.878	100	INFO		<private> informed of reconnect.
+00:00:24.879	100	INFO		copyTokenForDomain push.apple.com (null)
+00:00:24.886	100	INFO		<private> asked to performFilterBlock forCategory: Server
+00:00:24.886	100	INFO		<private> cancelling any pending filter updates
+00:00:24.887	100	INFO		<private> received topic update for Server pretend NO but there is no change.
+00:00:24.887	100	INFO		<private> no change detected between the new and old server filter - cancelling any pending updates
+00:00:24.887	100	INFO		<private> pending changes have been processed - calling topic block
+00:00:24.888	100	INFO		<private>: Sending filter message for: token type systemToken, token: <private>, enabled hashes <private> ignored hashes <private> opportunistic hashes <private> on interface NonCellular
+00:00:24.889	100	INFO		Stopped indexing hashes at index 38 {token: <private>, enabledHashes.count: 53, ignoredHashes.count: 0, opportunisticHashes.count: 67, pausedHashes.count: 0}
+00:00:24.889	100	INFO		submitted metric <private>
+00:00:24.900	100	INFO		<private>: Sending keep alive message via conn: <private> onInterface: NonCellular. Connected on 1 interfaces. Current link quality: <private>
+00:00:24.906	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.906	100	INFO		<private> setting isConnectedToService YES
+00:00:24.907	100	INFO		<private> received courierConnectionStatusDidChange from <private>.
+00:00:24.907	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.907	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.908	100	INFO		<private> updating network guidance isConnected? YES
+00:00:24.910	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.910	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:24.911	100	INFO		<private> providing network guidance <private>
+00:00:24.931	100	INFO		Done asserting all presences. systemToken is: <private>, userToken is: <private>
+00:00:24.932	100	INFO		<private> _processPendingProxyPresences - canSendPresence? YES  connectedCount 1  openCount 1  outstandingSlave (null)
+00:00:24.932	100	INFO		<private>: Stream processing: complete no, invalid no, length parsed 0, parameters (null)
+00:00:24.932	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.933	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.934	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.934	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.935	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.935	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.935	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.936	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.936	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.936	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.936	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.937	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.937	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.937	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.938	58	ERROR		Command 'TMSetAuthenticatedSourceTime' included mach time when not expected, forcing conversion
+00:00:24.938	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.938	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.938	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.939	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.939	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.939	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.941	58	INFO		cmd,SYNC,rtc_s,919969.542327000,unc_s,0.000500000,mach,398689906506
+00:00:24.942	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.942	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.942	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.943	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.943	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.943	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.944	49	INFO		Hinting service to check transport log {service: <private>, reason: connected}
+00:00:24.945	58	INFO		STF,TimeBuff,Src,APNS,Rtc,919715.011164,Utc,587901063.605000,Unc,45.000500
+00:00:24.945	58	INFO		STF,SynthesizedClock,rtc,919969.536375,utc,587901318.077529,utcUnc,3.378063,sf,0.99995544,sfUnc,0.00005073,utcSfCov,0.01096698,logNoise,-13.555955,timeRtc,919969.536375,timeUtc,587901318.087000,timeUnc,45.000500,timeSource,APNS,predUtc,587901318.077476,predUtcUnc,3.387621,predSf,0.99995544,predSfUnc,0.00005080,measNumber,3291
+00:00:24.946	58	INFO		Received time Mon Aug 19 11:55:18 2019\M-B\M-130.00 from "APNS"
+00:00:24.946	58	INFO		cmd,T,src,APNS,rtc_s,919969.536374792,rtc_unc_s,0.000500119,t_s,587901318.086999893,unc_s,30.000500119,mach,398689763653
+00:00:24.946	58	INFO		STF,TimeBuff,Src,APNS,Rtc,919969.536375,Utc,587901318.087000,Unc,45.000500
+00:00:24.947	58	INFO		TDTF,SynthesizedClock,rtc,919969.536375,utc,587901318.154235,utcUnc,0.000191,sf,0.99996035,sfUnc,0.00000232,utcSfCov,0.00001825,logNoise,-13.555955,timeRtc,919969.536375,timeUtc,587901318.087000,timeUnc,45.000500,timeSource,APNS,predUtc,587901318.154235,predUtcUnc,0.000191,predSf,0.99996035,predSfUnc,0.00000232,measNumber,3975
+00:00:24.947	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.947	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.948	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.948	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.948	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.948	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.948	58	INFO		STF,TimeBuff,Src,APNS,Rtc,919969.536375,Utc,587901318.087000,Unc,45.000500
+00:00:24.949	58	INFO		cmd,checkActiveTimeSourceRequired,rtc_s,919969.550857,bb_want_unc_s,inf,want_unc_s,0.050000,bb_want_rtc_s,inf,want_rtc_s,922459.977972
+00:00:24.949	58	INFO		Want active time in 41.51min. Remaining retry interval: 0.000000min.
+00:00:24.949	58	INFO		Unscheduling wanted job
+00:00:24.950	49	INFO		Broadcast: scheduling broadcast 265 on topic com.apple.madrid to clients needsTargetAck 0 targetsAlive 1 shouldLaunch 1
+00:00:24.950	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.950	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.951	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.951	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.951	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.951	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.951	58	INFO		Scheduling wanted job
+00:00:24.953	58	INFO		cmd,SYNC,rtc_s,919969.554321000,unc_s,0.000500000,mach,398690193884
+00:00:24.957	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.957	100	INFO		Dispatching low priority message: <xpc object>
+00:00:24.961	100	INFO		<private>: Outstanding data received: <private> (length 2) onInterface: NonCellular. Connected on 1 interfaces.
+00:00:24.961	100	INFO		<private>: Stream processing: complete yes, invalid no, length parsed 2, parameters <private>
+00:00:24.961	100	INFO		<private>: Received successful keep-alive ack on interface NonCellular: <private>
+00:00:24.963	59	INFO		{"msg":"state transition", "event":"state_transition", "state":"DaemonStatus", "id":"0x10222de80", "property":"pushServiceConnected", "old":0, "new":1}
+00:00:24.963	100	INFO		<private> updating wifi keepAliveInterval 600.000000  growAttempts 1
+00:00:24.963	100	INFO		<private>: Stream processing: complete no, invalid no, length parsed 0, parameters (null)
+00:00:24.965	58	INFO		cmd,ntp_adjtime:in,modes,2017,offset_us,948548,freq_scaled,-2598460,maxerror_us,191
+00:00:24.965	58	INFO		cmd,ntp_adjtime:out,modes,2017,offset_us,948548,freq_scaled,-2598460,maxerror_us,191
+00:00:24.965	58	INFO		cmd,apply,src,adjtime,rtc_s,919969.550458333,rtc_unc_s,0.000500077,t_s,587901318.168318510,unc_s,0.000191245,mach,398690101180,adjust,0.000948548,success,1,after_m,398690101191
+00:00:24.966	58	INFO		cmd,rtc_offset,set,1565288548617860177,was,1565288548619018000,now,1565288548617858000,success,1
+00:00:25.001	100	INFO		Created metric container: 0x130001 succeeded? YES
+00:00:25.002	100	INFO		Submitted metric: 0x130001 succeeded? YES
+00:00:25.002	100	INFO		Created metric container: 0x130019 succeeded? YES
+00:00:25.002	100	INFO		Submitted metric: 0x130019 succeeded? YES
+00:00:25.047	149	INFO		APNS status changed: 1
+00:00:25.398	76	INFO		#I On WiFi: true On Cellular: false
+00:00:25.398	76	INFO		#I Firing event 'dataInterfaceAvailable': with params= <private>
+00:00:26.405	59	INFO		Current state of Workout Predictor: 0
+00:00:29.677	59	INFO		{"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb", "level":97}
+00:00:29.970	100	INFO		<private>:APSNetworkMonitor decaying cost (982 - 51) = 931 for 185.691277 seconds
+00:00:29.971	100	INFO		<private> wifi is historically cheap? YES  awakePercentage = 0.009027,  wifiGrowAttemptDelta 1  wifiKeepAliveInterval 600.000000
+00:00:29.972	100	INFO		<private> _toggleWiFiAutoAssociateIfNecessary enabling wifi auto association highEnoughPushCost NO  wifiHistoricallyOK YES  serverLoadIsOK YES criticalReliability NO  serverSupportsDualMode YES  _dualMode 0 enableDualMode YES disableCostDrivenDualMode NO isPiggybacking NO isWoWEnabled YES
+00:00:29.972	100	INFO		<private>: Received delegate call: shouldUseDualMode is set to YES
+00:00:29.973	100	INFO		<private> resetting consecutive failures because we have at least one connection
+00:00:29.973	100	INFO		<private>: handleDualModeState isDualChannelAllowed YES
+00:00:29.974	100	INFO		APSCourier <private> adjusting connection. Connected on 1 interfaces. Current link quality: <private>
+00:00:29.975	100	INFO		<private> canUseProxy? NO deviceConfiguration NO  isNearby NO
+00:00:29.975	100	INFO		<private> calling _connectStream with interface preference None
+00:00:29.975	100	INFO		<private> _connectStream has None preference and dual channel is enabled.
+00:00:29.976	100	INFO		<private> _connectStream - kicking WWAN for dual channel
+00:00:29.976	100	INFO		<private> attempting to _connectStream. currently onInterface NonCellular consecutiveFailures 0 preference WWAN shouldUseDualChannel YES. Connected on 1 interfaces.
+00:00:29.977	100	INFO		_getClientIdentity: already had identity: <private>
+00:00:29.978	100	INFO		<private> _connectStream - dual channel with 1 connected interfaces. isWWANUsable NO, isWiFiUsable YES. Not attempting to connect.
+00:00:30.169	65	INFO		handle_get_value: <private>
+00:00:30.186	55	INFO		Stop scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:30.187	55	INFO		Removing scan request scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:30.187	55	INFO		heySiriScanActive: NO
+00:00:30.187	55	INFO		Passively scanning for devices of types: 15 12 7 5 (Window: 30/Interval: 300)
+00:00:30.188	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:30.188	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:30.189	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:30.189	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:30.189	55	INFO		Scan options changed: YES
+00:00:30.190	55	INFO		Start scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:30.190	55	INFO		Adding scan request called
+00:00:30.191	55	INFO		Adding scan request scan request of type 16, blob: <00000000 00000000 00000000 00000000 00000000 0000>, mask <00000000 00000000 00000000 00000000 00000000 0000>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:30.191	55	INFO		heySiriScanActive: NO
+00:00:30.191	55	INFO		Passively scanning for devices of types: 15 16 12 7 5 (Window: 30/Interval: 300)
+00:00:30.192	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:30.192	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.193	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.193	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:30.193	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:30.194	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:30.194	74	INFO		needToRestart=1
+00:00:30.194	55	INFO		About to scan for type: 16 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:30.195	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:30.195	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:30.195	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:30.196	55	INFO		Scan options changed: YES
+00:00:30.196	74	INFO		Stopping scan for session "<private>" - 2 advertisements delivered
+00:00:30.196	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.196	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.197	74	INFO		Waiting for scan state to settle before updating scan
+00:00:30.197	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.197	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.197	74	INFO		Waiting for scan state to settle before updating scan
+00:00:30.198	74	INFO		Stopping scan for session "<private>" - 0 advertisements delivered
+00:00:30.198	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.198	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:30.199	74	INFO		Waiting for scan state to settle before updating scan
+00:00:30.199	74	INFO		Scanning stopped successfully.  2 Advertising Events
+00:00:30.199	74	INFO		Trying to remove scan filters with force=NO
+00:00:30.201	74	INFO		handleScanStoppedEvent state=Idle observerState=Active
+00:00:30.201	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:30.201	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:30.202	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:30.202	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:30.202	74	INFO		needToRestart=1
+00:00:30.202	74	INFO		Starting passive scan (300.00ms/30.00ms) with duplicate filter enabled
+00:00:30.209	74	INFO		Scanning started successfully
+00:00:30.210	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:30.210	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:30.210	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:30.210	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:30.211	74	INFO		needToRestart=0
+00:00:32.521	56	INFO		touch up event count:103 starting 32.0331s ago lastPID:756 lastContextID:F6021E08
+00:00:40.014	65	INFO		_select_socket: <private>
+00:00:40.062	42	INFO		WiFi:[587901333.283729]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:40.175	65	INFO		handle_get_value: <private>
+00:00:45.063	42	INFO		WiFi:[587901338.284742]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:45.336	55	INFO		Stop scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:45.337	55	INFO		Removing scan request scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: No Scan, screen off: No Scan, rssi: -90, peers: (
+00:00:45.338	55	INFO		heySiriScanActive: NO
+00:00:45.338	55	INFO		Passively scanning for devices of types: 15 12 7 5 (Window: 30/Interval: 300)
+00:00:45.338	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:45.339	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:45.340	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:45.340	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:45.340	55	INFO		Scan options changed: YES
+00:00:45.341	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.341	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.342	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:45.342	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:45.342	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:45.342	74	INFO		needToRestart=1
+00:00:45.343	55	INFO		Start scanning for process sharingd (57) with scan request of type 16, blob: <>, mask <>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:45.344	55	INFO		Adding scan request called
+00:00:45.344	55	INFO		Adding scan request scan request of type 16, blob: <00000000 00000000 00000000 00000000 00000000 0000>, mask <00000000 00000000 00000000 00000000 00000000 0000>, active: 0, duplicates: 0, screen on: 300, screen off: 300, rssi: -60, peers: (
+00:00:45.345	55	INFO		heySiriScanActive: NO
+00:00:45.345	55	INFO		Passively scanning for devices of types: 15 16 12 7 5 (Window: 30/Interval: 300)
+00:00:45.346	55	INFO		About to scan for type: 15 - rssi: -70 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:45.346	55	INFO		About to scan for type: 16 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:45.347	55	INFO		About to scan for type: 12 - rssi: -90 - payload: <08000000 00000000 00000000 00000000 00000000 0000> - mask: <08000000 00000000 00000000 00000000 00000000 0000> - peers: 2
+00:00:45.347	55	INFO		About to scan for type: 7 - rssi: -60 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:45.348	55	INFO		About to scan for type: 5 - rssi: -80 - payload: <00000000 00000000 00000000 00000000 00000000 0000> - mask: <00000000 00000000 00000000 00000000 00000000 0000> - peers: 0
+00:00:45.348	74	INFO		Stopping scan for session "<private>" - 1 advertisements delivered
+00:00:45.348	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.349	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.349	74	INFO		Waiting for scan state to settle before updating scan
+00:00:45.349	55	INFO		Scan options changed: YES
+00:00:45.349	74	INFO		Received XPC message "CBMsgIdStopScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.350	74	INFO		Received 'stop scan' request from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.350	74	INFO		Waiting for scan state to settle before updating scan
+00:00:45.350	74	INFO		Stopping scan for session "<private>" - 0 advertisements delivered
+00:00:45.350	74	INFO		Received XPC message "CBMsgIdScan" from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.351	74	INFO		Received 'start scan' request without duplicates for all UUIDs from session "com.apple.wirelessproxd-central-55-0"
+00:00:45.351	74	INFO		Waiting for scan state to settle before updating scan
+00:00:45.351	74	INFO		Scanning stopped successfully.  1 Advertising Events
+00:00:45.352	74	INFO		Trying to remove scan filters with force=NO
+00:00:45.352	74	INFO		handleScanStoppedEvent state=Idle observerState=Active
+00:00:45.352	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:45.352	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:45.352	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:45.353	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:45.353	74	INFO		needToRestart=1
+00:00:45.353	74	INFO		Starting passive scan (300.00ms/30.00ms) with duplicate filter enabled
+00:00:45.359	74	INFO		Scanning started successfully
+00:00:45.359	74	INFO		ShouldScan=1 AnyValidScanRequests=1 anyValidScanRequestInPaused=0 fObserverState=Active
+00:00:45.359	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:45.359	74	INFO		allowDups=0 agentAllowDups=0 activeScan=0
+00:00:45.360	74	INFO		Returning scan parameters 30.00ms/300.00ms (passive) with dups minScanLevel:4
+00:00:45.360	74	INFO		needToRestart=0
+00:00:50.065	42	INFO		WiFi:[587901343.285619]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:50.081	86	INFO		file:#E Metric File(primary, 6)::write: file is disabled
+00:00:50.081	86	INFO		file:#E Metric File(anonymous, 6)::write: file is disabled
+00:00:50.084	86	INFO		file:#E Metric File(primary, 3)::write: file is disabled
+00:00:50.085	86	INFO		file:#E Metric File(anonymous, 3)::write: file is disabled
+00:00:50.181	65	INFO		handle_get_value: <private>
+00:00:50.282	59	INFO		{"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb", "level":97}
+00:00:52.323	115	INFO		Triggering periodic update to powerlog for client <private>
+00:00:55.066	42	INFO		WiFi:[587901348.286686]: __WiFiDeviceManagerLQMEventCallback: null snrNumRef
+00:00:57.807	65	INFO		_select_socket: <private>
+00:00:59.207	115	INFO		Triggering periodic update to powerlog for client <private>
+00:01:00.120	65	INFO		_select_socket: <private>

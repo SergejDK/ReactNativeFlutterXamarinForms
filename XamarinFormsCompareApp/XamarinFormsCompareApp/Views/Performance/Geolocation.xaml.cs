@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Timers;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -18,14 +16,11 @@ namespace XamarinFormsCompareApp.Views.Performance
         {
             try
             {
-                var watch = System.Diagnostics.Stopwatch.StartNew();
-                var loc = await Xamarin.Essentials.Geolocation.GetLastKnownLocationAsync();
-                watch.Stop();
+                var loc = await Xamarin.Essentials.Geolocation.GetLocationAsync();
                 if (loc != null)
                 {
                     Lat.Text = $"Latitude: {loc.Latitude}";
                     Long.Text = $"Longitude: {loc.Longitude}";
-                    Watcher.Text = $"Time: {watch.Elapsed}";
                 }
             }
             catch (FeatureNotSupportedException fnsEx)

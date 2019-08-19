@@ -1,5 +1,6 @@
 package com.ReactNativeCompareApp;
 
+import com.reactnativecompareapp.MainActivity;
 import com.wix.detox.Detox;
 
 import org.junit.Rule;

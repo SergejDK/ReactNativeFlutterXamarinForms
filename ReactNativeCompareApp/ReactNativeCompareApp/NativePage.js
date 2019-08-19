@@ -15,12 +15,11 @@ class NativeScreen extends React.Component {
 
     openCam() {
         var options = {
-            title: 'Select Avatar',
-            customButtons: [{ name: 'fb', title: 'Choose Photo from Facebook' }],
             storageOptions: {
               skipBackup: true,
-              path: 'images',
-            },
+              cameraRoll: true,
+              waitUntilSaved:true
+            }
           };
         ImagePicker.launchCamera(options, (response) => {
             console.log('Response = ', response);

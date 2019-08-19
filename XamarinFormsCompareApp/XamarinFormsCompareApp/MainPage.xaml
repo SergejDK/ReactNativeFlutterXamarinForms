@@ -52,11 +52,6 @@
     </FlyoutItem>
 
     <FlyoutItem Title="Performanz">
-        <Tab Title="Image">
-            <ShellContent Title="Image"
-                          ContentTemplate="{DataTemplate perf:ImageWork }">
-            </ShellContent>
-        </Tab>
         <Tab Title="Nativ">
             <ShellContent Title="Nativ"
                           ContentTemplate="{DataTemplate perf:Geolocation }">

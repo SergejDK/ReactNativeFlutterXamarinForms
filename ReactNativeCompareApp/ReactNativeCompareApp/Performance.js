@@ -9,71 +9,7 @@ import {
   FlatList
 } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation';
-import { Grayscale } from 'react-native-color-matrix-image-filters';
 import Geolocation from '@react-native-community/geolocation';
-const Profiler = React.unstable_Profiler;
-
-class BlackWhite extends React.Component {
-  // https://github.com/iyegoroff/react-native-color-matrix-image-filters use this with cli
-
-  state = {
-    nt: String
-  };
-
-  logMeasurement = (id, phase, actualDuration, baseDuration) => {
-    // see output during DEV
-    this.nt = baseDuration;
-  };
-
-  shouldComponentUpdate(nextProps, nextState) {
-    if (nextState.nt !== '') return true;
-    else return false;
-  }
-
-  bt = null;
-  getNormalImage() {
-    var img = (
-      <Image
-        source={{ uri: 'https://www.w3schools.com/w3css/img_lights.jpg' }}
-        style={{ width: 150, height: 150 }}
-      />
-    );
-    return img;
-  }
-
-  getBWImage() {
-    var startDate = Date.now();
-    var img = (
-      <Grayscale>
-        <Image
-          source={{ uri: 'https://www.w3schools.com/w3css/img_lights.jpg' }}
-          style={{ width: 150, height: 150 }}
-        />
-      </Grayscale>
-    );
-    var enddate = Date.now();
-    this.bt = enddate - startDate;
-    return img;
-  }
-
-  render() {
-    //var ni = this.getNormalImage();
-    //var bi = this.getBWImage();
-    return (
-      <View>
-        <Profiler id="o" onRender={this.logMeasurement}>
-          <Image
-            source={{ uri: 'https://www.w3schools.com/w3css/img_lights.jpg' }}
-            style={{ width: 150, height: 150 }}
-          />
-          <Text>Normal: {this.nt}</Text>
-        </Profiler>
-
-        <Text>Grayscale: {this.bt} </Text>
-      </View>
-    );
-  }
-}
 
 class GPSView extends React.Component {
   state = {
@@ -81,14 +17,7 @@ class GPSView extends React.Component {
     latitude: null
   };
 
-  componentDidMount() {
-    //PermissionsAndroid.request(
-    //	PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-    //	{
-    //	  title: "Location Accessing Permission",
-    //	  message: "App needs access to your location"
-    //	}
-    //);
+  getPos() {
     Geolocation.getCurrentPosition(
       success => {
         this.setState({
@@ -98,8 +27,22 @@ class GPSView extends React.Component {
       },
       err => {
         console.log(err);
+      },
+      {
+        enableHighAccuracy: true, timeout: 20000, maximumAge: 10000
       }
     );
+  }
+
+  componentDidMount() {
+    //PermissionsAndroid.request(
+    //	PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+    //	{
+    //	  title: "Location Accessing Permission",
+    //	  message: "App needs access to your location"
+    //	}
+    //);
+    this.getPos();
   }
 
   // https://facebook.github.io/react-native/docs/geolocation#getcurrentposition
@@ -108,6 +51,7 @@ class GPSView extends React.Component {
       <View>
         <Text>Latitude: {this.state.latitude}</Text>
         <Text>Longitude: {this.state.longitude}</Text>
+        <Button onPress={this.getPos()} title='Get Position'></Button>
       </View>
     );
   }
@@ -147,7 +91,6 @@ class InfiniteList extends React.Component {
 }
 
 const PerformanceScreen = createBottomTabNavigator({
-  Image: BlackWhite,
   Native: GPSView,
   List: InfiniteList
 });

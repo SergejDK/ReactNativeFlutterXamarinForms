@@ -1,0 +1,1379 @@
+Timestamp	App	Log Level	Message
+00:00:01.109	25567	ERROR		GameBenchD - Starting query thread - 25587 
+00:00:01.139	25567	ERROR		GameBenchD - --------- beginning of system
+00:00:01.139	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.139	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.139	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:01.139	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:01.139	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:01.139	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:01.166	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.195	25567	INFO		GameBenchD - Received command for daemon
+00:00:01.196	25567	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.196	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.196	24762	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.196	25567	WARN		FileIOThread - type=1400 audit(0.0:37702): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.196	24762	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.196	25567	INFO		GameBenchD - Received command for daemon
+00:00:01.196	25567	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.226	25567	DEBUG		vndksupport - Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+00:00:01.226	24762	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.226	25567	DEBUG		vndksupport - Loading /vendor/lib/hw/gralloc.sdm660.so from current namespace instead of sphal namespace.
+00:00:01.226	2151	WARN		ProcessCpuTracker - Skipping unknown process pid 25596
+00:00:01.226	24762	INFO		MetricsTowrite - 6
+00:00:01.226	25473	INFO		egram.messenge - Waiting for a blocking GC ProfileSaver
+00:00:01.251	24762	WARN		System - A resource failed to call close. 
+00:00:01.251	24762	DEBUG		TEST - Writing janks
+00:00:01.277	25473	INFO		egram.messenge - WaitForGcToComplete blocked ProfileSaver on AddRemoveAppImageSpace for 34.847ms
+00:00:01.385	24762	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -0
+00:00:01.386	24762	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:01.872	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:01.959	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.reactnativecompareapp/.MainActivity bnds=[640,1155][839,1508]} from uid 10053
+00:00:02.042	2151	INFO		ActivityManager - Start proc 25623:com.reactnativecompareapp/u0a484 for activity com.reactnativecompareapp/.MainActivity
+00:00:02.042	25623	ERROR		ativecompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:02.126	25623	DEBUG		SoLoader - init start
+00:00:02.126	25623	DEBUG		SoLoader - adding system library source: /vendor/lib
+00:00:02.126	25623	DEBUG		SoLoader - adding system library source: /system/lib
+00:00:02.126	25623	DEBUG		SoLoader - adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:02.126	25623	DEBUG		SoLoader - adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:02.126	25623	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+00:00:02.126	25623	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+00:00:02.126	25623	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:02.126	25623	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:02.126	25623	VERBOSE		fb-UnpackingSoSource - locked dso store /data/user/0/com.reactnativecompareapp/lib-main
+00:00:02.127	25623	INFO		fb-UnpackingSoSource - dso store is up-to-date: /data/user/0/com.reactnativecompareapp/lib-main
+00:00:02.127	25623	VERBOSE		fb-UnpackingSoSource - releasing dso store lock for /data/user/0/com.reactnativecompareapp/lib-main
+00:00:02.127	25623	DEBUG		SoLoader - init finish: 4 SO sources prepared
+00:00:02.127	25623	DEBUG		SoLoader - init exiting
+00:00:02.181	25623	DEBUG		SoLoader - About to load: libjscexecutor.so
+00:00:02.181	25623	DEBUG		SoLoader - libjscexecutor.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:02.182	25623	DEBUG		SoLoader - libjscexecutor.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:02.182	25623	DEBUG		SoLoader - Not resolving dependencies for libjscexecutor.so
+00:00:02.259	25623	DEBUG		JavaScriptCore.Version - 245459.0.0
+00:00:02.259	25623	DEBUG		SoLoader - Loaded: libjscexecutor.so
+00:00:02.259	25623	DEBUG		ReactNative - ReactInstanceManager.ctor()
+00:00:02.259	25623	DEBUG		SoLoader - init exiting
+00:00:02.260	25623	DEBUG		ReactNative - ReactInstanceManager.createReactContextInBackground()
+00:00:02.260	25623	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundInner()
+00:00:02.260	25623	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+00:00:02.260	25623	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackground()
+00:00:02.260	25623	DEBUG		ReactNative - ReactInstanceManager.runCreateReactContextOnNewThread()
+00:00:02.260	25623	DEBUG		SoLoader - About to load: libreactnativejni.so
+00:00:02.260	25623	DEBUG		SoLoader - libreactnativejni.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:02.260	25623	DEBUG		SoLoader - libreactnativejni.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:02.260	25623	DEBUG		SoLoader - Not resolving dependencies for libreactnativejni.so
+00:00:02.260	25623	DEBUG		SoLoader - Loaded: libreactnativejni.so
+00:00:02.260	25623	DEBUG		SoLoader - About to load: libfb.so
+00:00:02.260	25623	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:02.260	25623	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:02.260	25623	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:02.260	25623	DEBUG		SoLoader - About to load: libfb.so
+00:00:02.260	25623	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:02.260	25623	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:02.260	25623	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:02.260	25623	INFO		ativecompareap - Thread[11,tid=25641,Native,Thread*=0x78b85d2400,peer=0x1379db10,"create_react_context"] recursive attempt to load library "/data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64/libfb.so"
+00:00:02.260	25623	DEBUG		SoLoader - Loaded: libfb.so
+00:00:02.260	25623	DEBUG		SoLoader - Loaded: libfb.so
+00:00:02.261	25623	DEBUG		ReactNative - ReactInstanceManager.createReactContext()
+00:00:02.286	25623	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:02.312	25623	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:02.312	25623	DEBUG		ReactNative - Initializing React Xplat Bridge.
+00:00:02.312	25623	DEBUG		ReactNative - Initializing React Xplat Bridge before initializeBridge
+00:00:02.338	25623	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:02.338	25623	INFO		Adreno - Build Date                       : 11/02/18
+00:00:02.338	25623	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:02.338	25623	INFO		Adreno - Local Branch                     : 
+00:00:02.338	25623	INFO		Adreno - Remote Branch                    : 
+00:00:02.338	25623	INFO		Adreno - Remote Branch                    : 
+00:00:02.338	25623	INFO		Adreno - Reconstruct Branch               : 
+00:00:02.338	25623	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:02.338	25623	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:02.338	25623	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:02.338	25623	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:02.339	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:02.364	25623	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:02.364	25623	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:02.364	25623	DEBUG		ReactNative - Initializing React Xplat Bridge after initializeBridge
+00:00:02.364	25623	DEBUG		ReactNative - CatalystInstanceImpl.runJSBundle()
+00:00:02.364	25623	DEBUG		ReactNative - ReactInstanceManager.setupReactContext()
+00:00:02.364	25623	DEBUG		ReactNative - CatalystInstanceImpl.initialize()
+00:00:02.364	25623	DEBUG		ReactNative - ReactInstanceManager.attachRootViewToInstance()
+00:00:02.393	24762	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+00:00:02.393	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+00:00:02.419	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+00:00:02.419	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+00:00:02.419	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+00:00:02.419	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+00:00:02.419	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+00:00:02.419	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+00:00:02.448	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+00:00:02.449	2151	INFO		LaunchCheckinHandler - Displayed com.reactnativecompareapp/.MainActivity,cp,ca,420
+00:00:02.449	2151	INFO		ActivityManager - Displayed com.reactnativecompareapp/.MainActivity: +391ms
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+00:00:02.449	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+00:00:02.479	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:02.479	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:02.479	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:02.479	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+00:00:02.508	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671110] from persistence.
+00:00:02.509	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+00:00:02.509	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:02.509	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:02.509	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+00:00:02.509	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+00:00:02.509	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+00:00:02.535	25623	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+00:00:02.564	25623	DEBUG		SoLoader - About to load: libyoga.so
+00:00:02.565	25623	DEBUG		SoLoader - libyoga.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:02.565	25623	DEBUG		SoLoader - libyoga.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:02.565	25623	DEBUG		SoLoader - Not resolving dependencies for libyoga.so
+00:00:02.565	25623	DEBUG		SoLoader - Loaded: libyoga.so
+00:00:02.565	24762	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25623
+00:00:02.565	24762	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25623
+00:00:02.565	24762	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:02.565	25623	DEBUG		SoLoader - init exiting
+00:00:02.593	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:02.593	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:02.709	24762	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25623
+00:00:02.709	24762	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:02.709	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:02.709	24762	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:02.735	24762	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:02.735	24762	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:02.736	24762	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:02.736	24762	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:02.816	24762	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:02.901	25623	INFO		ReactNativeJS - Running application "ReactNativeCompareApp" with appParams: {"rootTag":1}. __DEV__ === false, development-level warning are OFF, performance optimizations are ON
+00:00:02.983	24762	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25623
+00:00:02.983	24762	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25623
+00:00:03.283	25623	INFO		ReactNative - [GESTURE HANDLER] Initialize gesture handler for root view com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView{c693ba3 V.E...... ......ID 0,0-1080,2088 #1}
+00:00:03.310	25623	DEBUG		SoLoader - About to load: libimagepipeline.so
+00:00:03.310	25623	DEBUG		SoLoader - libimagepipeline.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:03.310	25623	DEBUG		SoLoader - libimagepipeline.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:03.310	25623	DEBUG		SoLoader - Not resolving dependencies for libimagepipeline.so
+00:00:03.337	25623	DEBUG		SoLoader - Loaded: libimagepipeline.so
+00:00:04.260	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:04.260	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:04.285	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:04.285	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:04.285	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 10053
+00:00:04.336	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:0
+00:00:04.336	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:04.336	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:04.336	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:04.364	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:04.393	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:04.393	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,112
+00:00:04.450	24762	DEBUG		TEST - Writing janks
+00:00:04.450	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:04.475	3716	WARN		System - A resource failed to call release. 
+00:00:04.586	3716	WARN		System - A resource failed to call release. 
+00:00:04.586	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:04.643	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:04.643	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:04.643	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:04.643	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:04.669	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:04.669	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:04.887	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:04.887	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:04.887	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:04.912	25623	DEBUG		ReactNative - ReactInstanceManager.detachViewFromInstance()
+00:00:04.912	2151	INFO		ActivityManager - Killing 25623:com.reactnativecompareapp/u0a484 (adj 900): remove task
+00:00:04.913	2151	WARN		libprocessgroup - kill(-25623, 9) failed: No such process
+00:00:04.942	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:04.942	2151	WARN		libprocessgroup - kill(-25623, 9) failed: No such process
+00:00:04.942	2151	WARN		InputDispatcher - channel '9444105 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:04.942	2151	ERROR		InputDispatcher - channel '9444105 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:04.942	2151	WARN		libprocessgroup - kill(-25623, 9) failed: No such process
+00:00:04.942	2151	INFO		WindowManager - WIN DEATH: Window{9444105 u0 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity}
+00:00:04.942	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '9444105 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)'
+00:00:04.942	1065	INFO		Zygote - Process 25623 exited due to signal (9)
+00:00:04.942	2151	WARN		libprocessgroup - kill(-25623, 9) failed: No such process
+00:00:04.943	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10484 pid 25623 in 42ms
+00:00:04.943	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{f8f0895 token=Token{673d04c ActivityRecord{74a987f u0 com.reactnativecompareapp/.MainActivity t8266}}}#0
+00:00:04.968	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 25623
+00:00:05.051	2151	INFO		system_server - NativeAlloc concurrent copying GC freed 126820(5MB) AllocSpace objects, 33(1248KB) LOS objects, 42% free, 30MB/52MB, paused 289us total 258.148ms
+00:00:05.193	24762	INFO		GameBench3 - mPid is set to zero 
+00:00:05.358	24762	INFO		GameBench3 - --------- beginning of crash
+00:00:05.359	24762	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-26
+00:00:05.359	24762	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 24762
+00:00:05.359	24762	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:05.359	24762	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:05.359	24762	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:05.359	24762	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:05.359	24762	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:05.359	24762	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:05.359	24762	INFO		Process - Sending signal. PID: 24762 SIG: 9
+00:00:05.388	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:05.388	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:05.388	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:05.388	25567	ERROR		GameBenchD - Error in thread  - Quitting - 25587 
+00:00:05.388	25567	INFO		GameBenchD - Quitting file read thread - 25587
+00:00:05.388	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:05.388	25567	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:05.388	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:05.388	25567	INFO		GameBenchD - Quitting Timer thread 
+00:00:05.388	25567	ERROR		GameBenchD - Error in thread  - Quitting - 25588 
+00:00:05.388	25567	INFO		GameBenchD - Quitting CPU file I/O thread - 25588
+00:00:05.388	25567	INFO		GameBenchD - Finishing SS thread
+00:00:05.388	25567	INFO		GameBenchD - Closing FPS Thread
+00:00:05.389	1069	INFO		Zygote - Process 24762 exited due to signal (9)
+00:00:05.389	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:05.389	2151	INFO		ActivityManager - Process com.gamebench.profilerhelper (pid 24762) has died: svc  SVC 
+00:00:05.389	2151	WARN		libprocessgroup - kill(-24762, 9) failed: No such process
+00:00:05.389	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 24762 in 0ms
+00:00:05.389	2151	WARN		ActivityManager - Scheduling restart of crashed service com.gamebench.profilerhelper/.service.MetricsService in 1000ms
+00:00:05.446	2151	INFO		ActivityManager - Start proc 25707:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:05.475	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:05.475	25707	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:05.475	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:05.501	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.reactnativecompareapp/.MainActivity bnds=[640,1155][839,1508]} from uid 10053
+00:00:05.501	25707	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:05.527	25707	ERROR		GameBenchJNI - setVM
+00:00:05.527	25707	INFO		GBSERVICE - onStartCommand
+00:00:05.527	25707	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:05.527	25707	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:05.527	2151	INFO		ActivityManager - Start proc 25726:com.reactnativecompareapp/u0a484 for activity com.reactnativecompareapp/.MainActivity
+00:00:05.527	25707	INFO		GBSERVICE - metrics_stopped - true
+00:00:05.527	25707	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:05.527	25707	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:05.527	25726	ERROR		ativecompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:05.556	25707	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:05.556	25707	INFO		GBSERVICE - onStartCommand
+00:00:05.556	25707	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:05.556	25707	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:05.557	25707	INFO		GBSERVICE - metrics_stopped - true
+00:00:05.557	25707	INFO		GBSERVICE - Desktop Profiling already started
+00:00:05.557	25707	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:05.557	25707	ERROR		GBSERVICE - Connection was succesful!
+00:00:05.557	25707	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:05.583	25707	ERROR		GBSERVICE - Line read
+00:00:05.583	25567	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:05.583	25567	INFO		GameBenchD - Received command for daemon
+00:00:05.583	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:05.583	25567	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:05.583	25707	INFO		GBSERVICE - Starting recording for com.reactnativecompareapp
+00:00:05.583	25707	DEBUG		GBSERVICE - taking screenshots
+00:00:05.609	25567	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:05.609	25567	INFO		GameBenchD - Received command for daemon
+00:00:05.609	25567	ERROR		GameBenchD - Starting query thread - 25748 
+00:00:05.609	25567	ERROR		GameBenchD - Starting cpu thread - 25749 
+00:00:05.609	25726	DEBUG		SoLoader - init start
+00:00:05.609	25726	DEBUG		SoLoader - adding system library source: /vendor/lib
+00:00:05.609	25726	DEBUG		SoLoader - adding system library source: /system/lib
+00:00:05.609	25726	DEBUG		SoLoader - adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:05.609	25726	DEBUG		SoLoader - adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:05.609	25726	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+00:00:05.609	25726	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+00:00:05.609	25726	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:05.609	25726	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:05.609	25726	VERBOSE		fb-UnpackingSoSource - locked dso store /data/user/0/com.reactnativecompareapp/lib-main
+00:00:05.609	25726	INFO		fb-UnpackingSoSource - dso store is up-to-date: /data/user/0/com.reactnativecompareapp/lib-main
+00:00:05.609	25726	VERBOSE		fb-UnpackingSoSource - releasing dso store lock for /data/user/0/com.reactnativecompareapp/lib-main
+00:00:05.609	25726	DEBUG		SoLoader - init finish: 4 SO sources prepared
+00:00:05.609	25726	DEBUG		SoLoader - init exiting
+00:00:05.664	25726	DEBUG		SoLoader - About to load: libjscexecutor.so
+00:00:05.665	25726	DEBUG		SoLoader - libjscexecutor.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:05.665	25726	DEBUG		SoLoader - libjscexecutor.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:05.665	25726	DEBUG		SoLoader - Not resolving dependencies for libjscexecutor.so
+00:00:05.693	25726	DEBUG		JavaScriptCore.Version - 245459.0.0
+00:00:05.693	25726	DEBUG		SoLoader - Loaded: libjscexecutor.so
+00:00:05.693	25726	DEBUG		ReactNative - ReactInstanceManager.ctor()
+00:00:05.693	25726	DEBUG		SoLoader - init exiting
+00:00:05.693	25726	DEBUG		ReactNative - ReactInstanceManager.createReactContextInBackground()
+00:00:05.693	25726	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundInner()
+00:00:05.693	25726	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+00:00:05.693	25726	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackground()
+00:00:05.693	25726	DEBUG		ReactNative - ReactInstanceManager.runCreateReactContextOnNewThread()
+00:00:05.693	25726	DEBUG		SoLoader - About to load: libreactnativejni.so
+00:00:05.693	25726	DEBUG		SoLoader - libreactnativejni.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:05.693	25726	DEBUG		SoLoader - libreactnativejni.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:05.693	25726	DEBUG		SoLoader - Not resolving dependencies for libreactnativejni.so
+00:00:05.693	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:05.722	25726	DEBUG		SoLoader - Loaded: libreactnativejni.so
+00:00:05.723	25726	DEBUG		SoLoader - About to load: libfb.so
+00:00:05.723	25726	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:05.723	25726	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:05.723	25726	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:05.723	25567	INFO		GameBenchD - Received command for daemon
+00:00:05.723	25567	INFO		GameBenchD - Launch ScreenCap received
+00:00:05.723	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:05.723	25726	DEBUG		SoLoader - About to load: libfb.so
+00:00:05.723	25726	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:05.723	25726	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:05.723	25726	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:05.723	25726	INFO		ativecompareap - Thread[11,tid=25760,Native,Thread*=0x78b844bc00,peer=0x1385e760,"create_react_context"] recursive attempt to load library "/data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64/libfb.so"
+00:00:05.723	25726	DEBUG		SoLoader - Loaded: libfb.so
+00:00:05.723	25726	DEBUG		SoLoader - Loaded: libfb.so
+00:00:05.723	25567	WARN		FileIOThread - type=1400 audit(0.0:37703): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:05.723	25707	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:05.723	25707	DEBUG		GameBench - Send start for FPS Alt
+00:00:05.723	25726	DEBUG		ReactNative - ReactInstanceManager.createReactContext()
+00:00:05.723	25567	INFO		GameBenchD - Received command for daemon
+00:00:05.723	25567	INFO		GameBenchD - Launch FPS Alternate received
+00:00:05.749	25707	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:05.749	25726	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:05.776	25726	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:05.776	25707	DEBUG		TEST - Writing janks
+00:00:05.776	25707	INFO		MetricsTowrite - 6
+00:00:05.776	25707	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:05.776	25726	DEBUG		ReactNative - Initializing React Xplat Bridge.
+00:00:05.804	25726	DEBUG		ReactNative - Initializing React Xplat Bridge before initializeBridge
+00:00:05.804	25726	DEBUG		ReactNative - Initializing React Xplat Bridge after initializeBridge
+00:00:05.804	25726	DEBUG		ReactNative - CatalystInstanceImpl.runJSBundle()
+00:00:05.804	25726	DEBUG		ReactNative - ReactInstanceManager.setupReactContext()
+00:00:05.804	25726	DEBUG		ReactNative - CatalystInstanceImpl.initialize()
+00:00:05.804	25726	DEBUG		ReactNative - ReactInstanceManager.attachRootViewToInstance()
+00:00:05.832	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+00:00:05.832	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+00:00:05.859	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+00:00:05.859	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+00:00:05.859	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+00:00:05.885	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+00:00:05.911	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+00:00:05.937	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+00:00:05.937	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+00:00:05.937	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+00:00:05.937	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+00:00:05.937	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+00:00:05.937	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+00:00:05.966	25707	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25726
+00:00:05.966	25707	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25726
+00:00:05.966	25707	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:05.966	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+00:00:05.967	25726	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+00:00:05.967	25726	DEBUG		SoLoader - About to load: libyoga.so
+00:00:05.967	25726	DEBUG		SoLoader - libyoga.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:05.967	25726	DEBUG		SoLoader - libyoga.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:05.967	25726	DEBUG		SoLoader - Not resolving dependencies for libyoga.so
+00:00:05.995	25726	DEBUG		SoLoader - Loaded: libyoga.so
+00:00:05.996	25726	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:05.996	25726	INFO		Adreno - Build Date                       : 11/02/18
+00:00:05.996	25726	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:05.996	25726	INFO		Adreno - Local Branch                     : 
+00:00:05.996	25726	INFO		Adreno - Remote Branch                    : 
+00:00:05.996	25726	INFO		Adreno - Remote Branch                    : 
+00:00:05.996	25726	INFO		Adreno - Reconstruct Branch               : 
+00:00:05.996	25726	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:05.996	25726	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:05.996	25726	DEBUG		SoLoader - init exiting
+00:00:06.025	25726	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:06.026	25726	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:06.026	25726	WARN		unknown:ReactNative - Tried to update non-existent root tag: 0
+00:00:06.026	25726	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:06.026	25726	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:06.084	2151	INFO		LaunchCheckinHandler - Displayed com.reactnativecompareapp/.MainActivity,cp,ca,555
+00:00:06.084	2151	INFO		ActivityManager - Displayed com.reactnativecompareapp/.MainActivity: +551ms
+00:00:06.084	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:06.084	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:06.084	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:06.084	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671113] from persistence.
+00:00:06.084	25707	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:06.084	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:06.114	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:06.250	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:06.250	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:06.250	25707	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25726
+00:00:06.250	25707	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:06.250	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:06.251	25707	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:06.251	25707	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:06.276	25707	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:06.277	25707	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:06.277	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:06.361	25726	INFO		ReactNativeJS - Running application "ReactNativeCompareApp" with appParams: {"rootTag":1}. __DEV__ === false, development-level warning are OFF, performance optimizations are ON
+00:00:06.387	25707	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25726
+00:00:06.387	25707	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25726
+00:00:06.750	25726	INFO		ReactNative - [GESTURE HANDLER] Initialize gesture handler for root view com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView{c693ba3 V.E...... ......ID 0,0-1080,2088 #1}
+00:00:06.779	25726	DEBUG		SoLoader - About to load: libimagepipeline.so
+00:00:06.779	25726	DEBUG		SoLoader - libimagepipeline.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:06.779	25726	DEBUG		SoLoader - libimagepipeline.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:06.779	25726	DEBUG		SoLoader - Not resolving dependencies for libimagepipeline.so
+00:00:06.779	25726	DEBUG		SoLoader - Loaded: libimagepipeline.so
+00:00:07.331	25707	DEBUG		TEST - Writing janks
+00:00:07.331	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:07.331	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:07.331	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:07.331	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:07.359	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 10053
+00:00:07.385	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:0
+00:00:07.385	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:07.410	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:07.410	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:07.464	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:07.493	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,129
+00:00:07.522	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:07.551	3716	WARN		System - A resource failed to call release. 
+00:00:07.636	3716	INFO		chatty - uid=10053(com.motorola.launcher3) FinalizerDaemon identical 2 lines
+00:00:07.636	3716	WARN		System - A resource failed to call release. 
+00:00:07.636	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:07.719	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:07.720	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:07.720	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:07.720	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:07.745	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:07.745	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:08.021	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:08.021	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:08.021	25726	DEBUG		ReactNative - ReactInstanceManager.detachViewFromInstance()
+00:00:08.022	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:08.022	2151	INFO		ActivityManager - Killing 25726:com.reactnativecompareapp/u0a484 (adj 900): remove task
+00:00:08.022	2151	WARN		libprocessgroup - kill(-25726, 9) failed: No such process
+00:00:08.047	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:08.047	2151	WARN		libprocessgroup - kill(-25726, 9) failed: No such process
+00:00:08.047	2151	WARN		InputDispatcher - channel 'e4ef472 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:08.047	2151	ERROR		InputDispatcher - channel 'e4ef472 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:08.047	2151	INFO		WindowManager - WIN DEATH: Window{e4ef472 u0 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity}
+00:00:08.047	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel 'e4ef472 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)'
+00:00:08.047	1065	INFO		Zygote - Process 25726 exited due to signal (9)
+00:00:08.047	2151	WARN		libprocessgroup - kill(-25726, 9) failed: No such process
+00:00:08.047	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10484 pid 25726 in 45ms
+00:00:08.075	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 25726
+00:00:08.318	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:08.319	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:08.319	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:08.347	25707	INFO		GameBench3 - mPid is set to zero 
+00:00:08.376	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:08.627	24839	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:08.653	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.reactnativecompareapp/.MainActivity bnds=[640,1155][839,1508]} from uid 10053
+00:00:08.710	2151	INFO		ActivityManager - Start proc 25827:com.reactnativecompareapp/u0a484 for activity com.reactnativecompareapp/.MainActivity
+00:00:08.710	25827	ERROR		ativecompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:08.764	25827	DEBUG		SoLoader - init start
+00:00:08.793	25827	DEBUG		SoLoader - adding system library source: /vendor/lib
+00:00:08.793	25827	DEBUG		SoLoader - adding system library source: /system/lib
+00:00:08.793	25827	DEBUG		SoLoader - adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:08.793	25827	DEBUG		SoLoader - adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:08.793	25827	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+00:00:08.793	25827	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+00:00:08.793	25827	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:08.793	25827	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:08.793	25827	VERBOSE		fb-UnpackingSoSource - locked dso store /data/user/0/com.reactnativecompareapp/lib-main
+00:00:08.793	25827	INFO		fb-UnpackingSoSource - dso store is up-to-date: /data/user/0/com.reactnativecompareapp/lib-main
+00:00:08.793	25827	VERBOSE		fb-UnpackingSoSource - releasing dso store lock for /data/user/0/com.reactnativecompareapp/lib-main
+00:00:08.793	25827	DEBUG		SoLoader - init finish: 4 SO sources prepared
+00:00:08.793	25827	DEBUG		SoLoader - init exiting
+00:00:08.822	25707	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25827
+00:00:08.822	25827	DEBUG		SoLoader - About to load: libjscexecutor.so
+00:00:08.822	25827	DEBUG		SoLoader - libjscexecutor.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:08.822	25827	DEBUG		SoLoader - libjscexecutor.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:08.823	25827	DEBUG		SoLoader - Not resolving dependencies for libjscexecutor.so
+00:00:08.823	25707	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.851	25707	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.880	25827	DEBUG		JavaScriptCore.Version - 245459.0.0
+00:00:08.880	25827	DEBUG		SoLoader - Loaded: libjscexecutor.so
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.ctor()
+00:00:08.881	25827	DEBUG		SoLoader - init exiting
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.createReactContextInBackground()
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundInner()
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackground()
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.runCreateReactContextOnNewThread()
+00:00:08.881	25827	DEBUG		SoLoader - About to load: libreactnativejni.so
+00:00:08.881	25827	DEBUG		SoLoader - libreactnativejni.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:08.881	25827	DEBUG		SoLoader - libreactnativejni.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:08.881	25827	DEBUG		SoLoader - Not resolving dependencies for libreactnativejni.so
+00:00:08.881	25827	DEBUG		SoLoader - Loaded: libreactnativejni.so
+00:00:08.881	25827	DEBUG		SoLoader - About to load: libfb.so
+00:00:08.881	25827	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:08.881	25827	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:08.881	25827	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:08.881	25827	DEBUG		SoLoader - About to load: libfb.so
+00:00:08.881	25827	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:08.881	25827	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:08.881	25827	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:08.881	25827	INFO		ativecompareap - Thread[11,tid=25847,Native,Thread*=0x78b855a400,peer=0x1391f428,"create_react_context"] recursive attempt to load library "/data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64/libfb.so"
+00:00:08.881	25827	DEBUG		SoLoader - Loaded: libfb.so
+00:00:08.881	25827	DEBUG		SoLoader - Loaded: libfb.so
+00:00:08.881	25827	DEBUG		ReactNative - ReactInstanceManager.createReactContext()
+00:00:08.909	25707	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-12
+00:00:08.910	25707	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 25707
+00:00:08.910	25707	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:08.910	25707	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:08.910	25707	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:08.910	25707	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:08.910	25707	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:08.910	25707	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:08.910	25827	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:08.938	25827	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:08.939	2151	INFO		ActivityManager - Showing crash dialog for package com.gamebench.profilerhelper u0
+00:00:08.939	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:08.939	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:08.939	25707	DEBUG		TEST - Writing janks
+00:00:08.939	25827	DEBUG		ReactNative - Initializing React Xplat Bridge.
+00:00:08.939	25827	DEBUG		ReactNative - Initializing React Xplat Bridge before initializeBridge
+00:00:08.967	25827	DEBUG		ReactNative - Initializing React Xplat Bridge after initializeBridge
+00:00:08.967	25827	DEBUG		ReactNative - CatalystInstanceImpl.runJSBundle()
+00:00:08.967	25827	DEBUG		ReactNative - ReactInstanceManager.setupReactContext()
+00:00:08.967	25827	DEBUG		ReactNative - CatalystInstanceImpl.initialize()
+00:00:08.968	25707	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:08.968	25827	DEBUG		ReactNative - ReactInstanceManager.attachRootViewToInstance()
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+00:00:08.997	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+00:00:08.997	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+00:00:09.026	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+00:00:09.055	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+00:00:09.085	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+00:00:09.113	25827	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+00:00:09.143	25827	DEBUG		SoLoader - About to load: libyoga.so
+00:00:09.143	25827	DEBUG		SoLoader - libyoga.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:09.143	25827	DEBUG		SoLoader - libyoga.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:09.143	25827	DEBUG		SoLoader - Not resolving dependencies for libyoga.so
+00:00:09.143	25827	DEBUG		SoLoader - Loaded: libyoga.so
+00:00:09.143	25827	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:09.143	25827	INFO		Adreno - Build Date                       : 11/02/18
+00:00:09.143	25827	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:09.143	25827	INFO		Adreno - Local Branch                     : 
+00:00:09.143	25827	INFO		Adreno - Remote Branch                    : 
+00:00:09.143	25827	INFO		Adreno - Remote Branch                    : 
+00:00:09.143	25827	INFO		Adreno - Reconstruct Branch               : 
+00:00:09.143	25827	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:09.143	25827	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:09.143	25827	DEBUG		SoLoader - init exiting
+00:00:09.172	25827	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:09.172	25827	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:09.172	25827	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:09.172	25827	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:09.172	25827	WARN		unknown:ReactNative - Tried to update non-existent root tag: 0
+00:00:09.200	2151	INFO		LaunchCheckinHandler - Displayed com.reactnativecompareapp/.MainActivity,cp,ca,524
+00:00:09.200	2151	INFO		ActivityManager - Displayed com.reactnativecompareapp/.MainActivity: +511ms
+00:00:09.229	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:09.229	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:09.229	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:09.229	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671114] from persistence.
+00:00:09.229	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:09.229	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:09.360	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:09.360	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:09.473	25827	INFO		ReactNativeJS - Running application "ReactNativeCompareApp" with appParams: {"rootTag":1}. __DEV__ === false, development-level warning are OFF, performance optimizations are ON
+00:00:09.554	25707	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:09.827	25827	INFO		ReactNative - [GESTURE HANDLER] Initialize gesture handler for root view com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView{c693ba3 V.E...... ......ID 0,0-1080,2088 #1}
+00:00:09.856	25827	DEBUG		SoLoader - About to load: libimagepipeline.so
+00:00:09.856	25827	DEBUG		SoLoader - libimagepipeline.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:09.856	25827	DEBUG		SoLoader - libimagepipeline.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:09.856	25827	DEBUG		SoLoader - Not resolving dependencies for libimagepipeline.so
+00:00:09.856	25827	DEBUG		SoLoader - Loaded: libimagepipeline.so
+00:00:10.053	2151	INFO		ActivityManager - Killing 25707:com.gamebench.profilerhelper/u0a477 (adj 200): crash
+00:00:10.053	2151	WARN		libprocessgroup - kill(-25707, 9) failed: No such process
+00:00:10.053	2151	DEBUG		OpenGLRenderer - endAllActiveAnimators on 0x7887b34b00 (RippleDrawable) with handle 0x78b6bb40c0
+00:00:10.081	2151	WARN		libprocessgroup - kill(-25707, 9) failed: No such process
+00:00:10.081	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:10.081	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:10.081	25567	ERROR		GameBenchD - Error in thread  - Quitting - 25749 
+00:00:10.081	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:10.081	25567	INFO		GameBenchD - Quitting CPU file I/O thread - 25749
+00:00:10.081	25567	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:10.081	25567	ERROR		GameBenchD - Error in thread  - Quitting - 25748 
+00:00:10.081	25567	INFO		GameBenchD - Quitting file read thread - 25748
+00:00:10.081	25567	INFO		GameBenchD - Quitting Timer thread 
+00:00:10.081	25567	INFO		GameBenchD - Closing pNameAct Thread 
+00:00:10.081	25567	INFO		GameBenchD - Finishing SS thread
+00:00:10.081	2151	WARN		libprocessgroup - kill(-25707, 9) failed: No such process
+00:00:10.081	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 25707 in 28ms
+00:00:10.081	1069	INFO		Zygote - Process 25707 exited due to signal (9)
+00:00:10.081	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:10.136	2151	INFO		ActivityManager - Start proc 25878:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:10.166	17441	INFO		chatty - uid=2000(shell) /system/bin/adbd identical 1 line
+00:00:10.166	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:10.166	25878	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:10.193	25878	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:10.219	25878	ERROR		GameBenchJNI - setVM
+00:00:10.219	25878	INFO		GBSERVICE - onStartCommand
+00:00:10.219	25878	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:10.219	25878	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:10.219	25878	INFO		GBSERVICE - metrics_stopped - true
+00:00:10.219	25878	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:10.219	25878	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:10.219	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:10.219	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:10.219	25878	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:10.219	25878	INFO		GBSERVICE - onStartCommand
+00:00:10.219	25878	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:10.219	25878	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:10.220	25878	INFO		GBSERVICE - metrics_stopped - true
+00:00:10.220	25878	INFO		GBSERVICE - Desktop Profiling already started
+00:00:10.247	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:10.247	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:10.247	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 19b463a Application Error: com.gamebench.profilerhelper#0
+00:00:10.276	25878	INFO		GBSERVICE - onStartCommand
+00:00:10.276	25878	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:10.276	25878	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:10.276	25878	INFO		GBSERVICE - metrics_stopped - true
+00:00:10.276	25878	INFO		GBSERVICE - Desktop Profiling already started
+00:00:10.301	25878	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:10.301	25878	ERROR		GBSERVICE - Connection was succesful!
+00:00:10.301	25878	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:10.302	25878	ERROR		GBSERVICE - Line read
+00:00:10.302	25567	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:10.302	25567	INFO		GameBenchD - Received command for daemon
+00:00:10.302	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:10.302	25567	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:10.332	25878	INFO		GBSERVICE - Starting recording for com.reactnativecompareapp
+00:00:10.332	25878	DEBUG		GBSERVICE - taking screenshots
+00:00:10.332	25567	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:10.332	25567	INFO		GameBenchD - Received command for daemon
+00:00:10.332	25567	ERROR		GameBenchD - Starting query thread - 25909 
+00:00:10.332	25567	ERROR		GameBenchD - Starting cpu thread - 25910 
+00:00:10.332	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:10.413	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:10.443	25567	INFO		GameBenchD - Received command for daemon
+00:00:10.443	25567	INFO		GameBenchD - Launch ScreenCap received
+00:00:10.443	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:10.443	25567	WARN		FileIOThread - type=1400 audit(0.0:37704): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:10.443	25878	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:10.443	25878	DEBUG		GameBench - Send start for FPS Alt
+00:00:10.443	25567	INFO		GameBenchD - Received command for daemon
+00:00:10.443	25567	INFO		GameBenchD - Launch FPS Alternate received
+00:00:10.471	25878	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:10.471	25878	INFO		MetricsTowrite - 6
+00:00:10.471	25878	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:10.553	25878	DEBUG		TEST - Writing janks
+00:00:10.604	25878	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25827
+00:00:10.604	25878	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25827
+00:00:10.604	25878	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:10.687	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:10.688	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:10.688	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:10.688	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:10.688	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 10053
+00:00:10.743	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:0
+00:00:10.743	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:10.773	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:10.773	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:10.773	25878	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25827
+00:00:10.773	25878	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:10.801	25878	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:10.802	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:10.802	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:10.831	25878	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:10.831	25878	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:10.831	25878	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:10.857	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,143
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:10.857	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:10.857	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:10.937	25878	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:10.938	3716	WARN		System - A resource failed to call release. 
+00:00:10.938	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:10.993	3716	WARN		System - A resource failed to call release. 
+00:00:10.993	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:11.077	25878	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25827
+00:00:11.077	25878	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25827
+00:00:11.103	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:11.103	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:11.103	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:11.103	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:11.133	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:11.133	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:11.471	2151	INFO		system_server - NativeAlloc concurrent copying GC freed 156283(5MB) AllocSpace objects, 35(828KB) LOS objects, 42% free, 30MB/53MB, paused 252us total 254.035ms
+00:00:11.864	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:11.864	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:11.864	25827	DEBUG		ReactNative - ReactInstanceManager.detachViewFromInstance()
+00:00:11.864	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:11.864	2151	INFO		ActivityManager - Killing 25827:com.reactnativecompareapp/u0a484 (adj 900): remove task
+00:00:11.864	2151	WARN		libprocessgroup - kill(-25827, 9) failed: No such process
+00:00:11.920	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:11.920	2151	WARN		libprocessgroup - kill(-25827, 9) failed: No such process
+00:00:11.920	2151	WARN		InputDispatcher - channel '282bf71 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:11.920	2151	ERROR		InputDispatcher - channel '282bf71 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:11.920	2151	INFO		WindowManager - WIN DEATH: Window{282bf71 u0 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity}
+00:00:11.920	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '282bf71 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)'
+00:00:11.920	2151	WARN		libprocessgroup - kill(-25827, 9) failed: No such process
+00:00:11.920	1065	INFO		Zygote - Process 25827 exited due to signal (9)
+00:00:11.921	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{6b9aeb8 token=Token{a147d1b ActivityRecord{7e7cb2a u0 com.reactnativecompareapp/.MainActivity t8268}}}#0
+00:00:11.921	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 25827
+00:00:11.921	2151	WARN		libprocessgroup - kill(-25827, 9) failed: No such process
+00:00:11.921	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10484 pid 25827 in 51ms
+00:00:11.976	25878	INFO		GameBench3 - mPid is set to zero 
+00:00:12.083	25878	DEBUG		TEST - Writing janks
+00:00:12.494	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.reactnativecompareapp/.MainActivity bnds=[640,1155][839,1508]} from uid 10053
+00:00:12.519	2151	INFO		ActivityManager - Start proc 25959:com.reactnativecompareapp/u0a484 for activity com.reactnativecompareapp/.MainActivity
+00:00:12.548	25878	DEBUG		TEST - Writing janks
+00:00:12.548	25959	ERROR		ativecompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:12.606	25878	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:12.607	25878	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:12.607	25878	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:12.607	25878	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:12.607	25959	DEBUG		SoLoader - init start
+00:00:12.607	25959	DEBUG		SoLoader - adding system library source: /vendor/lib
+00:00:12.607	25959	DEBUG		SoLoader - adding system library source: /system/lib
+00:00:12.607	25959	DEBUG		SoLoader - adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:12.607	25959	DEBUG		SoLoader - adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:12.607	25959	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+00:00:12.607	25959	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+00:00:12.607	25959	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:12.607	25959	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:12.607	25959	VERBOSE		fb-UnpackingSoSource - locked dso store /data/user/0/com.reactnativecompareapp/lib-main
+00:00:12.607	25959	INFO		fb-UnpackingSoSource - dso store is up-to-date: /data/user/0/com.reactnativecompareapp/lib-main
+00:00:12.607	25959	VERBOSE		fb-UnpackingSoSource - releasing dso store lock for /data/user/0/com.reactnativecompareapp/lib-main
+00:00:12.607	25959	DEBUG		SoLoader - init finish: 4 SO sources prepared
+00:00:12.607	25959	DEBUG		SoLoader - init exiting
+00:00:12.663	25959	DEBUG		SoLoader - About to load: libjscexecutor.so
+00:00:12.663	25959	DEBUG		SoLoader - libjscexecutor.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:12.663	25959	DEBUG		SoLoader - libjscexecutor.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:12.663	25959	DEBUG		SoLoader - Not resolving dependencies for libjscexecutor.so
+00:00:12.693	25959	DEBUG		JavaScriptCore.Version - 245459.0.0
+00:00:12.693	25959	DEBUG		SoLoader - Loaded: libjscexecutor.so
+00:00:12.693	25959	DEBUG		ReactNative - ReactInstanceManager.ctor()
+00:00:12.693	25959	DEBUG		SoLoader - init exiting
+00:00:12.693	25959	DEBUG		ReactNative - ReactInstanceManager.createReactContextInBackground()
+00:00:12.693	25959	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundInner()
+00:00:12.693	25959	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+00:00:12.693	25959	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackground()
+00:00:12.693	25959	DEBUG		ReactNative - ReactInstanceManager.runCreateReactContextOnNewThread()
+00:00:12.693	25959	DEBUG		SoLoader - About to load: libreactnativejni.so
+00:00:12.693	25959	DEBUG		SoLoader - libreactnativejni.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:12.693	25959	DEBUG		SoLoader - libreactnativejni.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:12.693	25959	DEBUG		SoLoader - Not resolving dependencies for libreactnativejni.so
+00:00:12.693	25959	DEBUG		SoLoader - Loaded: libreactnativejni.so
+00:00:12.694	25959	DEBUG		SoLoader - About to load: libfb.so
+00:00:12.694	25959	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:12.694	25959	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:12.694	25959	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:12.723	25959	DEBUG		SoLoader - About to load: libfb.so
+00:00:12.723	25959	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:12.724	25959	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:12.724	25959	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:12.724	25959	INFO		ativecompareap - Thread[11,tid=25980,Native,Thread*=0x78c0937400,peer=0x139dfd10,"create_react_context"] recursive attempt to load library "/data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64/libfb.so"
+00:00:12.724	25959	DEBUG		SoLoader - Loaded: libfb.so
+00:00:12.724	25959	DEBUG		SoLoader - Loaded: libfb.so
+00:00:12.724	25959	DEBUG		ReactNative - ReactInstanceManager.createReactContext()
+00:00:12.749	25959	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:12.750	25959	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:12.750	25959	DEBUG		ReactNative - Initializing React Xplat Bridge.
+00:00:12.750	25878	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25959
+00:00:12.750	25959	DEBUG		ReactNative - Initializing React Xplat Bridge before initializeBridge
+00:00:12.776	25878	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:12.776	25959	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:12.776	25959	INFO		Adreno - Build Date                       : 11/02/18
+00:00:12.777	25959	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:12.777	25959	INFO		Adreno - Local Branch                     : 
+00:00:12.777	25959	INFO		Adreno - Remote Branch                    : 
+00:00:12.777	25959	INFO		Adreno - Remote Branch                    : 
+00:00:12.777	25959	INFO		Adreno - Reconstruct Branch               : 
+00:00:12.777	25959	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:12.777	25878	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:12.777	25959	DEBUG		ReactNative - Initializing React Xplat Bridge after initializeBridge
+00:00:12.777	25959	DEBUG		ReactNative - CatalystInstanceImpl.runJSBundle()
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:12.777	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:12.777	25959	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:12.804	25959	DEBUG		ReactNative - ReactInstanceManager.setupReactContext()
+00:00:12.805	25959	DEBUG		ReactNative - CatalystInstanceImpl.initialize()
+00:00:12.805	25959	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:12.805	25959	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:12.805	25959	DEBUG		ReactNative - ReactInstanceManager.attachRootViewToInstance()
+00:00:12.805	25959	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:12.805	25959	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:12.805	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+00:00:12.805	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+00:00:12.805	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+00:00:12.805	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+00:00:12.805	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+00:00:12.805	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+00:00:12.834	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+00:00:12.834	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+00:00:12.834	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+00:00:12.834	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+00:00:12.834	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:12.834	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+00:00:12.834	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+00:00:12.863	2151	INFO		LaunchCheckinHandler - Displayed com.reactnativecompareapp/.MainActivity,cp,ca,367
+00:00:12.863	2151	INFO		ActivityManager - Displayed com.reactnativecompareapp/.MainActivity: +345ms
+00:00:12.863	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+00:00:12.893	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+00:00:12.921	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+00:00:12.948	25959	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+00:00:12.948	25959	DEBUG		SoLoader - About to load: libyoga.so
+00:00:12.948	25959	DEBUG		SoLoader - libyoga.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:12.948	25959	DEBUG		SoLoader - libyoga.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:12.948	25959	DEBUG		SoLoader - Not resolving dependencies for libyoga.so
+00:00:12.948	25959	DEBUG		SoLoader - Loaded: libyoga.so
+00:00:12.977	25959	DEBUG		SoLoader - init exiting
+00:00:12.978	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:12.978	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:12.978	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:12.978	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671115] from persistence.
+00:00:12.978	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:13.004	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:13.030	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:13.030	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:13.227	25878	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:13.282	25959	INFO		ReactNativeJS - Running application "ReactNativeCompareApp" with appParams: {"rootTag":1}. __DEV__ === false, development-level warning are OFF, performance optimizations are ON
+00:00:13.362	25878	INFO		GameBench3 - Pid for com.reactnativecompareapp - 25959
+00:00:13.362	25878	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -25959
+00:00:13.666	25959	INFO		ReactNative - [GESTURE HANDLER] Initialize gesture handler for root view com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView{c693ba3 V.E...... ......ID 0,0-1080,2088 #1}
+00:00:13.666	25878	DEBUG		TEST - Writing janks
+00:00:13.693	25959	DEBUG		SoLoader - About to load: libimagepipeline.so
+00:00:13.694	25959	DEBUG		SoLoader - libimagepipeline.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:13.694	25959	DEBUG		SoLoader - libimagepipeline.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:13.694	25959	DEBUG		SoLoader - Not resolving dependencies for libimagepipeline.so
+00:00:13.694	25959	DEBUG		SoLoader - Loaded: libimagepipeline.so
+00:00:13.748	25878	DEBUG		TEST - Writing janks
+00:00:13.803	25878	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:14.135	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:14.135	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:14.135	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:14.135	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:14.135	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 10053
+00:00:14.193	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:0
+00:00:14.193	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:14.193	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:14.193	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:14.248	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:14.248	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,113
+00:00:14.327	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:14.354	3716	WARN		System - A resource failed to call release. 
+00:00:14.435	3716	INFO		chatty - uid=10053(com.motorola.launcher3) FinalizerDaemon identical 4 lines
+00:00:14.435	3716	WARN		System - A resource failed to call release. 
+00:00:14.435	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:14.465	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3944814, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150528, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=61, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=389, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=23437, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=310, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1515457, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:14.494	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:14.494	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:14.494	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:14.494	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:14.523	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:14.523	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:14.523	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:14.523	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:14.552	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:14.552	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:14.750	3716	INFO		orola.launcher - Background concurrent copying GC freed 45843(6MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 17MB/35MB, paused 242us total 103.078ms
+00:00:14.993	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:14.993	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:14.993	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:14.993	25959	DEBUG		ReactNative - ReactInstanceManager.detachViewFromInstance()
+00:00:14.993	2151	INFO		ActivityManager - Killing 25959:com.reactnativecompareapp/u0a484 (adj 900): remove task
+00:00:14.993	2151	WARN		libprocessgroup - kill(-25959, 9) failed: No such process
+00:00:15.049	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:15.050	2151	WARN		libprocessgroup - kill(-25959, 9) failed: No such process
+00:00:15.050	2151	WARN		InputDispatcher - channel '3035576 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:15.050	2151	ERROR		InputDispatcher - channel '3035576 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:15.050	2151	INFO		WindowManager - WIN DEATH: Window{3035576 u0 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity}
+00:00:15.050	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '3035576 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)'
+00:00:15.050	1065	INFO		Zygote - Process 25959 exited due to signal (9)
+00:00:15.050	2151	WARN		libprocessgroup - kill(-25959, 9) failed: No such process
+00:00:15.050	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10484 pid 25959 in 45ms
+00:00:15.050	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{8baec6 token=Token{e195ca1 ActivityRecord{2d9fd08 u0 com.reactnativecompareapp/.MainActivity t8269}}}#0
+00:00:15.050	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 25959
+00:00:15.161	3716	INFO		orola.launcher - Background concurrent copying GC freed 272476(41MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 19MB/39MB, paused 509us total 107.674ms
+00:00:15.266	25878	DEBUG		TEST - Writing janks
+00:00:15.293	25878	INFO		GameBench3 - mPid is set to zero 
+00:00:15.347	25878	DEBUG		TEST - Writing janks
+00:00:15.347	3716	INFO		orola.launcher - Background concurrent copying GC freed 160461(32MB) AllocSpace objects, 0(0B) LOS objects, 46% free, 27MB/51MB, paused 217us total 114.552ms
+00:00:15.761	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.reactnativecompareapp/.MainActivity bnds=[640,1155][839,1508]} from uid 10053
+00:00:15.813	3716	INFO		orola.launcher - Background concurrent copying GC freed 170666(34MB) AllocSpace objects, 0(0B) LOS objects, 44% free, 29MB/53MB, paused 193us total 129.608ms
+00:00:15.813	2151	INFO		ActivityManager - Start proc 26031:com.reactnativecompareapp/u0a484 for activity com.reactnativecompareapp/.MainActivity
+00:00:15.843	26031	ERROR		ativecompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:15.899	25878	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:15.900	25878	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:15.900	25878	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:15.900	25878	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:15.928	25878	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-12
+00:00:15.928	25878	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 25878
+00:00:15.928	25878	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:15.928	25878	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:15.928	25878	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:15.928	25878	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:15.928	25878	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:15.928	25878	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:15.928	2151	INFO		ActivityManager - Showing crash dialog for package com.gamebench.profilerhelper u0
+00:00:15.928	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:15.928	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:15.978	26031	DEBUG		SoLoader - init start
+00:00:15.979	26031	DEBUG		SoLoader - adding system library source: /vendor/lib
+00:00:15.979	26031	DEBUG		SoLoader - adding system library source: /system/lib
+00:00:15.979	26031	DEBUG		SoLoader - adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:15.979	26031	DEBUG		SoLoader - adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:15.979	26031	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+00:00:15.979	26031	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+00:00:15.979	26031	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64 flags = 0]
+00:00:15.979	26031	DEBUG		SoLoader - Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.reactnativecompareapp/lib-main flags = 1]
+00:00:15.979	26031	VERBOSE		fb-UnpackingSoSource - locked dso store /data/user/0/com.reactnativecompareapp/lib-main
+00:00:15.979	26031	INFO		fb-UnpackingSoSource - dso store is up-to-date: /data/user/0/com.reactnativecompareapp/lib-main
+00:00:15.979	26031	VERBOSE		fb-UnpackingSoSource - releasing dso store lock for /data/user/0/com.reactnativecompareapp/lib-main
+00:00:15.979	26031	DEBUG		SoLoader - init finish: 4 SO sources prepared
+00:00:15.979	26031	DEBUG		SoLoader - init exiting
+00:00:16.034	26031	DEBUG		SoLoader - About to load: libjscexecutor.so
+00:00:16.034	26031	DEBUG		SoLoader - libjscexecutor.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:16.034	26031	DEBUG		SoLoader - libjscexecutor.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:16.034	26031	DEBUG		SoLoader - Not resolving dependencies for libjscexecutor.so
+00:00:16.085	26031	DEBUG		JavaScriptCore.Version - 245459.0.0
+00:00:16.085	26031	DEBUG		SoLoader - Loaded: libjscexecutor.so
+00:00:16.085	26031	DEBUG		ReactNative - ReactInstanceManager.ctor()
+00:00:16.085	26031	DEBUG		SoLoader - init exiting
+00:00:16.086	26031	DEBUG		ReactNative - ReactInstanceManager.createReactContextInBackground()
+00:00:16.086	26031	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundInner()
+00:00:16.086	26031	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackgroundFromBundleLoader()
+00:00:16.086	26031	DEBUG		ReactNative - ReactInstanceManager.recreateReactContextInBackground()
+00:00:16.086	26031	DEBUG		ReactNative - ReactInstanceManager.runCreateReactContextOnNewThread()
+00:00:16.113	26031	DEBUG		SoLoader - About to load: libreactnativejni.so
+00:00:16.114	26031	DEBUG		SoLoader - libreactnativejni.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:16.114	26031	DEBUG		SoLoader - libreactnativejni.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:16.114	26031	DEBUG		SoLoader - Not resolving dependencies for libreactnativejni.so
+00:00:16.114	26031	DEBUG		SoLoader - Loaded: libreactnativejni.so
+00:00:16.114	26031	DEBUG		SoLoader - About to load: libfb.so
+00:00:16.114	26031	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:16.114	26031	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:16.114	26031	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:16.114	26031	DEBUG		SoLoader - About to load: libfb.so
+00:00:16.114	26031	DEBUG		SoLoader - libfb.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:16.114	26031	DEBUG		SoLoader - libfb.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:16.114	26031	DEBUG		SoLoader - Not resolving dependencies for libfb.so
+00:00:16.114	26031	INFO		ativecompareap - Thread[11,tid=26057,Native,Thread*=0x78b844bc00,peer=0x13b00088,"create_react_context"] recursive attempt to load library "/data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64/libfb.so"
+00:00:16.114	26031	DEBUG		SoLoader - Loaded: libfb.so
+00:00:16.114	26031	DEBUG		SoLoader - Loaded: libfb.so
+00:00:16.114	26031	DEBUG		ReactNative - ReactInstanceManager.createReactContext()
+00:00:16.143	3716	INFO		orola.launcher - Background concurrent copying GC freed 271828(46MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 24MB/48MB, paused 267us total 210.334ms
+00:00:16.143	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:16.143	26031	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:16.171	26031	DEBUG		NetworkSecurityConfig - No Network Security Config specified, using platform default
+00:00:16.201	26031	DEBUG		ReactNative - Initializing React Xplat Bridge.
+00:00:16.201	25878	INFO		GameBench3 - Pid for com.reactnativecompareapp - 26031
+00:00:16.201	26031	DEBUG		ReactNative - Initializing React Xplat Bridge before initializeBridge
+00:00:16.201	26031	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:16.201	26031	INFO		Adreno - Build Date                       : 11/02/18
+00:00:16.201	26031	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:16.201	26031	INFO		Adreno - Local Branch                     : 
+00:00:16.201	26031	INFO		Adreno - Remote Branch                    : 
+00:00:16.201	26031	INFO		Adreno - Remote Branch                    : 
+00:00:16.201	26031	INFO		Adreno - Reconstruct Branch               : 
+00:00:16.201	26031	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:16.202	26031	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:16.231	26031	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:16.231	26031	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:16.232	26031	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:16.232	26031	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:16.232	25878	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:16.232	25878	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:16.232	26031	DEBUG		ReactNative - Initializing React Xplat Bridge after initializeBridge
+00:00:16.232	26031	DEBUG		ReactNative - CatalystInstanceImpl.runJSBundle()
+00:00:16.260	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.260	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.260	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.260	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.260	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.261	25878	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.261	26031	DEBUG		ReactNative - ReactInstanceManager.setupReactContext()
+00:00:16.261	26031	DEBUG		ReactNative - CatalystInstanceImpl.initialize()
+00:00:16.261	26031	DEBUG		ReactNative - ReactInstanceManager.attachRootViewToInstance()
+00:00:16.288	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+00:00:16.288	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+00:00:16.288	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+00:00:16.288	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+00:00:16.288	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+00:00:16.288	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+00:00:16.315	2151	INFO		LaunchCheckinHandler - Displayed com.reactnativecompareapp/.MainActivity,cp,ca,512
+00:00:16.315	2151	INFO		ActivityManager - Displayed com.reactnativecompareapp/.MainActivity: +486ms
+00:00:16.315	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+00:00:16.315	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+00:00:16.315	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+00:00:16.344	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+00:00:16.344	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+00:00:16.344	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+00:00:16.344	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:16.344	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:16.344	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:16.344	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+00:00:16.344	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+00:00:16.370	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+00:00:16.370	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671116] from persistence.
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+00:00:16.371	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+00:00:16.371	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+00:00:16.371	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+00:00:16.399	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+00:00:16.399	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+00:00:16.400	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+00:00:16.428	3716	INFO		orola.launcher - Background concurrent copying GC freed 261382(40MB) AllocSpace objects, 0(0B) LOS objects, 47% free, 27MB/51MB, paused 1.153ms total 162.286ms
+00:00:16.428	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+00:00:16.454	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+00:00:16.454	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+00:00:16.481	26031	WARN		unknown:ViewManagerPropertyUpdater - Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+00:00:16.481	26031	DEBUG		SoLoader - About to load: libyoga.so
+00:00:16.481	26031	DEBUG		SoLoader - libyoga.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:16.481	26031	DEBUG		SoLoader - libyoga.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:16.481	26031	DEBUG		SoLoader - Not resolving dependencies for libyoga.so
+00:00:16.482	26031	DEBUG		SoLoader - Loaded: libyoga.so
+00:00:16.482	26031	DEBUG		SoLoader - init exiting
+00:00:16.510	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:16.510	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.reactnativecompareapp#0
+00:00:16.761	26031	INFO		ReactNativeJS - Running application "ReactNativeCompareApp" with appParams: {"rootTag":1}. __DEV__ === false, development-level warning are OFF, performance optimizations are ON
+00:00:16.895	3716	INFO		orola.launcher - Background concurrent copying GC freed 248567(41MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 21MB/42MB, paused 253us total 104.898ms
+00:00:17.008	2151	INFO		ActivityManager - Killing 25878:com.gamebench.profilerhelper/u0a477 (adj 200): crash
+00:00:17.008	2151	WARN		libprocessgroup - kill(-25878, 9) failed: No such process
+00:00:17.008	2151	DEBUG		OpenGLRenderer - endAllActiveAnimators on 0x788235e000 (RippleDrawable) with handle 0x78b6bc3c60
+00:00:17.008	2151	WARN		libprocessgroup - kill(-25878, 9) failed: No such process
+00:00:17.036	2151	WARN		libprocessgroup - kill(-25878, 9) failed: No such process
+00:00:17.037	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:17.037	25567	ERROR		GameBenchD - Error in thread  - Quitting - 25910 
+00:00:17.037	25567	INFO		GameBenchD - Quitting CPU file I/O thread - 25910
+00:00:17.037	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:17.037	25567	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:17.037	25567	INFO		GameBenchD - Closing pNameAct Thread 
+00:00:17.037	25567	INFO		GameBenchD - Finishing SS thread
+00:00:17.037	25567	INFO		GameBenchD - Quitting Timer thread 
+00:00:17.037	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:17.037	25567	ERROR		GameBenchD - Error in thread  - Quitting - 25909 
+00:00:17.037	25567	INFO		GameBenchD - Quitting file read thread - 25909
+00:00:17.037	1069	INFO		Zygote - Process 25878 exited due to signal (9)
+00:00:17.037	2151	WARN		libprocessgroup - kill(-25878, 9) failed: No such process
+00:00:17.037	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 25878 in 48ms
+00:00:17.037	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:17.139	2151	INFO		ActivityManager - Start proc 26081:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:17.164	17441	INFO		chatty - uid=2000(shell) /system/bin/adbd identical 1 line
+00:00:17.164	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:17.164	26081	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:17.165	3716	INFO		orola.launcher - Background concurrent copying GC freed 178306(34MB) AllocSpace objects, 0(0B) LOS objects, 45% free, 28MB/52MB, paused 298us total 159.339ms
+00:00:17.165	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:17.165	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:17.165	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 45b4635 Application Error: com.gamebench.profilerhelper#0
+00:00:17.193	26081	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:17.218	26031	INFO		ReactNative - [GESTURE HANDLER] Initialize gesture handler for root view com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView{c693ba3 V.E...... ......ID 0,0-1080,2088 #1}
+00:00:17.245	26081	ERROR		GameBenchJNI - setVM
+00:00:17.245	26081	INFO		GBSERVICE - onStartCommand
+00:00:17.245	26081	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:17.245	26081	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:17.245	26081	INFO		GBSERVICE - metrics_stopped - true
+00:00:17.245	26081	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:17.245	26081	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:17.245	26081	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:17.245	26081	INFO		GBSERVICE - onStartCommand
+00:00:17.245	26081	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:17.246	26081	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:17.246	26081	INFO		GBSERVICE - metrics_stopped - true
+00:00:17.246	26081	INFO		GBSERVICE - Desktop Profiling already started
+00:00:17.274	26081	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:17.275	26081	ERROR		GBSERVICE - Connection was succesful!
+00:00:17.275	26081	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:17.275	26081	ERROR		GBSERVICE - Line read
+00:00:17.275	25567	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:17.275	25567	INFO		GameBenchD - Received command for daemon
+00:00:17.275	25567	ERROR		GameBenchD - Client has closed the connection
+00:00:17.275	25567	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:17.275	26081	INFO		GBSERVICE - Starting recording for com.reactnativecompareapp
+00:00:17.301	26081	DEBUG		GBSERVICE - taking screenshots
+00:00:17.301	25567	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:17.301	25567	INFO		GameBenchD - Received command for daemon
+00:00:17.301	25567	ERROR		GameBenchD - Starting query thread - 26111 
+00:00:17.301	25567	ERROR		GameBenchD - Starting cpu thread - 26112 
+00:00:17.327	26031	DEBUG		SoLoader - About to load: libimagepipeline.so
+00:00:17.327	26031	DEBUG		SoLoader - libimagepipeline.so not found on /data/data/com.reactnativecompareapp/lib-main
+00:00:17.327	26031	DEBUG		SoLoader - libimagepipeline.so found on /data/app/com.reactnativecompareapp-OcNXDsNnnTbO74hM1sSwuw==/lib/arm64
+00:00:17.328	26031	DEBUG		SoLoader - Not resolving dependencies for libimagepipeline.so
+00:00:17.382	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:17.382	26031	DEBUG		SoLoader - Loaded: libimagepipeline.so
+00:00:17.411	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:17.411	3716	INFO		orola.launcher - Background concurrent copying GC freed 258568(45MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 23MB/46MB, paused 283us total 122.491ms
+00:00:17.411	25567	INFO		GameBenchD - Received command for daemon
+00:00:17.411	25567	INFO		GameBenchD - Launch ScreenCap received
+00:00:17.411	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:17.437	26081	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:17.437	25567	WARN		FileIOThread - type=1400 audit(0.0:37705): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:17.437	26081	DEBUG		GameBench - Send start for FPS Alt
+00:00:17.437	25567	INFO		GameBenchD - Received command for daemon
+00:00:17.437	25567	INFO		GameBenchD - Launch FPS Alternate received
+00:00:17.493	26081	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:17.493	26081	INFO		MetricsTowrite - 6
+00:00:17.494	26081	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:17.658	26081	INFO		GameBench3 - Pid for com.reactnativecompareapp - 26031
+00:00:17.658	25567	INFO		GameBenchD - Accepted a client connection for SS
+00:00:17.658	26081	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:17.658	26081	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:17.658	26081	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:17.684	3716	INFO		orola.launcher - Background concurrent copying GC freed 209014(38MB) AllocSpace objects, 0(0B) LOS objects, 48% free, 25MB/49MB, paused 259us total 133.163ms
+00:00:17.685	26081	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:17.685	26081	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:17.685	26081	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:17.797	26081	INFO		GameBench3 - Pid for com.reactnativecompareapp - 26031
+00:00:17.797	26081	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -26031
+00:00:17.797	26081	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:17.880	3716	INFO		orola.launcher - Background concurrent copying GC freed 245479(41MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 22MB/44MB, paused 213us total 111.403ms
+00:00:17.931	26081	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:18.099	26081	INFO		GameBench3 - Pid for com.reactnativecompareapp - 26031
+00:00:18.099	26081	INFO		GameBenchDebug - Pid Val for packageName -  com.reactnativecompareapp is -26031
+00:00:18.099	3716	INFO		orola.launcher - Background concurrent copying GC freed 193489(36MB) AllocSpace objects, 0(0B) LOS objects, 48% free, 25MB/49MB, paused 214us total 106.099ms
+00:00:18.238	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:18.238	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:18.268	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:18.268	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:18.268	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 10053
+00:00:18.296	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:0
+00:00:18.321	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:18.347	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:18.347	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:18.372	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:18.372	3716	INFO		orola.launcher - Background concurrent copying GC freed 218263(41MB) AllocSpace objects, 0(0B) LOS objects, 43% free, 31MB/55MB, paused 189us total 143.154ms
+00:00:18.427	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,165
+00:00:18.453	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:18.453	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:18.482	26081	DEBUG		TEST - Writing janks
+00:00:18.540	2619	INFO		ndroid.systemu - NativeAlloc concurrent copying GC freed 5756(482KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 6MB/13MB, paused 1.070ms total 117.058ms
+00:00:18.540	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:18.569	3716	WARN		System - A resource failed to call release. 
+00:00:18.569	3716	WARN		System - A resource failed to call release. 
+00:00:18.569	3716	INFO		orola.launcher - NativeAlloc concurrent copying GC freed 224560(36MB) AllocSpace objects, 0(0B) LOS objects, 44% free, 29MB/53MB, paused 331us total 133.933ms
+00:00:18.569	26081	DEBUG		TEST - Writing janks
+00:00:18.647	24839	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:18.647	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:18.647	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:18.673	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:18.673	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: com.reactnativecompareapp/com.reactnativecompareapp.MainActivity#0
+00:00:18.702	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:18.703	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:18.869	3716	INFO		orola.launcher - Background concurrent copying GC freed 241190(45MB) AllocSpace objects, 0(0B) LOS objects, 43% free, 31MB/55MB, paused 204us total 147.372ms
+00:00:19.068	26081	DEBUG		TEST - Writing janks
+00:00:19.068	2151	INFO		system_server - NativeAlloc concurrent copying GC freed 190342(7MB) AllocSpace objects, 37(1060KB) LOS objects, 42% free, 29MB/51MB, paused 247us total 296.134ms
+00:00:19.122	3716	INFO		orola.launcher - Background concurrent copying GC freed 280496(47MB) AllocSpace objects, 0(0B) LOS objects, 46% free, 27MB/51MB, paused 323us total 136.413ms
+00:00:19.152	26031	DEBUG		ReactNative - ReactInstanceManager.detachViewFromInstance()
+00:00:19.152	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:19.152	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:19.152	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:19.152	2151	INFO		ActivityManager - Killing 26031:com.reactnativecompareapp/u0a484 (adj 900): remove task
+00:00:19.153	2151	WARN		libprocessgroup - kill(-26031, 9) failed: No such process
+00:00:19.180	2151	INFO		chatty - uid=1000(system) ActivityManager identical 3 lines
+00:00:19.181	2151	WARN		libprocessgroup - kill(-26031, 9) failed: No such process
+00:00:19.181	2151	WARN		InputDispatcher - channel '683ea7a com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:19.181	2151	ERROR		InputDispatcher - channel '683ea7a com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:19.181	2151	INFO		WindowManager - WIN DEATH: Window{683ea7a u0 com.reactnativecompareapp/com.reactnativecompareapp.MainActivity}
+00:00:19.181	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '683ea7a com.reactnativecompareapp/com.reactnativecompareapp.MainActivity (server)'
+00:00:19.181	1065	INFO		Zygote - Process 26031 exited due to signal (9)
+00:00:19.210	2151	WARN		libprocessgroup - kill(-26031, 9) failed: No such process
+00:00:19.210	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10484 pid 26031 in 54ms
+00:00:19.211	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{8709186 token=Token{44d1261 ActivityRecord{4d7f1c8 u0 com.reactnativecompareapp/.MainActivity t8270}}}#0
+00:00:19.211	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 26031
+00:00:19.374	3716	INFO		orola.launcher - Background concurrent copying GC freed 217936(42MB) AllocSpace objects, 0(0B) LOS objects, 44% free, 29MB/53MB, paused 159us total 118.955ms
+00:00:19.374	3716	WARN		System - A resource failed to call release. 
+00:00:19.455	3716	INFO		chatty - uid=10053(com.motorola.launcher3) FinalizerDaemon identical 2 lines
+00:00:19.455	3716	WARN		System - A resource failed to call release. 
+00:00:19.455	26081	INFO		GameBench3 - mPid is set to zero 
+00:00:19.620	3716	INFO		orola.launcher - Background concurrent copying GC freed 265699(45MB) AllocSpace objects, 0(0B) LOS objects, 43% free, 31MB/55MB, paused 208us total 152.174ms
+00:00:19.840	3716	INFO		orola.launcher - Background concurrent copying GC freed 257309(46MB) AllocSpace objects, 0(0B) LOS objects, 47% free, 26MB/50MB, paused 211us total 132.160ms
+00:00:19.985	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth

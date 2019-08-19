@@ -1,0 +1,92 @@
+Timestamp	App	Log Level	Message
+00:00:01.129	15492	WARN		System - A resource failed to call close. 
+00:00:01.155	15492	WARN		System - --------- beginning of system
+00:00:01.156	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.185	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.213	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.213	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.213	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.213	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.213	17643	WARN		FileIOThread - type=1400 audit(0.0:37676): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.213	15492	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.213	15492	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.213	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.213	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.213	15492	INFO		MetricsTowrite - 6
+00:00:01.241	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.267	2151	WARN		ProcessCpuTracker - Skipping unknown process pid 22500
+00:00:01.566	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -0
+00:00:01.567	15492	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:02.565	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:02.759	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -0
+00:00:02.759	15492	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:02.871	15492	DEBUG		TEST - Writing janks
+00:00:02.902	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.930	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity bnds=[640,1562][839,1843]} from uid 10053
+00:00:02.988	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{cb18c4a token=Token{7c5edb5 ActivityRecord{c9095ec u0 com.twitter.android/com.twitter.app.main.MainActivity t8235}}}#0
+00:00:02.988	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{ee1ae34 token=Token{1ff1d07 ActivityRecord{1d28746 u0 com.motorola.camera2/com.motorola.camera.Camera t8238}}}#0
+00:00:03.018	22532	ERROR		formscompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:03.018	2151	INFO		ActivityManager - Start proc 22532:com.cs.xamarinformscompareapp/u0a476 for activity com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity
+00:00:03.076	22532	WARN		monodroid - Using runtime path: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64
+00:00:03.076	22532	WARN		monodroid - Trying to load sgen from: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64/libmonosgen-2.0.so
+00:00:03.266	22532	WARN		monodroid-gc - GREF GC Threshold: 46080
+00:00:03.291	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:03.737	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22532
+00:00:03.764	15492	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:03.764	15492	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:03.764	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:03.764	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:03.764	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:03.764	15492	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:03.764	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.764	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.764	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.764	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.764	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.764	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.765	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.900	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22532
+00:00:03.900	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -22532
+00:00:03.900	15492	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:03.986	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:04.132	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22532
+00:00:04.132	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -22532
+00:00:04.463	15492	DEBUG		TEST - Writing janks
+00:00:04.631	22532	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutTemplatedContentRenderer_HeaderContainer
+00:00:04.850	22532	INFO		mono-stdout - Could not load image named: {0}: icon.png
+00:00:04.850	22532	INFO		mono-stdout - FileImageSourceHandler: Could not find image or image file was invalid: File: icon.png
+00:00:05.230	22532	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:05.453	22532	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:05.453	22532	INFO		Adreno - Build Date                       : 11/02/18
+00:00:05.453	22532	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:05.453	22532	INFO		Adreno - Local Branch                     : 
+00:00:05.453	22532	INFO		Adreno - Remote Branch                    : 
+00:00:05.453	22532	INFO		Adreno - Remote Branch                    : 
+00:00:05.453	22532	INFO		Adreno - Reconstruct Branch               : 
+00:00:05.453	22532	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:05.453	22532	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:05.453	22532	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:05.454	22532	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:05.454	22532	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:05.454	22532	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:05.615	22532	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutRecyclerAdapter_ElementViewHolder
+00:00:05.750	2151	INFO		LaunchCheckinHandler - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity,cp,ca,2776
+00:00:05.750	2151	INFO		ActivityManager - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity: +2s774ms
+00:00:05.775	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:5
+00:00:05.776	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:05.776	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:05.776	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671095] from persistence.
+00:00:05.776	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:05.776	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:05.920	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:05.920	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:07.069	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth

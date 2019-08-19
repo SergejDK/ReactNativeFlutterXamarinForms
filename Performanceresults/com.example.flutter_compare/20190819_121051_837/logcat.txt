@@ -1,0 +1,161 @@
+Timestamp	App	Log Level	Message
+00:00:01.128	17643	ERROR		GameBenchD - Starting query thread - 16586 
+00:00:01.128	9244	ERROR		ctxmgr - [AppIntervalImpl] closeInterval: ongoing [CONTEXT service_id=47 ]
+00:00:01.157	9244	ERROR		ctxmgr - --------- beginning of system
+00:00:01.157	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.183	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.208	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.208	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.208	9244	INFO		Places - ?: PlacesBleScanner stop()
+00:00:01.208	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.208	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.208	9244	INFO		BeaconBle - ZERO_POWER is disabled.
+00:00:01.208	9244	INFO		BeaconBle - 'L' hardware scan: scan stopped, no powered clients
+00:00:01.208	9244	INFO		BeaconBle - Places requested to stop scan
+00:00:01.208	9244	INFO		BeaconBle - Scan canceled successfully.
+00:00:01.208	17643	WARN		FileIOThread - type=1400 audit(0.0:37640): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.208	15492	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.208	15492	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.208	15492	INFO		MetricsTowrite - 6
+00:00:01.208	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.208	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.208	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.235	9244	INFO		PlaceInferenceEngine - [anon] Changed inference mode: 0
+00:00:01.235	9244	INFO		PlaceInferenceEngine - [account#330167065] Changed inference mode: 0
+00:00:01.260	15492	WARN		System - A resource failed to call close. 
+00:00:01.291	15492	DEBUG		TEST - Writing janks
+00:00:01.407	15492	INFO		GameBench3 - Pid for com.example.flutter_compare - 15296
+00:00:01.407	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.example.flutter_compare is -15296
+00:00:01.407	15492	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.518	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.684	15492	INFO		GameBench3 - Pid for com.example.flutter_compare - 15296
+00:00:01.684	15492	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.684	15492	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.684	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.711	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.711	15492	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.711	15492	INFO		GameBenchJNI - Resizing thread array! From 24 to 48
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.741	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.767	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:01.849	15492	INFO		GameBench3 - Pid for com.example.flutter_compare - 15296
+00:00:01.850	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.example.flutter_compare is -15296
+00:00:02.890	15492	DEBUG		TEST - Writing janks
+00:00:04.415	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:04.415	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:04.415	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:04.497	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:04.497	15492	DEBUG		TEST - Writing janks
+00:00:07.269	15492	DEBUG		TEST - Writing janks
+00:00:07.269	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:07.269	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -67
+00:00:07.269	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:07.269	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:07.269	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:07.269	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:07.716	15492	DEBUG		TEST - Writing janks
+00:00:09.683	15492	DEBUG		TEST - Writing janks
+00:00:09.683	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:09.683	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:09.767	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:10.650	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:10.918	15492	DEBUG		TEST - Writing janks
+00:00:12.143	14831	DEBUG		EventNotificationJob - Running EventNotificationJob, isDetail=true
+00:00:12.168	14831	DEBUG		EventNotificationJob -   finished processing events.
+00:00:12.533	15492	DEBUG		TEST - Writing janks
+00:00:20.640	15492	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-69 identical 4 lines
+00:00:20.640	15492	DEBUG		TEST - Writing janks
+00:00:20.640	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:22.163	15492	DEBUG		TEST - Writing janks
+00:00:22.354	2539	WARN		LocationOracle - No location history returned by ContextManager
+00:00:22.494	2539	WARN		ErrorReporter - reportError [type: 1323, code: 917507, bug: 119055758]: java.lang.Throwable: Current Time: 1566209470, Next Alarm Time: 0
+00:00:22.494	9244	INFO		GeofencerStateMachine - removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.googlequicksearchbox], packageName=com.google.android.googlequicksearchbox]
+00:00:22.494	9244	INFO		GeofencerStateMachine - sendMovementChange: previousMovement=WALKING,currentMovement=STILL
+00:00:22.494	2539	ERROR		GeofenceHelper - Failed: remove geofences by PendingIntent
+00:00:22.551	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:22.551	2151	WARN		ActivityManager - Unable to start service Intent { act=com.google.firebase.MESSAGING_EVENT pkg=com.google.android.googlequicksearchbox } U=0: not found
+00:00:22.551	2539	ERROR		FirebaseInstanceId - binding to the service failed
+00:00:23.763	15492	DEBUG		TEST - Writing janks
+00:00:29.386	15492	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-69 identical 2 lines
+00:00:29.386	15492	DEBUG		TEST - Writing janks
+00:00:29.386	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:29.463	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:29.765	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:30.206	15492	DEBUG		TEST - Writing janks
+00:00:30.659	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:31.795	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:31.795	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:31.795	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:31.795	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:31.795	15492	DEBUG		TEST - Writing janks
+00:00:33.875	15492	DEBUG		TEST - Writing janks
+00:00:33.875	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:35.020	9244	WARN		ChimeraUtils - Non Chimera context
+00:00:35.020	15492	DEBUG		TEST - Writing janks
+00:00:35.559	2619	DEBUG		StatusBar - disable<e i a s b h r c s > disable2<q i n >
+00:00:35.587	2619	WARN		View - requestLayout() improperly called by com.android.internal.widget.NotificationExpandButton{c2031e0 VFED..C.. ......ID 381,52-423,97 #1020247 android:id/expand_button} during layout: running second layout pass
+00:00:35.587	2619	WARN		View - requestLayout() improperly called by com.android.internal.widget.NotificationExpandButton{71127f3 VFED..C.. ......ID 381,52-423,97 #1020247 android:id/expand_button} during layout: running second layout pass
+00:00:35.587	2619	WARN		View - requestLayout() improperly called by com.android.internal.widget.NotificationExpandButton{d1fee09 VFED..C.. ......ID 381,52-423,97 #1020247 android:id/expand_button} during layout: running second layout pass
+00:00:36.612	15492	DEBUG		TEST - Writing janks
+00:00:37.466	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:37.466	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -66
+00:00:37.466	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:37.466	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:37.466	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:37.495	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:37.546	14831	WARN		System - A resource failed to call response.body().close(). 
+00:00:37.625	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3955312, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150477, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=57, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=365, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-304687, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=300, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1439493, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:37.654	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:37.654	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:37.654	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:37.654	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:38.211	15492	DEBUG		TEST - Writing janks
+00:00:40.481	15492	DEBUG		TEST - Writing janks
+00:00:40.482	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:40.482	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -67
+00:00:40.510	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:40.510	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:40.510	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:40.510	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:40.655	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:40.656	14831	DEBUG		AccessTokenRefreshRunnable - Running the refresh ...
+00:00:41.433	15492	DEBUG		TEST - Writing janks
+00:00:47.965	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:49.539	15492	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-69 identical 4 lines
+00:00:49.539	15492	DEBUG		TEST - Writing janks
+00:00:49.539	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:49.539	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -65
+00:00:49.565	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:49.565	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:49.565	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:49.565	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:50.652	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:51.093	15492	DEBUG		TEST - Writing janks
+00:00:56.648	15492	INFO		chatty - uid=10477(com.gamebench.profilerhelper) Thread-69 identical 2 lines
+00:00:56.648	15492	DEBUG		TEST - Writing janks
+00:00:56.648	2151	INFO		system_server - Background concurrent copying GC freed 557855(20MB) AllocSpace objects, 102(2MB) LOS objects, 42% free, 29MB/51MB, paused 452us total 305.535ms
+00:00:57.531	15492	DEBUG		TEST - Writing janks
+00:00:58.622	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:58.622	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -68
+00:00:58.622	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:58.622	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:58.622	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:58.622	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:59.127	15492	DEBUG		TEST - Writing janks
+00:01:00.654	14831	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:01:00.735	15492	DEBUG		TEST - Writing janks
+00:01:01.009	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth

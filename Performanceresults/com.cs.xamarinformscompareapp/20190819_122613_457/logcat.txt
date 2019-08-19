@@ -1,0 +1,1111 @@
+Timestamp	App	Log Level	Message
+00:00:01.122	17643	ERROR		GameBenchD - Starting query thread - 22871 
+00:00:01.122	17643	ERROR		GameBenchD - --------- beginning of system
+00:00:01.122	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.151	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.177	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:01.177	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:01.177	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:01.177	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:01.177	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:01.177	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -73
+00:00:01.178	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.206	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.207	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.207	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.207	15492	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.207	17643	WARN		FileIOThread - type=1400 audit(0.0:37681): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.207	15492	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.207	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.207	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.233	15492	INFO		MetricsTowrite - 6
+00:00:01.234	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.429	15492	WARN		System - A resource failed to call close. 
+00:00:01.538	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -0
+00:00:01.538	15492	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:02.530	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:02.701	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -0
+00:00:02.702	15492	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:02.868	15492	DEBUG		TEST - Writing janks
+00:00:02.922	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.950	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity bnds=[242,1155][441,1508]} from uid 10053
+00:00:03.009	2151	INFO		ActivityManager - Start proc 22910:com.cs.xamarinformscompareapp/u0a476 for activity com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity
+00:00:03.038	22910	ERROR		formscompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:03.122	22910	WARN		monodroid - Using runtime path: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64
+00:00:03.122	22910	WARN		monodroid - Trying to load sgen from: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64/libmonosgen-2.0.so
+00:00:03.296	22910	WARN		monodroid-gc - GREF GC Threshold: 46080
+00:00:03.326	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:03.708	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22910
+00:00:03.708	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:03.708	15492	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:03.708	15492	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:03.708	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:03.737	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:03.737	15492	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:03.738	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:03.851	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22910
+00:00:03.851	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -22910
+00:00:03.851	15492	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:03.958	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:04.075	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22910
+00:00:04.075	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -22910
+00:00:04.183	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:04.184	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -60
+00:00:04.213	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:04.213	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:04.214	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:04.214	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:04.242	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:04.446	15492	DEBUG		TEST - Writing janks
+00:00:04.668	22910	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutTemplatedContentRenderer_HeaderContainer
+00:00:04.888	22910	INFO		mono-stdout - Could not load image named: {0}: icon.png
+00:00:04.888	22910	INFO		mono-stdout - FileImageSourceHandler: Could not find image or image file was invalid: File: icon.png
+00:00:05.273	22910	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:05.467	22910	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:05.467	22910	INFO		Adreno - Build Date                       : 11/02/18
+00:00:05.468	22910	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:05.468	22910	INFO		Adreno - Local Branch                     : 
+00:00:05.468	22910	INFO		Adreno - Remote Branch                    : 
+00:00:05.468	22910	INFO		Adreno - Remote Branch                    : 
+00:00:05.468	22910	INFO		Adreno - Reconstruct Branch               : 
+00:00:05.468	22910	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:05.468	22910	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:05.468	22910	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:05.468	22910	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:05.468	22910	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:05.468	22910	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:05.635	22910	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutRecyclerAdapter_ElementViewHolder
+00:00:05.776	2151	INFO		LaunchCheckinHandler - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity,cp,ca,2775
+00:00:05.776	2151	INFO		ActivityManager - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity: +2s771ms
+00:00:05.776	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:05.776	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:05.777	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:05.777	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671099] from persistence.
+00:00:05.804	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:05.804	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:05.938	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:05.938	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:06.106	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:06.477	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.478	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ......I. 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:06.478	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:06.503	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 1000
+00:00:06.529	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:2
+00:00:06.529	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:06.529	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:06.559	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:06.559	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:06.588	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:06.617	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:06.617	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,134
+00:00:06.702	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:06.702	2619	WARN		JavaBinder - BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.systemui.qs.external.TileLifecycleManager
+00:00:06.728	3716	WARN		System - A resource failed to call release. 
+00:00:06.814	3716	WARN		System - A resource failed to call release. 
+00:00:06.814	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:06.842	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:06.842	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:06.872	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:06.872	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:06.960	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:06.960	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:07.153	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:07.178	22910	WARN		com.cs.xamarinformscompareapp - type=1400 audit(0.0:37682): avc: denied { link } for comm=54687265616420506F6F6C20576F72 uid=10476 name="PropertyStore.forms.tmp" dev="mmcblk0p69" ino=1598071 scontext=u:r:untrusted_app:s0:c220,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c220,c257,c512,c768 tclass=file permissive=0
+00:00:07.580	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:07.581	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:07.581	2151	INFO		ActivityManager - Killing 22910:com.cs.xamarinformscompareapp/u0a476 (adj 900): remove task
+00:00:07.581	2151	WARN		libprocessgroup - kill(-22910, 9) failed: No such process
+00:00:07.638	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:07.638	2151	WARN		libprocessgroup - kill(-22910, 9) failed: No such process
+00:00:07.638	2151	WARN		InputDispatcher - channel '128b094 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:07.638	2151	ERROR		InputDispatcher - channel '128b094 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:07.639	2151	INFO		WindowManager - WIN DEATH: Window{128b094 u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity}
+00:00:07.639	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '128b094 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)'
+00:00:07.639	1065	INFO		Zygote - Process 22910 exited due to signal (9)
+00:00:07.639	2151	WARN		libprocessgroup - kill(-22910, 9) failed: No such process
+00:00:07.639	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10476 pid 22910 in 36ms
+00:00:07.639	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{635c31e token=Token{e782b59 ActivityRecord{2fc73a0 u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity t8255}}}#0
+00:00:07.639	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 22910
+00:00:07.668	15492	DEBUG		TEST - Writing janks
+00:00:07.751	15492	INFO		GameBench3 - mPid is set to zero 
+00:00:08.047	15492	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:08.047	15492	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:08.047	15492	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:08.047	15492	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:08.344	15492	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:08.344	15492	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:08.344	15492	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:08.344	15492	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:08.431	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity bnds=[242,1155][441,1508]} from uid 10053
+00:00:08.460	2151	INFO		ActivityManager - Start proc 22974:com.cs.xamarinformscompareapp/u0a476 for activity com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity
+00:00:08.488	22974	ERROR		formscompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:08.514	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22974
+00:00:08.544	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.544	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.545	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.545	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.545	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:08.545	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:08.545	22974	WARN		monodroid - Using runtime path: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64
+00:00:08.545	22974	WARN		monodroid - Trying to load sgen from: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64/libmonosgen-2.0.so
+00:00:08.709	22974	WARN		monodroid - --------- beginning of crash
+00:00:08.709	15492	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-306
+00:00:08.709	15492	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 15492
+00:00:08.710	15492	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:08.710	15492	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:08.710	15492	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:08.710	15492	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:08.710	15492	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:08.710	15492	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:08.710	15492	INFO		Process - Sending signal. PID: 15492 SIG: 9
+00:00:08.710	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:08.710	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:08.738	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:08.738	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:08.738	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:08.738	17643	ERROR		GameBenchD - Error in thread  - Quitting - 22871 
+00:00:08.738	17643	INFO		GameBenchD - Quitting file read thread - 22871
+00:00:08.738	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:08.738	17643	INFO		GameBenchD - Closing FPS Thread
+00:00:08.738	17643	ERROR		GameBenchD - Error in thread  - Quitting - 22872 
+00:00:08.738	17643	INFO		GameBenchD - Quitting CPU file I/O thread - 22872
+00:00:08.738	17643	INFO		GameBenchD - Quitting Timer thread 
+00:00:08.738	17643	INFO		GameBenchD - Finishing SS thread
+00:00:08.738	22974	WARN		monodroid-gc - GREF GC Threshold: 46080
+00:00:08.738	1069	INFO		Zygote - Process 15492 exited due to signal (9)
+00:00:08.738	2151	WARN		libprocessgroup - kill(-15492, 9) failed: No such process
+00:00:08.739	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 15492 in 0ms
+00:00:08.767	2151	INFO		ActivityManager - Process com.gamebench.profilerhelper (pid 15492) has died: svc  SVC 
+00:00:08.768	2151	WARN		ActivityManager - Scheduling restart of crashed service com.gamebench.profilerhelper/.service.MetricsService in 1000ms
+00:00:08.768	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:08.768	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:08.822	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:08.823	2151	INFO		ActivityManager - Start proc 23006:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:08.851	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:08.851	23006	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:08.881	23006	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:08.906	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:08.935	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:08.935	23006	ERROR		GameBenchJNI - setVM
+00:00:08.935	23006	INFO		GBSERVICE - onStartCommand
+00:00:08.935	23006	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:08.935	23006	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:08.935	23006	INFO		GBSERVICE - metrics_stopped - true
+00:00:08.935	23006	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:08.935	23006	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:08.935	23006	INFO		GBSERVICE - onStartCommand
+00:00:08.935	23006	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:08.935	23006	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:08.935	23006	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:08.935	23006	INFO		GBSERVICE - metrics_stopped - true
+00:00:08.935	23006	INFO		GBSERVICE - Desktop Profiling already started
+00:00:08.963	23006	INFO		GBSERVICE - onStartCommand
+00:00:08.964	23006	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:08.964	23006	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:08.964	23006	INFO		GBSERVICE - metrics_stopped - true
+00:00:08.964	23006	INFO		GBSERVICE - Desktop Profiling already started
+00:00:08.964	23006	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:08.964	23006	ERROR		GBSERVICE - Connection was succesful!
+00:00:08.964	23006	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:08.964	23006	ERROR		GBSERVICE - Line read
+00:00:08.992	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:08.992	17643	INFO		GameBenchD - Received command for daemon
+00:00:08.993	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:08.993	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:08.993	23006	INFO		GBSERVICE - Starting recording for com.cs.xamarinformscompareapp
+00:00:08.993	23006	DEBUG		GBSERVICE - taking screenshots
+00:00:08.993	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:08.993	17643	INFO		GameBenchD - Received command for daemon
+00:00:08.993	17643	ERROR		GameBenchD - Starting query thread - 23036 
+00:00:08.993	17643	ERROR		GameBenchD - Starting cpu thread - 23037 
+00:00:09.101	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:09.102	17643	INFO		GameBenchD - Received command for daemon
+00:00:09.102	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:09.102	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:09.102	17643	WARN		FileIOThread - type=1400 audit(0.0:37683): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:09.102	23006	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:09.102	23006	DEBUG		GameBench - Send start for FPS Alt
+00:00:09.102	17643	INFO		GameBenchD - Received command for daemon
+00:00:09.102	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:09.127	23006	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:09.127	23006	INFO		MetricsTowrite - 6
+00:00:09.128	23006	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:09.153	23006	DEBUG		TEST - Writing janks
+00:00:09.269	23006	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22974
+00:00:09.269	23006	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -22974
+00:00:09.269	23006	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:09.438	23006	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22974
+00:00:09.438	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:09.438	23006	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:09.439	23006	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:09.439	23006	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:09.439	23006	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:09.439	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:09.526	23006	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:09.663	23006	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 22974
+00:00:09.664	23006	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -22974
+00:00:10.172	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:10.172	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:10.172	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:10.172	22341	DEBUG		CmdCenter - - RowBuilder2: setUseWhiteRes useOrNot = true
+00:00:10.172	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:10.172	22341	DEBUG		CmdCenter - - RowWidgetUpdater2: the Min widget of widget[2] is 183
+00:00:10.172	22341	DEBUG		CmdCenter - - RowWidgetUpdater2: 2cellWidth = 180 column is 3
+00:00:10.172	22341	DEBUG		CmdCenter - - RowBuilder2: buildWidgetByCellX useWhiteRes=true-is18To9Device=true cellX= 3 grid=5
+00:00:10.172	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{fdc380d 22376:com.android.providers.calendar/u0a16}
+00:00:10.201	22341	DEBUG		CmdCenter - - RowWeatherInitializer: Utils.getWeatherInfo return null.
+00:00:10.202	2151	INFO		chatty - uid=1000(system) Binder:2151_E identical 1 line
+00:00:10.202	2151	DEBUG		ActivityManager - Raise procstate to external provider: ProcessRecord{fdc380d 22376:com.android.providers.calendar/u0a16}
+00:00:10.202	2151	INFO		ActivityManager - Start proc 23072:com.google.android.apps.turbo/u0a176 for broadcast com.google.android.apps.turbo/.nudges.broadcasts.BatteryStatusChangedReceiver
+00:00:10.202	23072	ERROR		roid.apps.turb - Not starting debugger since process cannot load the jdwp agent.
+00:00:10.202	22974	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutTemplatedContentRenderer_HeaderContainer
+00:00:10.254	23072	INFO		roid.apps.turb - The ClassLoaderContext is a special shared library.
+00:00:10.279	23072	WARN		PrimesInit - Primes instant initialization
+00:00:10.279	23072	WARN		Primes - background initialization
+00:00:10.280	23072	INFO		PrimesTesting - GserviceFlagsSupplier.get()
+00:00:10.309	23072	WARN		roid.apps.turb - Unsupported class loader
+00:00:10.338	23072	WARN		roid.apps.turb - Skipping duplicate class check due to unsupported classloader
+00:00:10.367	23072	WARN		DynamiteModule - Local module descriptor class for com.google.android.gms.crash not found.
+00:00:10.393	23072	WARN		ChimeraDebugLogger - Singleton logger instance not set.
+00:00:10.393	23072	WARN		roid.apps.turb - Unsupported class loader
+00:00:10.393	23072	WARN		roid.apps.turb - Skipping duplicate class check due to unsupported classloader
+00:00:10.393	23072	INFO		FirebaseCrashApiImpl - FirebaseCrashApiImpl created by ClassLoader ad[DexPathList[[zip file "/data/user_de/0/com.google.android.gms/app_chimera/m/0000007b/DynamiteModulesC.apk"],nativeLibraryDirectories=[/data/user_de/0/com.google.android.gms/app_chimera/m/0000007b/DynamiteModulesC.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]
+00:00:10.422	23072	INFO		DynamiteModule - Considering local module com.google.android.gms.flags:3 and remote module com.google.android.gms.flags:3
+00:00:10.422	23072	INFO		DynamiteModule - Selected local version of com.google.android.gms.flags
+00:00:10.448	23072	WARN		DynamiteModule - Local module descriptor class for com.google.android.gms.crash not found.
+00:00:10.448	22974	INFO		mono-stdout - Could not load image named: {0}: icon.png
+00:00:10.478	22974	INFO		mono-stdout - FileImageSourceHandler: Could not find image or image file was invalid: File: icon.png
+00:00:10.478	23072	INFO		FirebaseCrashApiImpl - FirebaseCrash reporting API initialized
+00:00:10.478	23072	WARN		FirebaseCrashAnalytics - Unable to log event, missing Google Analytics for Firebase library
+00:00:10.847	22974	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:11.060	22974	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:11.060	22974	INFO		Adreno - Build Date                       : 11/02/18
+00:00:11.060	22974	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:11.060	22974	INFO		Adreno - Local Branch                     : 
+00:00:11.060	22974	INFO		Adreno - Remote Branch                    : 
+00:00:11.060	22974	INFO		Adreno - Remote Branch                    : 
+00:00:11.060	22974	INFO		Adreno - Reconstruct Branch               : 
+00:00:11.060	22974	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:11.060	22974	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:11.060	22974	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:11.060	22974	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:11.060	22974	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:11.060	22974	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:11.226	22974	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutRecyclerAdapter_ElementViewHolder
+00:00:11.360	2151	INFO		LaunchCheckinHandler - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity,cp,ca,2917
+00:00:11.360	2151	INFO		ActivityManager - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity: +2s914ms
+00:00:11.388	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:11.388	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:11.388	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:11.388	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671100] from persistence.
+00:00:11.388	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:11.389	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:11.527	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:11.527	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:12.113	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.113	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:12.113	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 1000
+00:00:12.113	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:12.143	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:2
+00:00:12.143	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:12.143	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:12.172	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:12.172	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:12.201	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:12.201	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:12.254	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,154
+00:00:12.282	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:12.338	3716	WARN		System - A resource failed to call release. 
+00:00:12.364	3716	WARN		System - A resource failed to call release. 
+00:00:12.364	23006	DEBUG		TEST - Writing janks
+00:00:12.418	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:12.497	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:12.498	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:12.498	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:12.498	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:12.527	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:12.527	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:12.775	22974	WARN		com.cs.xamarinformscompareapp - type=1400 audit(0.0:37684): avc: denied { link } for comm=54687265616420506F6F6C20576F72 uid=10476 name="PropertyStore.forms.tmp" dev="mmcblk0p69" ino=1598071 scontext=u:r:untrusted_app:s0:c220,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c220,c257,c512,c768 tclass=file permissive=0
+00:00:12.805	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:12.910	2151	INFO		system_server - NativeAlloc concurrent copying GC freed 211828(8MB) AllocSpace objects, 54(1448KB) LOS objects, 42% free, 29MB/52MB, paused 304us total 257.898ms
+00:00:13.180	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:13.180	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:13.180	2151	INFO		ActivityManager - Killing 22974:com.cs.xamarinformscompareapp/u0a476 (adj 900): remove task
+00:00:13.180	2151	WARN		libprocessgroup - kill(-22974, 9) failed: No such process
+00:00:13.180	1065	INFO		Zygote - Process 22974 exited due to signal (9)
+00:00:13.180	2151	WARN		libprocessgroup - kill(-22974, 9) failed: No such process
+00:00:13.180	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10476 pid 22974 in 6ms
+00:00:13.210	2151	WARN		InputDispatcher - channel '82837ee com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:13.210	2151	ERROR		InputDispatcher - channel '82837ee com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:13.210	2151	INFO		WindowManager - WIN DEATH: Window{82837ee u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity}
+00:00:13.210	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '82837ee com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)'
+00:00:13.210	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{3a8a92 token=Token{46581d ActivityRecord{e1008f4 u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity t8256}}}#0
+00:00:13.238	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 22974
+00:00:13.322	23006	INFO		GameBench3 - mPid is set to zero 
+00:00:13.636	23006	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:13.636	23006	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:13.636	23006	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:13.636	23006	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:13.797	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity bnds=[242,1155][441,1508]} from uid 10053
+00:00:13.853	2151	INFO		ActivityManager - Start proc 23132:com.cs.xamarinformscompareapp/u0a476 for activity com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity
+00:00:13.853	23132	ERROR		formscompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:13.936	23132	WARN		monodroid - Using runtime path: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64
+00:00:13.936	23132	WARN		monodroid - Trying to load sgen from: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64/libmonosgen-2.0.so
+00:00:13.936	23006	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:13.936	23006	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:13.936	23006	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:13.936	23006	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:13.966	23006	DEBUG		TEST - Writing janks
+00:00:14.082	23006	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23132
+00:00:14.082	23006	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:14.110	23006	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:14.110	23132	WARN		monodroid-gc - GREF GC Threshold: 46080
+00:00:14.140	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:14.253	23006	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:14.304	23006	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-12
+00:00:14.304	23006	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 23006
+00:00:14.305	23006	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:14.305	23006	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:14.305	23006	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:14.305	23006	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:14.305	23006	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:14.305	23006	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:14.331	2151	INFO		ActivityManager - Showing crash dialog for package com.gamebench.profilerhelper u0
+00:00:14.331	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:14.331	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:15.028	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:15.479	23132	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutTemplatedContentRenderer_HeaderContainer
+00:00:15.560	23006	DEBUG		TEST - Writing janks
+00:00:15.703	23132	INFO		mono-stdout - Could not load image named: {0}: icon.png
+00:00:15.703	23132	INFO		mono-stdout - FileImageSourceHandler: Could not find image or image file was invalid: File: icon.png
+00:00:15.703	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:16.002	2151	INFO		ActivityManager - Killing 23006:com.gamebench.profilerhelper/u0a477 (adj 200): crash
+00:00:16.003	2151	WARN		libprocessgroup - kill(-23006, 9) failed: No such process
+00:00:16.003	2151	DEBUG		OpenGLRenderer - endAllActiveAnimators on 0x7880b35800 (RippleDrawable) with handle 0x78b6ba51a0
+00:00:16.032	2151	WARN		libprocessgroup - kill(-23006, 9) failed: No such process
+00:00:16.032	2151	WARN		libprocessgroup - kill(-23006, 9) failed: No such process
+00:00:16.033	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:16.033	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:16.033	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:16.033	17643	ERROR		GameBenchD - Error in thread  - Quitting - 23037 
+00:00:16.033	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:16.033	17643	ERROR		GameBenchD - Error in thread  - Quitting - 23036 
+00:00:16.033	17643	INFO		GameBenchD - Quitting CPU file I/O thread - 23037
+00:00:16.033	17643	INFO		GameBenchD - Quitting file read thread - 23036
+00:00:16.033	17643	INFO		GameBenchD - Closing pNameAct Thread 
+00:00:16.033	17643	INFO		GameBenchD - Quitting Timer thread 
+00:00:16.033	17643	INFO		GameBenchD - Finishing SS thread
+00:00:16.033	2151	WARN		libprocessgroup - kill(-23006, 9) failed: No such process
+00:00:16.033	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:16.033	2151	WARN		libprocessgroup - kill(-23006, 9) failed: No such process
+00:00:16.060	1069	INFO		Zygote - Process 23006 exited due to signal (9)
+00:00:16.060	2151	WARN		libprocessgroup - kill(-23006, 9) failed: No such process
+00:00:16.060	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 23006 in 43ms
+00:00:16.115	2151	INFO		ActivityManager - Start proc 23165:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:16.115	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:16.116	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:16.116	23132	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:16.116	23165	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:16.144	23165	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:16.172	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:16.200	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:16.200	23165	ERROR		GameBenchJNI - setVM
+00:00:16.200	23165	INFO		GBSERVICE - onStartCommand
+00:00:16.200	23165	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:16.200	23165	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:16.200	23165	INFO		GBSERVICE - metrics_stopped - true
+00:00:16.200	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:16.200	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:16.200	23165	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:16.200	23165	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:16.200	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: a48740c Application Error: com.gamebench.profilerhelper#0
+00:00:16.200	23165	INFO		GBSERVICE - onStartCommand
+00:00:16.200	23165	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:16.200	23165	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:16.200	23165	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:16.200	23165	INFO		GBSERVICE - metrics_stopped - true
+00:00:16.200	23165	INFO		GBSERVICE - Desktop Profiling already started
+00:00:16.230	23165	INFO		GBSERVICE - onStartCommand
+00:00:16.230	23165	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:16.230	23165	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:16.230	23165	INFO		GBSERVICE - metrics_stopped - true
+00:00:16.230	23165	INFO		GBSERVICE - Desktop Profiling already started
+00:00:16.230	23165	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:16.230	23165	ERROR		GBSERVICE - Connection was succesful!
+00:00:16.230	23165	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:16.230	23165	ERROR		GBSERVICE - Line read
+00:00:16.255	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:16.255	17643	INFO		GameBenchD - Received command for daemon
+00:00:16.255	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:16.255	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:16.255	23165	INFO		GBSERVICE - Starting recording for com.cs.xamarinformscompareapp
+00:00:16.255	23165	DEBUG		GBSERVICE - taking screenshots
+00:00:16.255	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:16.256	17643	INFO		GameBenchD - Received command for daemon
+00:00:16.256	17643	ERROR		GameBenchD - Starting query thread - 23198 
+00:00:16.256	17643	ERROR		GameBenchD - Starting cpu thread - 23199 
+00:00:16.364	23132	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:16.364	23132	INFO		Adreno - Build Date                       : 11/02/18
+00:00:16.364	23132	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:16.364	23132	INFO		Adreno - Local Branch                     : 
+00:00:16.364	23132	INFO		Adreno - Remote Branch                    : 
+00:00:16.364	23132	INFO		Adreno - Remote Branch                    : 
+00:00:16.364	23132	INFO		Adreno - Reconstruct Branch               : 
+00:00:16.364	23132	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:16.364	23132	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:16.364	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:16.364	23132	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:16.364	23132	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:16.364	23132	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:16.364	23132	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:16.364	17643	INFO		GameBenchD - Received command for daemon
+00:00:16.364	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:16.364	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:16.392	17643	WARN		FileIOThread - type=1400 audit(0.0:37685): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:16.392	23165	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:16.392	23165	DEBUG		GameBench - Send start for FPS Alt
+00:00:16.393	17643	INFO		GameBenchD - Received command for daemon
+00:00:16.393	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:16.422	23165	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:16.450	23165	INFO		MetricsTowrite - 6
+00:00:16.450	23165	DEBUG		TEST - Writing janks
+00:00:16.450	23165	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:16.566	23165	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23132
+00:00:16.567	23165	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -23132
+00:00:16.567	23165	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:16.567	23132	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutRecyclerAdapter_ElementViewHolder
+00:00:16.678	23132	INFO		Choreographer - Skipped 30 frames!  The application may be doing too much work on its main thread.
+00:00:16.731	2151	INFO		LaunchCheckinHandler - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity,cp,ca,2901
+00:00:16.731	2151	INFO		ActivityManager - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity: +2s893ms
+00:00:16.731	23165	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23132
+00:00:16.731	23165	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:16.731	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:16.731	23165	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:16.760	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:16.760	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:16.760	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:16.760	23165	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:16.760	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671101] from persistence.
+00:00:16.760	23165	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.760	23165	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.761	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.761	23165	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.761	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.761	23165	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.761	23165	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:16.761	23165	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:16.761	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:16.761	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:16.843	23165	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:16.898	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:16.898	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:17.011	23165	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23132
+00:00:17.012	23165	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -23132
+00:00:17.182	23165	DEBUG		TEST - Writing janks
+00:00:17.878	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.904	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:17.904	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:17.904	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:17.904	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:17.904	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 10053
+00:00:17.934	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:0
+00:00:17.961	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:17.961	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:17.961	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:17.988	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:18.018	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:18.018	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,120
+00:00:18.043	23165	DEBUG		TEST - Writing janks
+00:00:18.072	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:18.100	3716	WARN		System - A resource failed to call release. 
+00:00:18.215	3716	INFO		chatty - uid=10053(com.motorola.launcher3) FinalizerDaemon identical 4 lines
+00:00:18.215	3716	WARN		System - A resource failed to call release. 
+00:00:18.215	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:18.302	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:18.302	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:18.552	23132	WARN		com.cs.xamarinformscompareapp - type=1400 audit(0.0:37686): avc: denied { link } for comm=54687265616420506F6F6C20576F72 uid=10476 name="PropertyStore.forms.tmp" dev="mmcblk0p69" ino=1598071 scontext=u:r:untrusted_app:s0:c220,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c220,c257,c512,c768 tclass=file permissive=0
+00:00:18.772	23165	DEBUG		TEST - Writing janks
+00:00:19.132	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:19.132	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:19.133	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:19.133	2151	INFO		ActivityManager - Killing 23132:com.cs.xamarinformscompareapp/u0a476 (adj 900): remove task
+00:00:19.133	2151	WARN		libprocessgroup - kill(-23132, 9) failed: No such process
+00:00:19.160	2151	INFO		chatty - uid=1000(system) ActivityManager identical 2 lines
+00:00:19.160	2151	WARN		libprocessgroup - kill(-23132, 9) failed: No such process
+00:00:19.160	2151	WARN		InputDispatcher - channel '193d904 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:19.161	2151	ERROR		InputDispatcher - channel '193d904 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:19.161	2151	INFO		WindowManager - WIN DEATH: Window{193d904 u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity}
+00:00:19.161	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel '193d904 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)'
+00:00:19.161	1065	INFO		Zygote - Process 23132 exited due to signal (9)
+00:00:19.161	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{7e76f7c token=Token{6b9766f ActivityRecord{b92454e u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity t8257}}}#0
+00:00:19.161	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 23132
+00:00:19.161	2151	WARN		libprocessgroup - kill(-23132, 9) failed: No such process
+00:00:19.161	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10476 pid 23132 in 45ms
+00:00:19.336	23165	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-12
+00:00:19.337	23165	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 23165
+00:00:19.337	23165	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:19.337	23165	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:19.337	23165	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:19.337	23165	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:19.337	23165	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:19.337	23165	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:19.337	2151	INFO		ActivityManager - Showing crash dialog for package com.gamebench.profilerhelper u0
+00:00:19.365	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:19.366	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:19.448	23165	INFO		GameBench3 - mPid is set to zero 
+00:00:19.643	23165	DEBUG		TEST - Writing janks
+00:00:20.042	23165	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:20.042	23165	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:20.042	23165	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:20.042	23165	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:20.345	23165	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:20.346	23165	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:20.346	23165	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:20.346	23165	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:20.374	23165	DEBUG		TEST - Writing janks
+00:00:20.651	23165	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:20.651	23165	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:20.651	23165	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:20.651	23165	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:20.897	2151	INFO		ActivityManager - Killing 23165:com.gamebench.profilerhelper/u0a477 (adj 200): crash
+00:00:20.897	2151	WARN		libprocessgroup - kill(-23165, 9) failed: No such process
+00:00:20.897	2151	DEBUG		OpenGLRenderer - endAllActiveAnimators on 0x7894425d00 (RippleDrawable) with handle 0x78b6bb4e40
+00:00:20.897	2151	WARN		libprocessgroup - kill(-23165, 9) failed: No such process
+00:00:20.925	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:20.925	2151	WARN		libprocessgroup - kill(-23165, 9) failed: No such process
+00:00:20.925	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:20.926	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:20.926	17643	ERROR		GameBenchD - Error in thread  - Quitting - 23199 
+00:00:20.926	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:20.926	17643	INFO		GameBenchD - Quitting CPU file I/O thread - 23199
+00:00:20.926	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:20.926	17643	INFO		GameBenchD - Closing pNameAct Thread 
+00:00:20.926	17643	ERROR		GameBenchD - Error in thread  - Quitting - 23198 
+00:00:20.926	17643	INFO		GameBenchD - Quitting file read thread - 23198
+00:00:20.926	17643	INFO		GameBenchD - Finishing SS thread
+00:00:20.926	17643	INFO		GameBenchD - Quitting Timer thread 
+00:00:20.926	1069	INFO		Zygote - Process 23165 exited due to signal (9)
+00:00:20.926	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:20.955	2151	WARN		libprocessgroup - kill(-23165, 9) failed: No such process
+00:00:20.955	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 23165 in 33ms
+00:00:21.007	2151	INFO		ActivityManager - Start proc 23272:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:21.036	23272	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:21.036	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:21.062	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:21.062	23272	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:21.090	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:21.090	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:21.090	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: 4697500 Application Error: com.gamebench.profilerhelper#0
+00:00:21.090	23272	ERROR		GameBenchJNI - setVM
+00:00:21.120	23272	INFO		GBSERVICE - onStartCommand
+00:00:21.120	23272	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:21.120	23272	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:21.120	23272	INFO		GBSERVICE - metrics_stopped - true
+00:00:21.120	23272	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:21.120	23272	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:21.120	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:21.120	23272	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:21.120	23272	INFO		GBSERVICE - onStartCommand
+00:00:21.120	23272	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:21.120	23272	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:21.120	23272	INFO		GBSERVICE - metrics_stopped - true
+00:00:21.120	23272	INFO		GBSERVICE - Desktop Profiling already started
+00:00:21.120	23272	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:21.120	23272	ERROR		GBSERVICE - Connection was succesful!
+00:00:21.120	23272	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:21.120	23272	ERROR		GBSERVICE - Line read
+00:00:21.120	23272	ERROR		GBSERVICE - Unknown command  request - value -1
+00:00:21.120	23272	ERROR		GBSERVICE - Finished Reading data Thread[Thread-2,5,main]
+00:00:21.120	23272	INFO		GBSERVICE - Client disconnected Thread[Thread-2,5,main]
+00:00:21.120	23272	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:21.176	23272	INFO		GBSERVICE - onStartCommand
+00:00:21.176	23272	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:21.176	23272	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:21.176	23272	INFO		GBSERVICE - metrics_stopped - true
+00:00:21.176	23272	INFO		GBSERVICE - Desktop Profiling already started
+00:00:21.202	23272	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:21.203	23272	ERROR		GBSERVICE - Connection was succesful!
+00:00:21.203	23272	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:21.203	23272	ERROR		GBSERVICE - Line read
+00:00:21.203	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:21.203	17643	INFO		GameBenchD - Received command for daemon
+00:00:21.203	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:21.203	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:21.203	23272	INFO		GBSERVICE - Starting recording for com.cs.xamarinformscompareapp
+00:00:21.203	23272	DEBUG		GBSERVICE - taking screenshots
+00:00:21.229	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:21.229	17643	INFO		GameBenchD - Received command for daemon
+00:00:21.229	17643	ERROR		GameBenchD - Starting query thread - 23303 
+00:00:21.229	17643	ERROR		GameBenchD - Starting cpu thread - 23304 
+00:00:21.229	17643	INFO		GameBenchD - Closing FPS Thread
+00:00:21.338	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:21.338	17643	INFO		GameBenchD - Received command for daemon
+00:00:21.339	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:21.339	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:21.339	17643	WARN		FileIOThread - type=1400 audit(0.0:37687): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:21.339	23272	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:21.339	23272	DEBUG		GameBench - Send start for FPS Alt
+00:00:21.339	17643	INFO		GameBenchD - Received command for daemon
+00:00:21.339	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:21.364	23272	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:21.416	23272	INFO		MetricsTowrite - 6
+00:00:21.416	23272	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:21.416	23272	DEBUG		TEST - Writing janks
+00:00:21.527	23272	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -0
+00:00:21.528	23272	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:21.611	23072	INFO		FirebaseCrash - Sending crashes
+00:00:21.640	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.640	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3963124, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150513, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=60, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=389, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-202148, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=310, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1496231, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:21.640	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:21.640	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:21.640	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:21.640	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:21.725	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity bnds=[242,1155][441,1508]} from uid 10053
+00:00:21.754	2151	INFO		ActivityManager - Start proc 23334:com.cs.xamarinformscompareapp/u0a476 for activity com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity
+00:00:21.779	23334	ERROR		formscompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:21.832	23334	WARN		monodroid - Using runtime path: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64
+00:00:21.832	23334	WARN		monodroid - Trying to load sgen from: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64/libmonosgen-2.0.so
+00:00:21.972	23272	DEBUG		TEST - Writing janks
+00:00:22.023	23334	WARN		monodroid-gc - GREF GC Threshold: 46080
+00:00:22.079	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:22.527	23272	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:22.673	23272	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23334
+00:00:22.673	23272	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -23334
+00:00:22.673	23272	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:22.780	23272	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:22.917	23272	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23334
+00:00:22.917	23272	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:22.917	23272	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:22.917	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:22.917	23272	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:22.917	23272	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:22.917	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.917	23272	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:22.918	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.918	23272	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:22.918	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.918	23272	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:22.918	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.918	23272	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:22.944	23272	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:22.972	23272	DEBUG		TEST - Writing janks
+00:00:23.056	23272	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23334
+00:00:23.057	23272	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -23334
+00:00:23.407	23334	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutTemplatedContentRenderer_HeaderContainer
+00:00:23.567	23272	DEBUG		TEST - Writing janks
+00:00:23.622	23334	INFO		mono-stdout - Could not load image named: {0}: icon.png
+00:00:23.622	23334	INFO		mono-stdout - FileImageSourceHandler: Could not find image or image file was invalid: File: icon.png
+00:00:23.997	23334	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:24.217	23334	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:24.218	23334	INFO		Adreno - Build Date                       : 11/02/18
+00:00:24.218	23334	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:24.218	23334	INFO		Adreno - Local Branch                     : 
+00:00:24.218	23334	INFO		Adreno - Remote Branch                    : 
+00:00:24.218	23334	INFO		Adreno - Remote Branch                    : 
+00:00:24.218	23334	INFO		Adreno - Reconstruct Branch               : 
+00:00:24.218	23334	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:24.218	23334	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:24.218	23334	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:24.218	23334	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:24.218	23334	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:24.218	23334	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:24.382	23334	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutRecyclerAdapter_ElementViewHolder
+00:00:24.515	2151	INFO		LaunchCheckinHandler - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity,cp,ca,2775
+00:00:24.515	2151	INFO		ActivityManager - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity: +2s772ms
+00:00:24.544	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:24.544	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:24.544	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:24.544	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671102] from persistence.
+00:00:24.544	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:24.544	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:24.682	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:24.682	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:25.197	23272	DEBUG		TEST - Writing janks
+00:00:25.738	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:25.738	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:25.738	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:25.739	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher (has extras)} from uid 1000
+00:00:25.790	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :true, mFlags:2
+00:00:25.790	3716	DEBUG		LauncherAppWidgetHost - startListening
+00:00:25.790	3716	DEBUG		Launcher.Utilities - Wakeup weather: Intent { act=com.motorola.launcher3.action.WAKEUP_WEATHER cmp=com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService }
+00:00:25.790	2151	VERBOSE		ActivityManager - Attempted to start a foreground service (ComponentInfo{com.motorola.timeweatherwidget/com.motorola.commandcenter.weather.WakeUpService}) with a broken notification (no icon: Notification(channel=TimeWeather pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+00:00:25.790	1213	DEBUG		SurfaceFlinger - duplicate layer name: changing com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher to com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1
+00:00:25.820	2539	WARN		ThreadPoolDumper - Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+00:00:25.846	2539	INFO		StreamController - registerScope: nowcards-15-248226e3-1f58
+00:00:25.872	2151	INFO		LaunchCheckinHandler - Displayed com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher,wp,wa,139
+00:00:25.901	2151	INFO		NotificationService - Cannot find enqueued record for key: 0|com.motorola.timeweatherwidget|1|null|10132
+00:00:25.953	3716	WARN		System - A resource failed to call release. 
+00:00:26.030	3716	WARN		System - A resource failed to call release. 
+00:00:26.030	2619	VERBOSE		StatusBar - mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{ba1ff90 V.ED..... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+00:00:26.030	2619	INFO		vol.Events - writeEvent dismiss_dialog volume_controller
+00:00:26.055	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:26.055	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 2
+00:00:26.055	3716	DEBUG		LauncherAppWidgetHost - setResumed :false, mFlags:false
+00:00:26.138	2151	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:26.138	2151	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:26.168	23272	DEBUG		TEST - Writing janks
+00:00:26.358	2619	DEBUG		vol.VolumeDialogImpl - mDialog.dismiss()
+00:00:26.387	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:26.387	23334	WARN		com.cs.xamarinformscompareapp - type=1400 audit(0.0:37688): avc: denied { link } for comm=54687265616420506F6F6C20576F72 uid=10476 name="PropertyStore.forms.tmp" dev="mmcblk0p69" ino=1598071 scontext=u:r:untrusted_app:s0:c220,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c220,c257,c512,c768 tclass=file permissive=0
+00:00:26.493	2151	INFO		system_server - NativeAlloc concurrent copying GC freed 279594(10MB) AllocSpace objects, 55(1356KB) LOS objects, 42% free, 29MB/51MB, paused 276us total 257.195ms
+00:00:27.204	3716	DEBUG		LauncherAppWidgetHost - setResumed for state id: 0
+00:00:27.204	3716	DEBUG		LauncherAppWidgetHost - setResumed :true, mFlags:true
+00:00:27.204	2151	INFO		ActivityManager - Killing 23334:com.cs.xamarinformscompareapp/u0a476 (adj 900): remove task
+00:00:27.205	2151	WARN		libprocessgroup - kill(-23334, 9) failed: No such process
+00:00:27.232	2151	INFO		chatty - uid=1000(system) ActivityManager identical 1 line
+00:00:27.233	2151	WARN		libprocessgroup - kill(-23334, 9) failed: No such process
+00:00:27.233	2151	WARN		InputDispatcher - channel 'c1ca1b5 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+00:00:27.233	2151	ERROR		InputDispatcher - channel 'c1ca1b5 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+00:00:27.233	2151	INFO		WindowManager - WIN DEATH: Window{c1ca1b5 u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity}
+00:00:27.233	2151	WARN		InputDispatcher - Attempted to unregister already unregistered input channel 'c1ca1b5 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity (server)'
+00:00:27.233	1065	INFO		Zygote - Process 23334 exited due to signal (9)
+00:00:27.233	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: AppWindowToken{853c2b7 token=Token{18075b6 ActivityRecord{4ba2951 u0 com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity t8258}}}#0
+00:00:27.233	2151	WARN		libprocessgroup - kill(-23334, 9) failed: No such process
+00:00:27.233	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10476 pid 23334 in 39ms
+00:00:27.261	2151	WARN		ActivityManager - setHasOverlayUi called on unknown pid: 23334
+00:00:27.433	23272	INFO		GameBench3 - mPid is set to zero 
+00:00:27.722	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:27.722	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:27.722	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:27.722	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:27.777	23272	DEBUG		TEST - Writing janks
+00:00:27.778	23272	ERROR		AndroidRuntime - FATAL EXCEPTION: Thread-12
+00:00:27.778	23272	ERROR		AndroidRuntime - Process: com.gamebench.profilerhelper, PID: 23272
+00:00:27.778	23272	ERROR		AndroidRuntime - java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+00:00:27.778	23272	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+00:00:27.778	23272	ERROR		AndroidRuntime - 	at java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+00:00:27.778	23272	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.utils.ParseDumpSysMem.parse(ParseDumpSysMem.java:24)
+00:00:27.778	23272	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.getDumpsysMemInfo(MemUsageThread.java:194)
+00:00:27.778	23272	ERROR		AndroidRuntime - 	at com.gamebench.profilerhelper.threads.MemUsageThread.run(MemUsageThread.java:132)
+00:00:27.778	2151	INFO		ActivityManager - Showing crash dialog for package com.gamebench.profilerhelper u0
+00:00:27.805	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+00:00:27.805	2151	WARN		BroadcastQueue - Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+00:00:28.026	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:28.026	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:28.026	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:28.026	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:28.316	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:28.316	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:28.316	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:28.316	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:28.399	23272	DEBUG		TEST - Writing janks
+00:00:28.563	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:28.622	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:28.622	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:28.622	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:28.622	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:28.937	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:28.937	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:28.937	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:28.937	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:29.238	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:29.238	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:29.238	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:29.238	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:29.558	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:29.558	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:29.558	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:29.558	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:29.838	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:29.838	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:29.839	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:29.839	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:29.839	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:30.154	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:30.155	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:30.155	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:30.155	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:30.155	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=1.000000
+00:00:30.460	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:30.460	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:30.460	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:30.460	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:30.742	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:30.742	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:30.742	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:30.742	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:31.056	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:31.056	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:31.056	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:31.056	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:31.329	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.358	23272	WARN		System.err - com.gamebench.profilerhelper.utils.ProcessNotFoundException: Could not open /proc/{pid}/task/
+00:00:31.358	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStatsJNI.read_threads_stats_pid_nougat(Native Method)
+00:00:31.358	23272	WARN		System.err - 	at com.gamebench.profilerhelper.jni.CpuStats.read_threads_stats_pid_nougat(CpuStats.java:53)
+00:00:31.358	23272	WARN		System.err - 	at com.gamebench.profilerhelper.threads.NewCPUUsageThread.run(NewCPUUsageThread.java:329)
+00:00:31.358	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:31.358	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -71
+00:00:31.358	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:31.358	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:31.358	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:31.358	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:31.388	2151	INFO		ActivityManager - Killing 23272:com.gamebench.profilerhelper/u0a477 (adj 200): crash
+00:00:31.388	2151	WARN		libprocessgroup - kill(-23272, 9) failed: No such process
+00:00:31.388	2151	WARN		libprocessgroup - kill(-23272, 9) failed: No such process
+00:00:31.388	2151	DEBUG		OpenGLRenderer - endAllActiveAnimators on 0x78a3fd0700 (RippleDrawable) with handle 0x78b6af43e0
+00:00:31.388	2151	WARN		libprocessgroup - kill(-23272, 9) failed: No such process
+00:00:31.417	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:31.417	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:31.417	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:31.417	17643	ERROR		GameBenchD - Error in thread  - Quitting - 23304 
+00:00:31.417	17643	INFO		GameBenchD - Quitting CPU file I/O thread - 23304
+00:00:31.417	17643	INFO		GameBenchD - Quitting Timer thread 
+00:00:31.417	17643	INFO		GameBenchD - Finishing SS thread
+00:00:31.417	17643	INFO		GameBenchD - Closing FPS Thread
+00:00:31.417	1069	INFO		Zygote - Process 23272 exited due to signal (9)
+00:00:31.418	2151	WARN		libprocessgroup - kill(-23272, 9) failed: No such process
+00:00:31.418	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10477 pid 23272 in 34ms
+00:00:31.418	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:31.474	2151	INFO		ActivityManager - Start proc 23448:com.gamebench.profilerhelper/u0a477 for service com.gamebench.profilerhelper/.service.MetricsService
+00:00:31.500	17441	INFO		chatty - uid=2000(shell) /system/bin/adbd identical 1 line
+00:00:31.500	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:31.500	23448	ERROR		.profilerhelpe - Not starting debugger since process cannot load the jdwp agent.
+00:00:31.500	2151	INFO		ActivityManager - Killing 21623:com.android.chrome/u0a96 (adj 906): empty #17
+00:00:31.500	2151	WARN		libprocessgroup - kill(-21623, 9) failed: No such process
+00:00:31.529	2151	WARN		libprocessgroup - kill(-21623, 9) failed: No such process
+00:00:31.529	1069	INFO		Zygote - Process 21623 exited due to signal (9)
+00:00:31.529	2151	WARN		libprocessgroup - kill(-21623, 9) failed: No such process
+00:00:31.529	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10096 pid 21623 in 21ms
+00:00:31.529	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:31.529	17643	ERROR		GameBenchD - Error in thread  - Quitting - 23303 
+00:00:31.529	17643	INFO		GameBenchD - Quitting file read thread - 23303
+00:00:31.555	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:31.555	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+00:00:31.555	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: d0be85f Application Error: com.gamebench.profilerhelper#0
+00:00:31.555	23448	INFO		.profilerhelpe - The ClassLoaderContext is a special shared library.
+00:00:31.580	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:31.580	17441	ERROR		adbd - failed to connect to socket 'localabstract:maingbsocket': Connection refused
+00:00:31.580	23448	ERROR		GameBenchJNI - setVM
+00:00:31.580	23448	INFO		GBSERVICE - onStartCommand
+00:00:31.581	23448	INFO		GBSERVICE - DESKTOP_MODE - false
+00:00:31.581	23448	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:31.581	23448	INFO		GBSERVICE - metrics_stopped - true
+00:00:31.581	23448	WARN		Notification - Use of stream types is deprecated for operations other than volume control
+00:00:31.581	23448	WARN		Notification - See the documentation of setSound() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+00:00:31.606	23448	INFO		GBSERVICE - Waiting to accept a connection on app Thread[Thread-2,5,main]
+00:00:31.606	23448	INFO		GBSERVICE - onStartCommand
+00:00:31.606	23448	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:31.607	23448	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:31.607	23448	INFO		GBSERVICE - metrics_stopped - true
+00:00:31.607	23448	INFO		GBSERVICE - Desktop Profiling already started
+00:00:31.636	23448	INFO		GBSERVICE - onStartCommand
+00:00:31.636	23448	INFO		GBSERVICE - DESKTOP_MODE - true
+00:00:31.636	23448	INFO		GBSERVICE - DAEMON_MODE - false
+00:00:31.636	23448	INFO		GBSERVICE - metrics_stopped - true
+00:00:31.636	23448	INFO		GBSERVICE - Desktop Profiling already started
+00:00:31.662	23448	INFO		GBSERVICE - Accepted1 connection from Desktop Thread[Thread-2,5,main]
+00:00:31.662	23448	ERROR		GBSERVICE - Connection was succesful!
+00:00:31.662	23448	ERROR		GBSERVICE - Start Reading data Thread[Thread-2,5,main]
+00:00:31.662	23448	ERROR		GBSERVICE - Line read
+00:00:31.662	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:31.662	17643	INFO		GameBenchD - Received command for daemon
+00:00:31.662	17643	ERROR		GameBenchD - Client has closed the connection
+00:00:31.662	17643	INFO		GameBenchD - Restarting to recieve a connection again
+00:00:31.662	23448	INFO		GBSERVICE - Starting recording for com.cs.xamarinformscompareapp
+00:00:31.662	23448	DEBUG		GBSERVICE - taking screenshots
+00:00:31.662	17643	INFO		GameBenchD - GameBench waitForClientConnection: client connected.
+00:00:31.662	17643	INFO		GameBenchD - Received command for daemon
+00:00:31.662	17643	ERROR		GameBenchD - Starting query thread - 23480 
+00:00:31.662	17643	ERROR		GameBenchD - Starting cpu thread - 23481 
+00:00:31.776	2151	INFO		ActivityManager - Start proc 23485:com.motorola.moto/u0a62 for service com.motorola.moto/com.motorola.assist.engine.CarModeJobService
+00:00:31.776	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:31.804	17643	INFO		GameBenchD - Received command for daemon
+00:00:31.804	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:31.805	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:31.805	17643	WARN		FileIOThread - type=1400 audit(0.0:37689): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:31.805	23448	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:31.805	23485	ERROR		m.motorola.mot - Not starting debugger since process cannot load the jdwp agent.
+00:00:31.805	23448	DEBUG		GameBench - Send start for FPS Alt
+00:00:31.805	17643	INFO		GameBenchD - Received command for daemon
+00:00:31.805	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:31.830	23448	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:31.830	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:31.857	23448	INFO		MetricsTowrite - 6
+00:00:31.884	23448	DEBUG		TEST - Writing janks
+00:00:31.885	23485	INFO		m.motorola.mot - The ClassLoaderContext is a special shared library.
+00:00:31.885	23485	INFO		m.motorola.mot - The ClassLoaderContext is a special shared library.
+00:00:31.885	23448	WARN		UnsafeUtil - platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+00:00:31.938	14971	WARN		System - A resource failed to call close. 
+00:00:31.938	14971	WARN		System - A resource failed to call close. 
+00:00:31.938	23485	INFO		KOIN - [context] create
+00:00:31.938	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.injection.provider.SystemServiceProvider]
+00:00:31.938	23485	INFO		KOIN - [module] declare Bean[class=android.content.SharedPreferences]
+00:00:31.965	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.core.proxy.UserManagerProxy]
+00:00:31.965	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.DeviceProvider]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.injection.provider.PreferenceProvider]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.VersionProvider]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.core.ProfileProvider]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.InputStreamConverter]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.provider.FeatureFamilyProvider]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureConverter]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureSettingsProxy]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureProviderConsumer]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.about.AboutViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.valueprop.ValuePropViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.featurehubs.MotoFeatureViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.featurefamily.FeatureFamilyViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.drawer.MotoDrawerViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.herocontent.MotoHeroViewModel, binds~(android.arch.lifecycle.ViewModel)]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.provider.PersistenceProvider]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.feature.herocontent.MotoHeroEntryController]
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=com.motorola.motorefresh.data.feature.FeatureObserverRegister]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.herocontent.MotoHeroAnimationController]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.feature.featurehubs.MotoFeatureEntryConverter]
+00:00:31.966	23485	INFO		KOIN - [module] declare Factory[class=com.motorola.motorefresh.data.model.ui.FeatureFamilyConverter]
+00:00:31.966	23485	INFO		KOIN - [modules] loaded 24 definitions
+00:00:31.966	23485	INFO		KOIN - [init] Load Android features
+00:00:31.966	23485	INFO		KOIN - [init] ~ added Android application bean reference
+00:00:31.966	23485	INFO		KOIN - [module] declare Bean[class=android.app.Application, binds~(android.content.Context)]
+00:00:31.966	23485	INFO		KOIN - [Android-Properties] no assets/koin.properties file to load
+00:00:31.966	23485	INFO		KOIN - Resolve class[com.motorola.motorefresh.core.DeviceProvider] with Bean[class=com.motorola.motorefresh.core.DeviceProvider]
+00:00:31.966	23485	INFO		KOIN - (*) Created
+00:00:31.966	23485	ERROR		MotoApp - Unable to retrieve package version for package: com.google.android.projection.gearhead
+00:00:31.996	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.072	23448	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -0
+00:00:32.072	23448	INFO		GameBenchDebug - Found Pid Mem Thread - false
+00:00:32.072	1174	INFO		WifiHAL - event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+00:00:32.072	7223	INFO		wpa_supplicant - wlan0: CTRL-EVENT-AVOID-FREQ ranges=5180-5320,5500-5640
+00:00:32.101	2151	INFO		ActivityManager - START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity bnds=[242,1155][441,1508]} from uid 10053
+00:00:32.155	2151	INFO		ActivityManager - Start proc 23530:com.cs.xamarinformscompareapp/u0a476 for activity com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity
+00:00:32.181	23530	ERROR		formscompareap - Not starting debugger since process cannot load the jdwp agent.
+00:00:32.235	23530	WARN		monodroid - Using runtime path: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64
+00:00:32.235	23530	WARN		monodroid - Trying to load sgen from: /data/app/com.cs.xamarinformscompareapp-DuqFQVQ9Apkrmt6bghZS6w==/lib/arm64/libmonosgen-2.0.so
+00:00:32.262	23448	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23530
+00:00:32.262	23448	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:32.263	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:32.263	23448	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:32.263	23448	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.263	23448	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:32.289	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.289	23448	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:32.289	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.289	23448	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:32.289	23448	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:32.289	23448	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:32.426	23530	WARN		monodroid-gc - GREF GC Threshold: 46080
+00:00:32.455	3716	WARN		LauncherTransition - Failed to animate, surface got destroyed.
+00:00:32.590	23448	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:32.590	23448	DEBUG		TEST - Writing janks
+00:00:33.061	23448	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:33.196	23448	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23530
+00:00:33.196	23448	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -23530
+00:00:33.196	23448	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:33.298	23448	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:33.438	23448	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 23530
+00:00:33.438	23448	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -23530
+00:00:33.464	23448	DEBUG		TEST - Writing janks
+00:00:33.574	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:33.788	23530	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutTemplatedContentRenderer_HeaderContainer
+00:00:34.016	23530	INFO		mono-stdout - Could not load image named: {0}: icon.png
+00:00:34.016	23530	INFO		mono-stdout - FileImageSourceHandler: Could not find image or image file was invalid: File: icon.png
+00:00:34.215	23448	DEBUG		TEST - Writing janks
+00:00:34.405	23530	DEBUG		OpenGLRenderer - Skia GL Pipeline
+00:00:34.605	23530	INFO		Adreno - QUALCOMM build                   : 9128d71, Ib33d3e8e13
+00:00:34.605	23530	INFO		Adreno - Build Date                       : 11/02/18
+00:00:34.605	23530	INFO		Adreno - OpenGL ES Shader Compiler Version: EV031.25.03.01
+00:00:34.605	23530	INFO		Adreno - Local Branch                     : 
+00:00:34.605	23530	INFO		Adreno - Remote Branch                    : 
+00:00:34.605	23530	INFO		Adreno - Remote Branch                    : 
+00:00:34.605	23530	INFO		Adreno - Reconstruct Branch               : 
+00:00:34.605	23530	INFO		Adreno - Build Config                     : S L 6.0.7 AArch64
+00:00:34.606	23530	INFO		Adreno - PFP: 0x005ff112, ME: 0x005ff066
+00:00:34.606	23530	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+00:00:34.606	23530	INFO		ConfigStore - android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+00:00:34.606	23530	INFO		OpenGLRenderer - Initialized EGL, version 1.4
+00:00:34.606	23530	DEBUG		OpenGLRenderer - Swap behavior 2
+00:00:34.791	23530	WARN		formscompareap - JNI RegisterNativeMethods: attempt to register 0 native methods for md51558244f76c53b6aeda52c8a337f2c37.ShellFlyoutRecyclerAdapter_ElementViewHolder
+00:00:34.904	2151	INFO		LaunchCheckinHandler - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity,cp,ca,2789
+00:00:34.905	2151	INFO		ActivityManager - Displayed com.cs.xamarinformscompareapp/md5a00f8fb9e3c6089480a130fbfc40da67.MainActivity: +2s786ms
+00:00:34.933	3716	DEBUG		LauncherAppWidgetHost - setListenIfResumed :false, mFlags:7
+00:00:34.934	3716	DEBUG		LauncherAppWidgetHost - stopListening
+00:00:34.934	3716	WARN		RecentsModel - onTrimMemory level = 20
+00:00:34.934	2539	INFO		PBSessionCacheImpl - Deleted sessionId[11168206227671103] from persistence.
+00:00:34.963	2539	WARN		SearchServiceCore - Abort, client detached.
+00:00:34.963	2539	INFO		StreamController - cleanUpControllerScope(nowcards-15-248226e3-1f58)
+00:00:35.073	23448	DEBUG		TEST - Writing janks
+00:00:35.073	1213	WARN		SurfaceFlinger - Attempting to set client state on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:35.073	1213	WARN		SurfaceFlinger - Attempting to destroy on removed layer: Splash Screen com.cs.xamarinformscompareapp#0
+00:00:35.822	23448	DEBUG		TEST - Writing janks
+00:00:37.058	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:37.255	2151	DEBUG		WificondControl - Scan result ready event

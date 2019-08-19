@@ -1,0 +1,479 @@
+Timestamp	App	Log Level	Message
+00:00:01.127	17643	ERROR		GameBenchD - Starting cpu thread - 20184 
+00:00:01.157	17643	ERROR		GameBenchD - --------- beginning of system
+00:00:01.157	2151	INFO		BinderCallsStatsService - Resetting stats
+00:00:01.187	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
+00:00:01.187	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.215	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.216	17643	INFO		GameBenchD - Launch ScreenCap received
+00:00:01.216	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.216	15492	INFO		GameBench3 - File /sys/kernel/gpu/gpu_busy exists but no read permission
+00:00:01.216	17643	WARN		FileIOThread - type=1400 audit(0.0:37667): avc: denied { read } for uid=2000 name="gpu_busy_percentage" dev="sysfs" ino=28966 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_kgsl:s0 tclass=file permissive=0
+00:00:01.216	15492	DEBUG		GameBench - Send start for FPS Alt
+00:00:01.216	17643	INFO		GameBenchD - Received command for daemon
+00:00:01.216	17643	INFO		GameBenchD - Launch FPS Alternate received
+00:00:01.216	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.216	15492	INFO		MetricsTowrite - 6
+00:00:01.241	15492	DEBUG		TEST - Writing janks
+00:00:01.241	15492	WARN		System - A resource failed to call close. 
+00:00:01.382	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 20118
+00:00:01.382	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -20118
+00:00:01.382	15492	INFO		GameBenchDebug - Found Pid Mem Thread - true
+00:00:01.521	15492	INFO		GameBenchDebug - Finding Pid for Mem
+00:00:01.688	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 20118
+00:00:01.688	15492	INFO		GBDebug - No perms to read pid stat - using daemon
+00:00:01.688	15492	INFO		GameBench - Cpu Init called with - numCores - 8 - maxFreqSum - 16204800
+00:00:01.688	17643	INFO		GameBenchD - Accepted a client connection for SS
+00:00:01.688	15492	INFO		GameBenchJNI - Resizing thread array! From 6 to 12
+00:00:01.717	15492	INFO		GameBenchJNI - Resizing thread array! From 12 to 24
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 9
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating start. count: 0
+00:00:01.717	15492	INFO		GameBenchJNI - Allocating end. count: 7
+00:00:01.832	15492	INFO		GameBench3 - Pid for com.cs.xamarinformscompareapp - 20118
+00:00:01.832	15492	INFO		GameBenchDebug - Pid Val for packageName -  com.cs.xamarinformscompareapp is -20118
+00:00:02.059	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.146	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:02.175	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:02.175	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:02.175	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:02.175	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:02.234	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:02.234	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.872	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:02.872	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:02.872	15492	DEBUG		TEST - Writing janks
+00:00:02.957	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.250	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:03.250	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:03.333	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.454	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 4 lines
+00:00:04.454	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:04.454	15492	DEBUG		TEST - Writing janks
+00:00:04.484	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.354	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:05.354	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:05.354	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:05.354	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:05.633	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.067	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:06.067	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.067	15492	DEBUG		TEST - Writing janks
+00:00:06.180	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.181	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:06.209	1336	ERROR		storaged - getDiskStats failed with result NOT_SUPPORTED and size 0
+00:00:06.354	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.898	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:06.898	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:06.898	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:06.898	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.687	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:07.687	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:07.687	15492	DEBUG		TEST - Writing janks
+00:00:07.853	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.222	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 6 lines
+00:00:09.223	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.223	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:09.223	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -65
+00:00:09.250	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:09.250	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:09.250	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:09.250	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:09.304	15492	DEBUG		TEST - Writing janks
+00:00:09.330	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:09.330	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:09.500	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.395	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:10.395	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.395	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:10.451	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.896	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:10.896	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:10.896	15492	DEBUG		TEST - Writing janks
+00:00:11.034	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.270	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:12.270	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:12.270	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:12.271	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -73
+00:00:12.271	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:12.271	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:12.271	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:12.271	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:12.520	15492	DEBUG		TEST - Writing janks
+00:00:13.318	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:13.344	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:13.401	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:13.454	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:13.596	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:13.596	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:13.596	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:13.596	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:13.623	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:13.623	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:13.623	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:13.623	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:13.648	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:13.675	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:13.675	2619	INFO		ndroid.systemu - Background concurrent copying GC freed 199344(7MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 7MB/15MB, paused 171us total 151.602ms
+00:00:13.983	2151	INFO		system_server - Background concurrent copying GC freed 539760(22MB) AllocSpace objects, 77(2MB) LOS objects, 42% free, 32MB/56MB, paused 252us total 261.308ms
+00:00:14.119	15492	DEBUG		TEST - Writing janks
+00:00:14.171	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:14.557	2151	DEBUG		WificondControl - Scan result ready event
+00:00:14.557	2151	DEBUG		WificondScannerImpl - Filtering out 4 scan results.
+00:00:14.586	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:14.612	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:14.637	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:14.637	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:14.637	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:14.637	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:14.667	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:14.667	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:14.667	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:14.667	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:14.667	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:14.719	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:14.719	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:14.719	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:14.746	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:15.004	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:15.004	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.736	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:15.736	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:15.736	15492	DEBUG		TEST - Writing janks
+00:00:15.736	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.576	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:16.576	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.576	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=0.000000
+00:00:16.685	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.878	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:16.878	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:17.071	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.344	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:17.344	15492	DEBUG		TEST - Writing janks
+00:00:17.619	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.159	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.159	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:18.159	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.780	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:18.780	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:18.949	15492	DEBUG		TEST - Writing janks
+00:00:19.312	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.542	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:20.542	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:20.542	15492	DEBUG		TEST - Writing janks
+00:00:20.596	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.459	2151	INFO		ActivityManager - Killing 10276:android.process.media/u0a32 (adj 906): empty #17
+00:00:21.460	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:21.460	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.460	2151	WARN		libprocessgroup - kill(-10276, 9) failed: No such process
+00:00:21.487	2151	INFO		ActivityManager - Killing 8686:com.google.process.gservices/u0a39 (adj 906): empty #17
+00:00:21.487	2151	WARN		libprocessgroup - kill(-10276, 9) failed: No such process
+00:00:21.487	1065	INFO		Zygote - Process 8686 exited due to signal (9)
+00:00:21.487	1065	INFO		Zygote - Process 10276 exited due to signal (9)
+00:00:21.487	2151	WARN		libprocessgroup - kill(-10276, 9) failed: No such process
+00:00:21.488	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10032 pid 10276 in 33ms
+00:00:21.488	2151	WARN		libprocessgroup - kill(-8686, 9) failed: No such process
+00:00:21.518	2151	INFO		libprocessgroup - Successfully killed process cgroup uid 10039 pid 8686 in 2ms
+00:00:21.569	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:21.737	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:21.894	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:22.144	15492	DEBUG		TEST - Writing janks
+00:00:22.748	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.287	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:23.287	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.287	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:23.375	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:23.405	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.770	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:23.770	15492	DEBUG		TEST - Writing janks
+00:00:24.049	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.295	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:24.354	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:24.354	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:24.354	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:24.354	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:24.354	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:24.382	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.467	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:24.467	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:24.467	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:24.467	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:24.554	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:24.554	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.583	2151	DEBUG		WificondControl - Scan result ready event
+00:00:24.583	2151	DEBUG		WificondScannerImpl - Filtering out 4 scan results.
+00:00:24.610	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:24.610	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:24.610	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:24.610	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:24.637	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:24.722	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.973	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:24.973	2539	WARN		GmsLocationProvider - Error removing location updates: 16
+00:00:25.214	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:25.355	15492	DEBUG		TEST - Writing janks
+00:00:25.384	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.888	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 4 lines
+00:00:26.888	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:26.889	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:26.974	15492	DEBUG		TEST - Writing janks
+00:00:27.833	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:28.565	15492	DEBUG		TEST - Writing janks
+00:00:28.777	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:29.900	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:29.900	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:29.900	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:29.981	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.169	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.169	15492	DEBUG		TEST - Writing janks
+00:00:30.310	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:30.337	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:30.388	19121	DEBUG		EventNotificationJob - Running EventNotificationJob, isDetail=true
+00:00:30.388	19121	DEBUG		EventNotificationJob -   finished processing events.
+00:00:30.438	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:30.464	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:30.464	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:30.464	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:30.492	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:30.492	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:30.492	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:30.492	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:30.492	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:30.520	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:30.550	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:30.550	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.584	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:31.584	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.584	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:31.723	1154	DEBUG		NativeSensors - CapSensor:  mPendingEvent.distance=2.000000
+00:00:31.748	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:31.803	15492	DEBUG		TEST - Writing janks
+00:00:31.947	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.353	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:32.353	20118	WARN		formscompareap - Checksum mismatch for dex base.apk
+00:00:32.353	20118	WARN		formscompareap - Could not add methods to the existing profiler. Clearing the profile data.
+00:00:32.436	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:32.494	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.060	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:33.060	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.060	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:33.060	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:00:33.197	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:33.387	15492	DEBUG		TEST - Writing janks
+00:00:33.415	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.316	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:34.317	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.317	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data:  0.0
+00:00:34.347	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.544	20118	INFO		formscompareap - Explicit concurrent copying GC freed 38644(1654KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 102us total 28.811ms
+00:00:34.544	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.987	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:34.987	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:34.987	15492	DEBUG		TEST - Writing janks
+00:00:35.099	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.596	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 5 lines
+00:00:36.596	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.596	15492	DEBUG		TEST - Writing janks
+00:00:36.706	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:36.894	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:37.002	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.195	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 5 lines
+00:00:38.195	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.195	15492	DEBUG		TEST - Writing janks
+00:00:38.224	1154	WARN		qti_sensors_hal - processReportInd: lux: 14, ch0: 0, ch1: 1555, pData: 148, pOffset: 4
+00:00:38.306	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.666	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:38.666	1154	WARN		qti_sensors_hal - processReportInd: lux: 19, ch0: 0, ch1: 1877, pData: 162, pOffset: 5
+00:00:38.946	1154	WARN		qti_sensors_hal - processReportInd: lux: 14, ch0: 0, ch1: 1952, pData: 227, pOffset: 4
+00:00:39.026	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.381	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.381	2820	INFO		QCNEJ - |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+00:00:39.381	2820	DEBUG		QCNEJ - |CORE| Updating RSSI: -66
+00:00:39.408	3498	INFO		CarrierServices - [112] cds.a: FiST: Wifi connectivity status true
+00:00:39.408	3498	INFO		CarrierServices - [141] csc.a: DisabledState: event Connectivity event
+00:00:39.408	3498	INFO		CarrierServices - [142] bik.handleMessage: RCS is disabled, skipping config update request
+00:00:39.408	3498	INFO		CarrierServices - [112] cdv.d: Connected state: [1], networkType: [WIFI]
+00:00:39.496	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.820	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:39.820	15492	DEBUG		TEST - Writing janks
+00:00:40.129	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.291	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:40.346	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:40.479	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:40.588	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:40.588	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:40.588	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:40.588	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:40.588	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:40.616	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:40.616	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:40.616	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:40.616	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:40.645	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:40.645	1154	WARN		qti_sensors_hal - processReportInd: lux: 8, ch0: 0, ch1: 1543, pData: 50, pOffset: 3
+00:00:40.674	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.417	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:41.417	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.417	15492	DEBUG		TEST - Writing janks
+00:00:41.446	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.531	2151	DEBUG		WificondControl - Scan result ready event
+00:00:41.558	2151	DEBUG		WificondScannerImpl - Filtering out 4 scan results.
+00:00:41.587	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:41.588	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:41.588	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:41.588	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:41.588	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:41.616	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:41.616	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:41.616	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:41.616	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:41.616	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:41.617	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:41.754	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:41.754	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:41.754	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:41.780	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:41.922	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:41.922	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.205	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.205	1154	WARN		qti_sensors_hal - processReportInd: lux: 14, ch0: 0, ch1: 1596, pData: 149, pOffset: 4
+00:00:42.621	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:42.698	15013	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:42.699	14971	WARN		Settings - Setting data_roaming has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+00:00:42.699	2151	VERBOSE		SettingsProvider - Notifying for 0: content://settings/system/screen_brightness
+00:00:42.754	15001	DEBUG		Checkin - publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+00:00:42.810	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.008	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:43.008	15492	DEBUG		TEST - Writing janks
+00:00:43.292	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.629	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 4 lines
+00:00:44.629	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:44.629	15492	DEBUG		TEST - Writing janks
+00:00:44.629	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.239	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 4 lines
+00:00:46.239	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.239	15492	DEBUG		TEST - Writing janks
+00:00:46.523	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.879	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:46.879	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:46.906	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.152	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.153	1154	WARN		qti_sensors_hal - processReportInd: lux: 9, ch0: 0, ch1: 1629, pData: 103, pOffset: 3
+00:00:47.263	2151	DEBUG		WificondControl - Scan result ready event
+00:00:47.263	2151	DEBUG		WificondScannerImpl - Filtering out 5 scan results.
+00:00:47.596	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.826	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:47.826	15492	DEBUG		TEST - Writing janks
+00:00:48.072	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.948	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:48.948	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:48.948	1154	WARN		qti_sensors_hal - processReportInd: lux: 14, ch0: 0, ch1: 1954, pData: 218, pOffset: 4
+00:00:49.063	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.451	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:49.451	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:49.451	15492	DEBUG		TEST - Writing janks
+00:00:49.596	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.009	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:50.009	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.009	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:50.009	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:50.009	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:50.009	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:00:50.154	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.463	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:50.463	1154	WARN		qti_sensors_hal - processReportInd: lux: 9, ch0: 0, ch1: 1541, pData: 101, pOffset: 3
+00:00:50.493	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.051	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:51.051	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.051	15492	DEBUG		TEST - Writing janks
+00:00:51.077	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.305	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:51.332	2151	INFO		WifiService - acquireWifiLock uid=10039 lockMode=2
+00:00:51.440	9244	INFO		GCoreUlr - Successfully inserted 1 locations
+00:00:51.466	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.576	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:51.576	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:51.576	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:51.606	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:51.606	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:51.606	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:51.606	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:51.606	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:51.607	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:51.663	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:51.663	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.930	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:51.930	1154	WARN		qti_sensors_hal - processReportInd: lux: 14, ch0: 0, ch1: 1761, pData: 226, pOffset: 4
+00:00:52.040	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.574	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:52.574	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.574	2151	DEBUG		WificondControl - Scan result ready event
+00:00:52.575	2151	DEBUG		WificondScannerImpl - Filtering out 6 scan results.
+00:00:52.604	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onJavaLocationChanged][194] [HC] =>> [HS]
+00:00:52.604	1185	VERBOSE		LocSvc_HIDL_IzatOsNpGlue - [locationChanged][95] [HS] <<<<= [HC]
+00:00:52.604	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onLocationChanged][72] [HS] =>>>> [HC]
+00:00:52.604	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onLocationChanged][208] [HC] <<= [HS]
+00:00:52.604	2151	INFO		WifiService - releaseWifiLock uid=10039
+00:00:52.632	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:52.657	15492	DEBUG		TEST - Writing janks
+00:00:52.658	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:52.658	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onRemoveRequest][385] [HC] =>> [HS]
+00:00:52.658	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onRemoveRequest][216] [HS] <<<<= [HC]
+00:00:52.658	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:52.658	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onStopRequest][68] [HC] <<= [HS]
+00:00:52.765	2151	DEBUG		LocSvc_HIDL_IzatProvider_jni - Provider Type: 2; Num Updates : 2147483647; Interval : 0Displacement : 0.000000; Accuracy : 1
+00:00:52.765	2151	VERBOSE		LocSvc_HIDL_IzatProvider_jni - [onAddRequest][365] [HC] =>> [HS]
+00:00:52.765	1185	VERBOSE		LocSvc_HIDL_IzatProvider - [onAddRequest][201] [HS] <<<<= [HC]
+00:00:52.765	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:52.795	2151	VERBOSE		LocSvc_HIDL_OsNpGlue_jni - [onSetRequest][61] [HC] <<= [HS]
+00:00:52.795	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:53.645	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:53.645	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:53.645	1154	WARN		qti_sensors_hal - processReportInd: lux: 9, ch0: 0, ch1: 1598, pData: 94, pOffset: 3
+00:00:53.756	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.260	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:54.260	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:54.260	15492	DEBUG		TEST - Writing janks
+00:00:54.451	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.854	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 5 lines
+00:00:55.854	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:55.854	15492	DEBUG		TEST - Writing janks
+00:00:55.883	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.882	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 4 lines
+00:00:56.882	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:56.882	19121	DEBUG		ClClient - Not sending keepalive.  Current connection state=STOPPED
+00:00:56.994	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.461	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:57.461	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:57.461	15492	DEBUG		TEST - Writing janks
+00:00:57.547	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:58.182	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 2 lines
+00:00:58.182	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:58.182	2151	INFO		system_server - Background concurrent copying GC freed 624760(22MB) AllocSpace objects, 72(1440KB) LOS objects, 42% free, 32MB/56MB, paused 223us total 266.587ms
+00:00:58.265	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.056	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 3 lines
+00:00:59.056	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.056	15492	DEBUG		TEST - Writing janks
+00:00:59.227	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.947	2151	DEBUG		BatteryService - uevent={POWER_SUPPLY_DP_DM=0, POWER_SUPPLY_VOLTAGE_QNOVO=-22, POWER_SUPPLY_VOLTAGE_NOW=3954579, POWER_SUPPLY_SW_JEITA_ENABLED=0, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGER_TEMP_MAX=806, POWER_SUPPLY_FCC_STEPPER_ENABLE=0, SEQNUM=150504, POWER_SUPPLY_INPUT_CURRENT_LIMITED=1, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_BATTERY_CHARGING_ENABLED=1, POWER_SUPPLY_CURRENT_MAX=3000000, POWER_SUPPLY_CAPACITY=59, DEVPATH=/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-00/800f000.qcom,spmi:qcom,pm660@0:qcom,qpnp-smb2/power_supply/battery, POWER_SUPPLY_CHARGE_DONE=0, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CHARGER_TEMP=375, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_CURRENT_QNOVO=-22, POWER_SUPPLY_CURRENT_NOW=-169921, POWER_SUPPLY_SYSTEM_TEMP_LEVEL=0, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_PARALLEL_DISABLE=0, SUBSYSTEM=power_supply, POWER_SUPPLY_SET_SHIP_MODE=0, POWER_SUPPLY_TEMP=300, ACTION=change, POWER_SUPPLY_RERUN_AICL=0, POWER_SUPPLY_AGE=79, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=-22, POWER_SUPPLY_CONSTANT_CHARGE_CURRENT_MAX=3000000, POWER_SUPPLY_CHARGE_COUNTER=1484217, POWER_SUPPLY_STEP_CHARGING_ENABLED=0, POWER_SUPPLY_NUM_SYSTEM_TEMP_LEVELS=6, POWER_SUPPLY_DIE_HEALTH=Cool, POWER_SUPPLY_INPUT_SUSPEND=0}
+00:00:59.974	1187	INFO		chatty - uid=0(root) perf@1.0-servic identical 1 line
+00:00:59.974	1187	ERROR		ANDR-PERF-MPCTL - Invalid profile no. 0, total profiles 0 only
+00:00:59.974	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - battery_level_update
+00:00:59.974	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - [battery_level_update][931] [HC] =>> [HS]
+00:00:59.974	1185	VERBOSE		LocSvc_HIDL_IzatSubscription - [batteryLevelUpdate][777] [HS] <<<<= [HC]
+00:00:59.974	2151	VERBOSE		LocSvc_HIDL_Subscription_jni - Exit Result 0
+00:01:00.587	1154	WARN		qti_sensors_hal - processInd: MOT_DISPROT Data: -1.0
+00:01:00.697	15492	DEBUG		TEST - Writing janks
+00:01:00.897	2151	ERROR		BatteryExternalStatsWorker - no controller energy info supplied for bluetooth
