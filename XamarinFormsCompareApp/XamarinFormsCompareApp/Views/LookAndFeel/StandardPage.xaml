@@ -4,19 +4,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="XamarinFormsCompareApp.Views.LookAndFeel.StandardPage"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-    ios:Page.UseSafeArea="true">
+    ios:Page.UseSafeArea="true"
+    Title="Look and Feel">
 
 
     <FlexLayout Direction="Column">
-        <Label Text="Das ist ein Standard Label"></Label>
-        <Button Text="Das ist ein Standard Button"></Button>
-        <Switch></Switch>
+        <Button Text="Button"></Button>
+        <Entry Placeholder="Placeholder" AutomationId="standardEntry"></Entry>
         <Slider Minimum="0"
                 Maximum="100"
                 VerticalOptions="CenterAndExpand"></Slider>
-        <Entry Placeholder="Das ist ein Standard Entry" AutomationId="standardEntry"></Entry>
-        <Stepper></Stepper>
-        <Editor Placeholder="Das ist ein Standard Editor"></Editor>
+        <Switch HorizontalOptions="Center"/>
+        <ProgressBar Progress=".25" />
     </FlexLayout>
 
 

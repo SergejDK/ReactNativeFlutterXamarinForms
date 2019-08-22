@@ -2,7 +2,8 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="XamarinFormsCompareApp.Views.Performance.Geolocation">
+    x:Class="XamarinFormsCompareApp.Views.Performance.Geolocation"
+    Title="Performanz">
 
     <FlexLayout Direction="Column">
         <Label x:Name="Lat"></Label>

@@ -79,18 +79,18 @@ const MyDrawerNavigator = createDrawerNavigator({
       }
     })
   },
-  Native: {
+  'Native Funktionalität': {
     screen: createStackNavigator({
       Native: {
         screen: NativeScreen,
         navigationOptions: ({ navigation }) => ({
-          title: 'Native',
+          title: 'Native Funktionalität',
           headerLeft: <LogoTitle navigationProps={navigation} />
         })
       }
     })
   },
-  LookAndFeel: {
+  'Look and Feel': {
     screen: createStackNavigator({
       LookAndFeel: {
         screen: LookAndFeel,
@@ -101,7 +101,7 @@ const MyDrawerNavigator = createDrawerNavigator({
       }
     })
   },
-  Performance: {
+  Performanz: {
     screen: createStackNavigator({
       Performance: {
         screen: PerformanceScreen,

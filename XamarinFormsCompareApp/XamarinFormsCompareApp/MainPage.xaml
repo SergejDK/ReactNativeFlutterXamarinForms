@@ -31,9 +31,9 @@
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="Native Funktionalitäten">
+    <FlyoutItem Title="Native Funktionalität">
         <Tab>
-            <ShellContent Title="Native Funktionalitäten"
+            <ShellContent Title="Native Funktionalität"
                           ContentTemplate="{DataTemplate views:Native}">
             </ShellContent>
         </Tab>
@@ -41,10 +41,12 @@
 
 
     <FlyoutItem Title="Look and Feel">
-        <Tab>
+        <Tab Title="Standard">
             <ShellContent Title="Standard"
                           ContentTemplate="{DataTemplate viewsLF:StandardPage }">
             </ShellContent>
+        </Tab>
+        <Tab Title="Material Design">
             <ShellContent Title="Material Design"
                           ContentTemplate="{DataTemplate viewsLF:MaterialPage}">
             </ShellContent>

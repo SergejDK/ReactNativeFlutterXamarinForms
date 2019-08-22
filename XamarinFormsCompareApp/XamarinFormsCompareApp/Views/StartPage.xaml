@@ -2,7 +2,8 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="XamarinFormsCompareApp.Views.StartPage">
+    x:Class="XamarinFormsCompareApp.Views.StartPage"
+    Title="Home">
 
     <StackLayout>
         <Image Source="AppIcon.png" WidthRequest="250" HeightRequest="250">

@@ -20,42 +20,32 @@ class _LookFeelState extends State<LookFeelPage> {
     Column(
       // Material Design
       children: <Widget>[
-        RaisedButton(onPressed: () {}, child: Text('This is a raised Button'),),
-        TextField(key: Key('tfKey'),),
-        Checkbox(
-          onChanged: (bool value) {
-              setState(() {
-                checkBoxValue = value;
-              });
-          }, value: checkBoxValue,),
+        RaisedButton(onPressed: () {}, child: Text('Button'),),
+        TextField(key: Key('tfKey'),   obscureText: true,
+          decoration: InputDecoration(
+            labelText: 'Placeholder',
+          ),),
+        Slider(onChanged: (double value) { setState(() {
+                mdSlider = value;
+              }); }, value: mdSlider, min: 0.0, max: 100.0,),
         Switch(onChanged: (bool value) { setState(() {
                 mdSwitch = value;
               }); }, value: mdSwitch,),
-        Slider(onChanged: (double value) { setState(() {
-                mdSlider = value;
-              }); }, value: mdSlider, min: 0.0, max: 100.0,)
+        LinearProgressIndicator(value: .25,)
       ],
     ),
     Column(
       // Cupertino
       children: <Widget>[
-        CupertinoButton(child: Text('Cupertinobutton'), onPressed: () {},),
+        CupertinoButton(child: Text('Button'), onPressed: () {},),
+        CupertinoTextField(placeholder: 'Placeholder',),
+        CupertinoSlider(onChanged: (double value) { setState(() {
+                cSlider = value;
+              }); }, value: cSlider, min: 0.0, max: 100.0,),
         CupertinoSwitch(onChanged: (bool value) { setState(() {
                 cSwitch = value;
               });}, value: cSwitch,),
-        CupertinoTextField(placeholder: 'CupertinoTextField',),
-        CupertinoSegmentedControl(children: {'T': Text('Part 1'), 'T2': Text('Part 2'), 'T3': Text('Part 3') }, onValueChanged: (value) {},),
-        CupertinoSlider(onChanged: (double value) { setState(() {
-                cSlider = value;
-              }); }, value: cSlider, min: 0.0, max: 100.0,)
-      ],
-    ),
-    Column(
-      //Standard
-      children: <Widget>[
-        Text('Some of the Widgets are not covered in Cupertino / Material Design'),
-        Image.network('https://www.w3schools.com/w3css/img_lights.jpg'),
-        Text('Many of those are just MD or Cupertino - Image and Texts are the only Basics and layout definitions')
+        LinearProgressIndicator(value: .25,)
       ],
     ),
   ];
@@ -84,10 +74,6 @@ class _LookFeelState extends State<LookFeelPage> {
             icon: Icon(Icons.phone_iphone),
             title: Text('Cupertino Design')
 
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.phone),
-            title: Text('Standard Design')
           )
         ],
         currentIndex: _selectedIndex,

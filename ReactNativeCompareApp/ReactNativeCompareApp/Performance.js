@@ -51,7 +51,7 @@ class GPSView extends React.Component {
       <View>
         <Text>Latitude: {this.state.latitude}</Text>
         <Text>Longitude: {this.state.longitude}</Text>
-        <Button onPress={this.getPos()} title='Get Position'></Button>
+        <Button onPress={this.getPos()} title='Get Location'></Button>
       </View>
     );
   }

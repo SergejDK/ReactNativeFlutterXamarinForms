@@ -4,7 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="XamarinFormsCompareApp.Views.Barrierefreiheit"
     BackgroundColor="LightBlue"
-    Shell.BackgroundColor="Orange">
+    Shell.BackgroundColor="Orange"
+    Title="Barrierefreiheit">
     
     <FlexLayout Direction="Column">
         <Button Text="Button BF Text" AutomationProperties.IsInAccessibleTree="true"

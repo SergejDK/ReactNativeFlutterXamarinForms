@@ -2,10 +2,11 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="XamarinFormsCompareApp.Views.Native">
+    x:Class="XamarinFormsCompareApp.Views.Native"
+    Title="Native Funktionalität">
 
     <FlexLayout Direction="Column" JustifyContent="SpaceEvenly">
-        <Button Text="Foto aufnehmen" Clicked="takePic"></Button>
+        <Button Text="Click Me" Clicked="takePic"></Button>
         <Image x:Name="takenpic"></Image>
     </FlexLayout>
 

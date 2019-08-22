@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
   getAppBar() {
     if( _selectedItemIndex == 0 ) {
       return AppBar(
-        title: Text('Start'),
+        title: Text('Home'),
       );
     } else if(_selectedItemIndex == 1) {
       return AppBar(
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     } else if (_selectedItemIndex == 3) {
       return AppBar(
-        title: Text('Performance'),
+        title: Text('Performanz'),
       );
     } else if (_selectedItemIndex == 4) {
       return AppBar(
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               leading: Icon(Icons.home),
-              title: Text('Start'),
+              title: Text('Home'),
               onTap: (){
                 _onSelectItem(0);
               },
@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               leading: Icon(Icons.local_gas_station),
-              title: Text('Performance'),
+              title: Text('Performanz'),
               onTap: (){
                 _onSelectItem(3);
               },
