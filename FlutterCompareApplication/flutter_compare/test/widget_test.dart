@@ -22,7 +22,6 @@ void main() {
     expect(find.byKey(Key('LFDrawer')), findsOneWidget);
     await tester.tap(find.byKey(Key('LFDrawer')));
     //await tester.pumpAndSettle();
-    // eigentlich mocken der navigation -> mehraufwand den man hier getrost weglassen kann
     await tester.pumpWidget(MaterialApp(home: LookFeelPage(),));
     expect(find.byKey(Key('tfKey')), findsOneWidget);
     await tester.enterText(find.byType(TextField), 'UI Tests works!');

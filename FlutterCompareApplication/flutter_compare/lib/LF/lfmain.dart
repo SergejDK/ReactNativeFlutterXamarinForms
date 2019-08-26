@@ -21,7 +21,7 @@ class _LookFeelState extends State<LookFeelPage> {
       // Material Design
       children: <Widget>[
         RaisedButton(onPressed: () {}, child: Text('Button'),),
-        TextField(key: Key('tfKey'),   obscureText: true,
+        TextField(key: Key('tfKey'),
           decoration: InputDecoration(
             labelText: 'Placeholder',
           ),),
